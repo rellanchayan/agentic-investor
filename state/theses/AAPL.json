@@ -1,0 +1,133 @@
+{
+  "ticker": "AAPL",
+  "thesis_id": "AAPL-2025Q4",
+  "company": "Apple Inc.",
+  "sector": "Information Technology / Consumer Electronics",
+  "as_of": "2025-Q4",
+  "retrieved": "2026-06-16",
+  "refresh_due": "2026-09-16",
+  "business_summary": "Apple designs and sells premium consumer hardware (iPhone, Mac, iPad, Apple Watch, AirPods) and a fast-growing, high-margin Services business (App Store, iCloud, Apple Music/TV+, AppleCare, advertising, payments). It makes money by selling devices at strong margins and then earning a recurring software-like cut from its ~2.4B active-device installed base. iPhone is ~half of revenue (FY2025 iPhone ~$209.6B of $416.2B total); Services is the high-margin growth engine.",
+  "moat": {
+    "type": "Ecosystem switching costs + premium brand + installed-base network effect + extreme capital efficiency",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "~1.8% CAGR FY2022->FY2025 (FY2025 +6.4% YoY); slow grower",
+    "gross_margin": "46.9% (FY2025)",
+    "roic": "very high, >50% (small invested capital base after buybacks; NOPAT ~$112B on invested capital ~$118B)",
+    "net_debt_to_ebitda": "~0.3x (net debt ~$44B vs EBITDA ~$145B, FY2025)",
+    "fcf_positive": "yes; $98.77B FCF FY2025"
+  },
+  "valuation": {
+    "price": 297.46,
+    "price_source": "alpaca",
+    "price_asof": "2026-06-16",
+    "fair_value_low": 163,
+    "fair_value_base": 195,
+    "fair_value_high": 230,
+    "method": "pe (EPS $7.46 x 24/29/34) + fcf_yield (FCF/sh $6.58 at 4.5/3.8/3.2%); blended via code/valuation.py"
+  },
+  "conviction": 3,
+  "bull_case": [
+    "Wide moat: ecosystem lock-in and premium brand give durable pricing power; 46.9% gross margin is exceptional for hardware.",
+    "Services is a recurring, high-margin engine riding a ~2.4B active-device installed base that keeps growing.",
+    "Exceptional capital efficiency and cash generation: $98.8B FCF in FY2025, ~0.3x net-debt/EBITDA, ~$112B returned to shareholders via buybacks+dividends.",
+    "Buybacks steadily shrink the share count (15.4B -> 15.0B diluted), boosting per-share value over time."
+  ],
+  "risks": [
+    "Valuation is the dominant risk: ~40x trailing EPS and ~2.2% FCF yield at $297 with only low-single-digit revenue growth.",
+    "iPhone concentration: ~half of revenue from one product in a saturated replacement market.",
+    "China: large revenue and manufacturing exposure to geopolitical/competitive risk.",
+    "Regulatory pressure (EU DMA, antitrust, Google search-default payment) threatens high-margin Services take-rate.",
+    "Perceived AI laggard; the premium assumes Apple closes the generative-AI gap."
+  ],
+  "what_would_break_thesis": [
+    "Company-wide gross margin falls below 42% for two consecutive quarters.",
+    "Revenue shrinks year-over-year for two consecutive fiscal years.",
+    "Services revenue growth turns negative for two consecutive quarters.",
+    "Net-debt/EBITDA rises above 1.5x.",
+    "A forced material change to the App Store model (regulatory) that visibly cuts Services margin or revenue.",
+    "Any serious accounting red flag or financial restatement."
+  ],
+  "catalysts": [
+    "Re-acceleration of Services and/or a successful AI feature cycle driving iPhone upgrades.",
+    "A price pullback into the $200-$230 zone, which would offer a margin of safety to buy."
+  ],
+  "sources": [
+    {
+      "claim": "FY2025 total net sales (revenue)",
+      "value": "$416.161B",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019325000077/a8-kex991q4202509272025.htm",
+      "publisher": "Apple Inc. / SEC EDGAR (8-K)",
+      "as_of": "2025-09-27",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2024 and FY2023 revenue ($391.035B, $383.285B)",
+      "value": "$391.035B / $383.285B",
+      "url": "https://stockanalysis.com/stocks/AAPL/financials/",
+      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
+      "as_of": "2024-09-28",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 net income and diluted EPS",
+      "value": "Net income $112.010B; diluted EPS $7.46",
+      "url": "https://stockanalysis.com/stocks/AAPL/financials/",
+      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
+      "as_of": "2025-09-27",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 gross margin",
+      "value": "46.9% (gross profit $195.201B on revenue $416.161B)",
+      "url": "https://stockanalysis.com/stocks/AAPL/financials/",
+      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
+      "as_of": "2025-09-27",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 operating cash flow and free cash flow",
+      "value": "OCF $111.482B; capex $12.715B; FCF $98.767B",
+      "url": "https://stockanalysis.com/stocks/AAPL/financials/cash-flow-statement/",
+      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
+      "as_of": "2025-09-27",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 total debt and cash & short-term investments (for net debt)",
+      "value": "Total debt $98.657B; cash & ST investments $54.697B; total equity $73.733B",
+      "url": "https://stockanalysis.com/stocks/AAPL/financials/balance-sheet/",
+      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
+      "as_of": "2025-09-27",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 capital return (buybacks + dividends) and diluted share count",
+      "value": "Buybacks $96.671B; dividends $15.421B; diluted shares 15.004B (FY24 15.408B)",
+      "url": "https://stockanalysis.com/stocks/AAPL/financials/cash-flow-statement/",
+      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
+      "as_of": "2025-09-27",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 10-K primary filing",
+      "value": "Apple Inc. Form 10-K for fiscal year ended Sept 27 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019325000079/aapl-20250927.htm",
+      "publisher": "Apple Inc. / SEC EDGAR",
+      "as_of": "2025-09-27",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "Current price",
+      "value": "$297.46",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca paper feed",
+      "as_of": "2026-06-16",
+      "retrieved": "2026-06-16"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}

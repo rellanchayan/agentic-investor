@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-16",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 753.06,
+  "spy_sma200": 687.34,
+  "spy_premium_to_200d_pct": 9.6,
+  "events": [
+    "FOMC rate decision Wed Jun 17 ~2:00pm ET (hold expected at 3.50-3.75%; dot plot and new-chair press conference in focus)",
+    "May housing starts Tue Jun 16 8:30am ET",
+    "Import/export price data Tue Jun 16 8:30am ET",
+    "US-Iran peace deal formal signing ceremony Fri Jun 20 in Switzerland"
+  ],
+  "rates": "on-hold — fed funds 3.50-3.75%; hold ~97% priced for Jun 17",
+  "inflation": "elevated — May CPI 4.2% YoY (released Jun 10); energy-driven",
+  "valuation": "elevated — trailing P/E ~25-32 (sources vary); Shiller CAPE ~40.7 vs long-run average ~32",
+  "futures_am": "S&P 500 E-Mini +1.22%, Nasdaq 100 E-Mini +1.99% pre-market; markets largely flat at open as traders wait for FOMC",
+  "key_macro_driver": "US-Iran interim peace deal announced; oil -4-5%; Strait of Hormuz expected to reopen Fri",
+  "note": "Market is well above its 200-day average (+9.6%). Valuations are elevated on both trailing and Shiller-CAPE measures. Inflation remains hot at 4.2% YoY, keeping the Fed on hold. The FOMC meeting (decision Wed) is the dominant near-term risk event. Despite positive geopolitical news (Iran deal, falling oil), the combination of expensive valuations, persistent inflation, and a live Fed meeting warrants a cautious posture. We demand a larger margin of safety before any new buy.",
+  "sources": [
+    "https://www.benzinga.com/markets/prediction-markets/26/06/53216197/sp500-june-16-open-up-or-down-polymarket-iran-peace-deal-strait-of-hormuz",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-16-2026",
+    "https://seekingalpha.com/article/4795783-june-fed-meeting-dot-plot-in-focus-as-fed-holds-steady",
+    "https://polymarket.com/event/fed-decision-in-june-825",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.barchart.com/story/news/1193834/s-p-futures-soar-as-oil-prices-plummet-on-u-s-iran-ceasefire-fomc-minutes-on-tap",
+    "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-15-224751171.html"
+  ]
+}

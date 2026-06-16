@@ -1,0 +1,9 @@
+{
+  "account_number": "PA3NFKXBTFLB",
+  "status": "AccountStatus.ACTIVE",
+  "equity": 1000000.0,
+  "last_equity": 1000000.0,
+  "cash": 1000000.0,
+  "buying_power": 4000000.0,
+  "timestamp_utc": "2026-06-16T15:20:15.459830+00:00"
+}

@@ -1,0 +1,178 @@
+{
+  "ticker": "V",
+  "thesis_id": "V-2026Q2",
+  "company": "Visa Inc.",
+  "sector": "Financials / Payment Networks",
+  "as_of": "2026-Q2",
+  "retrieved": "2026-06-16",
+  "refresh_due": "2026-09-15",
+  "business_summary": "Visa runs the world's largest electronic payments network (VisaNet). It does NOT lend money or issue cards itself; banks issue Visa-branded cards and Visa simply moves the authorization and settlement messages between the shopper's bank and the merchant's bank. It earns a tiny fee on each transaction plus fees on cross-border (international) payments and on the dollar volume that flows across the network, partly offset by incentives paid to banks. In FY2025 it processed 257.5 billion transactions. Volume rises with global consumer spending and the long migration from cash/checks to cards and digital payments, so revenue compounds with the economy plus the cash-to-card shift, at very high margins and almost no incremental cost per transaction.",
+  "moat": {
+    "type": "Network effect + scale + brand + high switching costs; near-duopoly with Mastercard",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "10.9% CAGR (FY2022 $29.31B -> FY2025 $40.0B)",
+    "gross_margin": "n/a (network model; GAAP operating margin ~60.0% FY2025 = $23.994B op income / $40.0B net revenue)",
+    "roic": "~34% (NOPAT ~$19.4B on ~$57.5B invested capital = equity $37.9B + LT debt $19.6B, FY2025)",
+    "net_debt_to_ebitda": "~0.1x (LT debt $19.6B minus cash $17.2B = ~$2.4B net debt vs ~$24B+ EBITDA, FY2025)",
+    "fcf_positive": "yes ($21.6B FY2025 = $23.06B operating cash flow minus $1.48B capex)"
+  },
+  "valuation": {
+    "price": 329.91,
+    "price_source": "alpaca",
+    "price_asof": "2026-06-16",
+    "fair_value_low": 253.07,
+    "fair_value_base": 296.91,
+    "fair_value_high": 345.97,
+    "method": "pe (TTM GAAP EPS $11.47 x 25/29/33) + fcf_yield (FCF/sh $10.97 at 5.0/4.2/3.5%)"
+  },
+  "conviction": 4,
+  "bull_case": [
+    "Wide-moat near-duopoly: VisaNet's global network of issuers, merchants and acquirers is almost impossible to replicate; new entrants cannot match its acceptance footprint or trust.",
+    "Long secular tailwind: cash and checks are still a large share of global payments, giving Visa years of volume growth on top of GDP-linked consumer spending.",
+    "Exceptional economics: ~60% GAAP operating margin, ~34% ROIC, capex of only ~$1.5B on $40B revenue, and $21.6B free cash flow in FY2025 - a true compounder.",
+    "Strong recent momentum: Q2 FY2026 net revenue +17% and GAAP EPS +36%, the fastest revenue growth since 2022.",
+    "Fortress balance sheet (near-zero net debt) plus heavy buybacks/dividends - $9.2B returned in Q2 FY2026 and a new $20B repurchase authorization shrink the share count over time.",
+    "New growth lanes (Visa Direct, value-added services, tokenization, B2B) diversify beyond traditional card swipe fees."
+  ],
+  "risks": [
+    "Regulatory/antitrust: interchange-fee caps, the Durbin-style routing rules, and litigation could compress the fees that drive revenue; Visa/Mastercard are perennial regulatory targets in the US and EU.",
+    "Disruption: account-to-account / real-time payment rails (FedNow, UPI-style systems, Pix), stablecoins, and Big Tech wallets could route volume around the card networks over time.",
+    "Cyclicality: consumer spending and especially high-margin cross-border travel volume fall in recessions.",
+    "Valuation: at ~$330 the stock trades above our base fair value (~$297), so there is little margin of safety today; a multiple of ~29x leaves little room for disappointment.",
+    "Litigation overhang: long-running US merchant interchange litigation and settlements create recurring legal cost and headline risk."
+  ],
+  "what_would_break_thesis": [
+    "GAAP operating margin falls below 50% for two consecutive fiscal quarters (erosion of the network's pricing power).",
+    "Net revenue shrinks year-over-year for two consecutive quarters outside a clearly identified macro recession (signals structural volume loss / disruption).",
+    "Net-debt-to-EBITDA rises above 2.0x (a sign of balance-sheet deterioration or value-destroying M&A).",
+    "Free cash flow turns negative for a full fiscal year.",
+    "A regulatory ruling or settlement that structurally caps interchange/network fees in a major market (US or EU) and is expected to cut net revenue by more than ~15%.",
+    "Cross-border volume growth stalls structurally (not just one recession), indicating a permanent loss of the highest-margin business.",
+    "A serious accounting red flag or restatement."
+  ],
+  "catalysts": [
+    "Q3 FY2026 earnings (expected late July 2026) - watch cross-border volume and incentive trends.",
+    "Continued execution of the $20B buyback authorization shrinking share count.",
+    "Resolution/progress on US merchant interchange litigation.",
+    "Growth in Visa Direct and value-added services as a larger share of revenue."
+  ],
+  "sources": [
+    {
+      "claim": "FY2025 net revenue",
+      "value": "$40.0 billion (+11%)",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json",
+      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
+      "as_of": "2025-09-30",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 GAAP net income",
+      "value": "$20.058 billion",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/NetIncomeLoss.json",
+      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
+      "as_of": "2025-09-30",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 GAAP diluted EPS $10.20; non-GAAP EPS $11.47; net income tops $20B",
+      "value": "GAAP EPS $10.20, non-GAAP EPS $11.47",
+      "url": "https://investor.visa.com/news/news-details/2025/Visa-Fiscal-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
+      "publisher": "Visa Investor Relations / electronicpaymentsinternational.com (FY25 results)",
+      "as_of": "2025-09-30",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 operating income (for ~60% operating margin calc)",
+      "value": "$23.994 billion",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/OperatingIncomeLoss.json",
+      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
+      "as_of": "2025-09-30",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 operating cash flow",
+      "value": "$23.059 billion",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/NetCashProvidedByUsedInOperatingActivities.json",
+      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
+      "as_of": "2025-09-30",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 capital expenditures (PP&E + productive assets)",
+      "value": "$1.482 billion",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/PaymentsToAcquireProductiveAssets.json",
+      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
+      "as_of": "2025-09-30",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 long-term debt",
+      "value": "$19.602 billion",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/LongTermDebtNoncurrent.json",
+      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
+      "as_of": "2025-09-30",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 cash and cash equivalents",
+      "value": "$17.164 billion",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/CashAndCashEquivalentsAtCarryingValue.json",
+      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
+      "as_of": "2025-09-30",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 total stockholders equity (for ROIC)",
+      "value": "$37.909 billion",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest.json",
+      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
+      "as_of": "2025-09-30",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2022-FY2025 revenue for 3y CAGR (FY22 $29.31B)",
+      "value": "$29.310 billion (FY2022)",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json",
+      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
+      "as_of": "2022-09-30",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "FY2025 processed transactions 257.5 billion (+10%)",
+      "value": "257.5 billion",
+      "url": "https://www.electronicpaymentsinternational.com/news/visa-fy25-net-income/",
+      "publisher": "Electronic Payments International (reporting Visa FY25)",
+      "as_of": "2025-09-30",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "Q2 FY2026 net revenue $11.2B (+17%), GAAP EPS $3.14 (+36%), non-GAAP EPS $3.31; $9.2B returned; new $20B buyback",
+      "value": "Rev $11.2B, GAAP EPS $3.14",
+      "url": "https://www.stocktitan.net/sec-filings/V/8-k-visa-inc-reports-material-event-e5b890a6c4d8.html",
+      "publisher": "StockTitan (Visa 8-K, quarter ended 2026-03-31)",
+      "as_of": "2026-03-31",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "H1 FY2026 GAAP diluted EPS $6.17 and H1 FY2025 GAAP diluted EPS $4.90 (used to derive TTM GAAP EPS $11.47)",
+      "value": "H1 FY26 EPS $6.17; H1 FY25 EPS $4.90",
+      "url": "https://www.stocktitan.net/sec-filings/V/8-k-visa-inc-reports-material-event-e5b890a6c4d8.html",
+      "publisher": "StockTitan (Visa 8-K) and Visa Q2 FY2025 8-K",
+      "as_of": "2026-03-31",
+      "retrieved": "2026-06-16"
+    },
+    {
+      "claim": "Current price (used for margin-of-safety)",
+      "value": "$329.91 (close ~$330.28; bid/ask 330.17/330.40)",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca market data (code/alpaca_client.py --quote V)",
+      "as_of": "2026-06-16",
+      "retrieved": "2026-06-16"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}
