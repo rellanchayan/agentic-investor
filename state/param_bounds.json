@@ -1,0 +1,10 @@
+{
+  "_comment": "HARD bounds the tuner may never cross, and the step size per change. ONLY soft parameters appear here. The constitution's hard limits ($5k/day budget, 25% per name, 8 holdings, 20/day, 50/week, LIMIT+DAY, no margin, paper-only) are deliberately ABSENT — they are not tunable by any means.",
+  "min_margin_of_safety":     {"min": 0.05, "max": 0.30, "step": 0.02},
+  "conviction_buy_threshold": {"min": 3,    "max": 5,    "step": 1},
+  "default_target_weight_pct":{"min": 0.05, "max": 0.15, "step": 0.01},
+  "dca_tranche_pct":          {"min": 0.25, "max": 1.00, "step": 0.10},
+  "limit_buy_above_bid_pct":  {"min": 0.000,"max": 0.010,"step": 0.001},
+  "limit_sell_below_ask_pct": {"min": 0.000,"max": 0.010,"step": 0.001},
+  "max_per_sector":           {"min": 2,    "max": 4,    "step": 1}
+}

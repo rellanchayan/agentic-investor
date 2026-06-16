@@ -1,0 +1,12 @@
+{
+  "_comment": "SOFT parameters the strategy uses. These may be nudged by the tuner within param_bounds.json. They are GUIDELINES. The HARD limits ($5k/day budget, 25% per name, 8 holdings, 20/day, 50/week, LIMIT+DAY, paper-only) live in code/constitution.py and can NEVER be tuned.",
+  "min_margin_of_safety": 0.12,
+  "conviction_buy_threshold": 4,
+  "default_target_weight_pct": 0.10,
+  "dca_tranche_pct": 0.5,
+  "limit_buy_above_bid_pct": 0.002,
+  "limit_sell_below_ask_pct": 0.002,
+  "max_per_sector": 3,
+  "cautious_mos_bump": 0.06,
+  "trim_above_high_fair_value": true
+}

@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash code/run_phase.sh:*)",
+      "Bash(bash code/cloud_sync.sh:*)",
+      "Bash(python3 code/:*)",
+      "Bash(.venv/bin/python code/:*)",
+      "Bash(python3 -m venv .venv)",
+      "Bash(.venv/bin/python -m pip install:*)",
+      "Read",
+      "Edit(state/**)",
+      "Edit(docs/**)",
+      "Write(state/**)",
+      "Write(docs/**)",
+      "Write(.HALT_TRADING)",
+      "WebSearch",
+      "WebFetch"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Edit(./.env)",
+      "Bash(git push:*)"
+    ]
+  }
+}

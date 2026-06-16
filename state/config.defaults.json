@@ -1,0 +1,12 @@
+{
+  "_comment": "Pristine defaults. `tuner.py --reset` restores config.json to exactly this. Never auto-edited.",
+  "min_margin_of_safety": 0.12,
+  "conviction_buy_threshold": 4,
+  "default_target_weight_pct": 0.10,
+  "dca_tranche_pct": 0.5,
+  "limit_buy_above_bid_pct": 0.002,
+  "limit_sell_below_ask_pct": 0.002,
+  "max_per_sector": 3,
+  "cautious_mos_bump": 0.06,
+  "trim_above_high_fair_value": true
+}

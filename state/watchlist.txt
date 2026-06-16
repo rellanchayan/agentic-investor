@@ -1,0 +1,52 @@
+# Watchlist — the universe of names we are willing to research and own.
+# Quality businesses (durable, profitable, well-known). One ticker per line.
+# "#" starts a comment. The candidate-scout adds names here; we rarely remove.
+# Plain stock/ETF tickers only (no dotted share classes like BRK.B — the
+# constitution requires clean symbols).
+
+# --- Technology ---
+AAPL
+MSFT
+GOOGL
+NVDA
+AVGO
+ADBE
+CRM
+
+# --- Payments & financials ---
+V
+MA
+JPM
+
+# --- Consumer staples ---
+COST
+WMT
+PG
+KO
+PEP
+
+# --- Consumer discretionary ---
+HD
+MCD
+NKE
+
+# --- Health care ---
+UNH
+JNJ
+LLY
+ABBV
+
+# --- Industrials ---
+CAT
+HON
+UNP
+
+# --- Energy ---
+XOM
+CVX
+
+# --- Communication / media ---
+DIS
+
+# --- Broad-market ballast & benchmark (we measure ourselves against SPY) ---
+SPY

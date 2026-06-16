@@ -1,0 +1,24 @@
+# Playbook — the rules we've learned
+
+This is the living rulebook the portfolio manager reads every morning. It starts with our founding
+principles. The learning-coach adds durable, dated lessons over time as experience teaches us
+something real. Keep it as RULES, not a diary. Newest lessons go at the top of "Learned lessons."
+
+## Founding principles (do not delete)
+1. **Quality first, price second, patience always.** Only own businesses we understand with a
+   durable moat and real free cash flow. Only buy them with a margin of safety. Hold for years.
+2. **A missed buy costs nothing; an overpriced buy costs money.** When in doubt, HOLD and keep cash.
+3. **Buy slowly.** Use the daily budget to dollar-cost-average; never chase, never bet it all at once.
+4. **Sell on a broken thesis, not on a scary headline.** We wrote the sell triggers in calm times;
+   we follow them. Reducing risk is always allowed.
+5. **Diversify.** Respect the per-name, per-sector, and 8-holding limits even when one idea feels great.
+6. **Be honest.** Never claim an unconfirmed fill. Never hide a loss. Cite every number. Prices from
+   Alpaca, fundamentals from filings.
+7. **Beat SPY over years, on a risk-adjusted basis** (Sharpe and drawdown), not in any single month.
+8. **The hard limits are sacred.** They live in code and are never to be worked around.
+
+## Learned lessons
+_(none yet — the learning-coach will add dated, one-line rules here as we gain experience.)_
+
+## Changelog
+- 2026-06-16 — Playbook created with founding principles.
