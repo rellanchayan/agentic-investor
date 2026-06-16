@@ -14,12 +14,12 @@
       "Write(docs/**)",
       "Write(.HALT_TRADING)",
       "WebSearch",
-      "WebFetch"
+      "WebFetch",
+      "Bash(git push:*)"
     ],
     "deny": [
       "Read(./.env)",
-      "Edit(./.env)",
-      "Bash(git push:*)"
+      "Edit(./.env)"
     ]
   }
 }
