@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-17",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 750.25,
+  "spy_sma200": 687.85,
+  "spy_pct_above_200d": 9.1,
+  "events": [
+    "FOMC rate decision + Warsh press conference today ~2:00pm ET (LIVE TODAY)",
+    "Juneteenth holiday Thu Jun 19 — markets closed, weekly jobless claims released Wed Jun 18 instead",
+    "Housing starts May — Wed Jun 18, 8:30am ET",
+    "Weekly jobless claims (moved early) — Wed Jun 18, 8:30am ET"
+  ],
+  "rates": "hold at 3.50-3.75%, hawkish shift — dot plot signals only one 25bp cut in 2026, futures now pricing ~70% chance of a hike by Dec 2026",
+  "inflation": "CPI 4.2% YoY (May), core PCE 3.1% — both well above Fed 2% target",
+  "valuation": "elevated — Shiller CAPE ~40.5-41.4 (roughly 26% above its own long-run average of ~32); trailing P/E 25-32",
+  "geopolitical": "US-Iran preliminary peace deal announced; formal signing expected imminently. Oil fell ~4-5% from recent highs but still elevated vs pre-war levels",
+  "market_morning": "S&P 500 futures slight softness in pre-market; tech under pressure (semis sold off Tuesday). S&P 500 rose ~0.65% post-Fed on Jun 17. Chips recovering from Tuesday slide.",
+  "note": "The Fed held rates today as expected (10-2 vote) but the dot plot and Warsh press conference were notably hawkish — median dot now shows only one 25bp cut remaining in 2026, bond yields surged to ~4.6% on the 10-year, and futures markets are now pricing a ~70% probability of a rate HIKE by December. The narrative has shifted from 'when do cuts come?' to 'could rates go higher?' This is an incrementally more unfavorable backdrop for equities than yesterday. Market is above its 200-day average (healthy trend) but is expensive by virtually every valuation measure. Posture remains CAUTIOUS. The Iran oil deal is a genuine positive for inflation but is not yet enough to change the Fed's calculus given CPI at 4.2%. Our watched names (MSFT, V) remain above their fair values; no margin of safety exists. Hold cash.",
+  "sources": [
+    "https://www.unboxfuture.com/2026/06/fed-june-2026-hawkish-pause-rates-held.html?m=1",
+    "https://www.rexshares.com/fomc-june-2026-preview-the-decision-is-settled-the-dot-plot-isnt/",
+    "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081107899.html",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://www.nbcnews.com/business/markets/oil-prices-iran-deal-hormuz-doubts-rcna350087",
+    "https://tradingeconomics.com/united-states/calendar",
+    "https://defirate.com/prediction-markets/fed-decision-odds/"
+  ]
+}
