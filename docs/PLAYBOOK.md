@@ -18,7 +18,9 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 8. **The hard limits are sacred.** They live in code and are never to be worked around.
 
 ## Learned lessons
-_(none yet — the learning-coach will add dated, one-line rules here as we gain experience.)_
+
+- The morning cycle must produce a `docs/decisions/<date>.md` every trading day — even when the conclusion is "hold, no orders." Two consecutive days (2026-06-17 and 2026-06-18) had no decision file; future reviews cannot reconstruct intent without one. — 2026-06-18
 
 ## Changelog
+- 2026-06-18 — Added first learned lesson: morning decision file is mandatory every trading day.
 - 2026-06-16 — Playbook created with founding principles.
