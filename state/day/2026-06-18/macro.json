@@ -1,0 +1,65 @@
+{
+  "date": "2026-06-18",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 746.34,
+  "spy_sma200": 688.33,
+  "spy_premium_to_200d_pct": 8.4,
+  "events": [
+    "Markets closed Friday Jun 19 (Juneteenth holiday) — today is effectively the last trading day of this shortened week",
+    "Micron (MU) earnings expected ~Jun 24",
+    "FedEx (FDX) earnings expected ~Jun 23",
+    "May PCE inflation + final Q1 GDP revision due Jun 25 at 8:30am ET",
+    "US-Iran interim peace deal formal signing anticipated Jun 19 (not yet confirmed)"
+  ],
+  "rates": "on-hold-with-hawkish-tilt",
+  "fed_funds_rate": "3.50%-3.75%",
+  "fed_note": "Fed held rates steady at Jun 17 meeting (first under new Chair Kevin Warsh). Dot plot removed prior cut guidance; 9 of 18 officials now project at least one rate hike by end of 2026. Median funds rate projection for end-2026 is 3.8%, implying a hike is on the table.",
+  "inflation": {
+    "cpi_may_yoy": 4.2,
+    "core_cpi_may_yoy": 2.9,
+    "energy_yoy": 23.5,
+    "pce_apr_yoy": 3.8,
+    "core_pce_apr_yoy": 3.3,
+    "fed_pce_forecast_2026": 3.6,
+    "note": "Inflation materially above the Fed 2% target. Energy prices are the primary driver; US-Iran peace deal could ease this if sustained."
+  },
+  "valuation": {
+    "trailing_pe": 25.7,
+    "forward_pe": 20.1,
+    "forward_pe_10yr_avg": 19.0,
+    "note": "Trailing P/E at top of its 5-year range. Forward P/E modestly above 10-year average. Not screaming cheap."
+  },
+  "geopolitical": "US-Iran interim peace deal announced; formal signing anticipated Jun 19 (Switzerland). WTI crude fell ~4.8% on the news. Deal reduces near-term energy-price pressure but implementation risk remains — deal not yet fully signed.",
+  "market_mood_today": "Recovery rally. S&P 500 up ~1.15%, Nasdaq up ~1.5%, after yesterday's Fed-driven selloff. Tech leading. Russell 2000 down 0.72% (small-caps lagging).",
+  "key_risks": [
+    "Fed dot plot signals possible rate hike in late 2026 — higher-for-longer or higher rates compress multiples",
+    "CPI at 4.2% and PCE at 3.8% are well above the 2% Fed target; next PCE release Jun 25 could reset expectations again",
+    "US-Iran peace deal not yet formally signed; if it falls apart, energy prices spike back and inflation stays elevated",
+    "Market trading ~8.4% above its 200-day average and at the top of its 5-year P/E range — limited margin of safety in the index itself",
+    "Markets closed tomorrow (Juneteenth) — any bad news tonight has nowhere to go until Monday, reducing liquidity today",
+    "Small-caps underperforming today suggests risk appetite is selective, not broad-based"
+  ],
+  "key_tailwinds": [
+    "SPY is above its 200-day moving average — the primary trend is up, not in breakdown territory",
+    "US-Iran peace framework, if it holds, removes the largest driver of energy-price inflation and could open a path for the Fed to pause hikes",
+    "WTI crude falling toward $80/barrel reduces input-cost pressure across the economy",
+    "Jobless claims came in at 226,000 — near consensus, labor market still healthy",
+    "Today's rally is broad in tech — our watchlist names (MSFT, AAPL, GOOGL, NVDA) may benefit",
+    "No major macro shock scheduled for today specifically"
+  ],
+  "rationale": "The market is bouncing after yesterday's Fed-driven selloff, which is encouraging, but the underlying backdrop has not changed: inflation is 4.2%, the Fed just signaled a possible rate hike (not cut) before year-end under new Chair Warsh, the S&P 500 P/E is near the top of its 5-year range, and our watchlist names are trading above or near fair value. The US-Iran peace deal is a genuine positive for the inflation picture but is not yet formally signed and carries implementation risk. Markets are closed tomorrow, compressing this week to a single remaining trading day. We remain cautious: not panicked (the trend is intact, the economy is not in recession), but demanding a real discount before deploying capital.",
+  "note": "Today is a green day after a down day — that is not a reason to rush. Our playbook says: buy slowly, demand a margin of safety, hold cash when names aren't cheap. MSFT has a thin 0.26% margin of safety at current prices. V is 11.8% above fair value base. AAPL is deeply above our fair value. None of our three thesis names are at buy-eligible prices today. Hold cash; monitor for better entry levels.",
+  "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026",
+    "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-june-17-2026",
+    "https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html",
+    "https://www.bls.gov/news.release/archives/cpi_06102026.htm",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://discoveryalert.com.au/us-iran-peace-deal-oil-prices-geopolitical-risk-premium/",
+    "https://finance.yahoo.com/video/micron-fedex-earnings-pce-gdp-133432974.html",
+    "https://finance.yahoo.com/markets/stocks/articles/key-closures-juneteenth-markets-2026-182108105.html",
+    "https://www.schwab.com/learn/story/stock-market-update-open"
+  ]
+}
