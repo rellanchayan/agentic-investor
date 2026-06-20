@@ -17,6 +17,7 @@ CRM
 V
 MA
 JPM
+MCO  # Moody's — credit-rating duopoly, 45-50% operating margins, regulatory moat, added 2026-06-20
 
 # --- Consumer staples ---
 COST
@@ -36,10 +37,14 @@ JNJ
 LLY
 ABBV
 
-# --- Industrials ---
+# --- Industrials / Aerospace & Defense ---
 CAT
 HON
 UNP
+LMT  # Lockheed Martin — defense oligopoly, F-35 platform, $160B backlog, added 2026-06-20
+
+# --- Materials ---
+SHW  # Sherwin-Williams — paint brand + 6,700 store distribution moat, added 2026-06-20
 
 # --- Energy ---
 XOM
