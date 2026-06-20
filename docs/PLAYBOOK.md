@@ -19,8 +19,15 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 
 ## Learned lessons
 
+- When a quality name is trading more than 50% above our base fair value, do not write a buy thesis yet — write a watchlist note with a price target and wait. At -72% MoS, GOOGL illustrates that even a conviction-5 business can be so mispriced that research effort is wasted until the price moves. Revisit only when the gap closes to within 20% of base fair value. — 2026-06-20
+
+- Names showing extreme 6-month momentum (>50% up) require valuation confirmation before being added to the active watchlist. Momentum and overvaluation travel together in bull-market leaders. CAT (+75% 6m) and GOOGL (+24% 6m at -72% MoS) both appeared on the screen this week but neither was buyable. Flag them as "monitor only" until MoS is positive. — 2026-06-20
+
+- Any name in the active watchlist that falls more than 30% below its 200-day MA in a 6-month window must have its thesis re-examined within the next weekly research session — not at sell time, but proactively. ADBE (-45% 6m), CRM (-41% 6m), and NKE (-31% 6m) all showed this pattern this week. A falling price is not itself a thesis break, but it is a mandatory trigger for re-reading the thesis with fresh skepticism. — 2026-06-20
+
 - The morning cycle must produce a `docs/decisions/<date>.md` every trading day — even when the conclusion is "hold, no orders." Two consecutive days (2026-06-17 and 2026-06-18) had no decision file; future reviews cannot reconstruct intent without one. — 2026-06-18
 
 ## Changelog
+- 2026-06-20 — Weekly review: added 3 lessons on extreme overvaluation, momentum-driven names, and mandatory thesis re-checks for deep-downtrend watchlist members.
 - 2026-06-18 — Added first learned lesson: morning decision file is mandatory every trading day.
 - 2026-06-16 — Playbook created with founding principles.
