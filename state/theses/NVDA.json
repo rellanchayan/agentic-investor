@@ -1,0 +1,106 @@
+{
+  "ticker": "NVDA",
+  "thesis_id": "NVDA-2027Q1",
+  "company": "NVIDIA Corporation",
+  "sector": "Information Technology / Semiconductors",
+  "as_of": "2027-Q1",
+  "retrieved": "2026-06-20",
+  "refresh_due": "2026-09-18",
+  "business_summary": "NVIDIA designs the chips, systems and software that train and run artificial-intelligence models. Its Data Center segment (GPUs like Blackwell, plus NVLink and Spectrum-X/InfiniBand networking) is now ~92% of revenue and is bought by cloud giants (Microsoft, Amazon, Google, Meta), 'AI cloud' specialists, sovereigns and enterprises. It also sells Gaming GPUs (GeForce), professional visualization, and automotive chips. It makes money by selling high-performance accelerated-computing hardware at very high margins, with software (CUDA) creating a developer lock-in that competitors cannot easily replicate. In Q1 FY2027 (quarter ended Apr 26 2026) Data Center revenue was a record $75.2B of $81.6B total.",
+  "moat": {
+    "type": "CUDA software/developer ecosystem lock-in + full-stack systems integration (GPU+networking+software) + scale/process lead + brand among AI buyers",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "explosive: FY2024 $60.922B -> FY2025 $130.497B (+114%) -> FY2026 $215.938B (+65%); latest quarter Q1 FY2027 +85% YoY",
+    "gross_margin": "71.1% GAAP full-year FY2026; 74.9% GAAP in Q1 FY2027",
+    "roic": "very high (qualitative): FY2026 GAAP net income $120.067B on a small invested-capital base with net cash; precise ROIC not separately disclosed, treated as 'unknown' numerically",
+    "net_debt_to_ebitda": "negative / net cash: total debt $8.468B vs $62.556B cash & marketable securities at Jan 25 2026 -> roughly -0.4x EBITDA",
+    "fcf_positive": "yes; FY2026 operating cash flow $102.718B less capex $6.042B = ~$96.676B free cash flow"
+  },
+  "valuation": {
+    "price": 210.38,
+    "price_source": "alpaca",
+    "price_asof": "2026-06-20",
+    "fair_value_low": 173,
+    "fair_value_base": 227,
+    "fair_value_high": 293,
+    "method": "Blended via code/valuation.py. PE: TTM diluted EPS ~$6.53 (FY2026 $4.90 - Q1FY26 $0.76 + Q1FY27 $2.39) x 28/38/48. FCF-yield: FY2026 FCF/share ~$3.92 (TTM higher, ~$4.92 used) at 3.0/2.4/1.8% target yields. Multiples are a premium but below history, reflecting 65-85% growth and 71%+ gross margins offset by AI-cycle and concentration risk."
+  },
+  "conviction": 4,
+  "bull_case": [
+    "Wide moat from the CUDA software ecosystem: years of developer tooling and libraries make NVIDIA the default platform for AI training/inference, raising switching costs well beyond the silicon itself.",
+    "Full-stack advantage: NVIDIA sells not just GPUs but integrated systems (compute + NVLink + Spectrum-X/InfiniBand networking + software), which is hard for merchant-silicon rivals to match.",
+    "Extraordinary economics: FY2026 revenue $215.9B (+65%), 71.1% GAAP gross margin, ~55.6% net margin, ~$96.7B free cash flow, and a net-cash balance sheet ($62.6B cash vs $8.5B debt).",
+    "Demand still accelerating: Q1 FY2027 revenue +85% YoY to a record $81.6B with Data Center +92% YoY; Q2 FY2027 guided to ~$91B, signaling the AI build-out is not yet slowing.",
+    "Capital returns growing: $80B added to buyback authorization and quarterly dividend raised from $0.01 to $0.25 in Q1 FY2027, ~$20B returned to shareholders that quarter."
+  ],
+  "risks": [
+    "Customer concentration: a large share of Data Center revenue comes from a handful of hyperscalers (~50% of Data Center). If they cut AI capex, revenue could fall fast.",
+    "AI-spending cycle / digestion risk: today's growth assumes the AI capital-expenditure boom continues. Semiconductors are historically cyclical; a pause or overbuild would hit revenue and the rich multiple hard.",
+    "Valuation: even at $210 the stock trades ~32x TTM EPS and a low-single-digit FCF yield; the base case requires continued elite growth. Disappointment compresses both earnings and the multiple.",
+    "China/export controls: U.S. restrictions already caused a $4.5B H20 charge in Q1 FY2026 and cap a large addressable market; rules can tighten further.",
+    "Competition: AMD (MI-series), custom hyperscaler silicon (Google TPU, Amazon Trainium, Microsoft Maia) and inference-focused startups aim directly at NVIDIA's margins over time.",
+    "Single-architecture dependence and supply-chain reliance on TSMC for leading-edge manufacturing."
+  ],
+  "what_would_break_thesis": [
+    "Year-over-year revenue declines for two consecutive quarters (signals the AI build-out has rolled over).",
+    "GAAP gross margin falls below 60% for two consecutive quarters (pricing power / competitive erosion).",
+    "Data Center revenue declines sequentially for two consecutive quarters without a clear, temporary export-control cause.",
+    "Net cash position flips to meaningful net debt (net-debt/EBITDA rises above 1.0x) funding the business or buybacks.",
+    "A major customer (hyperscaler) publicly shifts the bulk of new AI training workloads to in-house or competitor silicon.",
+    "Any serious accounting red flag, restatement, or evidence of channel-stuffing / pull-forward demand.",
+    "Price runs far above the high end of fair value (e.g. >$293) with no corresponding upgrade to durable earnings — trim on overvaluation."
+  ],
+  "catalysts": [
+    "Continued Blackwell / next-gen ramp and Q2 FY2027 results at/above the ~$91B guide.",
+    "New large sovereign-AI and enterprise customers diversifying away from hyperscaler concentration.",
+    "Inference (running models) becoming a larger, stickier revenue stream than one-time training builds.",
+    "A market pullback into the high-$100s offering a wider margin of safety to add."
+  ],
+  "sources": [
+    {
+      "claim": "FY2026 (year ended Jan 25 2026) revenue, growth, GAAP gross margin, operating income, net income, diluted EPS, operating cash flow, capex, cash & marketable securities, total debt, prior-year FY2025 revenue/net income",
+      "value": "Revenue $215.938B (+65%); GAAP gross margin 71.1%; operating income $130.387B; net income $120.067B; diluted EPS $4.90; OCF $102.718B; capex $6.042B; cash & marketable securities $62.556B; total debt $8.468B; FY2025 revenue $130.497B, net income $72.880B, EPS $2.94",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/",
+      "publisher": "NVIDIA Corporation Investor Relations (Q4 & FY2026 results, 8-K)",
+      "as_of": "2026-01-25",
+      "retrieved": "2026-06-20"
+    },
+    {
+      "claim": "Q1 FY2027 (quarter ended Apr 26 2026) revenue, growth, GAAP gross margin, operating income, net income, diluted EPS, Data Center revenue, net cash from operating activities, capital returns",
+      "value": "Revenue $81.615B (+85% YoY); GAAP gross margin 74.9%; operating income $53.536B; net income $58.321B; diluted EPS $2.39; Data Center $75.2B (+92% YoY); OCF $50.344B; ~$20B returned to shareholders; dividend raised to $0.25, +$80B buyback authorization",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000051/q1fy27pr.htm",
+      "publisher": "NVIDIA Corporation / SEC EDGAR (8-K, Q1 FY2027 press release)",
+      "as_of": "2026-04-26",
+      "retrieved": "2026-06-20"
+    },
+    {
+      "claim": "Q1 FY2026 (quarter ended Apr 2025) revenue, net income, diluted EPS, and $4.5B H20/China inventory charge",
+      "value": "Revenue $44.1B (+69% YoY); net income $18.775B; diluted EPS $0.76; $4.5B charge for H20 excess inventory/purchase obligations due to U.S. export license requirement",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581025000115/q1fy26cfocommentary.htm",
+      "publisher": "NVIDIA Corporation / SEC EDGAR (8-K, Q1 FY2026)",
+      "as_of": "2025-04-27",
+      "retrieved": "2026-06-20"
+    },
+    {
+      "claim": "FY2024 (year ended Jan 28 2024) full-year revenue",
+      "value": "Revenue $60.922B (+126% YoY)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000028/q4fy24pr.htm",
+      "publisher": "NVIDIA Corporation / SEC EDGAR (8-K, Q4 & FY2024)",
+      "as_of": "2024-01-28",
+      "retrieved": "2026-06-20"
+    },
+    {
+      "claim": "Current price and trend (50-day and 200-day moving averages)",
+      "value": "$210.38 close; ~+11% above 200-day MA, just above 50-day MA",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca paper market-data feed",
+      "as_of": "2026-06-20",
+      "retrieved": "2026-06-20"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}
