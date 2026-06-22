@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-22",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 744.82,
+  "spy_sma200": 688.84,
+  "spy_premium_to_200d_pct": 8.1,
+  "events": [
+    "GDP 3rd Estimate (Q1) — Tue Jun 23, 8:30am ET",
+    "Michigan Consumer Sentiment Final — Tue Jun 23, 10:00am ET",
+    "Micron Technology (MU) earnings — Wed Jun 24, after close",
+    "PCE / Personal Income & Outlays (May) — Thu Jun 25, 8:30am ET",
+    "Initial Jobless Claims — Thu Jun 25, 8:30am ET"
+  ],
+  "rates": "on-hold, slight hike bias",
+  "fed_funds_rate": "3.50%-3.75%",
+  "fed_note": "FOMC held at 3.50-3.75% on Jun 17, 2026. Median dot projects 3.8% by year-end — a hike is possible. New chair Kevin Warsh's first meeting concluded with no change but a hawkish lean.",
+  "inflation": {
+    "cpi_yoy_may": 4.2,
+    "core_cpi_yoy_may": 2.9,
+    "pce_yoy_april": 3.8,
+    "core_pce_yoy_april": 3.3,
+    "note": "CPI rose 4.2% YoY in May — highest since April 2023 — driven by a 23.5% surge in energy. May PCE releases Thursday Jun 25."
+  },
+  "valuation": {
+    "sp500_trailing_pe": 25.5,
+    "shiller_cape": 39.9,
+    "shiller_cape_percentile_historical": 98,
+    "note": "Shiller CAPE at 39.9 sits in the 98th percentile of all historical readings — market is historically expensive."
+  },
+  "sentiment": {
+    "fear_greed_index": 37,
+    "label": "Fear",
+    "note": "CNN Fear & Greed at 37 (Fear zone) — investors are nervous despite SPY near highs."
+  },
+  "geopolitics": {
+    "us_iran": "Ceasefire / peace deal framework agreed mid-June. Hormuz reopening expected, driving crude oil down sharply (WTI ~$81, Brent ~$84). Reduces energy inflation tail risk but negotiations still in progress.",
+    "oil_impact": "Oil prices at 3-month lows after deal. Positive for inflation outlook if sustained."
+  },
+  "futures_am": {
+    "sp500_esm26": "slightly negative (down ~0.19%)",
+    "nasdaq_nqm26": "slightly negative (down ~0.24%)",
+    "tone": "Flat to mildly lower premarket. AI trade cooling slightly. Market digesting last week's post-Fed selloff."
+  },
+  "note": "Market is expensive by most measures (Shiller CAPE at 98th percentile, trailing PE 25.5x), inflation is running hot at 4.2% CPI, the Fed has a mild hike bias, and a big inflation print (May PCE) lands Thursday. Futures are flat/slightly red. The one positive: US-Iran deal has knocked crude oil to 3-month lows, reducing the energy inflation tail. Fear/Greed at 37 shows investor nervousness despite SPY above its 200-day average. On balance, the macro environment warrants caution — demand higher discounts before any buy.",
+  "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-22-2026",
+    "https://www.cnbc.com/2026/06/21/stock-market-today-live-updates.html",
+    "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html",
+    "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "https://fxmacrodata.com/articles/usd-pce-may-2026",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.advisorperspectives.com/dshort/updates/2026/06/02/p-e10-and-market-valuation-may-2026",
+    "https://feargreedmeter.com/fear-and-greed-index",
+    "https://www.axios.com/2026/06/14/oil-prices-us-iran-war-hormuz-strait-peace-deal",
+    "https://www.cnn.com/2026/06/14/business/oil-prices-iran-peace-agreement",
+    "https://www.marketscreener.com/news/weekly-earnings-calendar-micron-stands-alone-ce7f5cd3da8af721",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+  ]
+}
