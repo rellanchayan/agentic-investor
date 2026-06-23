@@ -1,0 +1,23 @@
+{
+  "date": "2026-06-23",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 737.11,
+  "spy_sma200": 689.28,
+  "events": [
+    "PCE inflation report (Fed preferred gauge) — Thu Jun 25, 8:30am ET",
+    "Micron Technology Q3 earnings — Wed Jun 25 after close",
+    "FedEx Q4 earnings — Tue Jun 24 after close",
+    "10-yr Treasury yield elevated at ~4.48%"
+  ],
+  "rates": "elevated and rising expectations — market now pricing ~50bps of Fed hikes by Dec 2026, double two weeks ago",
+  "note": "Global tech and chip selloff underway this morning. S&P 500 futures down ~1-2%, Nasdaq futures down ~2-3%. Asia led the drop: Korea's Kospi fell 10%+ with a circuit-breaker halt. Drivers: (1) hawkish repricing under new Fed Chair Warsh — rate-hike bets doubled in two weeks; (2) AI/chip valuation doubts on stretched multiples; (3) PCE inflation print due Thu creates additional uncertainty. S&P 500 PE sits at ~25-32x vs historical median ~18x — market remains expensive on any measure. SPY is above its 200-day average (uptrend intact structurally), but today's session opens with a risk-off tone and a live macro catalyst later this week. Cautious posture: demand a wider margin of safety before any new buy.",
+  "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081239995.html",
+    "https://finance.yahoo.com/technology/articles/global-chip-stocks-slump-rate-091128932.html",
+    "https://www.nbcnews.com/business/business-news/tech-sell-off-markets-spacex-alphabet-nasdaq100-stocks-rcna351331",
+    "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-sink-tech-spcx-selloff-tsla-infq-mu-hood-adtx-stocks/cZKvUFGR79t",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio"
+  ]
+}
