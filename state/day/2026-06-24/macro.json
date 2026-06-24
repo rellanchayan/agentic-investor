@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-24",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 737.62,
+  "spy_sma200": 689.71,
+  "spy_premium_to_200d_pct": 6.95,
+  "events": [
+    "PCE inflation (Fed preferred gauge) release Thu 2026-06-26 8:30am ET",
+    "May building permits and new home sales — Wed 2026-06-24",
+    "Micron Technology (MU) earnings reported after close Tue 2026-06-23"
+  ],
+  "rates": "steady — Fed held at 3.50–3.75% on 2026-06-17 (12-0 vote); dot plot signals possible hike",
+  "inflation": "elevated — PCE revised to 3.6% for 2026; core PCE ~3.3%; above Fed 2% target",
+  "ten_year_yield": "~4.50%",
+  "valuation": "expensive — Shiller CAPE ~41, approximately 98th historical percentile; trailing PE ~25–32",
+  "futures_direction": "modestly higher (+0.13%) — bargain-hunting after two tech-driven down sessions",
+  "key_risk": "AI/semiconductor selloff, elevated inflation, Fed rate-hike risk, CAPE near all-time highs",
+  "note": "SPY is 7% above its 200-day average and trading near historically stretched valuations (Shiller CAPE ~41). The Fed held rates steady at 3.5-3.75% but its dot plot now leans toward a hike, not a cut. PCE inflation data drops Thursday and could move markets. Futures point modestly higher today on bargain-hunting after two down days for tech. This combination — expensive market, rising-rate risk, hot inflation data due Thursday — warrants a cautious posture. Demand a meaningful margin of safety before any purchase.",
+  "sources": [
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.advisorperspectives.com/dshort/updates/2026/06/02/p-e10-and-market-valuation-may-2026",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.benzinga.com/markets/prediction-markets/26/06/60063179/sp500-june-24-open-up-or-down-polymarket-micron-earnings-oil-prices-ai-selloff",
+    "https://247wallst.com/investing/2026/06/23/stock-market-live-june-23-2026-sp-500-spy-futures-under-significant-pressure/"
+  ]
+}
