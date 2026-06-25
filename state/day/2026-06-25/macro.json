@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-25",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 735.24,
+  "spy_sma200": 690.12,
+  "spy_pct_above_200d": 6.54,
+  "events": [
+    "May PCE inflation released today 8:30am ET — headline 4.1% YoY (3-year high), core 3.4% YoY, both in line with forecasts",
+    "Next FOMC meeting: July 28-29 — nine of eighteen members already penciling in at least one rate hike in 2026",
+    "Q2 earnings season begins in earnest mid-July (big banks ~July 13-17, Big Tech ~July 27-31)"
+  ],
+  "rates": "steady but hike likely — Fed held at 3.50-3.75% on June 17; dot plot median implies one 25bp hike by year-end 2026; money markets pricing near-certain hike by October",
+  "inflation": "hot — headline PCE 4.1% YoY (highest since April 2023), core PCE 3.4% YoY; driven by energy prices tied to Iran conflict",
+  "valuation": "elevated — trailing P/E ~25-32 depending on source, Shiller CAPE ~41 (well above long-run average of ~32)",
+  "futures_this_morning": "S&P 500 futures +0.78%, Nasdaq 100 futures +2.15%, driven by Micron blowout earnings (+17%)",
+  "note": "Futures are green thanks to Micron AI/chip euphoria, but that is a single-stock event. The macro backdrop is genuinely cautious: inflation printed at a 3-year high today, the Fed dot plot already leans hawkish with a hike likely before year-end, and the Shiller CAPE at 41 puts the broad market in expensive territory. SPY is 6.5% above its 200-day average. None of our candidates offer a clean margin of safety: MSFT is the closest at +5.4% MoS but our config demands a larger buffer under a cautious posture. Posture remains cautious.",
+  "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-25-2026",
+    "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "https://www.stocktitan.net/articles/fed-rate-decision-june-17-2026",
+    "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html",
+    "https://www.cbsnews.com/news/pce-report-report-may-2026-federal-reserve-inflation/",
+    "https://www.benzinga.com/markets/economic-data/26/06/60094964/pce-inflation-federal-reserve-rate-hike-odds",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.longtermtrends.com/sp500-price-earnings-shiller-pe-ratio/",
+    "https://finance.yahoo.com/markets/stocks/articles/previewing-2026-q2-earnings-season-224600034.html"
+  ]
+}
