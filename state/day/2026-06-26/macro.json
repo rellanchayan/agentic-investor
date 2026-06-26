@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-26",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 732.33,
+  "spy_sma200": 690.53,
+  "spy_premium_to_200d_pct": 6.0,
+  "events": [
+    "Jobs report (June nonfarm payrolls) — Thu Jul 2 at 8:30am ET",
+    "Next CPI release — Tue Jul 14 at 8:30am ET",
+    "Next FOMC meeting — Jul 28-29",
+    "PCE Personal Income and Outlays — released Jun 25 (already out, May data: PCE +4.1% YoY)"
+  ],
+  "rates": "on hold, bias shifting hawkish",
+  "fed_funds_rate_range": "3.50-3.75%",
+  "inflation_cpi_yoy": "4.2% (May 2026, CPI-U)",
+  "inflation_pce_yoy": "4.1% (May 2026)",
+  "market_pe_trailing": "~25-31 (sources vary; forward PE ~22)",
+  "shiller_cape": 39.7,
+  "key_risks": [
+    "Active AI/tech sell-off: S&P 500 -0.75%, Nasdaq -1.25% this morning; OpenAI IPO delay to 2027 reignites AI valuation concerns",
+    "Inflation remains elevated above Fed 2% target (CPI +4.2% YoY, PCE +4.1% YoY in May)",
+    "Fed has removed rate-cut bias; a hike is now explicitly possible; next meeting Jul 28-29",
+    "Middle East conflict driving energy price volatility; oil falling today (-3.8% WTI to $69.20) on Strait of Hormuz easing but conflict risk persists",
+    "Shiller CAPE at 39.7 — 23% above long-term average, signaling structural overvaluation",
+    "Global tech contagion: South Korea KOSPI fell ~6% on Jun 23; semiconductor stocks broadly weak",
+    "Tariff uncertainty: Supreme Court ruled broad IEEPA tariffs unlawful; 15% Section 122 duties now in place as workaround"
+  ],
+  "key_tailwinds": [
+    "SPY is above its 200-day moving average by ~6%, confirming a broad uptrend is still intact",
+    "Economic activity described by the Fed as 'expanding at a solid pace'",
+    "Oil prices falling today (-3.8%) reduces near-term energy inflation pressure",
+    "No major scheduled macro data release today — lower event risk for the session itself",
+    "Jobs report not until Jul 2, giving some breathing room before next big catalyst"
+  ],
+  "note": "Market is selling off today on AI valuation fears (OpenAI IPO delay, broad tech weakness). Inflation remains well above the Fed's 2% target and the Fed is leaning hawkish — it removed its cut bias in June and indicated a hike is possible. The Shiller CAPE at 39.7 is structurally elevated. For a long-term quality investor with 0 holdings, this is not a panic moment, but it is not a bargain environment either. Demand the full margin of safety before any buy. Per our thesis data, AAPL trades at a -43% margin of safety (expensive), V at -14% (expensive), and MSFT at +2.6% (barely inside the threshold). No name meets our preferred margin today. Posture: cautious.",
+  "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-26-2026",
+    "https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "https://www.bls.gov/news.release/archives/cpi_06102026.htm",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://finance.yahoo.com/markets/stocks/articles/openai-considers-delaying-ipo-2027-221048362.html",
+    "https://www.cnn.com/2026/06/23/business/stock-market-kospi-dow-nasdaq-ai",
+    "https://www.bls.gov/schedule/news_release/empsit.htm"
+  ]
+}
