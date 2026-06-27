@@ -1,0 +1,146 @@
+{
+  "ticker": "KO",
+  "thesis_id": "KO-2026Q2",
+  "company": "The Coca-Cola Company",
+  "sector": "Consumer Staples (Non-alcoholic Beverages)",
+  "as_of": "2026-Q1",
+  "retrieved": "2026-06-27",
+  "refresh_due": "2026-09-25",
+  "business_summary": "Coca-Cola is the world's largest non-alcoholic beverage company. Its core, asset-light model is to manufacture and sell concentrates, syrups and beverage bases to a global network of independent bottling partners, who add water/sweetener, package, distribute and sell the finished drinks. Coca-Cola owns and markets the brands (Coca-Cola, Diet Coke, Sprite, Fanta, Minute Maid, Powerade, smartwater, Costa, fairlife, etc.) and collects high-margin concentrate revenue plus royalties, while the capital-heavy bottling sits largely off its own balance sheet. This concentrate model produces very high gross margins (~61%), durable pricing power, and steady cash flows across economic cycles. FY2024 net operating revenues were $47.1B.",
+  "moat": {
+    "type": "Brand strength + global distribution scale + bottler network with high switching costs; the Coca-Cola trademark is among the most valuable consumer brands on earth, giving durable pricing power.",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": 4.61,
+    "gross_margin": 61.06,
+    "roic": 10.55,
+    "net_debt_to_ebitda": 2.86,
+    "fcf_positive": true
+  },
+  "valuation": {
+    "price": 82.61,
+    "price_source": "alpaca",
+    "price_asof": "2026-06-27",
+    "fair_value_low": 63.86,
+    "fair_value_base": 71.64,
+    "fair_value_high": 80.16,
+    "method": "pe (normalized comparable EPS ~$3.10 x 22/25/28x) + fcf_yield (normalized FCF/share ~$2.50 at 4.2/3.8/3.4%); blended"
+  },
+  "conviction": 3,
+  "bull_case": [
+    "Wide-moat, recession-resistant consumer staple: the Coca-Cola brand and global distribution give durable pricing power, shown by FY2024 organic revenue growth of 5% driven mostly by price/mix.",
+    "Asset-light concentrate model produces ~61% gross margins and strong, consistent free cash flow; capital intensity is low (FY2024 capex only $2.06B on $47.1B revenue).",
+    "Dividend aristocrat with 54 consecutive years of increases (~$2.04 paid in 2025, ~2.5% yield), backed by ample normalized free cash flow.",
+    "Strong near-term momentum: Q1 2026 net revenues +12% to $12.47B and comparable EPS +18% to $0.86, beating estimates; FY2026 comparable EPS growth guided to 8-9% on a ~$3 2025 base.",
+    "Steady ~10-15% ROIC and an enormous, diversified global volume base provide a long compounding runway in developing/emerging markets."
+  ],
+  "risks": [
+    "Valuation: after a +17.85% six-month run, at $82.61 the price sits slightly above the top of our $63.86-$80.16 fair-value band (margin of safety roughly -15%); no cushion at today's price.",
+    "Health/regulatory pressure on sugary drinks (taxes, GLP-1 weight-loss drugs dampening consumption, labeling) could slow volume growth over time.",
+    "Currency headwinds: a large majority of revenue is international, so a strong US dollar can meaningfully cut reported and comparable results.",
+    "Net debt/EBITDA of ~2.86x is moderate but not low; rising rates raise interest cost (FY2024 interest expense $1.66B).",
+    "FY2024 GAAP results were distorted by $4.16B of other operating charges (incl. fairlife contingent consideration and impairments) and a ~$6B IRS tax-litigation deposit that depressed reported operating cash flow to $6.8B; the IRS dispute is a real contingent liability.",
+    "Slow-growth maturity: mid-single-digit revenue growth means returns depend heavily on price/mix, buybacks, and dividends rather than unit volume."
+  ],
+  "what_would_break_thesis": [
+    "Gross margin falls below 55% for two consecutive quarters (erosion of pricing power / concentrate economics).",
+    "Net debt/EBITDA rises above 3.5x and stays there for more than two quarters.",
+    "Organic (currency-neutral) revenue declines year-over-year for two consecutive quarters, signaling structural volume loss rather than FX.",
+    "The dividend is cut or frozen (breaks the 54-year aristocrat record and signals cash-flow stress).",
+    "A serious accounting red flag or a materially adverse, large cash resolution of the IRS tax litigation that impairs the balance sheet.",
+    "Price runs far above fair value (e.g. >30% over our base case of ~$71.64) with no offsetting jump in normalized earnings power."
+  ],
+  "catalysts": [
+    "Continued comparable EPS growth toward the FY2026 guided 8-9% (vs ~$3 in 2025).",
+    "Lower effective tax rate (guided ~19.9%) and favorable FX reversal boosting reported results.",
+    "Premium/portfolio expansion (fairlife, Costa, energy, water, zero-sugar) lifting price/mix.",
+    "Annual dividend increase (likely early 2027) extending the aristocrat streak.",
+    "Favorable resolution or de-risking of the IRS tax litigation."
+  ],
+  "sources": [
+    {
+      "claim": "FY2024 net operating revenues; FY2023 revenues; gross profit; operating income; net income attributable; diluted EPS",
+      "value": "Revenue $47,061M (2024) / $45,754M (2023); Gross profit $28,737M; Operating income $9,992M; Net income attributable $10,631M; Diluted EPS $2.46",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000005/a2024q4earningsreleaseex-9.htm",
+      "publisher": "SEC EDGAR - The Coca-Cola Company Q4/FY2024 earnings release (8-K Ex-99.1)",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2024 gross margin = gross profit / revenue = 28,737 / 47,061",
+      "value": "61.06%",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000005/a2024q4earningsreleaseex-9.htm",
+      "publisher": "SEC EDGAR - The Coca-Cola Company Q4/FY2024 earnings release (computed)",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "3-year revenue CAGR (FY2022 $43,004M to FY2024 $47,061M)",
+      "value": "4.61%",
+      "url": "https://stockanalysis.com/stocks/KO/financials/",
+      "publisher": "stockanalysis.com (FY2022 figure) cross-checked vs SEC FY2024 release (computed)",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2024 cash from operations and capex (used for GAAP FCF and FCF/share)",
+      "value": "Net cash from operations $6,805M; capex $2,064M; GAAP FCF $4,741M; company-reported FCF excluding IRS deposit $10.8B",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000005/a2024q4earningsreleaseex-9.htm",
+      "publisher": "SEC EDGAR - The Coca-Cola Company Q4/FY2024 earnings release",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2024 balance sheet debt and cash for net-debt and net-debt-to-EBITDA",
+      "value": "Loans/notes payable $1,499M + current maturities LT debt $648M + long-term debt $42,375M = $44,522M total debt; cash + ST investments $12,848M; net debt $31,674M; EBITDA (operating income $9,992M + D&A $1,075M) $11,067M; net debt/EBITDA 2.86x",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000005/a2024q4earningsreleaseex-9.htm",
+      "publisher": "SEC EDGAR - The Coca-Cola Company Q4/FY2024 earnings release (computed)",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "ROIC FY2024",
+      "value": "10.55%",
+      "url": "https://stockanalysis.com/stocks/KO/financials/ratios/",
+      "publisher": "stockanalysis.com",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "Q1 2026 results: net revenues, comparable EPS, organic growth, FY2026 guidance",
+      "value": "Net revenues $12,472M (+12%); EPS $0.91 (+18%); comparable EPS $0.86 (+18%); organic revenue +10%; FY2026 comparable EPS growth guided 8-9% vs ~$3 in 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000021344/000162828026027723/a2026q1earningsreleaseex-9.htm",
+      "publisher": "SEC EDGAR - The Coca-Cola Company Q1 2026 earnings release (8-K Ex-99.1)",
+      "as_of": "2026-03-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "TTM diluted EPS (used to sanity-check normalized EPS input)",
+      "value": "$3.18 TTM diluted EPS",
+      "url": "https://stockanalysis.com/stocks/KO/financials/",
+      "publisher": "stockanalysis.com",
+      "as_of": "2026-03-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "Dividend: 54 consecutive years of increases; recent annual dividend",
+      "value": "~$2.04 paid in 2025 ($0.51/qtr), 2026 ~$0.53/qtr; ~2.5% yield; 54-year aristocrat streak",
+      "url": "https://stockanalysis.com/stocks/ko/dividend/",
+      "publisher": "stockanalysis.com",
+      "as_of": "2026-06-27",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "Current price (Alpaca paper feed, confirmed)",
+      "value": "$82.61; above 50d SMA $79.33 and 200d SMA $74.03; +17.85% 6-month",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca paper market data",
+      "as_of": "2026-06-27",
+      "retrieved": "2026-06-27"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}
