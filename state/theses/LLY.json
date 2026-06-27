@@ -1,0 +1,228 @@
+{
+  "ticker": "LLY",
+  "thesis_id": "LLY-2026Q2",
+  "company": "Eli Lilly and Company",
+  "sector": "Healthcare - Pharmaceuticals",
+  "as_of": "2026-Q1",
+  "retrieved": "2026-06-27",
+  "refresh_due": "2026-09-25",
+  "business_summary": "Eli Lilly is a global pharmaceutical company that discovers, makes, and sells branded prescription medicines. It makes money by selling patent-protected drugs at high margins, with revenue currently dominated by its incretin (GLP-1/GIP) franchise: tirzepatide, sold as Mounjaro for type-2 diabetes and Zepbound for obesity. Other meaningful products include Verzenio (breast cancer), Jardiance (diabetes/heart, partnered with Boehringer Ingelheim), Taltz (immunology), Trulicity (older diabetes GLP-1), and a legacy insulin/diabetes-care portfolio. The thesis driver is the obesity/diabetes incretin wave: a very large, under-treated patient population, where Lilly and Novo Nordisk are the two clear leaders. Lilly is now scaling an oral GLP-1 (orforglipron) that could broaden access well beyond injectables. The business wins over 5-10 years if it keeps converting its clinical lead and manufacturing build-out into durable, patent-protected cash flows while replenishing the pipeline ahead of patent expiries.",
+  "moat": {
+    "type": "Patents/IP on tirzepatide and pipeline molecules, multi-year manufacturing capacity lead in incretins, deep clinical/R&D capability, trusted brand with physicians and payers, and high regulatory barriers to entry",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "25.6% CAGR (FY2022 $28,541M to FY2024 $45,043M)",
+    "gross_margin": "81.3% (FY2024)",
+    "roic": "16.4% (FY2024)",
+    "net_debt_to_ebitda": "2.07x (FY2024)",
+    "fcf_positive": true
+  },
+  "valuation": {
+    "price": 1206.57,
+    "price_source": "alpaca",
+    "price_asof": "2026-06-27",
+    "fair_value_low": 771.25,
+    "fair_value_base": 992.5,
+    "fair_value_high": 1275.0,
+    "method": "Blend of forward P/E and TTM FCF-yield. P/E uses FY2026 non-GAAP EPS guidance midpoint of $36.25 at 26x/32x/40x (premium multiples justified by ~25%+ revenue growth, 80%+ gross margin and a wide moat). FCF-yield uses TTM FCF/share of ~$13.20 at 2.2%/1.6%/1.2% yields; note FCF currently lags earnings because Lilly is investing heavily in capex to scale manufacturing, so the FCF method intentionally drags the band lower for humility. The base of ~$992 sits below the current $1,206.57 price: the stock is priced for continued exceptional growth and offers little or negative margin of safety today."
+  },
+  "conviction": 3,
+  "bull_case": [
+    "Incretin franchise (Mounjaro + Zepbound) is the dominant growth engine: Q1 2026 revenue grew 56% YoY to $19.8B, with Zepbound up 80% YoY to $4,160M.",
+    "Exceptional unit economics: 81.3% gross margin (FY2024) and ROIC of 16.4% (FY2024) show real pricing power and efficient capital use.",
+    "Rapid earnings ramp: FY2024 net income +102% to $10,590M; Q1 2026 reported EPS $8.26 (+170% YoY); company raised FY2026 guidance to revenue $82-85B and non-GAAP EPS $35.50-$37.00.",
+    "Oral GLP-1 orforglipron succeeded in multiple Phase 3 trials and is heading to global regulatory submissions; an oral pill could massively expand the addressable market beyond injectables.",
+    "Wide moat from tirzepatide patents, a multi-year manufacturing capacity lead, deep R&D, and trusted brand with physicians and payers."
+  ],
+  "risks": [
+    "Valuation is rich: at ~$1,206 the price is above the base fair value of ~$992, leaving little or negative margin of safety. The thesis depends on growth continuing for years to justify the multiple.",
+    "Free cash flow is much smaller than reported earnings (FY2024 FCF only $3,760M vs net income $10,590M) because of heavy manufacturing capex; if growth disappoints, the cash-conversion gap becomes a problem.",
+    "Concentration: a large and rising share of revenue and growth comes from a single molecule, tirzepatide. Any safety signal, label restriction, or efficacy setback would hit hard.",
+    "Intense competition from Novo Nordisk (semaglutide) and a wave of next-gen and oral incretins; pricing pressure is already visible (Q1 2026 lower realized prices on Mounjaro/Zepbound).",
+    "U.S. drug-pricing policy, Medicare negotiation, and payer/PBM coverage decisions could compress prices on the franchise.",
+    "Patent cliff risk longer term: incretin composition/method patents will eventually expire, exposing the franchise to generics/biosimilars; pipeline must replace them.",
+    "Net debt-to-EBITDA of ~2.1x is moderate but not trivial given large ongoing capex commitments."
+  ],
+  "what_would_break_thesis": [
+    "Gross margin falls below 70% for two consecutive quarters (signals lost pricing power / commoditization of incretins).",
+    "Total revenue declines year-over-year for two consecutive quarters (the growth engine has stalled).",
+    "Net debt-to-EBITDA rises above 3.0x (balance sheet stress from capex or M&A).",
+    "A material safety signal, FDA label restriction/black-box warning, or recall on tirzepatide (Mounjaro/Zepbound) that meaningfully impairs the franchise.",
+    "ROIC falls below 10% on a full-year basis (capital is no longer compounding at a high rate).",
+    "Free cash flow turns negative for a full fiscal year without a clear, temporary capex explanation.",
+    "A serious accounting red flag or restatement."
+  ],
+  "catalysts": [
+    "Orforglipron (oral GLP-1) regulatory decisions: potential U.S. obesity action in 2026 and diabetes/global submissions, which could re-rate the addressable market.",
+    "Continued Mounjaro/Zepbound volume growth and new manufacturing capacity coming online to relieve supply constraints.",
+    "FY2026 guidance execution: revenue $82-85B and non-GAAP EPS $35.50-$37.00; quarterly beats/raises.",
+    "Pipeline readouts and label expansions (e.g., cardiovascular/sleep apnea/MASH indications for tirzepatide) that broaden reimbursement.",
+    "New product launches replenishing the portfolio ahead of long-term patent expiries."
+  ],
+  "sources": [
+    {
+      "claim": "FY2024 total revenue and YoY growth",
+      "value": "$45,042.7M, +32% YoY",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947825000067/lly-20241231.htm",
+      "publisher": "SEC EDGAR - Eli Lilly FY2024 Form 10-K",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2024 net income and YoY growth",
+      "value": "$10,590.0M, +102% YoY",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947825000067/lly-20241231.htm",
+      "publisher": "SEC EDGAR - Eli Lilly FY2024 Form 10-K",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2024 gross margin as percent of revenue",
+      "value": "81.3% (gross profit $36,624.4M), up from 79.2% in 2023",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947825000067/lly-20241231.htm",
+      "publisher": "SEC EDGAR - Eli Lilly FY2024 Form 10-K",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2022 total revenue (used for 3-year revenue CAGR)",
+      "value": "$28,541M",
+      "url": "https://stockanalysis.com/stocks/LLY/financials/",
+      "publisher": "stockanalysis.com",
+      "as_of": "2022-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2023 total revenue",
+      "value": "$34,124M",
+      "url": "https://stockanalysis.com/stocks/LLY/financials/",
+      "publisher": "stockanalysis.com",
+      "as_of": "2023-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "3-year revenue CAGR FY2022 to FY2024",
+      "value": "25.6% ((45043/28541)^(1/2)-1)",
+      "url": "https://stockanalysis.com/stocks/LLY/financials/",
+      "publisher": "stockanalysis.com (computed from FY2022 and FY2024 revenue)",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2024 ROIC (return on invested capital)",
+      "value": "16.39%",
+      "url": "https://stockanalysis.com/stocks/LLY/financials/ratios/",
+      "publisher": "stockanalysis.com",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2024 net debt to EBITDA ratio",
+      "value": "2.07x",
+      "url": "https://stockanalysis.com/stocks/LLY/financials/ratios/",
+      "publisher": "stockanalysis.com",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2024 total debt and cash (basis for net debt)",
+      "value": "Total debt $33,644M (ST $5,117M + LT $28,527M); cash & equivalents $3,268M; net debt ~$30,376M",
+      "url": "https://stockanalysis.com/stocks/LLY/financials/balance-sheet/",
+      "publisher": "stockanalysis.com",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2024 free cash flow (operating cash flow minus capex)",
+      "value": "$3,760M (OCF $8,818M - capex $5,058M)",
+      "url": "https://stockanalysis.com/stocks/LLY/financials/cash-flow-statement/",
+      "publisher": "stockanalysis.com",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "TTM free cash flow",
+      "value": "$11,823M",
+      "url": "https://stockanalysis.com/stocks/LLY/financials/cash-flow-statement/",
+      "publisher": "stockanalysis.com",
+      "as_of": "2026-03-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "TTM diluted EPS",
+      "value": "$28.15",
+      "url": "https://stockanalysis.com/stocks/LLY/financials/",
+      "publisher": "stockanalysis.com",
+      "as_of": "2026-03-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "Diluted shares outstanding (Q1 2026), used for FCF/share ~$13.20",
+      "value": "895.90M",
+      "url": "https://www.macrotrends.net/stocks/charts/LLY/eli-lilly/shares-outstanding",
+      "publisher": "Macrotrends",
+      "as_of": "2026-03-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "Q1 2026 revenue and YoY growth",
+      "value": "$19.8B, +56% YoY",
+      "url": "https://www.prnewswire.com/news-releases/lilly-reports-first-quarter-2026-financial-results-raises-full-year-guidance-and-highlights-momentum-of-new-medicines-302758113.html",
+      "publisher": "Eli Lilly Q1 2026 earnings press release (PR Newswire)",
+      "as_of": "2026-03-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "Q1 2026 reported diluted EPS and YoY growth",
+      "value": "$8.26, +170% YoY (non-GAAP $8.55, +156%)",
+      "url": "https://www.prnewswire.com/news-releases/lilly-reports-first-quarter-2026-financial-results-raises-full-year-guidance-and-highlights-momentum-of-new-medicines-302758113.html",
+      "publisher": "Eli Lilly Q1 2026 earnings press release (PR Newswire)",
+      "as_of": "2026-03-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "Q1 2026 gross margin",
+      "value": "81.9% (vs 82.5% Q1 2025)",
+      "url": "https://www.prnewswire.com/news-releases/lilly-reports-first-quarter-2026-financial-results-raises-full-year-guidance-and-highlights-momentum-of-new-medicines-302758113.html",
+      "publisher": "Eli Lilly Q1 2026 earnings press release (PR Newswire)",
+      "as_of": "2026-03-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "Zepbound Q1 2026 revenue and growth",
+      "value": "$4,160M, +80% YoY",
+      "url": "https://www.tikr.com/blog/eli-lilly-reports-19-8b-q1-revenue-as-glp-1-sales-surge-56-year-over-year",
+      "publisher": "TIKR (citing Eli Lilly Q1 2026 results)",
+      "as_of": "2026-03-31",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "FY2026 full-year guidance",
+      "value": "Revenue $82.0B-$85.0B; non-GAAP EPS $35.50-$37.00 (midpoint $36.25)",
+      "url": "https://www.prnewswire.com/news-releases/lilly-reports-first-quarter-2026-financial-results-raises-full-year-guidance-and-highlights-momentum-of-new-medicines-302758113.html",
+      "publisher": "Eli Lilly Q1 2026 earnings press release (PR Newswire)",
+      "as_of": "2026-04-30",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "Orforglipron (oral GLP-1) Phase 3 success and regulatory submissions",
+      "value": "Successful in third Phase 3 trial; global regulatory submissions, potential U.S. obesity action in 2026",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-successful-third-phase-3-trial",
+      "publisher": "Eli Lilly Investor Relations",
+      "as_of": "2026-06-27",
+      "retrieved": "2026-06-27"
+    },
+    {
+      "claim": "Current share price",
+      "value": "$1,206.57",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca paper trading feed",
+      "as_of": "2026-06-27",
+      "retrieved": "2026-06-27"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}
