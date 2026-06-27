@@ -17,6 +17,7 @@ CRM
 V
 MA
 JPM
+SPGI  # financial data, ratings, indices — wide moat, added 2026-06-27
 
 # --- Consumer staples ---
 COST
@@ -35,6 +36,8 @@ UNH
 JNJ
 LLY
 ABBV
+ISRG  # robotic surgical systems, da Vinci — wide moat, added 2026-06-27
+TMO   # life sciences tools, reagents, CDMO — wide moat, added 2026-06-27
 
 # --- Industrials ---
 CAT
