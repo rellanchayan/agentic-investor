@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-29",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 736.67,
+  "spy_sma200": 690.93,
+  "spy_premium_to_200d_pct": 6.6,
+  "futures_this_morning": {
+    "sp500_pct": "+0.8%",
+    "nasdaq100_pct": "+1.2%",
+    "driver": "US-Iran ceasefire over Strait of Hormuz; tech bounce after last week's -4.6% Nasdaq loss"
+  },
+  "valuation": {
+    "shiller_cape": 39.64,
+    "shiller_cape_vs_longterm_avg_pct": "+23%",
+    "forward_pe": 22.06,
+    "assessment": "expensive"
+  },
+  "inflation": {
+    "core_pce_yoy_may2026": "3.4%",
+    "pce_yoy_may2026": "4.1%",
+    "trend": "rising",
+    "vs_fed_target": "above"
+  },
+  "rates": {
+    "fed_funds_range": "3.50-3.75%",
+    "last_decision": "2026-06-17",
+    "decision": "hold",
+    "outlook": "possible hike in 2026; dot plot pushed cuts to 2027-2028",
+    "direction": "steady-to-higher"
+  },
+  "events": [
+    "Wed Jul 1 9:30am ET — Fed Chair Warsh speaks (Europe; any hawkish tone moves rates)",
+    "Thu Jul 2 8:30am ET — NFP jobs report (June, consensus +172k; released one day early for July 4 holiday)"
+  ],
+  "earnings_season": "not active",
+  "geopolitical": "US-Iran ceasefire announced over weekend; Strait of Hormuz reopening; situation fluid",
+  "note": "Market is in a technical uptrend (SPY 6.6% above 200-day SMA) but is expensive by any valuation measure. The Fed is on hold with a bias toward hikes, not cuts. Core PCE is running at 3.4%, well above target. A big jobs number Thursday could push rate-hike odds higher. We hold no positions and have full budget available, but the cautious posture stands: demand a meaningful margin of safety before deploying cash.",
+  "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-rise-113307203.html",
+    "https://www.cnbc.com/2026/06/28/stock-futures-today-live-updates.html",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "https://finance.yahoo.com/economy/policy/article/pce-report-feds-preferred-inflation-measure-hits-3-year-high-keeping-talk-of-possible-rate-hike-in-play-124158491.html",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+  ]
+}
