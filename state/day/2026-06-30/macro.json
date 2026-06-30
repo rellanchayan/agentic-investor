@@ -1,0 +1,35 @@
+{
+  "date": "2026-06-30",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 744.75,
+  "spy_sma200": 691.39,
+  "spy_premium_to_200d_pct": 7.72,
+  "events": [
+    "JOLTs Job Openings today ~2:00 PM ET",
+    "CB Consumer Confidence today ~2:00 PM ET",
+    "Chicago PMI today ~1:45 PM ET",
+    "ADP Employment Change Wed Jul 1 ~12:15 PM ET",
+    "ISM Manufacturing PMI Wed Jul 1 ~2:00 PM ET",
+    "Non-Farm Payrolls (Jobs Report) Thu Jul 2 ~8:30 AM ET",
+    "CPI release Tue Jul 14",
+    "FOMC meeting Jul 28-29 (no rate change expected, 79.5% odds)"
+  ],
+  "rates": "steady at 3.50-3.75%",
+  "inflation": "Core PCE 3.4% YoY May 2026; CPI 4.2% YoY May 2026 — both above Fed 2% target",
+  "futures_this_morning": "S&P 500 futures ~7,455 (slightly positive); Nasdaq 100 futures +0.40%",
+  "valuation": "Trailing P/E ~25.3 (near long-term average); Shiller CAPE 39.64 (23% above its own long-term average of 32.21) — signals elevated long-term valuation",
+  "note": "SPY is 7.7% above its 200-day average, signaling an uptrend, but the market is not cheap by cyclically-adjusted measures (CAPE 39.6). Inflation is running well above the Fed target (core PCE 3.4%, CPI 4.2%), rates are steady at 3.50-3.75% with little relief in sight before year-end. A heavy week of macro events culminates in Friday's Jobs Report. Our own candidate watchlist shows MSFT at only a 1.6% margin of safety and AAPL 46% above our fair value — neither is in the buy zone under normal conditions. Cautious posture is warranted: demand a larger discount before deploying cash.",
+  "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-30-2026",
+    "https://www.barchart.com/futures/quotes/NMM26",
+    "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+    "https://polymarket.com/event/fed-decision-in-july-181",
+    "https://tradingeconomics.com/united-states/calendar",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://tradingeconomics.com/united-states/core-pce-price-index-annual-change",
+    "https://www.bls.gov/schedule/news_release/cpi.htm"
+  ]
+}
