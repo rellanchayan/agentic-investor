@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-01",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 746.00,
+  "spy_sma200": 691.84,
+  "spy_premium_to_200d_pct": 7.8,
+  "events": [
+    "ISM Manufacturing PMI June 2026 released at 10:00am ET today (53.3 — expansion)",
+    "June Jobs Report (nonfarm payrolls) released Thu Jul 2 at 8:30am ET (markets closed Fri Jul 4)",
+    "US equity markets closed Fri Jul 3 in observance of Independence Day (Jul 4 falls on Saturday)",
+    "Next FOMC meeting: Jul 28-29, decision Jul 29 at 2:00pm ET",
+    "Q2 2026 earnings season begins in earnest mid-July"
+  ],
+  "rates": "steady — Fed held at 3.50%–3.75% at Jun 17 meeting; next decision Jul 29; ~80% market odds of no change",
+  "valuation": "elevated — trailing P/E ~25, CAPE ~39.9 (125% above historical average); forward P/E ~20",
+  "q2_market_performance": "S&P 500 +14% in Q2 2026, best quarter since 2020; Nasdaq +20% in Q2",
+  "futures_this_morning": "S&P 500 futures -0.23%, Nasdaq futures -0.81% — modest pullback after strong quarter",
+  "ism_manufacturing": "53.3 in June — 20th consecutive month of expansion; new orders 56.0",
+  "tariff_risk": "Section 122 universal 10% tariff authority expires Jul 24; administration signaling further tariffs (copper 50%, Brazil 50%) in coming weeks",
+  "note": "Market is technically in an uptrend (SPY 7.8% above 200d average) and finished Q2 with exceptional gains. However, valuation is stretched (trailing P/E ~25, CAPE ~40), inflation remains above the Fed's 2% target, and tariff policy is actively unsettled with a key authority expiring July 24. Futures are mildly negative this morning. The June jobs report drops tomorrow (Thu Jul 2) — a strong print could reignite rate-hike fears. We hold 100% cash and have no positions. In this environment, we demand a genuine margin of safety before buying, not just a fair price.",
+  "sources": [
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://polymarket.com/event/fed-decision-in-july-181",
+    "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-53-3-june-2026-ism-manufacturing-pmi-report-302814991.html",
+    "https://www.kiplinger.com/investing/economy/jobs-report-june-2026-what-to-expect",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.advisorperspectives.com/dshort/updates/2026/06/02/p-e10-and-market-valuation-may-2026",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-july-1-2026-nasdaq-futures-slip-after-strongest-quarter-since-2020",
+    "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+    "https://finance.yahoo.com/markets/stocks/articles/p-500-9-2026-wall-093200956.html"
+  ]
+}
