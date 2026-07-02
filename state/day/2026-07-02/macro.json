@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-02",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 746.85,
+  "spy_sma200": 692.27,
+  "sp500_index": 7501.65,
+  "sp500_pe_ratio": 26.84,
+  "sp500_pe_percentile": "89th-91st historically",
+  "events": [
+    "June nonfarm payrolls released today 8:30am ET: +57k vs +113k expected; unemployment 4.2%",
+    "US markets CLOSED Fri Jul 3 (Independence Day observed; Jul 4 falls on Saturday)",
+    "ISM Services PMI Mon Jul 6",
+    "FOMC minutes Wed Jul 8",
+    "CPI release (June inflation) Tue Jul 14 8:30am ET",
+    "FOMC rate decision Tue-Wed Jul 28-29"
+  ],
+  "rates": "steady at 3.50-3.75%; Sep hike probability fell to ~51% after weak jobs print",
+  "note": "SPY is 7.9% above its 200-day average — the market is in an uptrend, not a crisis. However, the S&P 500 P/E near 27 sits at the 89th-91st historical percentile, meaning the market is expensive by long-run standards. All three candidates with active theses (AAPL, MSFT, V) trade above our base fair values. Rates remain elevated at 3.5-3.75% and a September hike is still a coin-flip after today's soft jobs report. Two significant macro events ahead — CPI on Jul 14 and the FOMC decision Jul 28-29 — could move prices materially. Hold cash; demand a larger margin of safety than normal before buying.",
+  "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-2-223136955.html",
+    "https://finance.yahoo.com/economy/articles/u-jobs-report-june-2026-123456841.html",
+    "https://www.schwab.com/learn/story/stock-market-update-open",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.currentmarketvaluation.com/models/price-earnings.php",
+    "https://eciks.org/11466-23627-july-2026-calendar-fomc-earnings",
+    "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026"
+  ]
+}
