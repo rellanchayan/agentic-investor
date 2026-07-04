@@ -17,6 +17,8 @@ CRM
 V
 MA
 JPM
+BLK  # BlackRock: world's largest asset manager (~$14T AUM), Aladdin platform moat, growing FCF
+MCO  # Moody's: credit-ratings duopoly + embedded analytics software, >33% FCF margins
 
 # --- Consumer staples ---
 COST
@@ -47,6 +49,7 @@ CVX
 
 # --- Communication / media ---
 DIS
+META  # Meta Platforms: 3.5B daily users, network-effect moat, ~$48B FCF (2026), 40% op margins
 
 # --- Broad-market ballast & benchmark (we measure ourselves against SPY) ---
 SPY
