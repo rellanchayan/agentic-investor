@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-07",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 745.98,
+  "spy_sma200": 693.15,
+  "spy_premium_to_200d_pct": 7.6,
+  "events": [
+    "FOMC meeting minutes release — Wed Jul 8 (time TBD ET)",
+    "June CPI release — Tue Jul 14 at 8:30am ET",
+    "FOMC rate decision (next meeting) — Tue Jul 29"
+  ],
+  "rates": "on hold but hawkish — fed funds 3.50-3.75%, new Chair Warsh, 9 of 19 officials favor at least one hike in 2026",
+  "inflation": "elevated — May CPI +4.2% YoY (highest in 3 years); core CPI +2.82% YoY; 3-month annualized headline running ~8.2%",
+  "market_valuation": "expensive — trailing P/E ~25-32x depending on method; historical median ~18x; one model shows S&P 500 ~76% overvalued vs historical norms",
+  "today_futures": "S&P 500 futures -0.1 to -0.25% this morning; semiconductor names weak after Samsung earnings disappointed despite 19x profit surge; Micron and Sandisk -4%+ premarket",
+  "note": "SPY is technically in an uptrend (7.6% above 200-day average), but valuation is stretched, inflation is well above the Fed target, the new Chair is hawkish, FOMC minutes land Wednesday and CPI lands next Tuesday — both carry risk of hawkish surprises. All three candidates with live theses (AAPL, MSFT, V) trade above our fair-value estimates. Demand a meaningful margin of safety before deploying any of the $5,000 daily budget today.",
+  "sources": [
+    "https://www.benzinga.com/markets/prediction-markets/26/07/60297181/sp500-july-7-open-up-or-down-polymarket-dow-record-semiconductor-stocks-market-rotation",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-6-2026",
+    "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-july-6-nasdaq-sp-rise-225645420.html",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://www.bls.gov/news.release/cpi.htm",
+    "https://www.bls.gov/schedule/news_release/cpi.htm",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://robinhood.com/us/en/prediction-markets/economics/events/inflation-in-june-2026-cpi-yoy-jul-14-2026/"
+  ]
+}
