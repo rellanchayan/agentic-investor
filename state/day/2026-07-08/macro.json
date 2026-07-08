@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-08",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 741.97,
+  "spy_sma200": 693.56,
+  "events": [
+    "FOMC minutes (June 16-17 meeting) release TODAY at 2:00 PM ET — hawkish dot plot with 9/18 members projecting a rate hike",
+    "Q2 earnings season begins this week: PepsiCo Jul 9, Delta Jul 10, major banks (JPM, BAC, C, WFC) Jul 14",
+    "CPI June 2026 release Tuesday Jul 14 at 8:30 AM ET",
+    "FOMC rate decision Jul 29"
+  ],
+  "rates": "on hold 3.50-3.75%; hawkish tilt — 9 of 18 FOMC members project at least one hike by year-end 2026",
+  "note": "S&P 500 futures down ~1% this morning after Trump declared the US-Iran ceasefire over, triggering a 5%+ surge in oil prices. This adds an inflation risk just as the Fed is already hawkish. FOMC minutes from the June meeting drop today at 2 PM ET — the primary clue to the rate path since new Fed Chair Warsh gave no forward guidance at the meeting. Dot plot shows 9/18 officials project at least one hike; median PCE forecast raised to 3.6%. Market CAPE ratio sits at 39.9 (125% above its historic average). None of our thesis candidates carry a positive margin of safety at current prices. Geopolitical uncertainty, hot inflation, possible Fed hike, and stretched valuations all argue for holding cash and demanding a larger discount.",
+  "sources": [
+    "https://www.benzinga.com/markets/prediction-markets/26/07/60324809/sp500-july-8-open-up-or-down-polymarket-fed-minutes-iran-oil-ai-selloff",
+    "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081413844.html",
+    "https://www.tradingview.com/news/coinpedia:a9f8c9851094b:0-fed-minutes-july-8-will-the-fomc-signal-a-rate-cut-or-another-hike/",
+    "https://www.techtimes.com/articles/319827/20260707/fed-minutes-due-wednesday-nine-hawkish-dots-warshs-deliberate-silence.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "https://www.bls.gov/schedule/news_release/cpi.htm",
+    "https://www.bls.gov/news.release/cpi.htm",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.advisorperspectives.com/dshort/updates/2026/06/02/p-e10-and-market-valuation-may-2026",
+    "https://insight.factset.com/sp-500-earnings-season-preview-q2-2026",
+    "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-season-nears-kickoff-231000245.html"
+  ]
+}
