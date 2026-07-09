@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-09",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 748.09,
+  "spy_sma200": 694.0,
+  "spy_premium_to_200d_pct": 7.8,
+  "rationale": "SPY is 7.8% above its 200-day average and trades at a stretched valuation (trailing P/E ~25, Shiller CAPE ~40). The 10-year Treasury yield sits at 4.57%, near a 4-week high. The U.S.-Iran conflict escalated overnight with fresh strikes, pushing Brent crude to $78/barrel and introducing new inflation-via-energy risk. FOMC minutes released July 8 show officials divided on rate direction — mildly less hawkish than the dot plot implied, but not a clear all-clear. June CPI on July 14 is the next major catalyst and the Cleveland Fed nowcast puts it at ~3.96% YoY. No candidate in our watchlist offers a meaningful positive margin of safety.",
+  "events": [
+    "Weekly jobless claims Jul 10 8:30am ET",
+    "June 2026 CPI release Jul 14 8:30am ET — Cleveland Fed nowcast ~3.96% YoY",
+    "Next FOMC rate decision Jul 29"
+  ],
+  "key_risks": [
+    "June CPI (Jul 14) expected ~3.96% YoY — a hot print would reprice rate hike odds sharply",
+    "Iran war escalation pushing Brent crude to $78/barrel, adding new inflation pressure via energy",
+    "10-year Treasury yield at 4.57% near 4-week high — elevated cost of capital caps equity valuations",
+    "Market valuation stretched: Shiller CAPE ~40 is 125% above historical average; trailing P/E ~25 vs 18 median",
+    "NY Fed consumer inflation expectations near 3-year highs — Fed cannot ease if expectations are unanchored",
+    "Next FOMC meeting July 29 is a live risk event with committee divided on rate direction"
+  ],
+  "rates": "elevated_unchanged",
+  "ten_year_yield_pct": 4.57,
+  "fed_funds_rate_range": "3.50-3.75",
+  "oil_brent_usd": 78.19,
+  "inflation_cpi_yoy_latest": "4.2% (May 2026)",
+  "inflation_cpi_june_2026_forecast_yoy": "~3.96% (Cleveland Fed nowcast)",
+  "fomc_minutes_july8_summary": "Officials divided; most participants see fed funds rate unchanged or slightly below current level by year-end — a marginal dovish tilt vs. June dot plot, but no commitment to cuts",
+  "note": "Posture maintained CAUTIOUS from prior day (Jul 7). The one development that marginally softened the picture is the FOMC minutes tone — 'unchanged or slightly below current level by year-end' is less alarming than 9 of 19 dots pointing to hikes. But Iran war escalation, elevated oil, a 4.57% 10-year yield, and the June CPI release five days away keep the risk skew firmly to the downside for stocks. Our three researched candidates (AAPL at -60% MoS, MSFT at +0.2% MoS, V at -17% MoS) offer no actionable entry in a cautious posture. Hold cash.",
+  "sources": [
+    "https://www.benzinga.com/markets/prediction-markets/26/07/60350218/sp500-july-9-open-up-or-down-polymarket-iran-oil-fed-minutes",
+    "https://www.schwab.com/learn/story/stock-market-update-open",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-9-093800837.html",
+    "https://www.techtimes.com/articles/319827/20260707/fed-minutes-due-wednesday-nine-hawkish-dots-warshs-deliberate-silence.htm",
+    "https://www.tradingview.com/news/coinpedia:a9f8c9851094b:0-fed-minutes-due-wednesday-nine-hawkish-dots-warshs-deliberate-silence-fomc-signal-rate-cut-hike/",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://robinhood.com/us/en/prediction-markets/economics/events/inflation-in-june-2026-cpi-yoy-jul-14-2026/",
+    "https://www.ksat.com/business/2026/07/09/asian-stocks-are-mixed-and-oil-prices-slip-after-iran-and-us-launch-fresh-attacks/",
+    "https://simplywall.st/stocks/us/tech/nyse-anet/arista-networks/news/us-stock-market-today-sp-500-futures-slip-as-rising-yields-a"
+  ]
+}
