@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-10",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 752.07,
+  "spy_sma200": 694.44,
+  "spy_pct_above_200d": 8.3,
+  "futures_this_morning": "S&P 500 futures near flat (-0.16%); Nasdaq 100 -0.3%; Dow futures +94 pts; S&P 500 up ~+0.8% for the week",
+  "events": [
+    "CPI June 2026 release Tue 2026-07-14 8:30am ET (BLS)",
+    "Q2 bank earnings start week of Jul 14: Citi/WFC/GS/MS Tue Jul 14; JPMorgan Wed Jul 15",
+    "Big Tech earnings (MSFT, AAPL, GOOGL, META, AMZN) expected late July",
+    "FOMC meeting Jul 28-29; rate decision announced Wed 2026-07-29 2:00pm ET",
+    "Next jobs report (July data) Fri 2026-08-07"
+  ],
+  "rates": "steady — Fed funds 3.50-3.75%, held for 4 consecutive meetings; next decision Jul 29",
+  "geopolitical": "Active US-Iran military conflict: US struck 80+ Iranian targets Jul 7 after Iran attacked US military bases in Gulf states; Iran retaliated vs US forces in Bahrain and Kuwait; Brent crude +5.4% to $78.19; IMF cut global 2026 growth forecast to 3.0% from 3.5%; ceasefire declared then rescinded by Trump",
+  "jobs": "June 2026: +57K payrolls (vs +113K expected, roughly half); unemployment 4.2%; April and May revised down 74K combined; wage growth +3.5% YoY — labor market clearly weakening",
+  "valuation": "Trailing P/E ~25x (85th percentile historically, rated Expensive); forward P/E ~20x (at 5-year average); CAPE signals historically overvalued; Q2 2026 earnings growth forecast +22% (strong)",
+  "note": "Posture CAUTIOUS. Four concurrent headwinds: (1) active US-Iran military conflict with oil spike and global growth downgrade; (2) CPI print due in 4 days — market-moving event under inflation uncertainty; (3) major bank earnings start next week, first real Q2 data; (4) trailing P/E expensive at 85th percentile historically. The jobs miss (+57K vs +113K) adds an economic softening signal. SPY is above its 200-day average (+8.3%) so the trend is still up, but the risk-reward for deploying fresh cash this week is poor. All-cash account — no urgency. Demand wider margin of safety than normal before any buy.",
+  "summary": "Cautious posture. SPY in uptrend but expensive by historical trailing P/E. Active US-Iran conflict has spiked oil and cut global growth forecasts. CPI report is 4 days away; major bank earnings start next week. June jobs were half of expectations. No rush to deploy cash — wait for margin of safety.",
+  "risks": [
+    "US-Iran military escalation could spike oil further and hit equities broadly",
+    "CPI Jul 14 could surprise hot, delaying Fed cuts and pressuring valuations",
+    "Weak jobs trend may signal recession risk if confirmed in future reports",
+    "Bank earnings may reveal credit stress or lower guidance given macro uncertainty",
+    "FOMC Jul 29 — if inflation remains sticky, no cut expected and tone could turn hawkish"
+  ],
+  "sources": [
+    "https://www.detroitnews.com/story/business/2026/07/10/stocks-wall-street-friday/90872951007/",
+    "https://sundayguardianlive.com/business/us-stock-market-prediction-today-july-10-sp-500-futures-hold-flat-as-nasdaq-100-slips-03-dow-futures-gain-94-points-while-oil-cools-on-renewed-us-iran-deal-hopes-232918/",
+    "https://www.benzinga.com/markets/equities/26/07/60377462/stock-market-today-dow-jones-futures-gain-nasdaq-100-falls-as-investors-await-sk-hynix-debut-and-us-reportedly-mulls-technical-talks-with-iran-pmgc-holdings-wd-40-netfli",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "https://www.bls.gov/schedule/news_release/cpi.htm",
+    "https://finance.yahoo.com/economy/articles/bls-jobs-report-57k-half-161200954.html",
+    "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "https://en.wikipedia.org/wiki/2026_Iran_war",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-8-2026",
+    "https://www.currentmarketvaluation.com/models/price-earnings.php",
+    "https://investsnips.com/sp500-pe-ratio/",
+    "https://us.plus500.com/en/newsandmarketinsights/q2-2026-earnings-season",
+    "https://bloomberg.com/news/articles/2026-07-02/us-jobs-report-june-2026-key-takeaways-on-employment-payrolls"
+  ]
+}
