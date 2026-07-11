@@ -17,6 +17,7 @@ CRM
 V
 MA
 JPM
+SPGI  # S&P Global — credit ratings & index licensing near-duopoly; added 2026-07-11
 
 # --- Consumer staples ---
 COST
@@ -29,6 +30,7 @@ PEP
 HD
 MCD
 NKE
+TJX   # TJX Companies — world's largest off-price retailer; wide Morningstar moat; added 2026-07-11
 
 # --- Health care ---
 UNH
@@ -40,6 +42,7 @@ ABBV
 CAT
 HON
 UNP
+ODFL  # Old Dominion Freight Line — #1 LTL carrier by service quality; network density moat; added 2026-07-11
 
 # --- Energy ---
 XOM
