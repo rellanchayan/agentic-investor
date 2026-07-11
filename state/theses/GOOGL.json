@@ -1,0 +1,113 @@
+{
+  "ticker": "GOOGL",
+  "thesis_id": "GOOGL-2025Q4",
+  "company": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "as_of": "2025-Q4",
+  "retrieved": "2026-07-11",
+  "refresh_due": "2026-10-11",
+  "business_summary": "Alphabet is the parent of Google. It makes most of its money selling advertising: text/shopping ads on Google Search, ads on YouTube, and ads placed across the web and apps via its ad network (the 'Google Services' segment). It also runs Google Cloud (infrastructure, platform and Workspace software sold to businesses), a fast-growing and now-profitable segment, plus subscriptions (YouTube Premium/TV, Google One), the Android and Chrome platforms, Pixel hardware, and long-shot 'Other Bets' (e.g. Waymo self-driving). FY2025 total revenue was $402.8B, net income $132.2B, diluted EPS $10.81. The economic engine is Search: a global habit and default distribution (Android, Chrome, the Apple deal) that competitors struggle to dislodge, feeding a data/quality flywheel and enormous ad monetization. Over 5-10 years Alphabet should still be winning because of that Search moat, YouTube's dominance in online video, and Cloud's scale ramp - though generative-AI search behavior and antitrust remedies are real threats to the core.",
+  "moat": {
+    "type": "Network effects and scale in Search/YouTube ad marketplaces, dominant default distribution (Android/Chrome), brand, data flywheel, and Cloud scale economies",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "12.5% CAGR FY2022->FY2025 ($282.836B -> $402.836B); FY2024->FY2025 +15.1%",
+    "gross_margin": "59.65% (FY2025: revenue $402.836B minus cost of revenue $162.535B = gross profit $240.301B)",
+    "roic": "~32% estimated (NOPAT ~$107.4B = operating income $129.039B x (1 - 16.8% effective tax) on invested capital ~$337B = debt $48.5B + equity $415.3B - cash & marketable securities $126.8B)",
+    "net_debt_to_ebitda": "net cash (negative): total debt ~$48.5B vs cash + marketable securities ~$126.8B, i.e. ~$78.3B net cash at 2025-12-31",
+    "fcf_positive": "yes (FY2025 FCF ~$73.3B = operating cash flow $164.713B - capex $91.447B; note capex nearly doubled YoY, so FCF grew far slower than earnings)"
+  },
+  "valuation": {
+    "price": 357.17,
+    "price_source": "alpaca",
+    "price_asof": "2026-07-10",
+    "fair_value_low": 169.25,
+    "fair_value_base": 199.19,
+    "fair_value_high": 231.51,
+    "method": "Blended pe (19/23/27x on FY2025 diluted EPS $10.81 -> $205/$249/$292) + fcf_yield (4.5/4.0/3.5% target on FY2025 FCF/share $5.99 -> $133/$150/$171). Band is dragged low by the FCF method because trailing FCF is temporarily depressed by an AI-capex peak; even the PE-only high (27x = $292) sits below the $357.17 price. At $357 the trailing P/E is ~33x, a premium to Alphabet's historical ~20-25x, so there is no margin of safety."
+  },
+  "conviction": 3,
+  "bull_case": [
+    "Wide moat: Google Search is a global default with network effects, a data flywheel, and entrenched distribution via Android and Chrome; YouTube dominates online video advertising.",
+    "Elite economics: ~60% gross margin, ~32% operating margin ($129.0B operating income on $402.8B revenue FY2025), ~32% estimated ROIC, and a net-cash balance sheet (~$78.3B net cash).",
+    "Powerful growth and operating leverage: revenue +15.1% and net income +32% in FY2025 ($100.1B -> $132.2B); diluted EPS rose from $8.04 to $10.81.",
+    "Google Cloud is now a scaled, profitable growth engine, and Alphabet is a top-tier AI player (Gemini, DeepMind, TPUs) able to defend Search and monetize AI across its products.",
+    "Massive owner cash generation ($164.7B operating cash flow FY2025) funds buybacks, a dividend, and AI investment without leverage."
+  ],
+  "risks": [
+    "Valuation: at $357.17 (~33x trailing EPS) the stock trades far above our blended fair value (base ~$199, PE-only high ~$292); margin of safety is deeply negative, so we would be paying a full-to-rich price.",
+    "AI capex is exploding - capex jumped from $52.5B (FY2024) to $91.4B (FY2025), holding free cash flow roughly flat despite +32% earnings; if AI returns disappoint, FCF and returns on that spend suffer.",
+    "Generative-AI search (ChatGPT, Perplexity, and Google's own AI Overviews) could erode the click-and-ad economics of the core Search cash cow.",
+    "Antitrust: the U.S. DOJ won its Search monopoly case; remedies could threaten the Apple default-search payments and Google's distribution deals, plus a separate ad-tech case and EU actions.",
+    "Ad revenue is cyclical and concentrated; a macro/advertising downturn would hit the majority of profits. Dual-class shares concentrate control with founders."
+  ],
+  "what_would_break_thesis": [
+    "Total revenue declines year-over-year for two consecutive fiscal years.",
+    "Google Services (advertising) revenue declines for two consecutive quarters outside a broad macro recession, signaling structural Search erosion.",
+    "Company-wide operating margin falls below 20% for two consecutive quarters (sustained margin destruction from low-return AI capex or ad-price deflation).",
+    "Free cash flow turns negative for a full fiscal year, or net-debt-to-EBITDA rises above 1.5x (loss of the net-cash balance sheet).",
+    "ROIC falls below 15% on a sustained multi-year basis.",
+    "A binding antitrust remedy that forces divestiture of Chrome/Android or bans default-search payments in a way that materially cuts Search revenue.",
+    "A serious accounting restatement or material governance red-flag event."
+  ],
+  "catalysts": [
+    "AI capex growth normalizes and free cash flow re-expands toward earnings, closing the FCF-to-net-income gap.",
+    "Continued Google Cloud revenue growth and margin expansion, plus evidence AI Overviews/Gemini defend rather than cannibalize Search monetization.",
+    "Favorable or contained antitrust remedy outcomes removing the distribution overhang.",
+    "A price pullback toward the $200s (PE-based band) that would open a genuine margin of safety."
+  ],
+  "sources": [
+    {
+      "claim": "FY2025 total revenue $402.836B; FY2024 $350.018B; FY2023 $307.394B; FY2022 $282.836B (used for 3-year CAGR of 12.5%)",
+      "value": "402836 / 350018 / 307394 / 282836 (millions USD)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet FY2025 10-K, filed 2026-02-05)",
+      "as_of": "FY2025 (ended 2025-12-31)",
+      "retrieved": "2026-07-11"
+    },
+    {
+      "claim": "FY2025 net income $132.170B (FY2024 $100.118B; FY2023 $73.795B); operating income $129.039B; cost of revenue $162.535B (implied gross profit $240.301B, gross margin 59.65%); diluted EPS $10.81 (FY2024 $8.04); pretax income $158.826B; income tax $26.656B (effective rate 16.8%)",
+      "value": "net income 132170; operating income 129039; cost of revenue 162535; gross profit 240301; diluted EPS 10.81; pretax 158826; tax 26656",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet FY2025 10-K)",
+      "as_of": "FY2025 (ended 2025-12-31)",
+      "retrieved": "2026-07-11"
+    },
+    {
+      "claim": "FY2025 net cash from operations $164.713B; capex (purchases of property and equipment) $91.447B (FY2024 capex $52.535B); implied FCF ~$73.266B; FCF per share ~$5.99 on 12,230M diluted shares",
+      "value": "OCF 164713; capex 91447; FCF 73266; FCFps 5.99",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet FY2025 10-K)",
+      "as_of": "FY2025 (ended 2025-12-31)",
+      "retrieved": "2026-07-11"
+    },
+    {
+      "claim": "Balance sheet 2025-12-31: cash & equivalents $30.708B; marketable securities (current) $96.135B; long-term debt noncurrent $46.547B; long-term debt current $1.996B (total debt ~$48.543B); stockholders' equity $415.265B; net cash ~$78.3B",
+      "value": "cash 30708; marketable securities 96135; LT debt 46547; ST debt 1996; total debt 48543; equity 415265; net cash 78300",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet FY2025 10-K)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-07-11"
+    },
+    {
+      "claim": "FY2025 weighted-average diluted shares outstanding 12,230 million",
+      "value": "12230 (millions)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet FY2025 10-K)",
+      "as_of": "FY2025 (ended 2025-12-31)",
+      "retrieved": "2026-07-11"
+    },
+    {
+      "claim": "Current price (latest daily close 2026-07-10)",
+      "value": "357.17",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca",
+      "as_of": "2026-07-10",
+      "retrieved": "2026-07-11"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}
