@@ -1,0 +1,114 @@
+{
+  "ticker": "JPM",
+  "thesis_id": "JPM-2025Q4",
+  "company": "JPMorgan Chase & Co.",
+  "sector": "Financials",
+  "as_of": "2025-Q4",
+  "retrieved": "2026-07-11",
+  "refresh_due": "2026-10-11",
+  "business_summary": "JPMorgan Chase is the largest U.S. bank and one of the largest in the world. It makes money in four main ways: (1) Consumer & Community Banking - checking/savings accounts, credit cards (Chase is the #1 U.S. card issuer), auto loans, and home lending for tens of millions of retail customers; (2) Commercial & Investment Bank - advising companies on mergers, underwriting stock and bond issuance, trading, and treasury/payments services for corporations and governments; (3) Asset & Wealth Management - managing money for institutions and wealthy individuals (fees on assets); and (4) Corporate/treasury. A bank earns a spread between the interest it pays on deposits and the interest it earns on loans and securities (net interest income), plus fee income (cards, advisory, trading, asset management, payments). FY2025 reported total net revenue was $182.4B and net income was $57.0B ($20.02 diluted EPS). Why it should still be winning in 5-10 years: JPM has the industry's largest low-cost deposit base, a fortress balance sheet, the biggest technology budget in banking, and leading share in cards, investment banking, and payments - scale advantages that are extremely hard to replicate. NOTE ON BANK METRICS: banks do not have a 'gross margin' or traditional 'free cash flow'; the right measures are Return on Tangible Common Equity (ROTCE, 20% in FY2025), the efficiency/overhead ratio, net interest margin, and the CET1 regulatory capital ratio (14.5% at 2025-12-31).",
+  "moat": {
+    "type": "Scale + funding-cost advantage (huge sticky low-cost deposit base), high switching costs on primary bank/payment relationships, brand/trust, regulatory scale, and the largest tech spend in banking. Leading share in U.S. cards, investment banking and payments.",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "12.3% CAGR FY2022->FY2025 (reported total net revenue $128.695B -> $182.447B; SEC XBRL RevenuesNetOfInterestExpense)",
+    "gross_margin": "Not applicable to a bank. Bank-equivalent profitability: FY2025 ROTCE 20% and ROE 17% (see roic). Efficiency/overhead ratio and net interest margin are the relevant 'margin' measures; exact FY2025 efficiency ratio not captured from sources reviewed (unknown).",
+    "roic": "ROTCE (Return on Tangible Common Equity) 20% FY2025 - the correct return measure for a bank; ROE 17% FY2025. Well above the ~10% cost of equity, so the franchise compounds tangible book value.",
+    "net_debt_to_ebitda": "Not applicable to a bank (debt is a raw material for a bank, not just a liability). Capital-strength proxy: CET1 ratio (standardized) 14.5% at 2025-12-31, comfortably above regulatory minimums including buffers (~11-12%).",
+    "fcf_positive": "Not applicable to a bank (no traditional free cash flow). Proxy: yes - FY2025 net income $57.0B and a common dividend of $1.50/share per quarter (4Q25); consistently profitable and returns capital via dividends and buybacks."
+  },
+  "valuation": {
+    "price": 336.38,
+    "price_source": "alpaca",
+    "price_asof": "2026-07-10",
+    "fair_value_low": 238.44,
+    "fair_value_base": 285.35,
+    "fair_value_high": 321.50,
+    "method": "Blend of P/E (12/14/16x on FY2025 diluted EPS $20.02 -> 240/280/320) and P/TBV (2.2/2.7/3.0x on FY2025 tangible book value/share $107.56 -> 237/290/323); averaged. P/TBV base 2.7x is justified by 20% ROTCE via (ROTCE-g)/(r-g) with g=4%, r=10%. Bank-appropriate; no FCF/DCF used."
+  },
+  "conviction": 3,
+  "bull_case": [
+    "Wide moat: the largest U.S. bank with an unmatched low-cost deposit base, fortress balance sheet, and #1 positions in cards, investment banking and payments - scale that competitors cannot easily copy.",
+    "Best-in-class profitability: FY2025 ROTCE of 20% and ROE of 17%, well above cost of equity, compounding tangible book value (TBVPS up 11% YoY to $107.56).",
+    "Fortress capital: CET1 (standardized) 14.5% at 2025-12-31, well above regulatory requirements, giving room to absorb shocks, keep lending in downturns, and return capital.",
+    "Diversified earnings across consumer banking, cards, markets/trading, investment banking, payments and asset & wealth management - less reliant on any single revenue line.",
+    "Steadily grows revenue (12.3% CAGR FY2022->FY2025) and returns cash: $1.50/share quarterly dividend plus buybacks.",
+    "Largest technology budget in banking and scale in data/AI, widening the gap versus smaller banks over time."
+  ],
+  "risks": [
+    "Valuation: at $336.38 the stock trades ABOVE our base fair value ($285) and above the high end ($322) - margin of safety is about -18%. We would be paying a full-to-rich price; the market prices JPM at ~3.1x tangible book and ~17x earnings, near the high end of its historical range.",
+    "Cyclicality: bank earnings are cyclical. FY2025 net income ($57.0B) was down ~2% from FY2024 ($58.5B). A recession would raise credit-card and loan loss provisions and cut earnings quickly.",
+    "Interest-rate sensitivity: net interest income (a large share of revenue) rises and falls with rates and deposit behavior; falling rates or deposit repricing can compress net interest margin.",
+    "Regulation: banks are heavily regulated; higher capital requirements (e.g. Basel III endgame), stress-test outcomes, or new rules could cap buybacks and returns.",
+    "Credit and tail risk: a bank is a leveraged institution; a severe credit event, market shock, or operational/legal loss can hit a large, opaque balance sheet hard.",
+    "Key-person/leadership transition risk as long-tenured CEO succession plays out."
+  ],
+  "what_would_break_thesis": [
+    "ROTCE falls below 12% for two or more consecutive quarters (profitability moat eroding).",
+    "CET1 (standardized) ratio falls below 12% (capital strength deteriorating toward regulatory floors).",
+    "Reported total net revenue shrinks year-over-year for two consecutive fiscal years.",
+    "Net charge-offs / credit-loss provisions spike far above guidance, signalling a serious credit-quality break rather than normal cyclicality.",
+    "The dividend is cut, or buybacks are suspended by regulators due to capital weakness (not a routine stress-test tweak).",
+    "A serious accounting restatement, major control failure, or material governance/red-flag event."
+  ],
+  "catalysts": [
+    "A price pullback toward the $238-285 fair-value band, opening a real margin of safety to add.",
+    "Rising or stable net interest income if rates stay higher-for-longer and loan growth holds.",
+    "Capital returns: dividend increases and large buybacks if capital rules ease or excess CET1 is deployed.",
+    "Continued market-share gains in cards, payments and investment banking, and operating leverage from technology/AI investment."
+  ],
+  "sources": [
+    {
+      "claim": "Reported total net revenue: FY2022 $128.695B, FY2023 $158.104B, FY2024 $177.556B, FY2025 $182.447B (used for 12.3% 3y CAGR)",
+      "value": "128695 / 158104 / 177556 / 182447 (millions USD)",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000019617/us-gaap/RevenuesNetOfInterestExpense.json",
+      "publisher": "U.S. SEC EDGAR (XBRL company facts, from 10-K filings)",
+      "as_of": "FY2025 (year ended 2025-12-31)",
+      "retrieved": "2026-07-11"
+    },
+    {
+      "claim": "Net income: FY2022 $37.676B, FY2023 $49.552B, FY2024 $58.471B, FY2025 $57.048B",
+      "value": "37676 / 49552 / 58471 / 57048 (millions USD)",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000019617/us-gaap/NetIncomeLoss.json",
+      "publisher": "U.S. SEC EDGAR (XBRL company facts, from 10-K filings)",
+      "as_of": "FY2025 (year ended 2025-12-31)",
+      "retrieved": "2026-07-11"
+    },
+    {
+      "claim": "FY2025 results: net income $57.0B, diluted EPS $20.02, ROTCE 20%, ROE 17%, CET1 (standardized) 14.5% at 2025-12-31, tangible book value/share $107.56 (+11% YoY), book value/share $126.99, common dividend $1.50/share (4Q25)",
+      "value": "NI 57000M; EPS 20.02; ROTCE 20%; ROE 17%; CET1 14.5%; TBVPS 107.56; BVPS 126.99; DPS 1.50/qtr",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026001902/a4q25erfexhibit991narrative.htm",
+      "publisher": "U.S. SEC EDGAR (JPMorgan Chase 8-K, EX-99.1 4Q25 Earnings Release, filed 2026-01-13)",
+      "as_of": "FY2025 / Q4 2025 (period ended 2025-12-31)",
+      "retrieved": "2026-07-11"
+    },
+    {
+      "claim": "FY2025 Annual Report on Form 10-K (primary annual filing for the above figures)",
+      "value": "10-K accession 0001628280-26-008131, doc jpm-20251231.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+      "publisher": "U.S. SEC EDGAR (JPMorgan Chase 10-K, filed 2026-02-13)",
+      "as_of": "FY2025 (year ended 2025-12-31)",
+      "retrieved": "2026-07-11"
+    },
+    {
+      "claim": "Cross-check of diluted EPS and diluted share count (~2,782M FY2025); revenue/EPS history",
+      "value": "FY2025 diluted EPS 20.02; diluted shares ~2782M",
+      "url": "https://stockanalysis.com/stocks/JPM/financials/",
+      "publisher": "StockAnalysis.com (cross-check only, not primary)",
+      "as_of": "FY2025",
+      "retrieved": "2026-07-11"
+    },
+    {
+      "claim": "Current price (latest daily close 2026-07-10)",
+      "value": "336.38",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca",
+      "as_of": "2026-07-10",
+      "retrieved": "2026-07-11"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}
