@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-13",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 751.50,
+  "spy_sma200": 694.90,
+  "events": [
+    "CPI release Tue Jul 14 8:30am ET",
+    "Fed Chair Warsh House Financial Services Committee testimony Tue Jul 14 10:00am ET",
+    "PPI release Wed Jul 15 8:30am ET",
+    "Fed Chair Warsh Senate Banking Committee testimony Wed Jul 15 10:00am ET",
+    "FOMC meeting Jul 28-29 (no SEP; rate decision + press conference Jul 29 2:00pm ET)"
+  ],
+  "rates": "elevated, on hold but hawkish lean — fed funds 3.50%-3.75%, ~25% market-implied probability of Jul hike; inflation above 2% target",
+  "geopolitical": "Active US-Iran military exchange over Strait of Hormuz (weekend Jul 12-13); oil +4%; Asian equities sharply lower (Kospi -7%); S&P 500 futures pointing lower",
+  "valuation": "Expensive — trailing P/E ~24-25x, forward P/E ~20x; market at 89th percentile of historical valuations since 1871",
+  "candidate_check": "AAPL -63% vs base fair value; MSFT -2% vs base fair value; V -16% vs base fair value — no names within margin of safety",
+  "note": "Fresh geopolitical shock (US-Iran strikes, Strait of Hormuz control disputed) hits a market that was already expensive and facing an inflation print and a new Fed Chair's first testimony this week. Futures are down. Oil is up 4%. No watchlist names pass the margin-of-safety test. Demand maximum discount before any buy.",
+  "sources": [
+    "https://www.cnbc.com/2026/07/13/us-iran-war-hormuz-oil-trump.html",
+    "https://www.bloomberg.com/news/articles/2026-07-13/us-and-iran-trade-fresh-strikes-dispute-whether-hormuz-is-open",
+    "https://www.aljazeera.com/economy/2026/7/13/oil-prices-jump-as-us-and-iran-trade-attacks-over-strait-of-hormuz",
+    "https://www.benzinga.com/markets/equities/26/07/60408205/stock-market-today-dow-futures-gain-sp-500-slips-as-us-and-iran-exchange-strikes-saratoga-exxon-mobil-levi-strauss-in-focus",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://fred.stlouisfed.org/series/DFEDTARU"
+  ]
+}
