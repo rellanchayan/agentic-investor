@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-14",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 751.41,
+  "spy_sma200": 695.34,
+  "spy_pct_above_200d": 8.1,
+  "events": [
+    "CPI Jun 2026 released 8:30am ET: -0.4% MoM (exp -0.2%), +3.5% YoY (exp 3.8%) — cooler than expected",
+    "Core CPI Jun 2026: flat MoM (exp +0.2%), +2.6% YoY (exp 2.9%) — cooler than expected",
+    "Fed Chair Warsh House Financial Services testimony 10am ET (ongoing)",
+    "Bank earnings today: JPM, BAC, GS, WFC, C — JPM record quarterly profit, broad beat",
+    "PPI release Wed Jul 15 8:30am ET",
+    "Fed Chair Warsh Senate Banking testimony Wed Jul 15 10am ET",
+    "FOMC rate decision Tue Jul 29 2pm ET (next meeting Jul 28-29)"
+  ],
+  "rates": "uncertain — Fed funds rate 3.50-3.75%; market pricing ~50% chance of July hike before CPI; Warsh hawkish in tone but gave no forward guidance; cool CPI likely reduces hike odds somewhat",
+  "trailing_pe": 25.7,
+  "ten_year_yield": 4.59,
+  "note": "Cool June CPI is a genuine positive but does not change the core valuation picture. The market is trading at a trailing P/E of ~25-26x against a historical median of ~18x (91st percentile). Fed Chair Warsh gave his first congressional testimony with a hawkish tone but no specific signal. Iran tensions persist. All three watchlist names with active theses (AAPL, MSFT, V) remain above their base fair values. Demand a full margin of safety before any buy.",
+  "sources": [
+    "https://www.bloomberg.com/news/articles/2026-07-14/s-p-500-futures-steady-ahead-of-inflation-data-warsh-testimony",
+    "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-july-14-231302282.html",
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-14-dow-sp-500-nasdaq-070833816.html",
+    "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+    "https://www.cbsnews.com/news/june-2026-cpi-report/",
+    "https://finance.yahoo.com/economy/policy/article/warshs-statement-to-congress-fed-has-no-tolerance-for-persistently-elevated-inflation-123000475.html",
+    "https://www.cnn.com/2026/07/14/business/live-news/cpi-inflation-kevin-warsh-capitol-hill-testimony",
+    "https://www.fool.com/investing/2026/07/10/jamie-dimons-jpmorgan-kicks-off-bank-earnings-july/",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+  ]
+}
