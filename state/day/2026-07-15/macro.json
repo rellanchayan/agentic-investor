@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-15",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 753.06,
+  "spy_sma200": 695.81,
+  "spy_premium_to_200d_pct": 8.2,
+  "forward_pe_approx": 20.5,
+  "forward_pe_5yr_avg": 19.9,
+  "forward_pe_10yr_avg": 19.0,
+  "events": [
+    "PPI (June) 7:30am ET today — forecast 0.0%, prior 1.1%",
+    "Fed Chair Warsh Senate Banking Committee testimony 10am ET today",
+    "Morgan Stanley Q2 earnings pre-market today",
+    "Fed Beige Book release today",
+    "FOMC meeting July 28-29 — no SEP; ~17% implied probability of rate hike"
+  ],
+  "rates": "Steady at 3.50-3.75% (held June 17). July hike probability ~17%, down from ~42% before the June CPI print.",
+  "inflation": "June CPI -0.4% MoM vs -0.2% expected; +3.5% YoY vs 3.8% expected. Core CPI flat MoM vs +0.2% expected; +2.6% YoY vs 2.9% expected. Biggest monthly decline since April 2020.",
+  "key_risks": [
+    "US-Iran military conflict ongoing; Brent crude ~$84-86/barrel; Strait of Hormuz disruption risk",
+    "FOMC July 28-29: ~17% residual probability of a rate hike",
+    "Fed Chair Warsh Senate testimony today — hawkish surprise possible",
+    "PPI data today — another inflation reading (could cut either way)",
+    "Oil elevated — sustained high energy prices could re-ignite CPI in coming months",
+    "SPY 8.2% above 200-day average; forward P/E ~20.5x, above 10-year average of 19.0x"
+  ],
+  "key_tailwinds": [
+    "June CPI significantly below all expectations — biggest MoM drop since April 2020",
+    "Core CPI at 2.6% YoY — meaningfully closer to the Fed's 2% target",
+    "July hike probability collapsed from ~42% to ~17% post-CPI",
+    "Q2 bank earnings very strong: JPMorgan +41% YoY profit, Goldman Sachs best quarter in its history",
+    "S&P 500 futures +0.1-0.2% this morning; market digesting the CPI beat calmly"
+  ],
+  "note": "CPI beat materially reduces near-term rate hike risk, but geopolitical tensions (US-Iran, Hormuz, oil at ~$85) remain live. Market valuation is slightly above historical averages (forward P/E ~20.5x vs 10yr avg ~19.0x). SPY is 8.2% above its 200-day average, meaning the market is not offering a broad discount. No watchlist names trade inside our margin-of-safety target. PPI and Warsh Senate testimony today add short-term event risk. Posture stays cautious.",
+  "sources": [
+    "https://www.benzinga.com/markets/prediction-markets/26/07/60461322/sp500-july-15-open-up-or-down-polymarket-cpi-fed-rate-hike-inflation",
+    "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+    "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://polymarket.com/event/fed-decision-in-july-181",
+    "https://www.factset.com/earningsinsight",
+    "https://cryptobriefing.com/major-banks-historic-q2-2026-earnings/",
+    "https://www.aljazeera.com/economy/2026/7/13/oil-prices-jump-as-us-and-iran-trade-attacks-over-strait-of-hormuz",
+    "https://www.xtb.com/int/market-analysis/news-and-research/economic-calendar-wednesday-brings-big-q2-earnings-and-ppi-inflation-15-07-2026",
+    "https://streetstats.finance/valuation/market",
+    "https://www.factset.com/earningsinsight"
+  ]
+}
