@@ -27,5 +27,8 @@
   "XOM": "energy",
   "CVX": "energy",
   "DIS": "communication",
+  "META": "communication",
+  "AMT": "real_estate",
+  "TMO": "health_care",
   "SPY": "broad_etf"
 }

@@ -35,6 +35,7 @@ UNH
 JNJ
 LLY
 ABBV
+TMO   # Life-sciences instruments & services; wide switching-cost moat; added 2026-07-18
 
 # --- Industrials ---
 CAT
@@ -47,6 +48,10 @@ CVX
 
 # --- Communication / media ---
 DIS
+META  # Social media network-effects moat; Facebook/Instagram/WhatsApp; added 2026-07-18
+
+# --- Real estate ---
+AMT   # Cell-tower infrastructure REIT; ~150k sites; essential digital backbone; added 2026-07-18
 
 # --- Broad-market ballast & benchmark (we measure ourselves against SPY) ---
 SPY
