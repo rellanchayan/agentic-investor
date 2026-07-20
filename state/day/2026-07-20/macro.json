@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-20",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 744.92,
+  "spy_sma200": 697.06,
+  "spy_pct_above_200d": 6.9,
+  "events": [
+    "FOMC meeting Jul 28-29 (rate decision + press conference Jul 29 2:00pm ET)",
+    "Earnings season active — major tech companies expected to report this week and next",
+    "CPI printed Jul 14 (outcome unknown — web data unavailable)",
+    "Fed Chair Warsh testimony Jul 14-15 (outcome unknown — web data unavailable)",
+    "US-Iran Strait of Hormuz situation ongoing as of Jul 13 (current status unknown — web data unavailable)"
+  ],
+  "rates": "3.50-3.75% Fed funds, unchanged 4 meetings; FOMC decision due Jul 29",
+  "valuation_note": "Forward P/E ~20x as of Jul 13 (89th percentile historically); no confirmed update today due to web outage",
+  "web_data_status": "ALL web searches failed with 529 Overloaded errors — no live data retrieved today. Using internal context.json and prior macro file (2026-07-13). Posture defaulted to cautious per honesty rule.",
+  "thesis_name_status": {
+    "AAPL": {"price": 327.75, "base_fv": 195.0, "margin_of_safety": -0.6808, "buyable": false},
+    "MSFT": {"price": 395.17, "base_fv": 378.07, "margin_of_safety": -0.0452, "buyable": false},
+    "V": {"price": 361.11, "base_fv": 296.91, "margin_of_safety": -0.2162, "buyable": false}
+  },
+  "note": "Web data completely unavailable (529 errors). Posture is cautious per honesty rule. Even with full data, FOMC in 8 days and all three thesis names above fair value would likely still warrant caution. No buys possible at any posture level given current prices vs fair values.",
+  "sources": [
+    "state/day/2026-07-20/context.json (Alpaca IEX prices, SPY 200-day SMA)",
+    "docs/macro/2026-07-13.md (prior macro context, valuation data, Fed rate, event calendar)"
+  ]
+}
