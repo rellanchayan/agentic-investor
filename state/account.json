@@ -2,8 +2,8 @@
   "account_number": "PA3NFKXBTFLB",
   "status": "AccountStatus.ACTIVE",
   "equity": 1000000.0,
-  "last_equity": 1000000.0,
+  "last_equity": 0.0,
   "cash": 1000000.0,
-  "buying_power": 4000000.0,
-  "timestamp_utc": "2026-07-13T14:45:52.753868+00:00"
+  "buying_power": 1000000.0,
+  "timestamp_utc": "2026-07-23T14:46:26.986598+00:00"
 }

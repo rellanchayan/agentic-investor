@@ -1,0 +1,36 @@
+{
+  "date": "2026-07-23",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 738.76,
+  "spy_sma200": 698.18,
+  "spy_pct_above_200d": 5.8,
+  "events": [
+    "FOMC meeting July 28-29; rate decision Wed July 29 at 2:00 PM ET",
+    "Peak Q2 earnings season: Tesla and Alphabet reported after close July 22; Intel, Honeywell, Blackstone report Thu July 24",
+    "ADP private-hiring slowdown data released this week",
+    "Next CPI release not scheduled this week (last was July 14)"
+  ],
+  "rates": "steady_at_elevated",
+  "fed_funds_rate": "3.50-3.75%",
+  "ten_year_yield": "~4.63-4.68% (two-month high)",
+  "oil_brent": "~$98.22 (up ~34% in July; ceasefire collapsed, tanker attacks in Strait of Hormuz)",
+  "sp500_forward_pe": "20.3x (above 5-yr avg 19.9x and 10-yr avg 19.0x, but down 7.7% YTD on strong earnings growth)",
+  "futures_direction": "lower (S&P 500 futures -0.3% to -1.1%, Nasdaq -0.3% to -2.2%)",
+  "investor_sentiment": "bearish (AAII bulls fell from 44.9% to 29.6%; bears rose to 42.3%)",
+  "candidate_prices_vs_fair_value": {
+    "MSFT": {"price": 379.68, "base_fv": 378.07, "mos": -0.004, "buyable_normal": false, "buyable_cautious": false},
+    "V":    {"price": 349.50, "base_fv": 296.91, "mos": -0.177, "buyable_normal": false, "buyable_cautious": false},
+    "AAPL": {"price": 321.58, "base_fv": 195.00, "mos": -0.649, "buyable_normal": false, "buyable_cautious": false}
+  },
+  "note": "Cautious posture maintained and reinforced. The US-Iran ceasefire that briefly calmed markets has collapsed; three tankers attacked in the Strait of Hormuz; Brent crude up ~34% in July to ~$98. The 10-year Treasury yield is at a two-month high (~4.64%), raising borrowing costs and inflation concerns ahead of the July 29 FOMC decision. The S&P 500 forward P/E of 20.3x is above both the 5-year and 10-year averages. Futures are pointing lower on a mix of higher yields, elevated energy prices, and earnings disappointments (Tesla, Alphabet both fell post-report). None of our three thesis candidates (MSFT, V, AAPL) trade below even a normal-posture margin-of-safety threshold. A cautious posture demands an even wider discount before any buy. Hold cash; no new positions today.",
+  "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081301441.html",
+    "https://investrade.com/morning-preview-july-23-2026/",
+    "https://fedratecalc.com/fomc-meeting-schedule/july-2026/",
+    "https://www.aljazeera.com/economy/2026/7/20/petrol-prices-climb-as-us-iran-tensions-disrupt",
+    "https://www.rigzone.com/news/wire/oil_extends_rally_on_iran_tensions-22-jul-2026-184192-article/",
+    "https://www.factset.com/earningsinsight",
+    "https://www.ebc.com/forex/s-and-p-500-returns-july-2026-can-the-11-year-winning-streak-survive"
+  ]
+}
