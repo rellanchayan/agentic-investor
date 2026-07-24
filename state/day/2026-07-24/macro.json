@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-24",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 737.64,
+  "spy_sma200": 698.51,
+  "events": [
+    "FOMC rate decision Wed Jul 29 2:00 PM ET (two-day meeting Jul 28-29); no SEP produced",
+    "Earnings season ongoing: major tech (MSFT, META, AMZN) still to report",
+    "Alphabet (GOOGL) and Tesla (TSLA) reported Thu Jul 23 — both disappointed on AI capex"
+  ],
+  "rates": "elevated",
+  "ten_year_yield_pct": 4.68,
+  "vix": 18.79,
+  "brent_crude_note": "Brent briefly topped $100/bbl Thu Jul 23 on Houthi tanker attacks; retreating Fri (WTI -3.1% to ~$89)",
+  "forward_pe_approx": "20.3x (above 5-yr avg 19.9x, above 10-yr avg 19.0x; CAPE ~39x)",
+  "tariff_note": "Trump admin announced 10-12.5% tariffs on 60 trading partners this week",
+  "geopolitical_note": "US-Iran ceasefire collapsed; Houthi attacks on Saudi tankers; Trump threatened strikes on Iranian infrastructure",
+  "ai_capex_note": "GOOGL FCF turned negative on $45B capex quarter; TSLA EPS missed; investors questioning AI ROI",
+  "note": "Cautious posture maintained from Jul 23. FOMC in 4 days adds rate uncertainty; valuations still stretched at 20.3x forward earnings; 10-yr yield 4.68%; oil spiked to $100 before retreating; geopolitics elevated; AI spending concerns now confirmed by earnings. SPY is above its 200-day SMA (uptrend intact) but no candidate clears the 18% margin-of-safety bar. Hold cash.",
+  "sources": [
+    "https://www.benzinga.com/markets/prediction-markets/26/07/60660768/sp500-july-24-open-up-or-down-polymarket-oil-prices-alphabet-tesla-earnings-ai-spending",
+    "https://www.schwab.com/learn/story/stock-market-update-open",
+    "https://www.kucoin.com/news/flash/fed-s-next-fomc-meeting-scheduled-for-july-28-29-2026",
+    "https://www.bbntimes.com/technology/nasdaq-composite-plunges-to-25-137-69-as-alphabet-and-tesla-earnings-spook-ai-investors",
+    "https://seekingalpha.com/news/4618119-sp-500-forward-pe-falls-below-20x-as-valuation-multiple-eases",
+    "https://insight.factset.com/sp-500-earnings-season-update-july-17-2026"
+  ]
+}
