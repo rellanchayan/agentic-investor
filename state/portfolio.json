@@ -1,8 +1,8 @@
 {
-  "timestamp_utc": "2026-07-23T21:16:02.597487+00:00",
+  "timestamp_utc": "2026-07-24T14:46:00.707785+00:00",
   "equity": 1000000.0,
   "cash": 1000000.0,
-  "buying_power": 1000000.0,
+  "buying_power": 4000000.0,
   "positions": [],
   "drawdown_from_hwm": 0.0
 }
