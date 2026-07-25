@@ -17,6 +17,7 @@ CRM
 V
 MA
 JPM
+SPGI  # S&P Global — ratings duopoly + indices + financial data; scouted 2026-07-25
 
 # --- Consumer staples ---
 COST
@@ -29,12 +30,14 @@ PEP
 HD
 MCD
 NKE
+TJX   # TJX Companies — world's largest off-price retailer; scale moat; scouted 2026-07-25
 
 # --- Health care ---
 UNH
 JNJ
 LLY
 ABBV
+ISRG  # Intuitive Surgical — da Vinci robotic surgery; 70%+ market share; scouted 2026-07-25
 
 # --- Industrials ---
 CAT

@@ -27,5 +27,8 @@
   "XOM": "energy",
   "CVX": "energy",
   "DIS": "communication",
+  "SPGI": "financials",
+  "ISRG": "health_care",
+  "TJX": "consumer_discretionary",
   "SPY": "broad_etf"
 }
