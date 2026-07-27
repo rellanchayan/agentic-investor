@@ -1,0 +1,154 @@
+{
+  "ticker": "GOOGL",
+  "thesis_id": "GOOGL-2026Q2",
+  "company": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "as_of": "2026-Q2",
+  "retrieved": "2026-07-27",
+  "refresh_due": "2026-10-30",
+  "business_summary": "Alphabet is the holding company for Google. It makes money in three ways. (1) Google Services (Q2 2026 revenue $94.540B, +15% YoY) is the profit engine: Search & other $63.271B, YouTube ads $11.055B, and subscriptions/platforms/devices (YouTube Premium, Google One, Play store, Pixel) $12.911B. Advertisers pay Google to put ads next to search results and videos; roughly a quarter of the world's web traffic starts at a Google property. (2) Google Cloud (Q2 2026 revenue $24.768B, +82% YoY) rents computing power, databases, and AI models (Gemini, TPUs) to businesses. (3) Other Bets (Waymo self-driving, Verily and others) is tiny revenue ($0.382B) and loses money (-$1.799B operating loss in Q2 2026). Total Q2 2026 revenue was $119.796B, +24% YoY, with operating income of $40.770B (34% operating margin). Reported Q2 net income of $112.193B and diluted EPS of $9.11 are NOT representative of the operating business: $97.983B of 'other income' was almost entirely unrealized paper gains on private equity stakes (mainly Anthropic and SpaceX). Alphabet should still be winning in 5-10 years because search advertising remains the highest-intent advertising surface ever built, Android/Chrome/Maps/YouTube each have over a billion users feeding a data and distribution flywheel, and Alphabet is one of only a handful of firms that owns the full AI stack (its own chips, data centres, models, and distribution). The open question is not demand; it is how much capital that AI position now costs to defend - 2026 capex guidance was raised to $195-205B, versus $91.4B actually spent in FY2025.",
+  "moat": {
+    "type": "Network effects and a data flywheel in Search and YouTube, default-distribution scale via Android/Chrome, enormous scale economies in data centres and custom TPU silicon, and a globally recognised brand",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "12.5% CAGR FY2022->FY2025 ($282.836B -> $402.836B); accelerating, TTM revenue to 2026-06-30 was $445.866B and Q2 2026 grew 24% YoY",
+    "gross_margin": "59.7% FY2025 (revenue $402.836B less cost of revenues $162.535B); 60.9% on a TTM basis to 2026-06-30",
+    "roic": "~32% FY2025 (NOPAT $107.4B = operating income $129.039B x (1 - 16.8% effective tax rate), on invested capital ~$335.0B = equity $415.265B + long-term debt $46.547B - cash & marketable securities $126.843B). Declining from ~39% in FY2024 as the AI capex base builds; not yet meaningfully depressed but this is the number to watch.",
+    "net_debt_to_ebitda": "net cash (about -0.8x): cash & marketable securities $242.474B versus total debt $98.165B at 2026-06-30, a net cash position of ~$144.3B, against TTM EBITDA of roughly $173B (TTM operating income $147.628B plus ~$25B depreciation)",
+    "fcf_positive": "yes but sharply deteriorating: TTM FCF to 2026-06-30 was $53.273B (down from $73.266B in FY2025); Q2 2026 alone was FCF-NEGATIVE at -$5.855B as quarterly capex hit $44.9B"
+  },
+  "valuation": {
+    "price": 325.31,
+    "price_source": "alpaca",
+    "price_asof": "2026-07-27",
+    "fair_value_low": 237.36,
+    "fair_value_base": 296.7,
+    "fair_value_high": 356.04,
+    "method": "pe only: 24x / 30x / 36x applied to normalized EPS of $9.89. Normalized EPS = TTM operating income $147.628B x (1 - 17.5% tax) / 12,309M diluted shares. We deliberately use operating income, NOT reported EPS, because reported TTM EPS (~$19.90) is inflated by ~$135.7B of unrealized paper gains on private Anthropic/SpaceX stakes that produce no cash. The fcf_yield method was run but excluded from the headline band: TTM FCF/share of $4.33 at 3.5/3.0/2.5% target yields gives $124/$144/$173, which would only be the right answer if the entire $132.4B TTM capex were maintenance spending - it is not (FY2022 capex was $31.5B). Treat $124-173 as the downside anchor if the AI buildout earns nothing. The band also gives NO explicit credit for ~$21.8/share of net cash plus non-marketable equity stakes ($124.259B at 2026-06-30), which is a conservative choice."
+  },
+  "conviction": 3,
+  "bull_case": [
+    "Wide, durable moat: Search is still the highest-intent advertising surface ever built, and Q2 2026 Search & other revenue grew 17% to $63.271B - the AI-disruption-of-search fear has not shown up in the numbers yet.",
+    "Google Cloud is now a genuine second engine: Q2 2026 revenue $24.768B, +82% YoY, with segment operating income of $8.814B versus $13.1B for all of FY2025 - it has flipped from a cash drain to a fast-growing profit contributor.",
+    "Full-stack AI ownership is rare: Alphabet designs its own TPUs, builds its own data centres, trains its own Gemini models, and distributes them through Search, Android, Chrome, Workspace and Cloud. Very few competitors control every layer.",
+    "Fortress balance sheet: ~$144.3B net cash at 2026-06-30, so the AI capex program can be self-funded without threatening solvency.",
+    "Hidden asset value: non-marketable equity securities carried at $124.259B at 2026-06-30 (Anthropic, SpaceX and others), roughly $10/share of carrying value not reflected in our earnings-based fair value band.",
+    "Excellent underlying economics: ~60% gross margin, 33% TTM operating margin, ~32% FY2025 ROIC."
+  ],
+  "risks": [
+    "Capex shock is the dominant risk. 2026 capex guidance was raised to $195-205B (from $180-190B), versus $91.4B actually spent in FY2025. Q2 2026 free cash flow was negative (-$5.855B). If demand does not materialise, Alphabet will have bought a mountain of depreciating silicon and concrete.",
+    "Depreciation drag: today's capex becomes tomorrow's expense. Depreciation was $21.136B in FY2025 and already $13.586B in H1 2026 alone. Operating margins can compress even if revenue holds.",
+    "No margin of safety at $325.31 - the price is ~10% ABOVE our base fair value of $296.70, and far above the FCF-based downside anchor of $124-173. We would be paying full price for a successful AI outcome.",
+    "Earnings quality: reported net income is currently dominated by unrealized, non-cash marks on private stakes ($97.983B of the $112.193B Q2 net income). These marks can reverse violently and tell us nothing about the operating business.",
+    "AI could still disrupt search economics. Chatbot answers may reduce the number of monetisable queries or lower cost-per-click even if Google wins the technology.",
+    "Regulation: Alphabet faces ongoing antitrust actions in the US (search distribution and ad tech) and the EU. Remedies could restrict default-search payments or force divestiture of parts of the ad-tech stack.",
+    "Advertising is cyclical. A recession hits ad budgets fast, and ~79% of Q2 2026 revenue is still Google Services.",
+    "Dual-class share structure means founders retain voting control; outside shareholders have limited ability to influence capital allocation - which matters a great deal during a $200B/year spending program.",
+    "Price is currently well below its 50-day average ($363.12 vs $325.57 close on 2026-07-27) and roughly at its 200-day average ($324.30), i.e. the short-term trend is broken."
+  ],
+  "what_would_break_thesis": [
+    "Google Services revenue (the profit engine) declines year-over-year for two consecutive quarters - this would be the first real evidence that AI is eating search.",
+    "Google Cloud revenue growth falls below 20% year-over-year for two consecutive quarters while capex stays above $40B per quarter (spending without demand).",
+    "Free cash flow is negative for a full fiscal year, or trailing-twelve-month FCF falls below $25B.",
+    "Consolidated operating margin falls below 25% for two consecutive quarters (currently 34%).",
+    "Company gross margin falls below 50% for two consecutive quarters (currently ~60%).",
+    "ROIC falls below 15% on a trailing basis for a full fiscal year.",
+    "Net-debt-to-EBITDA rises above 1.5x, i.e. the net cash position is fully spent and Alphabet becomes meaningfully levered to fund capex.",
+    "A final, non-appealable antitrust remedy that forces divestiture of Search, Android, YouTube, or the ad-tech stack, or that bans default-search-placement payments.",
+    "A material accounting restatement, or a large write-down of the non-marketable equity portfolio that reveals aggressive prior marks.",
+    "Total revenue shrinks year-over-year for two consecutive fiscal years."
+  ],
+  "catalysts": [
+    "Q3 2026 results (expected late October 2026): evidence that Cloud growth and backlog conversion justify the raised capex, or evidence that they do not.",
+    "Capex guidance stabilising or falling in FY2027, which would let free cash flow recover sharply from the depressed $53.3B TTM level.",
+    "Clear monetisation of Gemini across Search and Workspace (Gemini App reported at 950M monthly active users) showing up as revenue rather than cost.",
+    "Resolution of the US antitrust remedies phase, removing an overhang.",
+    "A price pullback toward or below the $237 low end of our fair-value band, which would open a real margin of safety."
+  ],
+  "sources": [
+    {
+      "claim": "Q2 2026 results: total revenue $119.796B (+24% YoY vs $96.428B); Google Services $94.540B; Google Search & other $63.271B; YouTube ads $11.055B; subscriptions/platforms/devices $12.911B; Google Cloud $24.768B; Other Bets $0.382B; cost of revenues $45.943B; income from operations $40.770B (34% margin); other income net $97.983B; net income $112.193B; diluted EPS $9.11; diluted shares 12,309M; segment operating income Google Services $39.544B, Cloud $8.814B, Other Bets -$1.799B",
+      "value": "revenue 119796; op income 40770; other income 97983; net income 112193; diluted EPS 9.11; diluted shares 12309 (millions USD)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000066/googexhibit991q22026.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet Form 8-K, Exhibit 99.1)",
+      "as_of": "Q2 2026 (quarter ended 2026-06-30)",
+      "retrieved": "2026-07-27"
+    },
+    {
+      "claim": "H1 2026 vs H1 2025: revenue $229.692B vs $186.662B; cost of revenues $87.214B vs $75.400B; income from operations $80.466B vs $61.877B; other income net $135.699B vs $13.845B; net income $174.771B vs $62.736B; operating cash flow $84.859B vs $63.897B; capital expenditures $80.598B vs $39.643B. Q2 2026 free cash flow was -$5.855B; trailing-twelve-month free cash flow $53.273B. The other-income surge is 'primarily the result of net unrealized gains on our equity securities.'",
+      "value": "H1-26 rev 229692; H1-26 OCF 84859; H1-26 capex 80598; Q2-26 FCF -5855; TTM FCF 53273 (millions USD)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000066/googexhibit991q22026.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet Form 8-K, Exhibit 99.1)",
+      "as_of": "Six months ended 2026-06-30",
+      "retrieved": "2026-07-27"
+    },
+    {
+      "claim": "Balance sheet at 2026-06-30: cash & marketable securities $242.474B; total debt $98.165B (net cash ~$144.3B); total stockholders' equity $640.480B; total assets $921.983B; non-marketable equity securities $124.259B (vs $64.094B at 2025-12-31); depreciation H1 2026 $13.586B",
+      "value": "cash+securities 242474; total debt 98165; equity 640480; non-marketable equity securities 124259 (millions USD)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+      "publisher": "U.S. SEC EDGAR XBRL company facts (from Alphabet Form 10-Q)",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-07-27"
+    },
+    {
+      "claim": "FY2025 full year: total revenue $402.836B (+15% vs FY2024 $350.018B); cost of revenues $162.535B; income from operations $129.039B (32% margin); income before taxes $158.826B; provision for income taxes $26.656B (16.8% effective rate); net income $132.170B; diluted EPS $10.81; diluted shares 12,230M; operating cash flow $164.713B; capital expenditures $91.447B; free cash flow $73.266B; depreciation $21.136B; total stockholders' equity $415.265B; long-term debt $46.547B; cash & marketable securities $126.843B",
+      "value": "FY25 revenue 402836; op income 129039; net income 132170; OCF 164713; capex 91447; FCF 73266; equity 415265 (millions USD)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet Form 10-K, FY2025)",
+      "as_of": "FY2025 (ended 2025-12-31)",
+      "retrieved": "2026-07-27"
+    },
+    {
+      "claim": "FY2025 Q4/full-year earnings release confirming FY2025 revenue $402.836B, operating income $129.039B, net income $132.170B, diluted EPS $10.81, FY2025 capex $91.4B, and the original FY2026 capex guidance range of $175-185B",
+      "value": "FY25 revenue 402836; FY25 capex 91447; initial FY2026 capex guidance 175000-185000 (millions USD)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet Form 8-K, Exhibit 99.1)",
+      "as_of": "FY2025 (ended 2025-12-31)",
+      "retrieved": "2026-07-27"
+    },
+    {
+      "claim": "Annual revenue history from SEC XBRL: FY2022 $282.836B, FY2023 $307.394B, FY2024 $350.018B, FY2025 $402.836B (3-year CAGR 12.5%). FY2022 capex $31.485B, FY2024 capex $52.535B, FY2025 capex $91.447B. FY2024 operating income $112.390B, FY2024 equity $325.084B, FY2024 long-term debt $10.883B, FY2024 cash+marketable securities $95.657B (used for the FY2024 ROIC comparison of ~39%).",
+      "value": "revenue FY22/23/24/25 = 282836/307394/350018/402836; capex FY22/24/25 = 31485/52535/91447 (millions USD)",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001652044/us-gaap/Revenues.json",
+      "publisher": "U.S. SEC EDGAR XBRL company concept API",
+      "as_of": "FY2022-FY2025",
+      "retrieved": "2026-07-27"
+    },
+    {
+      "claim": "Q1 2026 results: revenue $109.9B; income from operations $39.7B; other income net $37.7B (primarily unrealized gains on non-marketable equity securities); net income $62.6B; diluted EPS $5.11; operating cash flow $45.8B; capital expenditures $35.7B; free cash flow $10.1B",
+      "value": "Q1-26 revenue 109900; op income 39700; capex 35700; FCF 10100 (millions USD)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/googexhibit991q12026.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet Form 8-K, Exhibit 99.1)",
+      "as_of": "Q1 2026 (quarter ended 2026-03-31)",
+      "retrieved": "2026-07-27"
+    },
+    {
+      "claim": "On the Q2 2026 call CFO Anat Ashkenazi raised full-year 2026 capital expenditure guidance to $195-205B, up from the prior $180-190B range; Q2 capital spending was $44.9B, with roughly 60% toward servers and 40% toward data centres and networking. Gemini App reported at 950M monthly active users.",
+      "value": "FY2026 capex guidance 195000-205000 (millions USD), raised from 180000-190000; Q2 2026 capex 44900",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-beats-q2-2026-estimates-shares-fall-on-capex-surge-93CH-4807140",
+      "publisher": "Investing.com (Q2 2026 earnings call transcript; guidance is not in the 8-K exhibit)",
+      "as_of": "2026-07-22",
+      "retrieved": "2026-07-27"
+    },
+    {
+      "claim": "Current price and trend: last trade quote bid $325.70 / ask $327.00; latest daily close $325.57 on 2026-07-27; 50-day moving average $363.12; 200-day moving average $324.30; 250-day high $408.57, low $187.83",
+      "value": "price 325.31 (midpoint used for valuation); close 325.57; 50dma 363.12; 200dma 324.30",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca (project market-data feed)",
+      "as_of": "2026-07-27",
+      "retrieved": "2026-07-27"
+    },
+    {
+      "claim": "Fair-value band computed by code/valuation.py: pe method, EPS $9.89 at 24x/30x/36x -> low $237.36, base $296.70, high $356.04; margin of safety at $325.31 = -9.64%, verdict 'fair, leaning expensive'. Stress run adding fcf_yield ($4.33 TTM FCF/share at 3.5/3.0/2.5%) gives a blended band of $180.54/$220.52/$264.62.",
+      "value": "fair_value low 237.36 / base 296.70 / high 356.04; MoS -0.0964",
+      "url": "https://github.com/local/agentic-investor/blob/main/code/valuation.py",
+      "publisher": "agentic-investor code/valuation.py (arithmetic only; inputs cited above)",
+      "as_of": "2026-07-27",
+      "retrieved": "2026-07-27"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}
