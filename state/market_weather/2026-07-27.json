@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-27",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 737.29,
+  "spy_sma200": 698.86,
+  "spy_vs_200d_pct": 5.49,
+  "futures_direction": "strongly positive (+0.8% to +1.0% S&P; +1.3% to +1.65% Nasdaq)",
+  "events": [
+    "FOMC rate decision Wed Jul 29 2:00pm ET — expected hold at 3.50-3.75% (65% probability); hawkish surprise risk remains",
+    "Q2 GDP release this week (BEA)",
+    "PCE / income and outlays this week",
+    "Employment Cost Index this week",
+    "CB consumer confidence this week",
+    "MSFT earnings this week (live thesis candidate — watch closely)",
+    "AAPL earnings this week (live thesis candidate — conviction 3)",
+    "AMZN and META earnings this week",
+    "Bank of England rate decision this week",
+    "Bank of Japan rate decision this week"
+  ],
+  "rates": "steady; FOMC expected hold at 3.50-3.75% tomorrow; 10-year Treasury yield 4.63-4.64% (elevated)",
+  "oil": "Brent crude ~$89.43/bbl (-7.6% today); US-Iran military pause over weekend brought Brent down from ~$98 on Jul 23; ceasefire is fragile — not a diplomatic resolution",
+  "forward_pe": "~19.8-20.1x (below 20x as strong earnings growth, 20%+, has pulled multiple down; still above 15x long-run historical average)",
+  "note": "Cautious posture maintained despite positive oil/geopolitics news. The acute Iran energy risk that drove last week's cautious call has partially de-escalated — Brent fell ~$9 from ~$98 to ~$89 as the US and Iran paused hostilities over the weekend. Markets are opening strongly (+1%). However, three overlapping risks justify staying cautious today: (1) FOMC meets tomorrow with a rate decision Wednesday — even a likely hold carries surprise risk given Chair Warsh's data-dependent stance and 82% market-implied probability of a September hike; (2) MSFT and AAPL, our two live thesis candidates with full fair-value estimates, both report earnings this week — buying before we see results would add unnecessary risk; (3) the Iran ceasefire is a fragile military pause after 13 nights of strikes, not a diplomatic settlement, and could reverse. Valuations remain elevated at ~20x forward P/E vs 15x long-run average. 10-year yield at 4.63% is still high. None of our thesis candidates are near buy thresholds regardless of posture (MSFT at $389.85 needs ~$333 at normal or ~$310 at cautious; V at $363.84 is 22% above fair value; AAPL at $336.41 is 72% above fair value with only conviction-3).",
+  "candidate_summary": {
+    "MSFT": {"price": 389.85, "fair_value_base": 378.07, "margin_of_safety": -0.0312, "cautious_threshold": 310.02, "normal_threshold": 332.70, "verdict": "too expensive — 3.1% above fair value"},
+    "V": {"price": 363.84, "fair_value_base": 296.91, "margin_of_safety": -0.2254, "cautious_threshold": 243.47, "normal_threshold": 261.28, "verdict": "too expensive — 22.5% above fair value"},
+    "AAPL": {"price": 336.41, "fair_value_base": 195.00, "margin_of_safety": -0.7252, "conviction": 3, "verdict": "far too expensive — 72.5% above fair value; conviction below threshold"}
+  },
+  "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-monday-july-27-dow-sp-500-nasdaq-080412540.html",
+    "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
+    "https://www.nbcnews.com/world/iran/oil-prices-slide-us-iran-pause-strikes-trump-diplomacy-hormuz-red-sea-rcna589383",
+    "https://www.cmelitegroup.com/knowledge-hub/fomc-meeting-fed-decision-day/",
+    "https://www.financecalendar.com/event/fomc-rate-decision-july-2026/",
+    "https://seekingalpha.com/news/4618119-sp-500-forward-pe-falls-below-20x-as-valuation-multiple-eases",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+    "https://www.benzinga.com/markets/prediction-markets/26/07/60687326/stock-market-will-sp-500-open-up-or-down-today-11",
+    "https://www.advisorperspectives.com/commentaries/2026/07/21/valuations-down-stocks-up"
+  ]
+}

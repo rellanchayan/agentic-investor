@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-27",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 737.29,
+  "spy_sma200": 698.86,
+  "events": [
+    "FOMC rate decision Wed Jul 29 2:00pm ET (hold expected; surprise risk remains)",
+    "MSFT earnings this week (live thesis candidate)",
+    "AAPL earnings this week (live thesis candidate)",
+    "Q2 GDP, PCE, Employment Cost Index, CB consumer confidence this week",
+    "AMZN and META earnings this week"
+  ],
+  "rates": "steady at 3.50-3.75%; 10-year yield 4.63-4.64%",
+  "oil": "Brent ~$89.43 (-7.6% today) on US-Iran military pause; fragile — not resolved",
+  "forward_pe": "~19.8-20.1x (easing but above 15x long-run average)",
+  "note": "Cautious: FOMC tomorrow + MSFT/AAPL earnings this week + fragile Iran ceasefire justify staying cautious despite positive oil news. None of our thesis candidates are near buy thresholds.",
+  "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-monday-july-27-dow-sp-500-nasdaq-080412540.html",
+    "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
+    "https://www.financecalendar.com/event/fomc-rate-decision-july-2026/",
+    "https://seekingalpha.com/news/4618119-sp-500-forward-pe-falls-below-20x-as-valuation-multiple-eases",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+  ]
+}
