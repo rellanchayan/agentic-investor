@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-28",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 737.95,
+  "spy_sma200": 699.19,
+  "events": [
+    "FOMC rate decision Wed Jul 29 2:00 PM ET (Chair Warsh press conf 2:30 PM ET)",
+    "MSFT earnings Wed Jul 29 after close",
+    "META earnings Wed Jul 29 after close",
+    "AAPL earnings Thu Jul 30 after close",
+    "AMZN earnings Thu Jul 30 after close",
+    "Q2 GDP advance estimate Thu Jul 30 AM",
+    "June PCE inflation Thu Jul 30 AM",
+    "Initial jobless claims Thu Jul 30 AM",
+    "XOM, CVX, KO, MA earnings Fri Jul 31 premarket"
+  ],
+  "rates": "on hold at 3.50-3.75%; 35% market-implied probability of 25bp hike tomorrow",
+  "inflation": "June CPI 3.5% YoY (down from 4.2% in May); core CPI 2.6%; cooling trend",
+  "oil": "Brent ~$86.58-87.05/bbl, WTI ~$81.59; down sharply from ~$98 as US-Iran ceasefire talks hold",
+  "yield_10yr": "~4.64% (elevated but stable, small overnight pullback)",
+  "forward_pe": "~19.76-20.4x (above 10-yr avg of 19.0x, not extreme)",
+  "semis": "Bloomberg semiconductor index -7.5% today, biggest drop since Apr 2025; NVDA -4.92%, AMD -8.31%, SK Hynix -15%; China chip competition + AI spending durability concerns",
+  "gdp_q2": "2.8% advance estimate, above 2.0% consensus",
+  "note": "CAUTIOUS: FOMC decision tomorrow with 35% hike probability, peak earnings week (MSFT/AAPL/AMZN/META all reporting), and a severe global semiconductor rout all collide. Oil and Iran have improved materially since Jul 23, and CPI is cooling, but the event density this week is the highest of the quarter. No thesis names are close to buy thresholds under any posture. Watch and wait.",
+  "sources": [
+    "https://www.bloomberg.com/news/articles/2026-07-28/s-p-500-futures-muted-as-semiconductors-drop-earnings-roll-in",
+    "https://www.bloomberg.com/news/articles/2026-07-28/us-tech-stocks-poised-to-slide-as-global-chip-selloff-deepens",
+    "https://www.bloomberg.com/news/articles/2026-07-28/korean-stocks-sink-as-chipmakers-plung-on-deepening-ai-fatigue",
+    "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html",
+    "https://www.cnbc.com/2026/07/28/oil-price-today-wti-brent-us-iran-hormuz.html",
+    "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
+    "https://www.financecalendar.com/event/fomc-rate-decision-july-2026/",
+    "https://www.forbes.com/sites/investor-hub/article/fed-meeting-tracker-interest-rate-strategy/",
+    "https://schwabnetwork.com/articles/week-ahead-fed-decision-big-tech-earnings-and-inflation-data-set-up-a-volatile-july-finish",
+    "https://www.cnbc.com/2026/07/14/treasury-yields-rise-as-fed-rate-hike-expectations-grow.html",
+    "https://www.gurufocus.com/economic_indicators/6061/sp-500-pe-ratio-with-forward-estimate",
+    "https://finance.yahoo.com/news/nasdaq-semiconductor-stocks-lead-tech-151000500.html"
+  ]
+}
