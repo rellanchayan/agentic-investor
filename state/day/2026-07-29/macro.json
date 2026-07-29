@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-29",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 734.22,
+  "spy_sma200": 699.52,
+  "futures_direction": "modestly_up",
+  "futures_note": "S&P 500 futures +0.1-0.2% pre-market; Dow futures slightly negative",
+  "rates": "elevated_hold_expected",
+  "rates_note": "Fed funds at 3.5-3.75%; FOMC decision 2:00 PM ET today; 70% hold / 30% hike probability",
+  "ten_year_yield": 4.61,
+  "oil_wti_approx": 82.0,
+  "inflation_note": "CPI/PCE running at approximately 4.2%; well above Fed 2% target",
+  "trailing_pe_approx": 25.1,
+  "events": [
+    "FOMC rate decision today 2:00 PM ET -- hold expected but 30% market-implied hike probability",
+    "Iran launched ballistic missiles at US forces overnight; oil WTI +3-4% to ~$82/bbl",
+    "MSFT and META earnings after market close today (July 29)",
+    "AAPL and AMZN earnings after market close Thursday July 31",
+    "July jobs report (nonfarm payrolls) Friday August 7 at 8:30 AM ET"
+  ],
+  "note": "Three overlapping risks converge today: the FOMC decision (30% hike probability is non-trivial), a fresh Iran missile escalation lifting oil again, and peak big-tech earnings volatility. Trailing P/E ~25x means the market is not cheap. SPY is above its 200-day average which is a positive technical signal, but valuations and the immediate event stack justify demanding a larger discount. All three live thesis candidates (MSFT, V, AAPL) remain well above their buy thresholds. Cautious posture maintained.",
+  "sources": [
+    "https://www.benzinga.com/markets/equities/26/07/60750897/stock-market-today-dow-jones-sp-500-futures-rise-as-investors-await-federal-reserves-decision-on-interest-rates-ford-motor-bloom-energy-microsoft-in-focus",
+    "https://investrade.com/morning-preview-july-29-2026/",
+    "https://cambridgecurrencies.com/next-federal-reserve-interest-rate-decision/",
+    "https://www.cnbc.com/video/2026/07/29/sp-500-futures-edge-higher-as-oil-climbs-investors-await-fed-rates-decision.html",
+    "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+    "https://www.aol.com/finance/big-tech-earnings-fed-meeting-113019918.html",
+    "https://www.bls.gov/news.release/archives/empsit_07022026.htm"
+  ]
+}
