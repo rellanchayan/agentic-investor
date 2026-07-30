@@ -1,0 +1,48 @@
+{
+  "date": "2026-07-30",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 738.00,
+  "spy_sma200": 699.92,
+  "spy_pct_above_200d": 5.4,
+  "events": [
+    "FOMC held rates at 3.50-3.75% on Jul 29 (9-3 vote; 3 dissenters wanted a hike)",
+    "Q2 2026 GDP advance estimate: +1.5% annualized (released today 8:30am ET; slowed from 2.1% in Q1)",
+    "June PCE headline: +3.7% YoY / -0.1% MoM (released today 8:30am ET; in line with expectations)",
+    "June Core PCE: +3.3% YoY / +0.1% MoM (released today 8:30am ET; slightly cooler than expected)",
+    "Weekly jobless claims: 197K (released today 8:30am ET; below est. 201K)",
+    "Microsoft Q4 FY26 earnings: revenue $90B vs est. $87.4B; Azure +43%; stock +~8% premarket",
+    "No major macro releases remaining today",
+    "Next key events: Nonfarm payrolls Aug 7 8:30am ET; CPI Aug 12 8:30am ET"
+  ],
+  "rates": "rising",
+  "ten_yr_treasury_yield": 4.70,
+  "fed_funds_range": "3.50-3.75",
+  "fomc_outcome": "hold; hawkish — 3 of 12 members dissented in favor of a hike",
+  "inflation_core_pce_yoy": 3.3,
+  "inflation_headline_pce_yoy": 3.7,
+  "gdp_q2_advance_pct": 1.5,
+  "brent_crude_approx": 90,
+  "sp500_forward_pe": 19.82,
+  "geopolitical": "US-Iran hostilities ongoing; Brent crude ~$90, down from ~$98 peak on Jul 23",
+  "earnings_season": "active; MSFT Q4 FY26 strong beat driving futures +0.7%; Meta, Chipotle, Starbucks also reporting this week",
+  "note": "SPY is 5.4% above its 200-day average (bullish trend), but core PCE at 3.3% remains well above the Fed's 2% target, three FOMC members dissented in favor of a hike, the 10-year yield is rising to 4.70%, markets are pricing in two more 25bp hikes in 2026, GDP slowed to 1.5%, and geopolitical risk (US-Iran) persists with oil still near $90. All three thesis names (MSFT $451.53, V $354.40, AAPL $331.89) are trading significantly above their base fair values and nowhere near even the base 12% margin-of-safety entry threshold, let alone the 18% cautious-posture threshold. Hold all cash.",
+  "candidate_status": {
+    "MSFT": {"price": 451.53, "fv_base": 378.07, "mos": -0.194, "verdict": "too expensive; earnings beat increases thesis quality but price is 26% above cautious-posture entry"},
+    "V":    {"price": 354.40, "fv_base": 296.91, "mos": -0.194, "verdict": "too expensive; 36% above cautious-posture entry"},
+    "AAPL": {"price": 331.89, "fv_base": 195.00, "mos": -0.702, "verdict": "far too expensive; conviction 3 also below threshold"}
+  },
+  "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-30-2026",
+    "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+    "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+    "https://investinglive.com/news/us-june-pce-inflation-3-7-vs-3-7-expected-core-3-3-vs-3-3-expected/",
+    "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
+    "https://en.bloomingbit.io/feed/news/117356",
+    "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+    "https://sg.finance.yahoo.com/news/us-stock-market-today-p-080819452.html",
+    "https://seekingalpha.com/news/4618119-sp-500-forward-pe-falls-below-20x-as-valuation-multiple-eases",
+    "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html"
+  ]
+}
