@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-31",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 741.60,
+  "spy_sma200": 700.33,
+  "spy_pct_above_200d": 5.9,
+  "futures_direction": "higher (S&P 500 futures +0.3-0.5%; ~94% probability of up open per Polymarket)",
+  "events": [
+    "AAPL Q3 FY2026 earnings reaction: -9% this morning (revenue +16% YoY, EPS +29% YoY — beat on numbers but investors skeptical on AI positioning)",
+    "AMZN Q2 2026 earnings reaction: +14% this morning (AWS cloud revenue +37% YoY — strongest growth since 2021)",
+    "MSFT already reacted earlier this week: +15-16% on Azure cloud strength and AI strategy",
+    "META already reacted earlier this week: -8% on soft revenue guidance and 91% drop in Q2 FCF",
+    "PCE inflation (June 2026): headline 3.67% YoY, core 3.29% YoY — released July 30 (yesterday)",
+    "Q2 2026 GDP: +1.5% annualized, below expectations, down from Q1 +2.09% — released July 30 (yesterday)",
+    "FOMC July 28-29 decision: held rates at 3.50-3.75% for 5th consecutive meeting; 3 dissenters wanted hikes",
+    "End-of-month / end-of-quarter rebalancing flows today (July 31)",
+    "Next major scheduled event: NFP jobs report approx. August 7; next FOMC September 2026"
+  ],
+  "rates": "steady_at_elevated_with_hiking_bias",
+  "fed_funds_rate": "3.50-3.75%",
+  "ten_year_yield": "~4.67%",
+  "fomc_outcome": "Held steady 9-3; three dissenters (Hammack/Cleveland, Kashkari/Minneapolis, Logan/Dallas) dissented for hikes; markets price 2 additional 25-bps hikes in 2026",
+  "inflation": {
+    "core_pce_june": "3.29% YoY (down from 3.41% in May; Fed target 2.0%)",
+    "headline_pce_june": "3.67% YoY (down from 4.07% in May, driven by 5.9% drop in energy prices)"
+  },
+  "gdp_q2_2026": "+1.5% annualized (below expectations; prior Q1 was +2.09%; miss driven by decline in federal spending and inventories)",
+  "oil_brent": "~$86/barrel (still up ~20% for the month of July; US-Iran ceasefire fragile — hostilities and pauses alternating)",
+  "sp500_trailing_pe": "~25-29x (sources vary; historical median ~18x)",
+  "candidate_prices_vs_fair_value": {
+    "AAPL": {"price": 302.50, "fv_base": 195.00, "fv_high": 230.00, "mos": -0.5513, "buyable": false, "note": "down ~9% today on earnings; still 55% above base FV and 32% above high FV"},
+    "MSFT": {"price": 454.75, "fv_base": 378.07, "fv_high": 437.32, "mos": -0.2028, "buyable": false, "note": "up ~15-16% on earnings this week; 4% above high FV"},
+    "V":    {"price": 365.29, "fv_base": 296.91, "fv_high": 345.97, "mos": -0.2303, "buyable": false, "note": "no earnings catalyst this week; 23% above base FV and 6% above high FV"}
+  },
+  "note": "Cautious posture maintained. The FOMC held rates at 3.50-3.75% on July 29 with three dissenters wanting hikes; markets now price two additional 25-bps hikes in 2026, making the rate environment a headwind for equity valuations. Core PCE inflation at 3.29% remains 129 bps above the Fed's 2% target after more than five years above target. Q2 2026 GDP of +1.5% came in below expectations and below Q1's +2.09%, signaling a softening economy. The 10-year Treasury yield at 4.67% provides meaningful competition to equity earnings yields. The S&P 500 trades at roughly 25-29x trailing earnings — expensive relative to the ~18x historical median. Peak earnings season delivered divergent results this week: MSFT and AMZN rewarded for cloud and AI execution; META and AAPL punished despite beating on reported numbers (investors skeptical of AI strategy and ROI). Geopolitical risk remains: US-Iran conflict is active and volatile; Brent crude near $86 and up ~20% in July despite energy price dip in June. Futures point modestly higher this morning but that reflects earnings optimism in cloud names, not an improvement in the fundamental backdrop. None of our three thesis candidates (AAPL $302.50, MSFT $454.75, V $365.29) are near any buyable threshold at any margin of safety. Cautious posture: demand a wider discount before any new buy; hold cash.",
+  "sources": [
+    "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html",
+    "https://www.advisorperspectives.com/dshort/updates/2026/07/29/feds-interest-rate-decision-july-29-2026",
+    "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
+    "https://finance.yahoo.com/economy/articles/june-2026-pce-consumer-spending-124715931.html",
+    "https://arizonadailyindependent.com/2026/07/30/personal-income-up-slightly-in-june-spending-increases-gdp-slows/",
+    "https://www.benzinga.com/markets/prediction-markets/26/07/60829343/sp500-july-31-open-up-or-down-polymarket-amazon-microsoft-apple-ai-earnings",
+    "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-alny/alnylam-pharmaceuticals/news/us-stock-market-today-sp-500-futures-edge-higher-on-cooling",
+    "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
+    "https://www.fxleaders.com/news/2026/07/26/top-earnings-to-watch-this-week-july-27-31-what-to-expect-from-msft-meta-aapl-amzn-ko-ba-and-f/"
+  ]
+}
