@@ -48,5 +48,14 @@ CVX
 # --- Communication / media ---
 DIS
 
+# --- Utilities ---
+NEE  # NextEra Energy — largest US electric utility + world's top renewables developer; added 2026-08-01
+
+# --- Materials ---
+LIN  # Linde — world's largest industrial gas company; oligopoly moat, 20-yr contracts; added 2026-08-01
+
+# --- Real estate ---
+PLD  # Prologis — world's largest logistics REIT; e-commerce warehouse moat; added 2026-08-01
+
 # --- Broad-market ballast & benchmark (we measure ourselves against SPY) ---
 SPY

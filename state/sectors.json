@@ -27,5 +27,8 @@
   "XOM": "energy",
   "CVX": "energy",
   "DIS": "communication",
+  "NEE": "utilities",
+  "LIN": "materials",
+  "PLD": "real_estate",
   "SPY": "broad_etf"
 }
