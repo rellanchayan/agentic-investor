@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-05",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 774.0,
+  "spy_sma200": 701.93,
+  "spy_premium_to_200d_pct": 10.3,
+  "futures_direction": "up",
+  "futures_sp500_pct": 0.39,
+  "valuation": {
+    "trailing_pe_approx": 28,
+    "forward_pe_approx": 19.5,
+    "shiller_cape": 36.4,
+    "cape_vs_historical_avg_pct": 76,
+    "assessment": "expensive"
+  },
+  "rates": {
+    "fed_funds_target": "3.50-3.75%",
+    "direction": "on-hold",
+    "last_decision": "2026-07-29",
+    "vote": "9-3 hold, most divided since 2016",
+    "note": "Three regional Fed presidents dissented; some pushed for a hike given sticky inflation"
+  },
+  "inflation": {
+    "cpi_jun_2026_yoy": 3.5,
+    "prior_month_yoy": 4.2,
+    "trend": "declining but above 2% target"
+  },
+  "events": [
+    "Disney and Shopify earnings today (active earnings season)",
+    "Gov. Lisa Cook speech on economic outlook today at 4:05pm ET (after close)",
+    "July Jobs Report (nonfarm payrolls) Thu Aug 7 — major market mover",
+    "July CPI Tue Aug 12",
+    "July PPI Wed Aug 13",
+    "FOMC minutes from Jul 28-29 meeting released Wed Aug 19 at 2:00pm ET"
+  ],
+  "candidate_postures": {
+    "AAPL": {"price": 309.25, "base_fv": 195.0, "margin_of_safety": -0.586, "verdict": "overpriced"},
+    "MSFT": {"price": 490.77, "base_fv": 378.07, "margin_of_safety": -0.298, "verdict": "overpriced"},
+    "V":    {"price": 369.72, "base_fv": 296.91, "margin_of_safety": -0.245, "verdict": "overpriced"}
+  },
+  "note": "Market at record highs, CAPE 76% above historical average, inflation at 3.5% with divided hawkish-leaning Fed, major jobs report Thursday. All three thesis candidates trade 25-59% above fair-value base. Demand a larger margin of safety; no buy conditions are met today.",
+  "sources": [
+    "https://www.benzinga.com/markets/prediction-markets/26/08/60938801/will-sp500-open-up-or-down-august-5-polymarket-record-high-ai-earnings-iran",
+    "https://blog.kraken.com/economic-brief/august-5-2026",
+    "https://www.federalreserve.gov/newsevents/2026-august.htm",
+    "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://en.macromicro.me/series/20052/sp500-forward-pe-ratio",
+    "https://www.currentmarketvaluation.com/models/price-earnings.php"
+  ]
+}
