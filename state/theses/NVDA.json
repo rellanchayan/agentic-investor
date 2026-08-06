@@ -1,0 +1,175 @@
+{
+  "ticker": "NVDA",
+  "thesis_id": "NVDA-2027Q1",
+  "company": "NVIDIA Corporation",
+  "sector": "Information Technology (Semiconductors)",
+  "as_of": "FY2027-Q1 (quarter ended 2026-04-26)",
+  "retrieved": "2026-08-06",
+  "refresh_due": "2026-09-04",
+  "business_summary": "NVIDIA designs the chips and systems that AI runs on. It does not own factories; it designs GPUs and full rack-scale AI computers (Blackwell/GB-class systems), buys manufacturing from TSMC and partners, and sells through cloud providers, server makers (OEM/ODMs) and distributors. Revenue is overwhelmingly Data Center: FY2026 Data Center revenue was $193.7B of $215.9B total (about 90%), with Gaming $16.0B, Professional Visualization $3.2B and Automotive $2.3B. In Q1 FY2027 (ended 2026-04-26) revenue was a record $81.6B, up 85% year over year, with Data Center $75.2B (compute $60.4B, networking $14.8B). Buyers are the large cloud/hyperscale operators, AI labs, neoclouds, enterprises and governments building AI training and inference capacity. NVIDIA makes money on the spread between what an AI accelerator system sells for and what it costs to have made - GAAP gross margin was 74.9% in Q1 FY2027. The reason it should still be winning in 5-10 years is not the silicon alone: it is CUDA plus the surrounding software stack, the NVLink/InfiniBand/Spectrum-X networking that turns thousands of GPUs into one machine, and an annual product cadence that competitors have not matched. Nearly every AI framework, kernel and model is tuned for NVIDIA first. That said, the company is now selling into a capital-spending boom, and its revenue is concentrated in a handful of enormous buyers.",
+  "moat": {
+    "type": "Software/ecosystem lock-in (CUDA and ~20 years of tuned libraries), high switching costs for AI developers, systems-level integration (GPU + NVLink + networking + software sold as one rack), scale economies and leading-edge supply priority at TSMC/HBM vendors, and a fast annual product cadence rivals struggle to match",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "100.0% CAGR FY2023->FY2026 (revenue $26.974B -> $215.938B); most recent quarter Q1 FY2027 revenue $81.615B, +85% y/y vs $44.062B",
+    "gross_margin": "74.1% trailing-twelve-months (gross profit $187.952B / revenue $253.491B, TTM through 2026-04-26); FY2026 GAAP gross margin 71.1% ($153.463B / $215.938B); Q1 FY2027 GAAP 74.9%",
+    "roic": "~91% (TTM operating income $162.285B x (1 - FY2026 effective tax rate 15.1%) = NOPAT ~$137.8B, divided by invested capital $151.5B = equity $195.474B + total debt $8.470B - cash $13.237B - available-for-sale debt securities $39.233B at 2026-04-26). Excluding the ~$72.6B of non-operating equity investments from invested capital, ROIC would be ~175%. Own calculation from filed figures.",
+    "net_debt_to_ebitda": "net cash, about -0.27x (cash $13.237B + AFS debt securities $39.233B - total debt $8.470B = $44.0B net cash at 2026-04-26; TTM EBITDA ~$165.5B = operating income $162.285B + D&A $3.229B). Own calculation from filed figures.",
+    "fcf_positive": "yes - TTM free cash flow ~$119.1B (operating cash flow $125.648B - capex $6.572B); FY2026 FCF ~$96.7B ($102.718B - $6.042B)"
+  },
+  "valuation": {
+    "price": 218.98,
+    "price_source": "alpaca",
+    "price_asof": "2026-08-06",
+    "fair_value_low": 142.96,
+    "fair_value_base": 183.83,
+    "fair_value_high": 233.97,
+    "method": "Blend of two methods run through code/valuation.py. (1) P/E on trailing-twelve-month non-GAAP diluted EPS of $5.86 (FY2026 $4.77 - Q1 FY2026 $0.78 + Q1 FY2027 $1.87) at 25x / 33x / 42x -> $146.50 / $193.38 / $246.12. We use non-GAAP EPS rather than GAAP TTM EPS of $6.53 because GAAP is inflated by $15.929B of non-operating gains on equity securities in Q1 FY2027 that are not part of the chip business. Multiples: 25x low = an AI-digestion / share-loss year where trailing earnings prove to be near a cycle peak; 33x base = a very high-return franchise still compounding, discounted for semiconductor cyclicality and customer concentration; 42x high = growth stays close to the current trajectory. (2) FCF yield on TTM FCF per share of $4.88 ($119.076B / 24,391M diluted shares) at 3.5% / 2.8% / 2.2% -> $139.43 / $174.29 / $221.82. Blended fair value $142.96 / $183.83 / $233.97. Margin of safety at $218.98 = -19.1% (price is above our base fair value)."
+  },
+  "conviction": 3,
+  "bull_case": [
+    "Wide moat: CUDA plus 20 years of tuned libraries, NVLink/InfiniBand/Spectrum-X networking, and full-rack systems mean customers buy an integrated AI computer, not a chip. Switching costs for AI developers are high.",
+    "Extraordinary economics: 74.1% TTM gross margin, ~91% ROIC on a conservative invested-capital measure, ~$119B of trailing free cash flow, and a net-cash balance sheet ($44.0B net cash at 2026-04-26).",
+    "Growth is still accelerating, not fading: Q1 FY2027 revenue $81.615B was +85% y/y, and management guided Q2 FY2027 to $91.0B +/- 2%.",
+    "Asset-light for its size: FY2026 capex was only $6.042B against $102.718B of operating cash flow, so growth does not consume the cash it generates - unlike its own customers.",
+    "Massive and growing capital returns: $41.1B returned in FY2026 and ~$20.0B in Q1 FY2027 alone, with $80.0B added to the buyback authorization and the quarterly dividend raised from $0.01 to $0.25 per share."
+  ],
+  "risks": [
+    "Price: at $218.98 the stock trades roughly 19% ABOVE our base fair value of $183.83. There is no margin of safety today; we would be paying up for continued hypergrowth.",
+    "Extreme customer concentration: in Q1 FY2027 three direct customers were 21%, 17% and 16% of total revenue - about 54% combined (a year earlier two customers were 16% and 14%). A single hyperscaler cutting orders is a material revenue event. NVIDIA also discloses that one AI research and deployment company indirectly contributed a meaningful amount of revenue.",
+    "Circular / vendor-financing optics: at 2026-04-26 NVIDIA held $30.237B of marketable equity securities and $42.336B of non-marketable equity investments (~$72.6B) largely in AI-ecosystem companies that are also customers. A $15.929B non-operating gain on those securities flattered GAAP Q1 FY2027 earnings. If the AI funding cycle turns, these marks reverse AND the demand they support fades - the two risks are correlated, not independent.",
+    "Cyclicality and peak-earnings risk: this is a semiconductor company selling into a capital-expenditure boom. Hyperscaler AI capex cannot compound at current rates forever; a digestion year would make today's trailing earnings look like peak earnings, and multiples on peak earnings are dangerous.",
+    "Competition from customers' own silicon: Google TPU, Amazon Trainium, Microsoft Maia and AMD Instinct all attack the highest-margin part of the market, and the buyers designing them are the same three customers who are 54% of revenue.",
+    "Geopolitics and export control: US restrictions on advanced AI chips to China have removed a large market and can change again with little notice; NVIDIA also depends on TSMC (Taiwan) and a small number of HBM suppliers for essentially all its supply.",
+    "Working capital build: inventory rose from $10.080B (2025-01-26) to $25.797B (2026-04-26) and receivables were $40.710B - normal for a supply ramp, but a demand air-pocket would turn that into writedowns and a cash drag.",
+    "Concentration risk in our own portfolio: NVDA already sits inside SPY at a very large weight, so buying it adds less diversification than the headline suggests."
+  ],
+  "what_would_break_thesis": [
+    "Total revenue declines year over year for two consecutive quarters (the AI capex cycle has turned).",
+    "GAAP gross margin falls below 60% for two consecutive quarters (pricing power lost to custom silicon or AMD).",
+    "Data Center revenue declines year over year in any quarter, or falls below 70% of total revenue because of lost share rather than growth elsewhere.",
+    "Free cash flow turns negative for a full fiscal year, or net debt to EBITDA rises above 1.0x.",
+    "ROIC falls below 25% on a trailing-twelve-month basis (would signal the excess returns have been competed away).",
+    "Combined revenue from the top three direct customers rises above 65% of total revenue, or any single direct customer exceeds 30%.",
+    "Inventory grows faster than revenue for two consecutive quarters, or a material inventory writedown above $5B is taken (demand air-pocket).",
+    "A material accounting restatement, an SEC enforcement action, or a formal finding on round-trip/circular revenue involving NVIDIA's equity-investee customers.",
+    "Export-control or supply shock that removes more than 20% of forecast Data Center revenue for more than two quarters."
+  ],
+  "catalysts": [
+    "Q2 FY2027 results (expected late August 2026) against the $91.0B +/- 2% revenue guide - a beat-and-raise extends the runway, a miss is the first real crack.",
+    "A price pullback toward the $183.83 base or the $142.96 low of our fair-value band would open a genuine margin of safety and make this a buy candidate.",
+    "Evidence that AI inference (recurring, production workloads) rather than one-off training builds is now the majority of demand - that would make revenue far more durable and justify a higher base multiple.",
+    "Broadening of the customer base so the top-three concentration falls back below 40%.",
+    "Any easing of China export restrictions, which would restore a market that is currently near-zero in the forecast."
+  ],
+  "sources": [
+    {
+      "claim": "FY2026 (ended 2026-01-25) revenue $215.938B; FY2025 $130.497B; FY2024 $60.922B; FY2023 $26.974B; Q1 FY2027 (ended 2026-04-26) revenue $81.615B; Q1 FY2026 $44.062B",
+      "value": "FY23 26974; FY24 60922; FY25 130497; FY26 215938; Q1FY27 81615; Q1FY26 44062 (USD millions)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "publisher": "U.S. SEC EDGAR XBRL company facts (us-gaap:Revenues, 10-K/10-Q)",
+      "as_of": "FY2026 10-K and Q1 FY2027 10-Q",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "Gross profit FY2026 $153.463B, Q1 FY2027 $61.157B, Q1 FY2026 $26.668B; operating income FY2026 $130.387B, Q1 FY2027 $53.536B, Q1 FY2026 $21.638B; net income FY2026 $120.067B, Q1 FY2027 $58.321B",
+      "value": "GP 153463/61157/26668; OpInc 130387/53536/21638; NI 120067/58321 (USD millions)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "publisher": "U.S. SEC EDGAR XBRL company facts (us-gaap:GrossProfit, OperatingIncomeLoss, NetIncomeLoss)",
+      "as_of": "FY2026 10-K and Q1 FY2027 10-Q",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "GAAP diluted EPS: FY2026 $4.90, Q1 FY2026 $0.76, Q1 FY2027 $2.39; weighted-average diluted shares Q1 FY2027 24,391 million",
+      "value": "EPS 4.90 / 0.76 / 2.39; diluted shares 24391 million",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "publisher": "U.S. SEC EDGAR XBRL company facts (us-gaap:EarningsPerShareDiluted, WeightedAverageNumberOfDilutedSharesOutstanding)",
+      "as_of": "FY2026 10-K and Q1 FY2027 10-Q",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "Non-GAAP diluted EPS Q1 FY2027 $1.87 vs Q1 FY2026 $0.78; FY2026 non-GAAP diluted EPS $4.77; Q2 FY2027 revenue outlook $91.0B +/- 2%; Q1 FY2027 Data Center revenue $75.2B (+92% y/y), compute $60.4B, networking $14.8B; ~$20.0B returned to shareholders in Q1 FY2027; $80.0B added to buyback authorization; quarterly dividend raised from $0.01 to $0.25",
+      "value": "nonGAAP EPS 1.87 / 0.78 / FY26 4.77; Q2FY27 guide 91000; DC 75200; buyback +80000; dividend 0.25 (USD millions except per-share)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000051/q1fy27pr.htm",
+      "publisher": "U.S. SEC EDGAR (NVIDIA 8-K, Q1 FY2027 earnings press release)",
+      "as_of": "Q1 FY2027 (ended 2026-04-26)",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "FY2026 full-year results: revenue $215.9B (+65%), GAAP gross margin 71.1%, GAAP diluted EPS $4.90, non-GAAP $4.77; Data Center $193.7B (+68%), Gaming $16.0B, Professional Visualization $3.2B, Automotive $2.3B; $41.1B returned to shareholders in FY2026",
+      "value": "rev 215900; GM 71.1%; EPS 4.90/4.77; DC 193700; Gaming 16000; ProViz 3200; Auto 2300; returns 41100 (USD millions)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm",
+      "publisher": "U.S. SEC EDGAR (NVIDIA 8-K, Q4 and FY2026 earnings press release)",
+      "as_of": "FY2026 (ended 2026-01-25)",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "Cash flow: operating cash flow FY2026 $102.718B, Q1 FY2026 $27.414B, Q1 FY2027 $50.344B; capital expenditure (payments to acquire productive assets) FY2026 $6.042B, Q1 FY2026 $1.227B, Q1 FY2027 $1.757B. Implied TTM FCF ~$119.076B; FY2026 FCF ~$96.676B",
+      "value": "OCF 102718/27414/50344; capex 6042/1227/1757 (USD millions)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "publisher": "U.S. SEC EDGAR XBRL company facts (us-gaap:NetCashProvidedByUsedInOperatingActivities, PaymentsToAcquireProductiveAssets)",
+      "as_of": "FY2026 10-K and Q1 FY2027 10-Q",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "Balance sheet at 2026-04-26: cash and equivalents $13.237B; available-for-sale debt securities $39.233B; total debt $8.470B ($1.000B current + $7.470B non-current); total stockholders' equity $195.474B; inventory $25.797B (vs $10.080B at 2025-01-26); accounts receivable $40.710B; marketable equity securities $30.237B; non-marketable equity securities $42.336B; total assets $259.474B; total liabilities $64.000B",
+      "value": "cash 13237; AFS debt sec 39233; total debt 8470; equity 195474; inventory 25797; AR 40710; equity sec FV-NI 30237; non-marketable equity 42336 (USD millions)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "publisher": "U.S. SEC EDGAR XBRL company facts (Q1 FY2027 10-Q balance sheet tags)",
+      "as_of": "2026-04-26",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "Q1 FY2027 non-operating income included $15.929B of gains on equity securities (us-gaap:OtherNonoperatingIncomeExpense), which is why GAAP diluted EPS ($2.39) exceeded non-GAAP ($1.87)",
+      "value": "15929 (USD millions)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "publisher": "U.S. SEC EDGAR XBRL company facts (us-gaap:OtherNonoperatingIncomeExpense, 10-Q)",
+      "as_of": "Q1 FY2027 (2026-01-26 to 2026-04-26)",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "Effective income tax rate FY2026 15.1% (Q1 FY2027 16.6%); depreciation and amortization FY2026 $2.843B, Q1 FY2026 $0.611B, Q1 FY2027 $0.997B - used for the NOPAT/ROIC and EBITDA calculations",
+      "value": "tax rate 0.151 / 0.166; D&A 2843/611/997 (USD millions)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "publisher": "U.S. SEC EDGAR XBRL company facts (us-gaap:EffectiveIncomeTaxRateContinuingOperations, DepreciationDepletionAndAmortization)",
+      "as_of": "FY2026 / Q1 FY2027",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "Customer concentration: in Q1 FY2027 three direct customers represented 21%, 17% and 16% of total revenue (a year earlier two direct customers were 16% and 14%). The filing also states NVIDIA generates a significant amount of revenue from a limited number of indirect customers, some individually 10% or more, and that one AI research and deployment company contributed a meaningful amount of revenue indirectly.",
+      "value": "21% / 17% / 16% of Q1 FY2027 revenue (~54% combined)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+      "publisher": "U.S. SEC EDGAR (NVIDIA 10-Q for quarter ended 2026-04-26)",
+      "as_of": "Q1 FY2027 (ended 2026-04-26)",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "FY2026 10-K reportable segments are Compute & Networking and Graphics; risk factor states 'A significant amount of our revenue stems from a limited number of partners and distributors and we have a concentration of sales to customers who purchase directly or indirectly from us.'",
+      "value": "2 reportable segments; concentration risk factor",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "publisher": "U.S. SEC EDGAR (NVIDIA 10-K for fiscal year ended 2026-01-25)",
+      "as_of": "FY2026 (ended 2026-01-25)",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "Current price and trend: last close $219.365 on 2026-08-06; 50-day moving average $205.84; 200-day moving average $193.77; 250-day range $165.18-$235.78. Price used in the valuation: $218.98.",
+      "value": "price 218.98; last close 219.365; 50dma 205.84; 200dma 193.77",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca (own market-data feed, --quote / --bars)",
+      "as_of": "2026-08-06",
+      "retrieved": "2026-08-06"
+    },
+    {
+      "claim": "Fair-value band computed by our own code from the cited inputs: P/E 25/33/42x on TTM non-GAAP EPS $5.86 and FCF yield 3.5/2.8/2.2% on TTM FCF per share $4.88 -> blended low $142.96, base $183.83, high $233.97; margin of safety at $218.98 = -19.12%",
+      "value": "fair_value low 142.96 / base 183.83 / high 233.97; MoS -0.1912",
+      "url": "https://github.com/anthropics/agentic-investor",
+      "publisher": "Own calculation via code/valuation.py (inputs all cited above)",
+      "as_of": "2026-08-06",
+      "retrieved": "2026-08-06"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}
