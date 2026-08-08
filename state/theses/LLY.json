@@ -1,0 +1,239 @@
+{
+  "ticker": "LLY",
+  "thesis_id": "LLY-2026Q2",
+  "company": "Eli Lilly and Company",
+  "sector": "Health Care (Pharmaceuticals)",
+  "as_of": "2026-Q2",
+  "retrieved": "2026-08-08",
+  "written_at": "2026-08-08",
+  "refresh_due": "2026-11-06",
+  "business_summary": "Eli Lilly discovers, manufactures and sells prescription medicines. Patients (mostly in the US) get them by prescription; the money actually comes from insurers, employers, pharmacy-benefit managers and government programs, and increasingly straight from patients through Lilly's own LillyDirect self-pay channel. The company is now overwhelmingly an incretin (GLP-1 / GIP) business: tirzepatide, sold as Mounjaro for type-2 diabetes and Zepbound for obesity, produced $9,943M + $4,928M = $14,871M of the $22,974M of Q2 2026 revenue, i.e. about 65% of the company (10-Q, three months ended 2026-06-30). In April 2026 the FDA approved Foundayo (orforglipron), the first small-molecule oral GLP-1 pill for weight management, which did $98M in its first partial quarter. Outside obesity/diabetes Lilly sells oncology (Verzenio $1,474M in Q2 2026, Jaypirca, Inluriyo), immunology (Taltz $856M, Ebglyss, Omvoh), cardiometabolic (Jardiance $1,232M, Trulicity $1,219M) and neuroscience (Kisunla for Alzheimer's). Full-year 2025 revenue was $65,179M and management now guides 2026 revenue to $85-87B. Why it should still be winning in 5-10 years: obesity and its comorbidities are a very large, under-treated, chronic (i.e. repeat-purchase) market; tirzepatide's composition-of-matter patent runs to roughly January 2036; Lilly has spent years and tens of billions building peptide fill-finish capacity that competitors cannot rent; and the pipeline behind tirzepatide (orforglipron oral GLP-1, retatrutide triple agonist with a BLA planned for Q1 2027, bimagrumab for muscle preservation) is the deepest in the category.",
+  "moat": {
+    "type": "Intangible assets: patents and regulatory exclusivity on tirzepatide (composition-of-matter to ~Jan 2036) and orforglipron; a decade-long, multi-billion-dollar clinical-evidence lead (Zepbound beat Novo's CagriSema head-to-head, 24% vs 20% weight loss over 84 weeks); very hard-to-replicate peptide and oral-solid manufacturing scale (capex $9.9B TTM vs $2.1B of D&A, plus a further $4.5B Indiana commitment announced with Q2 2026); brand and prescriber habit in obesity; growing direct-to-patient distribution (LillyDirect / TrumpRx) that Lilly controls end to end.",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "31.7% CAGR FY2022->FY2025 ($28,541M -> $65,179M); FY2023 $34,124M -> FY2024 $45,043M (+32%) -> FY2025 $65,179M (+45%); H1 2026 $42,773M vs H1 2025 $28,286M (+51%)",
+    "gross_margin": "83.0% FY2025 (revenue $65,179M less cost of sales $11,052M); 85.8% in Q2 2026 (revenue $22,974M less cost of sales $3,268M); 83.4% on TTM to 2026-06-30",
+    "roic": "~34% (TTM to 2026-06-30 NOPAT ~$26.7B = pretax income $33,595M x (1 - 20.5% effective tax) divided by ending invested capital ~$79.8B = total debt $54,908M + equity $33,879M - cash $8,950M); ~38% on average invested capital. Analyst-computed from filed XBRL line items, not a company-reported figure.",
+    "net_debt_to_ebitda": "~1.3x (net debt $45,958M at 2026-06-30 = debt $54,908M less cash $8,950M; divided by TTM EBITDA proxy ~$35.7B = pretax income $33,595M + D&A $2,099M; interest expense is NOT added back, so the true ratio is slightly lower). Analyst-computed from filed XBRL line items.",
+    "fcf_positive": "yes - TTM to 2026-06-30 operating cash flow $28,083M less capex $9,893M = FCF ~$18,190M (~$20.33/diluted share on 894.8M shares). FY2025 was $16,813M - $7,841M = $8,972M. FCF is materially depressed relative to earnings by the manufacturing build-out."
+  },
+  "valuation": {
+    "price": 1185.96,
+    "price_used": 1185.96,
+    "price_source": "alpaca",
+    "price_asof": "2026-08-07",
+    "fair_value_low": 722.43,
+    "fair_value_base": 885.04,
+    "fair_value_high": 1074.05,
+    "margin_of_safety": -0.34,
+    "method": "pe + fcf_yield, averaged by code/valuation.py. PE: FY2026 company EPS guidance midpoint $36.00 (guided range $35.50-$36.50, reported and non-GAAP, after a $3.03 acquired-IPR&D charge) x multiples 24 / 29 / 34 -> $864 / $1,044 / $1,224. FCF yield: TTM FCF/diluted share $20.33 at target yields 3.5% / 2.8% / 2.2% -> $581 / $726 / $924. Multiples chosen because a wide-moat pharma compounding earnings >30% with roughly a decade of composition-of-matter protection deserves a clear premium to the market (~34x at the high end), while the eventual tirzepatide patent cliff and US/ex-US price erosion argue against paying a perpetual growth multiple (24x at the low end). The FCF-yield leg is deliberately conservative and acts as a floor: current free cash flow is held down by growth capex ($9.9B TTM against $2.1B of depreciation), so it understates normalized cash generation."
+  },
+  "fair_value": {
+    "low": 722.43,
+    "base": 885.04,
+    "high": 1074.05,
+    "method": "pe+fcf_yield"
+  },
+  "price_used": 1185.96,
+  "margin_of_safety": -0.34,
+  "conviction": 3,
+  "bull_case": [
+    "Category leadership in the largest new drug market in a generation: Mounjaro grew 91% to $9,943M and Zepbound 46% to $4,928M in Q2 2026, together ~65% of company revenue, and total revenue grew 48% year over year to $22,974M.",
+    "Best-in-class efficacy is now proven head-to-head: Novo Nordisk's CagriSema delivered ~20% weight loss over 84 weeks versus ~24% for Lilly's Zepbound in a direct Phase 3 comparison (Feb 2026), and CagriSema also lost to tirzepatide on blood-sugar control.",
+    "Extraordinary unit economics: 85.8% gross margin in Q2 2026, ~34% ROIC on TTM figures, guided 2026 performance margin of 49.0-50.5% (raised from 47.0-48.5%).",
+    "Format expansion, not just volume: Foundayo (orforglipron) was FDA-approved 2026-04-01 as the first oral GLP-1 for weight management with no food or water restrictions and booked $98M in a partial first quarter - a pill scales to primary care and to markets injectables cannot reach.",
+    "A real pipeline behind the franchise: retatrutide's clinical package is complete with a BLA planned for Q1 2027 across obesity, obstructive sleep apnea and knee osteoarthritis pain; olomorasib received FDA Breakthrough Therapy designation in KRAS G12C pancreatic cancer.",
+    "Long IP runway: tirzepatide composition-of-matter protection runs to about January 2036, with formulation and device patents claimed beyond that.",
+    "Balance sheet can fund the build: net debt ~$46.0B against a TTM EBITDA proxy of ~$35.7B (~1.3x) while still paying a dividend ($3.46/share declared in H1 2026) and buying back stock ($4,108M in FY2025)."
+  ],
+  "risks": [
+    "Valuation is the headline risk. At $1,185.96 the stock is ~34% ABOVE our base fair value of $885 and above the high end of our band ($1,074). At the guided FY2026 EPS midpoint of $36.00 that is ~33x forward earnings. We are being asked to pay for many years of flawless execution.",
+    "Extreme single-molecule concentration: tirzepatide (Mounjaro + Zepbound) was 56% of FY2025 revenue and ~65% of Q2 2026 revenue. Any safety signal, manufacturing failure or legal setback on one molecule would hit the majority of the company.",
+    "Price is falling fast even as volume explodes. Q2 2026 revenue growth of 48% came from a 60% volume increase partly offset by a 13% decline in realized prices; US prices fell ~9% and international realized prices fell 36%, largely from Mounjaro's addition to China's NRDL.",
+    "Government pricing policy is now directly in the P&L. Under the November 2025 agreement with the US administration, injectable tirzepatide is priced at $245/month for Medicare (with $50 patient copays) and roughly $346/month average via TrumpRx, versus a former list price above $1,080. Further most-favored-nation extension, or eventual IRA Medicare negotiation of tirzepatide, would compress this further.",
+    "Generic challengers have arrived earlier than the 2036 patent date implies: Sandoz had two tirzepatide ANDAs accepted by the FDA (announced 2026-06-29) and China's Hybio announced accepted ANDAs plus a Paragraph IV challenge to Lilly's tirzepatide patents (July 2026). Lilly should win, but litigation outcomes are never certain and headlines will be volatile.",
+    "Free cash flow conversion is weak relative to earnings: TTM FCF of ~$18.2B against ~$26.7B of TTM net income, because capex is running at ~$9.9B TTM with another $4.5B of Indiana/genetic-medicine capacity just committed. If obesity demand slows, that capacity becomes stranded fixed cost.",
+    "Business-development spending is lumpy and dilutive to reported earnings: acquired in-process R&D charges cut $3.03 off FY2026 EPS guidance, and $3,486M of IPR&D purchases were made in H1 2026 alone.",
+    "Litigation and product-liability tail: the 10-Q discloses consolidated Mounjaro/Zepbound product-liability proceedings in Pennsylvania federal court, a Verzenio ANDA challenge from Cipla, the Emgality/Teva patent dispute, 340B litigation and the insulin-pricing MDL.",
+    "Competition does not stand still: Novo Nordisk, Amgen, Roche/Zealand, AstraZeneca and Chinese biotechs all have incretin programs; an oral or monthly competitor with comparable efficacy and a lower price would compress the whole category's economics."
+  ],
+  "what_would_break_thesis": [
+    "Combined Mounjaro + Zepbound revenue declines year over year for two consecutive quarters (the franchise has stopped growing).",
+    "Company gross margin falls below 75% for two consecutive quarters (from 85.8% in Q2 2026) - i.e. price concessions are outrunning volume.",
+    "Total revenue declines year over year for two consecutive quarters, or full-year revenue shrinks in any year.",
+    "Net-debt-to-EBITDA rises above 2.5x (from ~1.3x at 2026-06-30) - the manufacturing build-out is being financed beyond what cash flow supports.",
+    "Free cash flow is negative for a full fiscal year, or TTM FCF falls below 40% of TTM net income for four consecutive quarters (from ~68% today).",
+    "ROIC falls below 15% on a trailing-twelve-month basis (from ~34%).",
+    "A court invalidates or holds not-infringed a core tirzepatide composition-of-matter patent, or Lilly settles to allow US generic tirzepatide entry before 2033.",
+    "An FDA safety action on tirzepatide or orforglipron - a boxed warning, a label restriction that materially narrows the eligible population, or a withdrawal.",
+    "A retatrutide or orforglipron pivotal-program failure or FDA rejection that removes the next leg of growth.",
+    "US net realized price for the incretin franchise falls more than 25% year over year in any single year (beyond the ~9% US decline reported in Q2 2026), from MFN extension, IRA negotiation, or competitive discounting.",
+    "Management withdraws or cuts full-year revenue guidance by more than 10% versus the prior guide.",
+    "A serious accounting restatement, auditor change under dispute, or other material governance red flag."
+  ],
+  "catalysts": [
+    "Retatrutide BLA submission planned for Q1 2027 across obesity, obstructive sleep apnea and knee osteoarthritis pain.",
+    "Orforglipron (Foundayo) ramp through LillyDirect, retail pharmacy and telehealth, plus a potential type-2 diabetes label.",
+    "Broader Medicare/Medicaid obesity coverage arriving under the November 2025 pricing agreement - volume in exchange for price.",
+    "New capacity coming online (the additional $4.5B Indiana and genetic-medicine investment) relieving the supply constraint.",
+    "Resolution of the Sandoz / Hybio tirzepatide ANDA challenges in Lilly's favour.",
+    "A price pullback toward the $1,074 high end - or better, the $885 base - of our fair-value band, which would open a real margin of safety."
+  ],
+  "sources": [
+    {
+      "claim": "Q2 2026: revenue $22,974M (+48% YoY vs $15,558M), cost of sales $3,268M (85.8% gross margin), net income $7,095M, diluted EPS $7.94, pretax income $9,247M, income tax $2,152M, diluted shares 893.7M",
+      "value": "revenue 22974; COGS 3268; net income 7095; diluted EPS 7.94; pretax 9247; tax 2152; diluted shares 893.7 (millions)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000081/lly-20260630.htm",
+      "publisher": "U.S. SEC EDGAR (Eli Lilly Form 10-Q, accession 0000059478-26-000081)",
+      "as_of": "three months ended 2026-06-30",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "H1 2026: revenue $42,773M (vs $28,286M H1 2025, +51%), net income $14,491M, diluted EPS $16.19, pretax income $18,097M, income tax $3,606M, cost of sales $6,845M, D&A $1,043M, operating cash flow $16,023M, capex $5,259M, purchases of in-process R&D $3,486M, dividends declared $3.46/share",
+      "value": "revenue 42773; net income 14491; EPS 16.19; pretax 18097; tax 3606; COGS 6845; D&A 1043; OCF 16023; capex 5259; IPR&D 3486; DPS 3.46",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000081/lly-20260630.htm",
+      "publisher": "U.S. SEC EDGAR (Eli Lilly Form 10-Q) via SEC XBRL companyfacts API",
+      "as_of": "six months ended 2026-06-30",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Balance sheet at 2026-06-30: cash and equivalents $8,950M, long-term debt $47,858M, current debt $7,050M (total debt $54,908M), shareholders' equity $33,879M, total assets $142,283M, PP&E net $29,286M",
+      "value": "cash 8950; LT debt 47858; current debt 7050; equity 33879; assets 142283; PPE 29286",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000081/lly-20260630.htm",
+      "publisher": "U.S. SEC EDGAR (Eli Lilly Form 10-Q) via SEC XBRL companyfacts API",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Q2 2026 revenue by product: Mounjaro $9,943M (vs $5,199M), Zepbound $4,928M (vs $3,381M), Verzenio $1,474M (vs $1,489M), Jardiance $1,232M (vs $690M), Trulicity $1,219M (vs $1,092M), Taltz $856M (vs $848M)",
+      "value": "Mounjaro 9943; Zepbound 4928; Verzenio 1474; Jardiance 1232; Trulicity 1219; Taltz 856 (millions USD)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000081/lly-20260630.htm",
+      "publisher": "U.S. SEC EDGAR (Eli Lilly Form 10-Q, revenue-by-product table)",
+      "as_of": "three months ended 2026-06-30",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Q2 2026 results and raised FY2026 guidance: revenue $23.0B (+48%, volume +60%, realized price -13%), gross margin $19.7B / 85.8%, operating income $9.0B (+31%), R&D $3.8B, SG&A $3.4B, non-GAAP EPS $8.38 (+33%); Key Products revenue $15.7B; US revenue $14.4B (+33%), international $8.6B (+80%, US prices -9%, international realized prices -36% mainly China NRDL); Foundayo $98M, Ebglyss $201M, Jaypirca $192M, Kisunla $167M, Omvoh $102M, Inluriyo $75M; FY2026 guidance revenue $85.0-87.0B (from $82-85B), performance margin 49.0-50.5% (from 47.0-48.5%), tax rate 18-19%, reported and non-GAAP EPS $35.50-$36.50 including a $3.03 acquired-IPR&D headwind; additional $4.5B committed to Indiana manufacturing and first dedicated genetic medicine facility; retatrutide clinical package complete with BLA planned Q1 2027; olomorasib granted FDA Breakthrough Therapy designation in KRAS G12C pancreatic cancer",
+      "value": "FY2026 revenue guide 85000-87000; EPS guide 35.50-36.50; performance margin 49.0-50.5%; Q2 op income 9000; R&D 3800; SG&A 3400",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
+      "publisher": "Eli Lilly and Company Investor Relations (Q2 2026 earnings release, 2026-08-05)",
+      "as_of": "2026-Q2 / FY2026 guidance",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "FY2025: revenue $65,179M (+45%), cost of sales $11,052M (83.0% gross margin), net income $20,640M (+95%), diluted EPS $22.95, pretax income $25,731M, income tax $5,091M, D&A $1,997M, operating cash flow $16,813M, capex $7,841M, purchases of in-process R&D $3,008M, share repurchases $4,108M, dividends paid $5,384M, dividends declared $6.23/share, diluted shares 899.3M; cash $7,268M, long-term debt $40,868M, current debt $1,635M, equity $26,535M at 2025-12-31; prior-year revenue FY2024 $45,043M, FY2023 $34,124M, FY2022 $28,541M",
+      "value": "FY25 revenue 65179; COGS 11052; net income 20640; EPS 22.95; pretax 25731; tax 5091; D&A 1997; OCF 16813; capex 7841; FY24 revenue 45043; FY23 revenue 34124; FY22 revenue 28541",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+      "publisher": "U.S. SEC EDGAR (Eli Lilly Form 10-K for FY2025, accession 0000059478-26-000013) via SEC XBRL companyfacts API",
+      "as_of": "FY2025 (ended 2025-12-31)",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "FY2025 highlights: revenue $65.179B (+45%), gross margin 83.0% reported / 83.8% non-GAAP, operating income $26.302B (+104%), net income $20.640B, reported EPS $22.95, non-GAAP EPS $24.21, R&D $13.337B, marketing/selling/admin $11.094B; Mounjaro $22.965B (+99%), Zepbound $13.542B (+175%), Verzenio $5.723B (+8%); original 2026 guidance revenue $80-83B and non-GAAP EPS $33.50-35.00",
+      "value": "Mounjaro FY25 22965; Zepbound FY25 13542; Verzenio FY25 5723; non-GAAP EPS 24.21",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides",
+      "publisher": "Eli Lilly and Company Investor Relations (Q4/FY2025 earnings release)",
+      "as_of": "FY2025 (ended 2025-12-31)",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Mounjaro and Zepbound accounted for 56 percent of total revenue in 2025",
+      "value": "56% of FY2025 revenue from tirzepatide brands",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+      "publisher": "U.S. SEC EDGAR (Eli Lilly Form 10-K for FY2025)",
+      "as_of": "FY2025",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "FDA approved Foundayo (orforglipron), a once-daily oral GLP-1 for adults with obesity or overweight with weight-related conditions, announced 2026-04-01; available first through LillyDirect from 2026-04-06; ATTAIN-1 showed >12% average body-weight loss at the highest dose versus ~1% on placebo; self-pay from $149/month and as low as $25/month for some commercially insured patients",
+      "value": "approval date 2026-04-01; ATTAIN-1 weight loss >12% vs ~1% placebo",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill",
+      "publisher": "Eli Lilly and Company Investor Relations / FDA approval announcement",
+      "as_of": "2026-04-01",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Head-to-head Phase 3: Novo Nordisk's CagriSema produced ~20% average body-weight loss over 84 weeks versus ~24% for Lilly's Zepbound; CagriSema also underperformed tirzepatide on blood-sugar control in type 2 diabetes",
+      "value": "CagriSema ~20% vs Zepbound ~24% weight loss at 84 weeks",
+      "url": "https://www.biopharmadive.com/news/novo-nordisk-cagrisema-zepbound-head-to-head-results/812810/",
+      "publisher": "BioPharma Dive (secondary source; trial sponsored by Novo Nordisk)",
+      "as_of": "2026-02-23",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "November 2025 agreement with the US administration: Lilly and Novo Nordisk to price injectable tirzepatide/semaglutide at $245/month for Medicare with $50 patient copays; Zepbound average price via TrumpRx ~$346/month versus a prior list price above $1,080; TrumpRx.gov launched January 2026; tirzepatide is not expected to be eligible for IRA Medicare negotiation until late this decade",
+      "value": "Medicare price $245/month; copay $50; TrumpRx average $346/month vs >$1,080 list",
+      "url": "https://www.cnbc.com/2025/11/06/trump-eli-lilly-novo-nordisk-deal-obesity-drug-prices.html",
+      "publisher": "CNBC (secondary source)",
+      "as_of": "2025-11-06",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Generic challenges to tirzepatide: FDA accepted two Sandoz ANDAs for generic tirzepatide (announced 2026-06-29); China's Hybio Pharmaceutical announced FDA acceptance of two tirzepatide ANDAs plus a Paragraph IV patent challenge (July 2026). Lilly's core US tirzepatide patents are not expected to expire until about 2036.",
+      "value": "Sandoz 2 ANDAs accepted 2026-06-29; Hybio ANDAs + Paragraph IV July 2026; core patents to ~2036",
+      "url": "https://www.drugtopics.com/view/fda-accepts-sandoz-applications-for-generic-tirzepatide",
+      "publisher": "Drug Topics (secondary source)",
+      "as_of": "2026-06-29",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Tirzepatide composition-of-matter patent expected to expire January 2036; five-year New Chemical Entity exclusivity from the May 2022 approval runs to May 2027; follow-on formulation/device/method patents claimed into the 2040s",
+      "value": "composition-of-matter expiry ~Jan 2036; NCE exclusivity to May 2027",
+      "url": "https://www.drugpatentwatch.com/p/alphasignals/tradename/MOUNJARO",
+      "publisher": "DrugPatentWatch (secondary source; patent estimates, not a filing)",
+      "as_of": "2026",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Legal proceedings disclosed in the Q2 2026 10-Q: Mounjaro/Zepbound product-liability cases consolidated in Pennsylvania federal court; Cipla ANDA challenge to Verzenio; Emgality/Teva patent dispute (Federal Circuit reversed the lower court); 340B litigation; insulin-pricing MDL; tirzepatide generic ANDAs filed July 2026",
+      "value": "see 10-Q Note on contingencies",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000081/lly-20260630.htm",
+      "publisher": "U.S. SEC EDGAR (Eli Lilly Form 10-Q)",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Retatrutide: Lilly said it will file for approval in 2027 after clearing two more trials",
+      "value": "BLA planned Q1 2027",
+      "url": "https://www.cnbc.com/2026/07/23/eli-lilly-will-file-for-approval-of-retatrutide-obesity-drug-in-2027.html",
+      "publisher": "CNBC (secondary source)",
+      "as_of": "2026-07-23",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Current price and trend: last close $1,185.96; 50-day SMA $1,157.72; 200-day SMA $1,033.38; price above both averages; ~$137.7M average daily dollar volume",
+      "value": "price 1185.96; SMA50 1157.72; SMA200 1033.38",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca (our own market-data feed)",
+      "as_of": "2026-08-07",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Fair-value band computed by code/valuation.py from the cited inputs (EPS $36.00 x 24/29/34; FCF/share $20.33 at 3.5%/2.8%/2.2% yields)",
+      "value": "low 722.43; base 885.04; high 1074.05; margin_of_safety -0.34",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
+      "publisher": "Analyst calculation (code/valuation.py) from Lilly guidance and SEC filings",
+      "as_of": "2026-08-08",
+      "retrieved": "2026-08-08"
+    }
+  ],
+  "sell_triggers": [
+    "Combined Mounjaro + Zepbound revenue declines year over year for two consecutive quarters.",
+    "Company gross margin falls below 75% for two consecutive quarters (from 85.8% in Q2 2026).",
+    "Total revenue declines year over year for two consecutive quarters, or full-year revenue shrinks in any year.",
+    "Net-debt-to-EBITDA rises above 2.5x (from ~1.3x at 2026-06-30).",
+    "Free cash flow is negative for a full fiscal year, or TTM FCF falls below 40% of TTM net income for four consecutive quarters.",
+    "ROIC falls below 15% on a trailing-twelve-month basis.",
+    "A court invalidates or holds not-infringed a core tirzepatide composition-of-matter patent, or Lilly settles to allow US generic tirzepatide entry before 2033.",
+    "An FDA safety action on tirzepatide or orforglipron: boxed warning, materially narrowing label restriction, or withdrawal.",
+    "A retatrutide or orforglipron pivotal-program failure or FDA rejection.",
+    "US net realized price for the incretin franchise falls more than 25% year over year in any single year.",
+    "Management withdraws or cuts full-year revenue guidance by more than 10% versus the prior guide.",
+    "A serious accounting restatement, disputed auditor change, or other material governance red flag."
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}
