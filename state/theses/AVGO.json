@@ -1,0 +1,227 @@
+{
+  "ticker": "AVGO",
+  "thesis_id": "AVGO-2026Q2",
+  "company": "Broadcom Inc.",
+  "sector": "Information Technology (Semiconductors & Infrastructure Software)",
+  "as_of": "2026-Q2",
+  "retrieved": "2026-08-08",
+  "written_at": "2026-08-08",
+  "refresh_due": "2026-11-06",
+  "business_summary": "Broadcom sells two things. (1) Semiconductor Solutions (68% of Q2 FY2026 revenue, $15,009M of $22,187M): custom AI accelerators ('XPUs') that it co-designs with a handful of very large customers, plus the Ethernet switching/routing silicon (Tomahawk, Jericho) that wires AI data centres together, plus broadband, wireless (it supplies Apple), storage and industrial chips. (2) Infrastructure Software ($7,178M in Q2 FY2026, 32%): VMware (bought Nov 2023 for ~$69B and repackaged into the VMware Cloud Foundation subscription bundle), plus CA mainframe software, Symantec/Carbon Black security and Brocade. It makes money by selling irreplaceable components and mission-critical software into large enterprise and hyperscaler budgets, on long design cycles and multi-year contracts. Broadcom is fabless (TSMC makes the chips), so capex is tiny: only $860M of capex on $75.5B of TTM revenue, which is why it converts ~43% of revenue straight into free cash flow. The reason it should still be winning in 5-10 years: once a hyperscaler designs a Broadcom XPU or a Tomahawk switch into a data-centre generation, the silicon, the software stack and the SerDes/optical IP are locked in for years, and VMware runs the private-cloud estates of most large enterprises, which are extremely painful to migrate off.",
+  "moat": {
+    "type": "High switching costs (multi-year custom-ASIC design-ins; VMware/mainframe software embedded in enterprise operations), scale + IP leadership in SerDes/networking silicon, deep co-engineering relationships with a small number of hyperscalers, and pricing power from being the only credible second source to NVIDIA for merchant AI networking",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "24.4% CAGR FY2022->FY2025 ($33,203M -> $63,887M); FY2025 +23.9% YoY; accelerating hard now - H1 FY2026 revenue $41,498M vs $29,920M, +38.7%, and Q2 FY2026 +47.9% YoY",
+    "gross_margin": 0.6828,
+    "roic": 0.2239,
+    "net_debt_to_ebitda": 0.88,
+    "fcf_positive": "yes - TTM (Q3 FY2025 through Q2 FY2026) free cash flow $32,762M on $75,465M revenue (43.4% of revenue); FY2025 FCF $26,914M",
+    "operating_margin": 0.4339,
+    "adjusted_ebitda_margin": 0.68,
+    "ttm_revenue_usd_m": 75465,
+    "ttm_gaap_net_income_usd_m": 29317,
+    "ttm_gaap_diluted_eps": 6.01,
+    "ttm_non_gaap_diluted_eps": 8.13,
+    "ttm_fcf_per_share": 6.72,
+    "ttm_stock_based_comp_usd_m": 8785,
+    "net_debt_usd_m": 45279,
+    "effective_tax_rate": 0.0909
+  },
+  "valuation": {
+    "price": 427.57,
+    "price_used": 427.57,
+    "price_source": "alpaca",
+    "price_asof": "2026-08-07",
+    "fair_value_low": 256.93,
+    "fair_value_base": 321.16,
+    "fair_value_high": 396.32,
+    "margin_of_safety": -0.3313,
+    "method": "pe + fcf_yield, both anchored on Q2 FY2026 actuals annualised (non-GAAP diluted EPS $2.44 x 4 = $9.76 at 28/35/42x; Q2 FCF $10,262M / 4,876M diluted shares x 4 = $8.42/share at 3.5/2.8/2.2% target yields), averaged by code/valuation.py. Conservative cross-check using trailing-twelve-month figures with the IDENTICAL multiples (EPS $8.13, FCF/share $6.72) gives low 209.82 / base 262.27 / high 323.46. The multiples were held constant across both runs so the only difference is the earnings anchor - we did not tune multiples to reach a desired answer.",
+    "verdict": "expensive (above the high end of fair value)",
+    "cross_check_ttm_fair_value": {
+      "low": 209.82,
+      "base": 262.27,
+      "high": 323.46
+    },
+    "multiples_rationale": "28/35/42x is already a generous band for a semiconductor-led business: 28x is what a wide-moat, 68%-EBITDA-margin compounder growing mid-teens deserves; 35x base credits durable AI custom-silicon growth; 42x assumes the OpenAI 10GW and Apple ASIC ramps land. FCF target yields of 3.5/2.8/2.2% are the cash-flow mirror of those multiples. Note both anchors flatter Broadcom because free cash flow and non-GAAP EPS add back $8,785M of TTM stock-based compensation (~$1.80/share); FCF per share net of SBC is only $4.92."
+  },
+  "conviction": 4,
+  "price_used": 427.57,
+  "fair_value": {
+    "low": 256.93,
+    "base": 321.16,
+    "high": 396.32,
+    "method": "pe+fcf"
+  },
+  "margin_of_safety": -0.3313,
+  "bull_case": [
+    "Wide moat in custom AI silicon: Broadcom co-designs the accelerators for a small set of hyperscalers, and those design-ins lock in multiple product generations. AI semiconductor revenue was $10.8B in Q2 FY2026, up 143% YoY, and management guided Q3 AI revenue to $16.0B, over 200% YoY growth.",
+    "Dominant AI networking franchise: Ethernet switching silicon is the fabric that connects AI clusters, and Broadcom is the merchant standard. This is the part of the AI buildout least exposed to any single accelerator architecture winning.",
+    "Two enormous named ramps ahead: an OpenAI collaboration for 10 gigawatts of OpenAI-designed accelerators deploying from H2 2026 through end-2029 (announced 13 Oct 2025), and a new multi-year Apple custom-ASIC agreement running through 2031 (8-K filed 6 Jul 2026).",
+    "Extraordinary and verifiable economics: TTM gross margin 68.3%, operating margin 43.4%, adjusted EBITDA margin 68.0%, ROIC ~22.4% even after charging the full ~$97.8B of acquisition goodwill against invested capital.",
+    "Capital-light and cash-generative: only $860M of TTM capex on $75.5B of revenue because Broadcom is fabless; $32.8B of TTM free cash flow, 43.4% of revenue.",
+    "Infrastructure Software is a stable, high-margin ballast: $13,974M revenue and $5,647M operating income in H1 FY2026 (40.4% segment operating margin), converting VMware perpetual licences to subscription.",
+    "Balance sheet is being repaired fast: net debt $45.3B is just 0.88x TTM adjusted EBITDA despite the $69B VMware purchase, and the company still paid $6,178M of dividends and repurchased $8,450M of stock in H1 FY2026."
+  ],
+  "risks": [
+    "PRICE IS THE MAIN RISK. At $427.57 the stock trades at 71x TTM GAAP EPS, 53x TTM non-GAAP EPS and 64x TTM free cash flow, roughly 33% ABOVE our base fair value of $321 and above the high end of the band ($396). Buying here means paying in full for growth that has not happened yet.",
+    "Customer concentration is severe: the FY2025 10-K states the top five end customers were ~40% of net revenue, and 48% of revenue went through distributors. The loss or in-sourcing of one hyperscaler AI programme would be material.",
+    "AI single-cycle dependence: AI semiconductors were $10.8B of $22.2B total Q2 FY2026 revenue - roughly 49% of the whole company, versus ~20% a year earlier. Semiconductors are historically cyclical and Broadcom has never had this much of its revenue riding on one end market.",
+    "Custom ASICs are a competitive, low-loyalty business at the margin: customers can move programmes to Marvell, Alchip, MediaTek or bring designs in-house, and NVIDIA is pushing its own NVLink/Spectrum networking against Broadcom's Ethernet.",
+    "Software growth is the weak leg: Infrastructure Software grew only 9% YoY in Q2 FY2026 ($7,178M vs $6,596M), and the market reacted badly to the 3 Jun 2026 print on soft software sales. The VMware price-increase and bundling strategy has driven customer resentment and regulatory attention in the EU.",
+    "Leverage and interest cost are real: $64,907M of total debt at 3 May 2026 with $1,577M of interest expense in H1 FY2026 alone.",
+    "GAAP earnings are much lower than the headline: $8,785M of TTM stock-based compensation and $3,936M of H1 intangible amortisation mean GAAP diluted EPS of $6.01 versus non-GAAP $8.13. Diluted share count has risen from 4,778M (FY2024) to 4,876M (Q2 FY2026) despite buybacks.",
+    "Tax rate is unusually low (9.1% effective in H1 FY2026); any normalisation toward a statutory rate would cut earnings materially.",
+    "Goodwill of $97,801M is 55% of total assets ($179,158M). A demand shock that impaired the VMware or Symantec goodwill would be a large non-cash hit and a signal that acquisition prices were wrong."
+  ],
+  "what_would_break_thesis": [
+    "AI semiconductor revenue declines year-over-year in any two consecutive quarters (it is the entire growth engine).",
+    "Total company revenue declines year-over-year for two consecutive quarters.",
+    "GAAP gross margin falls below 60% for two consecutive quarters (it is 68.3% TTM); this would signal custom-ASIC pricing power eroding.",
+    "Adjusted EBITDA margin falls below 55% for two consecutive quarters (68.0% TTM).",
+    "Net-debt-to-EBITDA rises above 3.0x (0.88x today), or the company raises new debt for an acquisition that pushes it there.",
+    "Free cash flow falls below 25% of revenue for a full fiscal year (43.4% TTM), or turns negative in any quarter.",
+    "ROIC falls below 12% on a trailing-twelve-month basis (22.4% today).",
+    "Infrastructure Software segment revenue declines year-over-year for two consecutive quarters (a sign the VMware repricing has broken the installed base).",
+    "The 10-K discloses top-five end-customer concentration above 55% of net revenue (40% in FY2025), or a named hyperscaler publicly cancels/insources a Broadcom XPU programme.",
+    "A material goodwill impairment on VMware, or any accounting restatement, auditor change under dispute, or SEC enforcement action.",
+    "Diluted share count rises more than 3% year-over-year while buybacks are suspended (shareholders being diluted by stock comp with no offset)."
+  ],
+  "sell_triggers": [
+    "AI semiconductor revenue declines year-over-year in any two consecutive quarters (it is the entire growth engine).",
+    "Total company revenue declines year-over-year for two consecutive quarters.",
+    "GAAP gross margin falls below 60% for two consecutive quarters (it is 68.3% TTM); this would signal custom-ASIC pricing power eroding.",
+    "Adjusted EBITDA margin falls below 55% for two consecutive quarters (68.0% TTM).",
+    "Net-debt-to-EBITDA rises above 3.0x (0.88x today), or the company raises new debt for an acquisition that pushes it there.",
+    "Free cash flow falls below 25% of revenue for a full fiscal year (43.4% TTM), or turns negative in any quarter.",
+    "ROIC falls below 12% on a trailing-twelve-month basis (22.4% today).",
+    "Infrastructure Software segment revenue declines year-over-year for two consecutive quarters (a sign the VMware repricing has broken the installed base).",
+    "The 10-K discloses top-five end-customer concentration above 55% of net revenue (40% in FY2025), or a named hyperscaler publicly cancels/insources a Broadcom XPU programme.",
+    "A material goodwill impairment on VMware, or any accounting restatement, auditor change under dispute, or SEC enforcement action.",
+    "Diluted share count rises more than 3% year-over-year while buybacks are suspended (shareholders being diluted by stock comp with no offset)."
+  ],
+  "catalysts": [
+    "Q3 FY2026 results (expected early September 2026): management guided revenue of ~$29.4B (+84% YoY) and AI semiconductor revenue of $16.0B (+over 200% YoY) with ~68% adjusted EBITDA margin. A beat or a raised FY2027 AI outlook is the near-term driver; a miss on either is the near-term risk.",
+    "First revenue from the OpenAI 10-gigawatt accelerator programme, which is targeted to begin deploying in H2 2026 - i.e. it should start showing up in the numbers now.",
+    "Ramp of the Apple custom-ASIC agreement announced 6 Jul 2026 and running through 2031.",
+    "Evidence that VMware Cloud Foundation subscription conversion re-accelerates Infrastructure Software growth back above 15%.",
+    "A market-wide AI de-rating or a single disappointing quarter pulling the price back toward our $396 high / $321 base fair value, which is the only condition under which we would start buying."
+  ],
+  "sources": [
+    {
+      "claim": "Q2 FY2026 (quarter ended 2026-05-03) net revenue $22,187M (+48% YoY); Semiconductor Solutions $15,009M (+79%); Infrastructure Software $7,178M (+9%); AI semiconductor revenue $10.8B (+143% YoY); GAAP net income $9,310M, GAAP diluted EPS $1.91; non-GAAP net income $12,074M, non-GAAP diluted EPS $2.44; adjusted EBITDA $15,244M (69% of revenue); free cash flow $10,262M (46% of revenue); Q3 FY2026 guidance revenue ~$29.4B (+84%), AI semi revenue $16.0B (+over 200%), adjusted EBITDA ~68% of revenue; quarterly dividend $0.65/share",
+      "value": "rev 22187; semi 15009; software 7178; AI 10800; GAAP EPS 1.91; nonGAAP EPS 2.44; adjEBITDA 15244; FCF 10262; Q3 guide 29400 / AI 16000 / 68%",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-05032026x8kxex99.htm",
+      "publisher": "U.S. SEC EDGAR (Broadcom Form 8-K, Item 2.02, Exhibit 99.1, filed 2026-06-03)",
+      "as_of": "FY2026 Q2 (ended 2026-05-03)",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Six months ended 2026-05-03 vs 2025-05-04: net revenue $41,498M vs $29,920M; GAAP net income $16,659M vs $10,468M; non-GAAP net income $22,259M vs $15,610M; non-GAAP diluted EPS $4.49 vs $3.18; adjusted EBITDA $28,372M vs $20,084M; free cash flow $18,272M vs $12,424M; cash from operations $18,753M vs $12,668M. Q2 FY2025 non-GAAP diluted EPS $1.58 and adjusted EBITDA $10,001M.",
+      "value": "H1FY26 rev 41498 / NI 16659 / nonGAAP NI 22259 / EPS 4.49 / adjEBITDA 28372 / FCF 18272; H1FY25 rev 29920 / NI 10468 / EPS 3.18 / adjEBITDA 20084 / FCF 12424",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-05032026x8kxex99.htm",
+      "publisher": "U.S. SEC EDGAR (Broadcom Form 8-K Exhibit 99.1, filed 2026-06-03)",
+      "as_of": "H1 FY2026 (ended 2026-05-03) and H1 FY2025 (ended 2025-05-04)",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Form 10-Q for quarter ended 2026-05-03: revenue six months $41,498M, gross profit $28,572M, operating income $19,351M, net income $16,659M, diluted EPS $3.41; income before income taxes $18,325M and provision for income taxes $1,666M (9.09% effective rate); cash and cash equivalents $19,628M; long-term debt $62,655M plus current portion $2,252M = $64,907M total debt; total equity $87,691M; total assets $179,158M; goodwill $97,801M; intangibles net $28,333M; weighted-average diluted shares 4,876M; R&D six months $5,960M; stock-based compensation six months $4,268M; interest expense six months $1,577M; capex six months $481M; dividends paid $6,178M; share repurchases $8,450M",
+      "value": "see claim; primary document avgo-20260503.htm, accession 0001730168-26-000054",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+      "publisher": "U.S. SEC EDGAR (Broadcom Form 10-Q, filed 2026-06-09)",
+      "as_of": "FY2026 Q2 (ended 2026-05-03)",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Segment note, six months ended 2026-05-03 vs 2025-05-04: Semiconductor Solutions revenue $27,524M (vs $16,620M) and operating income $16,784M (vs $9,512M); Infrastructure Software revenue $13,974M (vs $13,300M) and operating income $5,647M (vs $4,987M)",
+      "value": "semi 27524/16784; software 13974/5647",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+      "publisher": "U.S. SEC EDGAR (Broadcom Form 10-Q, filed 2026-06-09)",
+      "as_of": "H1 FY2026 (ended 2026-05-03)",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "FY2025 (ended 2025-11-02) 10-K figures: net revenue $63,887M; gross profit $43,294M; operating income $25,484M; net income $23,126M; diluted EPS $4.77; cash from operations $27,537M; capex $623M; cash $16,178M; R&D $10,977M; stock-based compensation $7,568M; dividends paid $11,142M; weighted-average diluted shares 4,853M. Prior years: FY2024 revenue $51,574M, FY2023 $35,819M, FY2022 $33,203M.",
+      "value": "FY25 rev 63887 / GP 43294 / OI 25484 / NI 23126 / EPS 4.77 / OCF 27537 / capex 623; FY24 51574; FY23 35819; FY22 33203",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "publisher": "U.S. SEC EDGAR (Broadcom Form 10-K, filed 2025-12-18)",
+      "as_of": "FY2025 (ended 2025-11-02)",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "FY2025 customer concentration and headcount: 'aggregate sales to our top five end customers, through all channels, accounted for approximately 40% of our net revenue for each of the fiscal years 2025 and 2024'; sales to distributors were 48% of net revenue; approximately 33,000 employees worldwide with ~57% in research and development",
+      "value": "top-5 end customers ~40% of revenue; distributors 48%; ~33,000 employees",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "publisher": "U.S. SEC EDGAR (Broadcom Form 10-K, filed 2025-12-18)",
+      "as_of": "FY2025 (ended 2025-11-02)",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "FY2025 full-year results press release: net revenue $63,887M (+24% YoY); Semiconductor Solutions $36,858M, Infrastructure Software $27,029M; adjusted EBITDA $43,004M (+35%); free cash flow $26,914M (+39%); non-GAAP diluted EPS $6.82 (+40%); Q4 FY2025 revenue $18.0B (+28%) with AI semiconductor revenue +74% YoY; Q1 FY2026 guidance revenue ~$19.1B and adjusted EBITDA ~67% of revenue",
+      "value": "FY25 rev 63887; semi 36858; software 27029; adjEBITDA 43004; FCF 26914; nonGAAP EPS 6.82",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000116/avgo-11022025x8kxex99.htm",
+      "publisher": "U.S. SEC EDGAR (Broadcom Form 8-K Exhibit 99.1, filed 2025-12-11)",
+      "as_of": "FY2025 (ended 2025-11-02)",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Q1 FY2026 (quarter ended 2026-02-01): revenue $19,311M (+29% YoY); AI semiconductor revenue $8.4B (+106% YoY); Semiconductor Solutions $12,515M; Infrastructure Software $6,796M; GAAP diluted EPS $1.50; non-GAAP diluted EPS $2.05; free cash flow $8,010M (41% of revenue); adjusted EBITDA $13,128M (68% of revenue)",
+      "value": "rev 19311; AI 8400; semi 12515; software 6796; GAAP EPS 1.50; nonGAAP EPS 2.05; FCF 8010; adjEBITDA 13128",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/avgo-02012026x8kxex99.htm",
+      "publisher": "U.S. SEC EDGAR (Broadcom Form 8-K Exhibit 99.1, filed 2026-03-04)",
+      "as_of": "FY2026 Q1 (ended 2026-02-01)",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Broadcom entered new multi-year long-term agreements with Apple, through 2031, to develop and supply a range of custom ASIC silicon products for use in multiple generations of Apple products",
+      "value": "Apple custom ASIC agreements through 2031",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm",
+      "publisher": "U.S. SEC EDGAR (Broadcom Form 8-K, Item 8.01, filed 2026-07-06)",
+      "as_of": "2026-07-06",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "OpenAI and Broadcom strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators; OpenAI designs the accelerators and systems, Broadcom develops and deploys them together with its Ethernet connectivity; racks targeted to begin deploying in the second half of 2026 and complete by end of 2029",
+      "value": "10 GW; deployment H2 2026 to end-2029",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10",
+      "publisher": "Broadcom Investor Relations (press release)",
+      "as_of": "2025-10-13",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Shares outstanding 4,757,580,198 as of 2026-05-29 (10-Q cover page, DEI EntityCommonStockSharesOutstanding); implied market cap ~$2,034B at $427.57 and enterprise value ~$2,080B including $45,279M net debt",
+      "value": "shares outstanding 4757580198",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001730168.json",
+      "publisher": "U.S. SEC EDGAR XBRL company facts API",
+      "as_of": "2026-05-29",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Derived trailing-twelve-month figures (FY2025 full year minus H1 FY2025 plus H1 FY2026, all components from the SEC filings cited above): revenue $75,465M; gross profit $51,524M (68.28% margin); operating income $32,746M (43.39% margin); GAAP net income $29,317M; GAAP diluted EPS $6.01; non-GAAP diluted EPS $8.13; adjusted EBITDA $51,292M (67.97% margin); cash from operations $33,622M; capex $860M; free cash flow $32,762M; FCF per share $6.72 on 4,876M diluted shares; stock-based comp $8,785M; net debt $45,279M = 0.88x TTM adjusted EBITDA; NOPAT $29,769M at the 9.09% H1 FY2026 effective tax rate on invested capital of $132,970M (total debt $64,907M + equity $87,691M - cash $19,628M) = ROIC 22.39%",
+      "value": "TTM rev 75465; GM 0.6828; OM 0.4339; FCF 32762; FCF/sh 6.72; nonGAAP EPS 8.13; ND/EBITDA 0.88; ROIC 0.2239",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001730168.json",
+      "publisher": "U.S. SEC EDGAR XBRL company facts API (arithmetic by code/valuation.py and a checked script; every component traces to the 10-K/10-Q/8-K sources above)",
+      "as_of": "TTM ended 2026-05-03",
+      "retrieved": "2026-08-08"
+    },
+    {
+      "claim": "Price and trend from our own Alpaca feed: last close $427.57 (2026-08-07); 50-day SMA $395.01; 200-day SMA $367.57; 250-session high $481.91, low $289.60; 6-month return +28.6%",
+      "value": "close 427.57; sma50 395.01; sma200 367.57",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca (code/alpaca_client.py --bars AVGO --days 250)",
+      "as_of": "2026-08-07",
+      "retrieved": "2026-08-08"
+    }
+  ],
+  "unknowns": [
+    "Full-year FY2025 AI semiconductor revenue is not disclosed as a line item in the 10-K or the Q4 press release (management discussed it on the earnings call only). We therefore use only the quarterly AI figures that appear in the 8-K exhibits: Q1 FY2026 $8.4B, Q2 FY2026 $10.8B, Q3 FY2026 guided $16.0B.",
+    "The widely reported '$73B AI backlog' figure comes from earnings-call commentary, not from a filed document we could verify, so it is deliberately excluded from this thesis.",
+    "Broadcom does not disclose AI revenue by customer, so we cannot size the OpenAI or Apple programmes independently.",
+    "Q3 FY2026 non-GAAP EPS is not guided (only revenue and adjusted EBITDA margin), so no forward EPS is asserted here."
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}
