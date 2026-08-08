@@ -18,6 +18,10 @@ V
 MA
 JPM
 
+# --- Financial data, ratings & analytics ---
+SPGI   # S&P Global: credit-ratings + index-licensing oligopoly; scouted 2026-08-08
+MCO    # Moody's Corp: NRSRO ratings duopoly + risk analytics; scouted 2026-08-08
+
 # --- Consumer staples ---
 COST
 WMT
@@ -35,6 +39,9 @@ UNH
 JNJ
 LLY
 ABBV
+
+# --- Life-sciences tools & instruments ---
+TMO    # Thermo Fisher Scientific: instruments + consumables moat; scouted 2026-08-08
 
 # --- Industrials ---
 CAT
