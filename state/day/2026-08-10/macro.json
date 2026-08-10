@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-10",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 774.93,
+  "spy_sma200": 703.46,
+  "spy_pct_above_200d": 10.2,
+  "vix": 15.45,
+  "pe_trailing_approx": 27.0,
+  "pe_forward_approx": 20.38,
+  "events": [
+    "CPI (July) release Wed Aug 12 8:30am ET",
+    "PPI (July) release Thu Aug 13 8:30am ET"
+  ],
+  "rates": "steady",
+  "fed_funds_rate": "3.50-3.75%",
+  "note": "SPY is 10.2% above its 200-day average (confirmed uptrend) but trailing PE ~27x is near the 70th historical percentile. All three thesis candidates (AAPL, MSFT, V) trade well above base fair values. CPI Wednesday is a binary catalyst. Posture: cautious.",
+  "sources": [
+    "https://www.goodreturns.in/news/us-stock-market-today-live-august-10-dow-jones-nasdaq-s-p-500-wall-street-monday-us-stocks-futures-1527295.html",
+    "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-tick-101955732.html",
+    "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-10-dow-sp-500-nasdaq-104358890.html",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://finance.yahoo.com/quote/%5EVIX/",
+    "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+  ]
+}
