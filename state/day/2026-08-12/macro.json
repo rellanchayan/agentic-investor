@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-12",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 772.99,
+  "spy_sma200": 704.47,
+  "spy_pct_above_200d": 9.7,
+  "futures_direction": "flat",
+  "futures_note": "S&P 500 futures +0.11% to +0.26% pre-market; essentially flat with cautious tone",
+  "cpi_july_2026": {
+    "monthly": 0.001,
+    "annual": 0.034,
+    "core_monthly": 0.002,
+    "core_annual": 0.025,
+    "note": "Released today Aug 12. In line with consensus. Annual headline 3.4%, still above Fed 2% target."
+  },
+  "rates": {
+    "fed_funds_range": "3.50-3.75%",
+    "reserve_rate": "3.65%",
+    "stance": "on hold, hike risk",
+    "september_hike_probability_pct": 48,
+    "ten_year_treasury_yield_pct": 4.7,
+    "note": "Fed removed forward-cut language; rate hike in Sep possible. Next FOMC Sep 16."
+  },
+  "valuation": {
+    "sp500_trailing_pe": 26.4,
+    "sp500_forward_pe": 20.4,
+    "historical_avg_pe": 18.5,
+    "note": "Trailing PE ~26x vs ~18-19x historical average. Forward PE ~20x still above norm."
+  },
+  "sentiment": {
+    "vix": 14.9,
+    "fear_greed_index": 61,
+    "fear_greed_label": "greed",
+    "note": "Low volatility, complacent. Not a fear-driven opportunity."
+  },
+  "growth": {
+    "gdp_q2_2026_annualized_pct": 1.5,
+    "gdp_q1_2026_annualized_pct": 2.1,
+    "recession_probability_12m_pct": 25,
+    "note": "Growth decelerating but not contracting. Moderate recession risk."
+  },
+  "geopolitical": "Iran-US tensions; elevated oil prices feeding energy cost pressure.",
+  "events": [
+    "CPI July 2026 released today Aug 12 (8:30am ET) - in line with expectations",
+    "PPI Aug 14 (Thu) 8:30am ET",
+    "Initial Jobless Claims Aug 14 (Thu) 8:30am ET",
+    "Retail Sales Aug 15 (Fri) 8:30am ET",
+    "Michigan Consumer Sentiment Aug 15 (Fri)",
+    "Next FOMC meeting Sep 16, 2026"
+  ],
+  "candidate_prices_vs_fair_value": {
+    "AAPL": {"price": 302.99, "fv_base": 195.0, "mos": -0.554},
+    "MSFT": {"price": 496.52, "fv_base": 378.07, "mos": -0.313},
+    "V":    {"price": 359.32, "fv_base": 296.91, "mos": -0.210}
+  },
+  "note": "Cautious: market trades above historical valuation norms, inflation sticky at 3.4%, Fed rate-hike risk ~48% for Sep, 10yr Treasury at 4.7%, all thesis candidates significantly above fair value. Uptrend (SPY 9.7% above 200d) and low VIX prevent panic, but do not justify paying above fair value.",
+  "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081201698.html",
+    "https://www.nbcnews.com/business/economy/cpi-inflation-july-2026-rcna591698",
+    "https://www.bls.gov/news.release/archives/cpi_08122026.htm",
+    "https://www.federalreserve.gov/monetarypolicy/files/monetary20260729a1.pdf",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://en.macromicro.me/series/20052/sp500-forward-pe-ratio",
+    "https://tradewithmaya.com/VixFearGauge",
+    "https://feargreedmeter.com/",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+    "https://www.usbank.com/corporate-and-commercial-banking/insights/economy/outlook/monthly.html"
+  ]
+}
