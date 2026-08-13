@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-13",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 778.37,
+  "spy_sma200": 704.97,
+  "spy_pct_above_200d": 10.4,
+  "events": [
+    "PPI July 2026 released today 8:30am ET — flat monthly, +4.7% annual, cooler than expected",
+    "Jobless claims released today 8:30am ET",
+    "Retail Sales Friday Aug 14 8:30am ET",
+    "Next FOMC meeting Sep 16 2026"
+  ],
+  "rates": "elevated — Fed funds 3.50%-3.75%, held Jul 29; 3 dissenters wanted hikes; 33% market probability of Sep hike",
+  "inflation": "CPI +3.4% annual (Jul), core +2.5%; above Fed 2% target for 5+ years; PPI today decelerated more than expected",
+  "labor_market": "shock: July payrolls -23,000 vs +110,000 expected; prior 2 months revised down 103,000; unemployment 4.1%",
+  "valuation": "elevated — trailing P/E ~25-26x vs 20-year average ~17x; forward P/E ~20x",
+  "futures_am": "S&P 500 futures +0.2%, Nasdaq futures +0.6%",
+  "candidates_vs_fair_value": {
+    "AAPL": {"price": 304.75, "fair_value_base": 195.0, "pct_above_fv": 56.3},
+    "MSFT": {"price": 498.10, "fair_value_base": 378.07, "pct_above_fv": 31.7},
+    "V":    {"price": 360.44, "fair_value_base": 296.91, "pct_above_fv": 21.4}
+  },
+  "note": "Cautious: market expensive at ~25x trailing P/E, inflation stuck above Fed target, July jobs shock (-23k vs +110k expected) adds stagflationary risk, Fed holds rates elevated with hike risk; all thesis candidates trade well above our fair-value estimates. Futures slightly positive on PPI beat but retail sales Friday is the next key risk event.",
+  "sources": [
+    "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+    "https://www.bls.gov/news.release/archives/ppi_08132026.htm",
+    "https://www.bloomberg.com/news/articles/2026-08-13/us-producer-price-growth-decelerates-by-more-than-forecast",
+    "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138",
+    "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://sg.finance.yahoo.com/news/us-stock-market-today-p-080906060.html",
+    "https://capitalstreetfx.com/market-analysis/week-ahead-1014-august-2026-july/"
+  ]
+}
