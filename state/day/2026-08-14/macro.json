@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-14",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 777.26,
+  "spy_sma200": 705.43,
+  "spy_vs_200d_pct": 10.2,
+  "events": [
+    "Retail Sales 8:30am ET today Aug 14 — consumer spending health check after July jobs shock",
+    "FOMC Minutes release Wed Aug 20 — will reveal how divided the Fed is on a September hike",
+    "Jackson Hole Symposium begins Thu Aug 21 — Fed Chair and global central bankers signal policy direction"
+  ],
+  "rates": "Fed funds at 3.50-3.75%; held steady for 5 consecutive meetings (last decision Jul 29); 38-42% market-implied probability of a September hike; zero probability of a cut priced",
+  "ten_year_yield_approx": "~4.69%",
+  "inflation": "CPI July: +3.4% annual, +0.1% monthly (released Aug 12, in-line with expectations); Core CPI +2.5% annual; PPI July: flat monthly, 4.7% annual (decelerated from 5.5%, released Aug 13)",
+  "jobs": "July payrolls: -23,000 (expected +80,000 to +95,000); May-June revised down 103,000 combined — stagflation risk backdrop",
+  "valuation": "S&P 500 trailing P/E ~26-29x; forward P/E ~20-21x; Shiller CAPE ~39x; historical median trailing P/E ~18x — market is meaningfully elevated vs long-run norms",
+  "market_context": "S&P 500 hit its 25th all-time high of 2026 on Aug 12-13, closing above 7,800 for the first time; AI and tech earnings driving gains; futures mixed Friday morning after record-high close Thursday",
+  "note": "Cautious posture maintained. Market is at all-time highs with elevated valuations; the Fed remains restrictive with a live hike probability for September; the July jobs shock creates a stagflation risk the Fed is poorly positioned to resolve; FOMC Minutes (Aug 20) and Jackson Hole (Aug 21) next week are genuine volatility catalysts. All three thesis candidates (AAPL, MSFT, V) remain well above our fair-value estimates. No buys possible regardless of posture.",
+  "sources": [
+    "https://www.marketscreener.com/news/us-equity-futures-mixed-pre-bell-friday-following-record-high-overnight-close-for-s-p-500-ce7859ded089f120",
+    "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+    "https://www.cbsnews.com/news/july-cpi-report-inflation-fed-rates/",
+    "https://www.benzinga.com/markets/economic-data/26/08/61140025/us-cpi-inflation-report-data-july-2026-fed-rate-hike-odds-september",
+    "https://tradingeconomics.com/united-states/interest-rate",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://intellectia.ai/blog/sp500-record-high-august-2026",
+    "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html",
+    "https://blog.kraken.com/economic-brief/august-12-2026",
+    "https://www.fxstreet.com/analysis/forecasting-the-upcoming-week-focus-shifts-to-the-fomc-minutes-and-the-jackson-hole-symposium-202508151843"
+  ]
+}
