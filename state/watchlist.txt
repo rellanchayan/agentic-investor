@@ -47,6 +47,13 @@ CVX
 
 # --- Communication / media ---
 DIS
+META  # Meta Platforms — network-effects moat (FB/Instagram/WhatsApp); ~$41B annual FCF; P/E ~20
+
+# --- Technology (SaaS) ---
+INTU  # Intuit — dominant tax (TurboTax ~70% share) + SMB accounting (QuickBooks ~80%); ~8% FCF yield
+
+# --- Real estate ---
+PLD   # Prologis — largest global logistics REIT; e-commerce infrastructure moat; positive FCF
 
 # --- Broad-market ballast & benchmark (we measure ourselves against SPY) ---
 SPY
