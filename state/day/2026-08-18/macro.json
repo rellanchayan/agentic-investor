@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-18",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 768.38,
+  "spy_sma200": 706.26,
+  "spy_premium_to_200d_pct": 8.8,
+  "futures_today": "S&P 500 -0.41%, Nasdaq 100 -0.76%, Dow -0.16% premarket",
+  "events": [
+    "FOMC Minutes release Wed Aug 19 2:00pm ET",
+    "Next FOMC rate decision Sep 16 (meeting Sep 15-16)",
+    "Next Jobs report Fri Sep 4",
+    "Next CPI Thu Sep 11"
+  ],
+  "rates": "steady at 3.50%-3.75%; long-term bond yields rising today",
+  "valuation": "elevated — trailing P/E ~26-30 vs historical avg ~20.7; CAPE ~36.4; forward P/E ~20 (near fair)",
+  "geopolitical": "Trump rejected Iran ceasefire extension Mon Aug 18; Middle East tensions rising; AI stocks down up to 3% premarket",
+  "candidates_vs_fair_value": {
+    "AAPL": {"price": 310.96, "fair_value_base": 195, "margin_of_safety": -0.595},
+    "MSFT": {"price": 480.81, "fair_value_base": 378.07, "margin_of_safety": -0.272},
+    "V":    {"price": 362.38, "fair_value_base": 296.91, "margin_of_safety": -0.221}
+  },
+  "note": "Market in uptrend (SPY 8.8% above 200-day SMA) but expensive on trailing and CAPE measures. All three thesis candidates trade well above our fair-value estimates — none close to a buy threshold. Futures lower on Iran tensions and rising bond yields. FOMC minutes tomorrow add event risk. Hold cash and demand a larger margin of safety before buying.",
+  "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-18-2026",
+    "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20260729.htm",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.currentmarketvaluation.com/models/price-earnings.php"
+  ]
+}
