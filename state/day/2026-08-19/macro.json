@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-19",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 771.08,
+  "spy_sma200": 706.71,
+  "events": [
+    "FOMC July 28-29 meeting minutes — 2:00 PM ET today (Aug 19)",
+    "Housing market data releases this week (Mon-Fri)",
+    "Next FOMC meeting: Sep 15-16 (with dot plot / rate projections)",
+    "Next CPI release (August data): Sep 11, 8:30 AM ET"
+  ],
+  "rates": "elevated — Fed funds 3.50-3.75% (held July 29); 30-yr Treasury ~5.20% on Aug 19, topped 5.33% on Aug 18 (near 19-year high); three FOMC dissenters favored a hike at July meeting; no cut expected before Sep",
+  "valuation": "expensive — S&P 500 trailing P/E ~27x vs historical median ~18x; Shiller CAPE 41.2x (98.9th percentile of all months since 1881; only 18 months ever higher, all in 1999-2000)",
+  "inflation": "July 2026 CPI: headline +3.4% YoY / +0.1% MoM; core CPI +2.5% YoY — still above the Fed 2% target, slowly easing",
+  "futures_direction": "mixed — initially fell ~0.18% on Asian market weakness, later recovered to ~+0.5%; modest positive lean at open but key risk from FOMC minutes at 2pm ET",
+  "geopolitical": "Middle East tensions elevated; pushing oil prices higher which adds to inflation pressure",
+  "candidate_valuations": {
+    "AAPL": {"price": 315.82, "fair_value_base": 195.00, "margin_of_safety": -0.62},
+    "MSFT": {"price": 482.84, "fair_value_base": 378.07, "margin_of_safety": -0.28},
+    "V":    {"price": 376.29, "fair_value_base": 296.91, "margin_of_safety": -0.27}
+  },
+  "note": "SPY is in a technical uptrend (+9.1% above 200-day average) but the market is extreme by valuation measures. Shiller CAPE at 41.2x sits at the 99th percentile historically; the 30-year Treasury yield is near a 19-year high. Three FOMC members already want to hike rates, and the July minutes released at 2pm ET today may reveal further hawkish tilt. All three thesis candidates trade well above our fair-value estimates. No buy candidate is near a valid entry. Demand wider margins of safety before any purchase.",
+  "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-18-2026",
+    "https://www.interactivecrypto.com/fomc-minutes-on-august-19-set-to-clarify-fed-s-rate-path-amid-mixed-economic-signals-aug-2026",
+    "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20260729.htm",
+    "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+    "https://www.cnbc.com/2026/08/18/treasury-yields-.html",
+    "https://www.thetrading.tools/shiller-cape",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+    "https://fedratecalc.com/fomc-meeting-schedule/"
+  ]
+}
