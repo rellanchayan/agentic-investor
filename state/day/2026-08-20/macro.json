@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-20",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 767.28,
+  "spy_sma200": 707.13,
+  "spy_premium_to_200d_pct": 8.5,
+  "events": [
+    "FOMC July 28-29 minutes released Wed Aug 19 at 2:00pm ET (resolved)",
+    "Treasury bond buyback announcement (mild positive for equities)",
+    "EU tariff extension — futures mildly positive pre-open",
+    "Housing data releases scattered through week (lower impact)"
+  ],
+  "rates": "steady-to-rising",
+  "fed_funds_rate": "3.50-3.75%",
+  "market_rate_expectation": "futures pricing ~4% fed funds by year-end; no cuts expected in 2026",
+  "valuation": {
+    "sp500_forward_pe": 20.0,
+    "sp500_trailing_pe_approx": 26.2,
+    "shiller_cape": 42.2,
+    "forward_pe_vs_10y_avg": "above (10y avg ~19.0)",
+    "forward_pe_vs_5y_avg": "above (5y avg ~19.9)"
+  },
+  "futures_direction": "modestly up (S&P +0.16%, Nasdaq +0.42% pre-open)",
+  "note": "Market is in a technical uptrend (SPY 8.5% above 200-day SMA) but broad valuations are stretched — forward P/E of 20x is above both the 5-year and 10-year averages, and the Shiller CAPE of 42.2 is near historic highs. The Fed funds rate of 3.50-3.75% is elevated relative to the post-2008 era, and futures markets are pricing a possible hike to 4% by year-end, removing the low-rate tailwind that helped inflate multiples. The FOMC minutes catalyst (flagged in the Aug-14 decisions file) was resolved yesterday afternoon with no major surprise. Our three thesis candidates (AAPL at -62% MoS, MSFT at -27% MoS, V at -24% MoS) remain far above any buyable entry point regardless of posture. Cautious posture is warranted: demand a full margin of safety before any purchase; do not shave thresholds to force a trade into an expensive market.",
+  "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-20-2026",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-054508513.html",
+    "https://seekingalpha.com/news/4452249-sp-nasdaq-dow-futures-pop-on-eu-tariff-extension",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.factset.com/earningsinsight",
+    "https://tradingeconomics.com/united-states/interest-rate",
+    "https://www.federalreserve.gov/releases/h15/"
+  ]
+}
