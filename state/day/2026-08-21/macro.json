@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-21",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 764.89,
+  "spy_sma200": 707.51,
+  "spy_pct_above_200d": 8.1,
+  "events": [
+    "Initial Jobless Claims — Thu Aug 21 8:30 AM ET (today)",
+    "Philly Fed Manufacturing Index — Thu Aug 21 8:30 AM ET (today)",
+    "Flash US PMIs (S&P Global) — Thu Aug 21 9:45 AM ET (today)",
+    "Jackson Hole Symposium begins — Thu Aug 21 (through Sat Aug 29)",
+    "New Fed Chair Kevin Warsh keynote — Fri Aug 28 (Jackson Hole)"
+  ],
+  "rates": "elevated — Fed funds 3.50-3.75% (held 5 consecutive meetings); 10-yr Treasury yield 4.71%; 3 FOMC members dissented in July wanting a rate hike; September rate hike possible",
+  "valuation": "expensive — Shiller CAPE 41.2x (98.9th percentile since 1881); trailing P/E ~25-26x; forward P/E ~19.5x",
+  "futures_direction": "firm/slightly positive pre-market (S&P futures +0.4% by mid-morning)",
+  "note": "Market is technically in an uptrend (SPY 8% above 200-day SMA) but is historically very expensive by CAPE standards. Elevated 10-yr yields at 4.71% compete with equities for capital. The Fed held rates at 3.50-3.75% for a fifth straight meeting but three members dissented in favor of a hike, keeping September live. The biggest near-term risk event is Jackson Hole (Aug 27-29): new Fed Chair Kevin Warsh delivers his first major keynote on Aug 28 — any hawkish signal could reprice risk assets. Our three thesis candidates (AAPL, MSFT, V) remain 22-58% above our fair-value entry thresholds. Cautious posture: demand a wider margin of safety before any purchase and preserve cash.",
+  "sources": [
+    "https://ts2.tech/en/stock-market-today-08-21-2026/",
+    "https://www.bloomberg.com/news/articles/2026-08-21/us-stock-futures-gain-as-nasdaq-100-looks-to-snap-five-day-slump",
+    "https://www.federalreserve.gov/releases/h15/",
+    "https://www.forbes.com/sites/investor-hub/article/fed-meeting-tracker-interest-rate-strategy/",
+    "https://www.thetrading.tools/shiller-cape",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://en.macromicro.me/series/20052/sp500-forward-pe-ratio",
+    "https://www.regardsofwallstreet.com/news/jackson-hole-2026-dates-schedule-warsh-first-speech",
+    "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/"
+  ]
+}
