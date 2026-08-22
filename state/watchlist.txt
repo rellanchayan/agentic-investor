@@ -17,6 +17,7 @@ CRM
 V
 MA
 JPM
+SPGI  # S&P Global — credit ratings duopoly + S&P index licensor; added 2026-08-22
 
 # --- Consumer staples ---
 COST
@@ -35,11 +36,13 @@ UNH
 JNJ
 LLY
 ABBV
+ISRG  # Intuitive Surgical — robotic surgery installed base + consumables moat; added 2026-08-22
 
 # --- Industrials ---
 CAT
 HON
 UNP
+ODFL  # Old Dominion Freight Line — best-in-class LTL network/service moat; added 2026-08-22
 
 # --- Energy ---
 XOM
