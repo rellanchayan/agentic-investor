@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-24",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 763.71,
+  "spy_sma200": 707.96,
+  "spy_pct_above_200d": 7.9,
+  "market_pe_trailing": 26.1,
+  "market_pe_shiller_cape": 39.0,
+  "treasury_10y_yield": 4.74,
+  "rates": "elevated — 10-year yield near 20-month high",
+  "events": [
+    "Tue Aug 25 14:00 ET — US Conference Board Consumer Confidence",
+    "Wed Aug 26 08:30 ET — US Core PCE (inflation) + Q2 GDP second estimate",
+    "Thu Aug 27 all day — Jackson Hole Symposium; Fed Chair Warsh speaks on monetary policy",
+    "Fri Aug 28 all day — Jackson Hole continues"
+  ],
+  "futures_morning": "E-mini S&P 500 +0.4%, Nasdaq-100 +0.3% pre-market",
+  "note": "SPY is 7.9% above its 200-day average — the broad uptrend is intact but the market is expensive by any standard (trailing P/E ~26x vs. ~19.7x historical average, Shiller CAPE ~39x). The 10-year Treasury yield is near a 20-month high at 4.74%, making bonds a meaningful competing asset and compressing equity valuations. The week's dominant risk event is Jackson Hole (Thu-Fri): Fed Chair Warsh's speech on monetary policy could shift rate-cut expectations materially in either direction. Wednesday's Core PCE print is also live — a hot number would reinforce the higher-for-longer view. All three thesis candidates (AAPL -61%, MSFT -28%, V -28% to fair-value base) remain far above our entry prices. No buy opportunity exists today. Posture: cautious.",
+  "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-080848022.html",
+    "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-24082026-30082026/",
+    "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---24th-28th-august-2026",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://tradingeconomics.com/united-states/stock-market"
+  ]
+}
