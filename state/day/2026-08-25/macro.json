@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-25",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 764.26,
+  "spy_sma200": 708.39,
+  "spy_pct_above_200d": 7.9,
+  "futures_direction": "up",
+  "futures_note": "S&P 500 futures +0.4%, Nasdaq 100 futures +0.8% pre-market",
+  "rates": "steady",
+  "fed_funds_rate": "3.50-3.75%",
+  "inflation_trend": "elevated above Fed 2% target",
+  "valuation": "expensive",
+  "sp500_pe_trailing": "~26-30x (sources vary; historical avg ~18-20x)",
+  "shiller_cape": "~39x",
+  "events": [
+    "Mon Aug 25 8:30am ET — Chicago Fed National Activity Index",
+    "Mon Aug 25 10:30am ET — Dallas Fed Manufacturing Survey",
+    "Tue Aug 26 8:30am ET — Durable Goods Orders",
+    "Tue Aug 26 10:00am ET — Conference Board Consumer Confidence",
+    "Tue Aug 26 after close — NVIDIA Q2 FY27 earnings (major tech sector event)",
+    "Thu Aug 28 8:30am ET — GDP 2nd Estimate Q2",
+    "Thu Aug 28 8:30am ET — Initial Jobless Claims",
+    "Fri Aug 29 8:30am ET — PCE Price Index July (Fed preferred inflation gauge)"
+  ],
+  "note": "Market is expensive (PE ~26-30x vs ~18-20x historical avg; CAPE ~39x). SPY is 7.9% above its 200-day average — trend is up but valuations are stretched. Fed holds at 3.50-3.75% with inflation still above 2% target. Two major market-moving events this week: NVIDIA earnings Wednesday after close (binary for broad tech) and PCE inflation print Friday. All three thesis candidates (AAPL -59%, MSFT -27%, V -29% vs fair value) remain far above buy thresholds. Cautious posture is appropriate: demand a larger margin of safety and hold cash until prices come to us.",
+  "sources": [
+    "https://www.benzinga.com/markets/equities/26/08/61401802/stock-market-today-dow-jones-sp-500-futures-advance-as-scott-bessent-expands-sanctions-on-iran-navitas-semiconductor-gorilla-technology-real-brokerage-in-focus",
+    "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-rise-112730428.html",
+    "https://fedratecalc.com/us-economic-calendar/",
+    "https://tradingeconomics.com/united-states/calendar",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "https://www.federalreserve.gov/releases/h15/",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://intellectia.ai/blog/nvidia-earnings-august-26-2026-preview"
+  ]
+}
