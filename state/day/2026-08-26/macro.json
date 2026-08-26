@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-26",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 765.14,
+  "spy_sma200": 708.87,
+  "spy_pct_above_200d": 7.93,
+  "events": [
+    "PCE inflation (July) — 8:30 AM ET TODAY (Fed's preferred inflation gauge)",
+    "GDP Q2 second estimate — 8:30 AM ET TODAY",
+    "Durable Goods Orders (July) — 8:30 AM ET TODAY",
+    "Nvidia (NVDA) earnings — after market close TODAY",
+    "Jackson Hole: Fed Chair Kevin Warsh speaks — Thu Aug 27",
+    "NFP annual benchmark revision (preliminary) — Fri Aug 28",
+    "Next FOMC rate decision — Wed Sep 16, 2026"
+  ],
+  "rates": "elevated — 10-year Treasury yield ~4.7%; next FOMC Sep 16",
+  "valuation": "expensive — trailing PE ~26-29x vs historical median ~18x; CAPE ~39x",
+  "futures_premarket": "S&P 500 futures roughly flat to slightly mixed; Nasdaq edging lower ahead of PCE and Nvidia earnings",
+  "note": "Posture is cautious for two reasons that compound each other. First, two large market-moving data prints hit at 8:30 AM ET today — PCE inflation (the metric the Fed targets at 2%) and the Q2 GDP second estimate — creating meaningful intraday volatility risk before the market even settles. Second, Fed Chair Warsh speaks at Jackson Hole tomorrow, the single highest-profile annual Fed policy signal of the year; markets routinely move on his words, and we cannot know in advance whether the tone will be hawkish or dovish. A Friday NFP benchmark revision adds a third event this week. On top of the event calendar, the market is objectively expensive: trailing PE 26-29x is 35-60% above the historical median, CAPE is ~39x, and the 10-year yield at ~4.7% is restrictive. Our three thesis candidates (AAPL, MSFT, V) all trade 26-60% above our base fair value, so no actionable buy exists regardless of posture. Cautious does not mean sell; it means we demand a larger margin of safety before adding to any position, and we hold cash patiently through this high-event-density window.",
+  "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-26-2026",
+    "https://simplywall.st/stocks/us/retail/nyse-burl/burlington-stores/news/us-stock-market-today-sp-500-futures-edge-higher-as-earnings",
+    "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---24th-28th-august-2026",
+    "https://therighttrader.com/economic-calendar/this-week",
+    "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-24082026-30082026/",
+    "https://equalsmoney.com/economic-calendar/events/fed-interest-rate-decision",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://investsnips.com/sp500-pe-ratio/"
+  ]
+}
