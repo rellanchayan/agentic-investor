@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-27",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 769.59,
+  "spy_sma200": 709.37,
+  "spy_pct_above_200d": 8.5,
+  "events": [
+    "Fed Chair Warsh speaks at Jackson Hole today — most-watched Fed communication of the year outside FOMC decisions; tone on Sep 16 rate path will move markets",
+    "NVDA Q2 blockbuster earnings digest — futures S&P +1%, Nasdaq +1%, Dow slightly negative pre-market",
+    "PCE inflation July released yesterday (Aug 26): headline 3.7% YoY (above 3.6% forecast), core 3.3% YoY (in line, 4th consecutive month unchanged) — inflation stuck",
+    "Next FOMC rate decision Sep 15-16 2026"
+  ],
+  "rates": "on hold at 3.50-3.75% since Dec 2025; 10-year Treasury 4.66%; hike at Sep 16 described as finely balanced",
+  "valuation": "expensive — trailing PE ~26x vs ~18x historical median; CAPE 41.2x at 98.9th percentile since 1881",
+  "inflation": "sticky — core PCE 3.3% YoY for 4 consecutive months (Apr-Jul 2026), no net improvement",
+  "note": "Market uptrend intact (SPY 8.5% above 200-day SMA) but backdrop is expensive, inflation is stuck, and the Fed Chair speaks today at Jackson Hole. Any hawkish signal could pressure rate-sensitive names. All three thesis candidates trade 28-61% above base fair value — no actionable buy regardless of posture. Cautious posture maintained: require 18% margin of safety (12% standard floor + 6% cautious add) before any buy.",
+  "sources": [
+    "https://www.benzinga.com/markets/equities/26/08/61454942/stock-market-today-sp-500-nasdaq-100-futures-gain-while-dow-slips-following-nvda-blockbuster-q2-report-crm-crwd-hpq-in-focus",
+    "https://www.bloomberg.com/news/articles/2026-08-26/nasdaq-futures-rise-on-bullish-nvidia-sales-growth-markets-wrap",
+    "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+    "https://www.advisorperspectives.com/dshort/updates/2026/08/26/core-pce-inflation-at-3-3-in-july-unchanged-from-june",
+    "https://fedratecalc.com/next-fomc-meeting/",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://kiplinger.com/investing/economy/this-weeks-economic-calendar"
+  ]
+}
