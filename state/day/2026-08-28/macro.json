@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-28",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 773.31,
+  "spy_sma200": 709.84,
+  "spy_pct_above_200d": 8.9,
+  "vix_prev_close": 15.21,
+  "vix_one_month_range": "14.18 - 20.88",
+  "futures_direction": "flat-to-mixed",
+  "futures_note": "S&P 500 futures roughly flat to slightly positive pre-open; competing signals of +0.5% and -0.12% across sources",
+  "valuation": {
+    "trailing_pe": 26.2,
+    "forward_pe": 20.1,
+    "historical_median_pe": 18.0,
+    "note": "Market expensive on trailing basis; forward PE near long-run median but contingent on earnings growth materializing"
+  },
+  "rates": "on-hold with hike risk",
+  "fed_funds_range": "3.50-3.75%",
+  "ten_year_treasury_approx": 4.7,
+  "inflation_pce_yoy": 3.7,
+  "events": [
+    "TODAY 8:28 AM - Fed Chair Warsh keynote at Jackson Hole Symposium (MAJOR: signaled inflation too high, rate hike possible in coming months)",
+    "TODAY 9:45 AM ET - Chicago PMI (August)",
+    "TODAY 10:00 AM ET - University of Michigan consumer sentiment final (August)",
+    "Sep 15-16 - Next FOMC meeting; ~1-in-3 odds of rate hike priced in"
+  ],
+  "note": "Cautious maintained. Warsh hawkish Jackson Hole speech is today's central risk: he signaled inflation still too high and rate hikes may follow, which is a headwind for stretched valuations. Market technically in uptrend (SPY 8.9% above 200-day MA), VIX calm at 15, but trailing PE ~26x vs 18x historical median and PCE at 3.7% vs 2% target. Rates at 4.7% on the 10-year amplify the cost of overpaying. Demand full margin of safety on any name before buying.",
+  "posture_change_from_prior": "unchanged from 2026-08-26 (cautious)",
+  "sources": [
+    "https://simplywall.st/stocks/us/tech/nyse-p/everpure/news/us-stock-market-today-sp-500-futures-climb-on-steady-inflati",
+    "https://www.bloomberg.com/news/articles/2026-08-27/stock-market-today-dow-s-p-live-updates",
+    "https://www.benzinga.com/markets/prediction-markets/26/08/61486034/stock-market-will-sp-500-open-up-or-down-today-26",
+    "https://www.pbs.org/newshour/economy/watch-live-fed-chair-warsh-speaks-at-jackson-hole-economic-policy-symposium",
+    "https://qz.com/fed-chair-kevin-warsh-jackson-hole-speech-082826",
+    "https://www.regardsofwallstreet.com/news/jackson-hole-2026-dates-schedule-warsh-first-speech",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://equalsmoney.com/economic-calendar/events/fed-interest-rate-decision",
+    "https://primerates.com/primerate/fed-meeting-schedule/",
+    "https://finance.yahoo.com/quote/%5EVIX/history/"
+  ]
+}
