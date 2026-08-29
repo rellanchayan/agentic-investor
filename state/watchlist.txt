@@ -17,6 +17,7 @@ CRM
 V
 MA
 JPM
+SPGI  # S&P Global — credit ratings duopoly + S&P index licensing; added 2026-08-29
 
 # --- Consumer staples ---
 COST
@@ -40,6 +41,8 @@ ABBV
 CAT
 HON
 UNP
+GE    # GE Aerospace — jet engine aftermarket monopoly, $181B backlog; added 2026-08-29
+WM    # Waste Management — permitted landfill moat, route-density economics; added 2026-08-29
 
 # --- Energy ---
 XOM
