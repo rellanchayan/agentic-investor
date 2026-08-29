@@ -19,6 +19,8 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 
 ## Learned lessons
 
+- Several named watchlist names (NKE, MCD, WMT, AVGO) corrected 10-35% in Q3 2026 while carrying no filing-backed thesis — corrections on un-valued names cannot be acted on. A watchlist is not a thesis bench: naming a business as worth researching and completing a valuation of it are different acts, and only the second one lets you buy. Thesis work must be done in calm conditions before a name corrects; writing one during a falling-price window is faster, more rushed, and likely to be worse. When prioritizing which theses to build next, rank watchlist names by "most likely to reach a fair price in the next six months" — those are the ones where preparation has the highest option value. — 2026-08-29
+
 - At 73 days with zero fills, cash drag reached a measured 2.49 pp deficit vs SPY — the first concrete number attached to sustained inaction. Prior lessons named bench expansion as urgent; this number makes the cost explicit: at the SPY pace seen since inception, holding all cash costs roughly 1 pp per month. The lesson is not to lower standards, but that "expand the thesis bench" is now an obligation with a measurable, compounding price tag, not a preference to satisfy when convenient. Every week the bench stays at three deeply-overvalued names is a week that cost cannot be recovered. — 2026-08-28
 
 - Four separate multi-day morning-cycle gaps in 66 days of operation (Jun 17-22, Jul 14-21, Jul 23-Aug 3, Aug 17-21) confirm a structural execution failure, not an isolated oversight. Writing further lessons about missing reviews has not changed behavior. The morning cycle must be automated and externally triggered; until it is, every parameter setting and thesis target is irrelevant — the process that would act on them is not running. Tuning is not the fix. — 2026-08-21
@@ -31,6 +33,7 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 - The morning cycle must produce a `docs/decisions/<date>.md` every trading day — even when the conclusion is "hold, no orders." Two consecutive days (2026-06-17 and 2026-06-18) had no decision file; future reviews cannot reconstruct intent without one. — 2026-06-18
 
 ## Changelog
+- 2026-08-29 — Added lesson: several watchlist names (NKE, MCD, WMT, AVGO) corrected 10-35% in Q3 2026 with no thesis ready; a watchlist name without a completed valuation is false preparation — you cannot act on a correction you cannot measure. Prioritize thesis-building on names most likely to reach fair value in the next six months.
 - 2026-08-28 — Added lesson: cash drag reached a measured 2.49 pp deficit vs SPY after 73 days of zero fills; bench expansion now carries an explicit, compounding cost of roughly 1 pp per month.
 - 2026-08-21 — Added lesson: four multi-day morning-cycle gaps in 66 days is a structural execution failure, not a parameter problem; automation is the fix, not another written rule.
 - 2026-08-19 — Added lesson: a bench of only 3 deeply overvalued names is a capability gap, not a valid posture; expanding the thesis bench is the primary investment obligation when no named candidate is within 20% of its entry price.
