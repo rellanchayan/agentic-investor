@@ -1,0 +1,39 @@
+{
+  "date": "2026-08-31",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 765.77,
+  "spy_sma200": 710.23,
+  "spy_pct_above_200d": 7.8,
+  "trailing_pe": 29.5,
+  "forward_pe": 20.1,
+  "pe_long_run_avg": 19.7,
+  "futures_direction": "down",
+  "futures_change_pct": -0.27,
+  "rates": "rising",
+  "fed_next_meeting": "2026-09-16",
+  "rate_hike_probability_sep": 0.604,
+  "fed_chair_stance": "hawkish — Warsh signaled possible rate hike at Jackson Hole (2026-08-28)",
+  "inflation_pce": 3.7,
+  "oil_brent": 90.43,
+  "geopolitical_risk": "elevated — US-Iran military strikes resumed, Strait of Hormuz threatened, oil above $90",
+  "events": [
+    "Tue Sep 1 — ISM Manufacturing PMI",
+    "Wed Sep 2 — ADP private payrolls",
+    "Thu Sep 3 — ISM Services PMI",
+    "Fri Sep 4 — August Jobs Report (key)",
+    "Wed Sep 16 — FOMC rate decision (60% odds of hike)"
+  ],
+  "note": "Cautious: market trailing P/E at ~29.5x is 50% above the long-run average; Fed Chair Warsh turned hawkish at Jackson Hole with rate-hike odds at 60% for September; US-Iran military conflict is pushing Brent crude above $90 and adding inflation risk; futures point lower this morning. All thesis candidates remain deeply above their fair-value estimates. Demand a larger margin of safety on any new buy ideas.",
+  "sources": [
+    "https://www.cnbc.com/2026/08/30/stock-market-today-live-updates.html",
+    "https://www.benzinga.com/markets/prediction-markets/26/08/61513966/stock-market-will-sp-500-open-up-or-down-today-27",
+    "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html",
+    "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-fed-inflation-rate-hike.html",
+    "https://spectrumlocalnews.com/us/snplus/politics/2026/08/28/kevin-warsh-jackson-hole-inflation-too-high",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://therighttrader.com/economic-calendar/this-week",
+    "https://www.thenationalnews.com/business/energy/2026/08/31/oil-rises-to-above-90-as-us-and-iran-resume-strikes/",
+    "https://thehill.com/policy/energy-environment/6060486-oil-prices-surge-us-strikes-iran-war/"
+  ]
+}
