@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-01",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 764.07,
+  "spy_sma200": 710.64,
+  "spy_pct_above_200d": 7.5,
+  "events": [
+    "JOLTS job openings — today 10:00 AM ET",
+    "ISM Manufacturing PMI — today 10:00 AM ET",
+    "ADP Employment report — Wed Sep 2 8:15 AM ET",
+    "ISM Services PMI — Thu Sep 3 10:00 AM ET",
+    "Nonfarm Payrolls (August jobs) — Fri Sep 4 8:30 AM ET",
+    "CPI for August — Fri Sep 11 8:30 AM ET",
+    "FOMC meeting Sep 15-16; rate decision Wed Sep 16 2:00 PM ET"
+  ],
+  "rates": "elevated — Fed funds 3.50-3.75%; 10-yr Treasury 4.79%",
+  "valuation": "expensive — trailing PE ~29.7, Shiller CAPE ~42.2; forward PE ~20.0 above 5- and 10-yr averages",
+  "futures_am": "S&P 500 futures down ~0.3-0.5% pre-open; Nasdaq roughly flat; oil spike on Middle East tensions driving inflation concerns",
+  "note": "First trading day after Labor Day weekend. Market is historically expensive, bond yields are competing with equities at 4.79%, and a dense event calendar runs through Sep 16 (Jobs, CPI, FOMC). SPY is in an uptrend (7.5% above 200-day) but that makes finding bargains harder, not easier. All three thesis candidates (AAPL, MSFT, V) are 26-67% above their fair value estimates. Demand a higher discount before any buy.",
+  "sources": [
+    "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html",
+    "https://fedratecalc.com/next-fomc-meeting/",
+    "https://fedratecalc.com/us-economic-calendar/september-2026/",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.multpl.com/s-p-500-pe-ratio",
+    "https://www.multpl.com/shiller-pe",
+    "https://www.factset.com/earningsinsight"
+  ]
+}
