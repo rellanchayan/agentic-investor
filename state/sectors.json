@@ -27,5 +27,8 @@
   "XOM": "energy",
   "CVX": "energy",
   "DIS": "communication",
-  "SPY": "broad_etf"
+  "SPY": "broad_etf",
+  "PLD": "real_estate",
+  "SPGI": "financials",
+  "WM": "industrials"
 }
