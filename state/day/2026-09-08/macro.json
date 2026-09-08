@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-08",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 766.99,
+  "spy_sma200": 712.66,
+  "spy_pct_above_200d": 7.6,
+  "futures_direction": "slightly negative (S&P -0.25%, Dow -0.73%, Nasdaq +0.07%)",
+  "ten_year_yield": 4.80,
+  "thirty_year_yield": 5.27,
+  "fed_funds_rate": "3.50-3.75% (held steady, three cuts in late 2025)",
+  "shiller_cape": 41.4,
+  "trailing_pe": 26.4,
+  "rates": "elevated and steady; market futures pricing possible rise to 4% by year-end",
+  "oil_brent_approx": 98,
+  "events": [
+    "TODAY Sep 8 6:00 AM ET — NFIB Small Business Optimism (August)",
+    "TODAY Sep 8 1:00 PM ET — US Treasury 3-year note auction",
+    "Thu Sep 11 8:30 AM ET — CPI August 2026 (major inflation print)",
+    "Wed Sep 16 2:00 PM ET — FOMC rate decision + dot plot (major Fed event)",
+    "Sep 21 — S&P 500 index rebalancing effective"
+  ],
+  "note": "CAUTIOUS: market is structurally bullish (SPY 7.6% above 200d) but expensive (Shiller CAPE 41.4x vs 16.1 historical median) and two major market-moving events arrive this week (CPI Thursday) and next week (FOMC Wednesday). Yields elevated at 4.80% on 10yr. Oil near $100 from geopolitical tension adds inflation risk. All thesis candidates (AAPL, MSFT, V) trade 25-62% above fair value. Demand larger discount before buying; prefer holding cash.",
+  "sources": [
+    "https://investrade.com/morning-preview-september-08-2026/",
+    "https://fedratecalc.com/fomc-meeting-schedule/september-2026/",
+    "https://www.financecalendar.com/us-cpi-report/",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://wealthvieu.com/banking/interest-rates/federal-funds-rate/",
+    "https://www.federalreserve.gov/releases/h15/",
+    "https://www.bls.gov/news.release/archives/empsit_09042026.htm"
+  ]
+}
