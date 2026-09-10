@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-10",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 758.65,
+  "spy_sma200": 713.68,
+  "spy_pct_above_200d": 6.3,
+  "sp500_trailing_pe": 25.9,
+  "sp500_forward_pe": 19.5,
+  "ten_year_yield_pct": 4.85,
+  "fed_funds_rate_range": "3.50-3.75",
+  "rates": "elevated, possible hike ahead",
+  "events": [
+    "Today 8:30am ET — Weekly jobless claims + PPI release",
+    "Today 10:00am ET — Existing home sales, wholesale inventories",
+    "Today — ECB policy decision (rate hike expected)",
+    "Tomorrow Fri Sep 11 8:30am ET — CPI (August 2026 inflation data)",
+    "Next week Mon-Tue Sep 15-16 — FOMC meeting; rate decision Wed Sep 16 2:00pm ET (live meeting, includes updated dot plot/SEP)"
+  ],
+  "futures_this_morning": {
+    "sp500": "+6.25 pts (+0.09%) at 7,650",
+    "nasdaq": "-63.50 pts (-0.21%) at 29,385",
+    "dow": "+125.00 pts (+0.24%) at 52,550",
+    "note": "Mixed/flat after three consecutive down days"
+  },
+  "note": "Cautious: CPI lands tomorrow, FOMC rate decision in 6 days on a live meeting (3 July dissenters wanted a hike). 10-year yield at 3-year highs above 4.85%, trailing P/E ~26 elevated vs historical median of 18, Brent crude above $102 adding inflationary pressure. All thesis candidates remain far above fair value. Demand larger margin of safety.",
+  "sources": [
+    "https://investrade.com/morning-preview-september-10-2026/",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-july-29-2026",
+    "https://gobull.ai/blog/cpi-report-september-2026",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.barchart.com/futures/quotes/ESU26"
+  ]
+}
