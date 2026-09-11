@@ -1,0 +1,204 @@
+{
+  "ticker": "KO",
+  "thesis_id": "KO-2026Q2",
+  "company": "The Coca-Cola Company",
+  "sector": "Consumer Staples / Non-Alcoholic Beverages",
+  "as_of": "2026-Q2",
+  "retrieved": "2026-09-11",
+  "refresh_due": "2026-12-10",
+  "stale": false,
+  "business_summary": "Coca-Cola is a total-beverage company whose products are sold in more than 200 countries and territories at a rate of 2.2 billion servings per day. It is mostly NOT a manufacturer: its core 'concentrate operations' sell beverage concentrates, syrups and fountain syrups to a network of independent, authorized bottlers, who add water and sweetener, package, and distribute the finished drinks. Coca-Cola keeps the brands, the marketing and the recipe; the bottlers carry the factories, trucks and working capital. That structure makes KO unusually asset-light: FY2025 revenue of $47.941B was produced on only $2.112B of capital expenditure and $1.050B of depreciation & amortization, generating a 61.6% gross margin and a 28.7% operating margin. A smaller 'Bottling Investments' segment holds bottlers KO has taken back temporarily before refranchising them (the pending sale of Coca-Cola Beverages Africa is the current example, carried as $5.342B of assets held for sale at 2025-12-31). The Coca-Cola system sold 33.8 billion unit cases in 2025 vs 33.7 billion in 2024; sparkling soft drinks were 69% of worldwide unit case volume and Trademark Coca-Cola alone was 47%. Growth therefore comes mostly from price/mix and marketing, not from large volume gains — though Q2 2026 was a notable exception with unit case volume +5% and organic revenue +6%. James Quincey handed the CEO role to Henrique Braun on 2026-03-31 and became Executive Chairman.",
+  "moat": {
+    "type": "Global brand power + unmatched distribution/bottler network + scale in marketing and shelf space; asset-light concentrate royalty model with pricing power",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "+3.7% CAGR FY2022 $43.004B -> FY2025 $47.941B; +7.8% CAGR over 5y from FY2020 $33.014B. Reported growth is depressed by currency; FY2026 guidance is ~5% organic growth and H1 2026 reported revenue was +9.2% ($25.852B vs $23.664B)",
+    "gross_margin": "61.6% FY2025 (gross profit $29.544B / revenue $47.941B); 61.9% TTM through 2026-07-03 ($31.024B / $50.129B)",
+    "roic": "~17.7% FY2025 (own calculation: NOPAT $11.301B = EBIT $13.762B x (1 - effective tax rate 17.88%, being tax $2.861B / pre-tax $15.998B); invested capital $63.961B = total equity $34.275B + total debt $45.492B - cash/ST investments/marketable securities $15.806B). Understated in spirit because ~$20.235B of equity-method bottler investments sit in invested capital while their profit shows up below the operating-income line as equity income, not in EBIT",
+    "net_debt_to_ebitda": "2.00x at FY2025 year-end (net debt $29.686B / EBITDA $14.812B = EBIT $13.762B + D&A $1.050B); 1.71x at 2026-07-03 (net debt $27.172B / TTM EBITDA $15.888B). Gross debt is higher at $43.543B, so this depends on counting $16.371B of cash and securities as available",
+    "fcf_positive": "yes, but read the footnote. FY2025 GAAP free cash flow was only $5.296B (operating cash flow $7.408B - capex $2.112B) because KO paid $6.1B of the $6.2B final fairlife milestone in Q1 2025. KO's own non-GAAP 'free cash flow excluding the fairlife contingent consideration payment' was $11.4B. FY2024 was similarly depressed by a $6.0B IRS tax litigation deposit. H1 2026 operating cash flow was $7.5B and free cash flow $6.9B; FY2026 guidance is ~$12.4B FCF (~$14.6B operating cash flow less ~$2.2B capex)"
+  },
+  "valuation": {
+    "price": 88.01,
+    "price_source": "alpaca",
+    "price_asof": "2026-09-11",
+    "fair_value_low": 64.76,
+    "fair_value_base": 76.67,
+    "fair_value_high": 87.58,
+    "method": "Blend of two methods via code/valuation.py. (1) P/E: TTM diluted GAAP EPS $3.33 (FY2025 $3.04 - H1 2025 $1.65 + H1 2026 $1.94) x multiples 20 / 24 / 27 -> $66.60 / $79.92 / $89.91. (2) FCF yield: FY2025 free cash flow excluding the one-off fairlife payment $11.4B / 4,313M diluted shares = $2.643 per share, capitalised at 4.2% / 3.6% / 3.1% -> $62.93 / $73.42 / $85.26. Multiples are our own assumptions, not cited facts: 24x base is what we think a wide-moat staples compounder growing mid-single-digit organic revenue and high-single-digit EPS is worth; 20x low reflects a de-rating if volumes stall or the IRS case is lost; 27x high reflects continued 5%+ organic growth. SENSITIVITY: substituting FY2026 guided FCF of $12.4B ($2.875/share) raises the band to $67.53 / $79.89 / $91.33 and the base is still below today's price.",
+    "valuation_notes": "At $88.01 KO trades at 26.4x TTM GAAP EPS of $3.33, ~26.7x the midpoint of FY2026 guided comparable EPS (FY2025 comparable EPS $3.00 grown 9-10% = $3.27-$3.30), a 3.0% FCF yield on FY2025 ex-fairlife FCF (3.3% on FY2026 guidance), and a 2.41% dividend yield on the 2026 annualised dividend of $2.12. Price is above our base fair value and essentially at the top of our band."
+  },
+  "price_used": 88.01,
+  "margin_of_safety": -0.1288,
+  "margin_of_safety_note": "-0.1288 = (fair_value_base 76.67 - price 88.01) / price 88.01, the formula requested for this thesis. Note code/valuation.py and code/thesis.py use (base - price) / base, which gives -0.1479 for the same inputs. Either way the price is ABOVE fair value and there is NO margin of safety today. With state/config.json min_margin_of_safety = 0.12 (the code's convention), the buy trigger is roughly $67.50 or below.",
+  "conviction": 4,
+  "conviction_note": "Conviction 4 reflects business quality and the fact that every key number here is filing-backed. It is NOT a buy signal at $88.01: the price sits ~13% above our base fair value, so this is a watch-and-wait name pending a better entry.",
+  "bull_case": [
+    "Wide, genuinely durable moat: 2.2 billion servings a day across 200+ countries, with Trademark Coca-Cola alone at 47% of worldwide unit case volume. Brand plus a bottler distribution network that cannot be replicated at any sensible cost.",
+    "Asset-light economics. FY2025 revenue of $47.941B needed only $2.112B of capex and $1.050B of D&A, producing a 61.6% gross margin and 28.7% operating margin. ROIC of ~17.7% (own calculation from FY2025 filing figures) compounds value.",
+    "Current operating momentum is real, not just price increases: Q2 2026 unit case volume grew 5%, organic revenue 6%, operating margin improved to 34.9% from 34.1%, and comparable EPS grew 11% to $0.97. KO raised FY2026 guidance on 2026-07-28 to ~5% organic revenue growth and 9-10% comparable EPS growth.",
+    "Cash generation and shareholder return discipline: FY2026 guided free cash flow of ~$12.4B and a 2026 dividend of $2.12 per share, the 64th consecutive annual increase.",
+    "Pricing power is the natural inflation hedge a long-term portfolio wants; concentrate pricing passes input costs to bottlers rather than absorbing them."
+  ],
+  "risks": [
+    "PRICE. This is the single biggest risk in owning KO today. At $88.01 it trades at 26.4x TTM GAAP EPS and a 3.0% FCF yield for a business whose underlying unit case volume grew only 0.3% in 2025 (33.8B vs 33.7B cases). We are paying a growth multiple for a slow-volume business.",
+    "IRS transfer-pricing litigation. The Tax Court sided predominantly with the IRS on the 2007-2009 years ($3.3B of tax plus interest, of which KO already paid $6.0B in 2024 in response to IRS invoices). KO appealed to the 11th Circuit, which heard oral argument on 2026-06-25; a ruling could land any time. KO's own 10-K estimates the potential aggregate REMAINING incremental tax and interest for 2010-2025 at approximately $14 billion as of 2025-12-31 (~$3.25 per share) and says continued application of the Tax Court methodology would raise the effective tax rate by about 3.5 percentage points per year going forward. This is a live, near-binary event.",
+    "Leverage is not trivial for a staples name: gross debt $43.543B at 2026-07-03 against $16.371B of cash and securities, net debt/TTM EBITDA of 1.71x (2.00x at FY2025 year-end). Comfortable, but it removes balance-sheet optionality if the IRS case goes badly.",
+    "High payout. FY2025 dividends of $8.779B consumed ~77% of the $11.4B ex-fairlife free cash flow; buybacks were only $746M gross. Little cash is left to reinvest or absorb a shock, and the 64-year dividend streak makes cutting it practically unthinkable, which makes it a rigid claim on cash.",
+    "Earnings quality gap: FY2025 net income was $13.107B but GAAP operating cash flow was $7.408B, and even normalised FCF (~$11.4B) runs below net income partly because equity income from bottlers ($1.038B of 2025 equity income was not received as dividends) is real accounting profit that does not arrive as cash.",
+    "Currency. KO earns most of its money outside the US; FY2025 EPS carried an 8-point currency headwind and FY2026 guidance assumes a ~3% currency TAILWIND. A dollar reversal would flip a tailwind into a headwind and flatter-looking growth would evaporate.",
+    "Secular and regulatory pressure on sugary drinks: sugar taxes, health regulation, GLP-1 weight-loss drugs reducing consumption occasions, and packaging/plastics litigation (a Baltimore environmental suit is disclosed in the FY2025 10-K). Sparkling soft drinks are still 69% of volume.",
+    "Leadership transition risk: Henrique Braun became CEO on 2026-03-31 after James Quincey's long tenure. Execution under a new CEO is unproven over a full cycle.",
+    "Portfolio reshaping risk: the pending Coca-Cola Beverages Africa sale ($5.342B of assets held for sale) creates a 2-3% acquisitions/divestitures revenue headwind in FY2026 and makes reported comparisons noisy."
+  ],
+  "what_would_break_thesis": [
+    "Consolidated gross margin falls below 55% for two consecutive quarters (FY2025 was 61.6%, TTM 61.9%).",
+    "Global unit case volume declines year-over-year for two consecutive quarters, signalling the brand is losing occasions rather than just trading price for volume.",
+    "Organic revenue growth (KO's own non-GAAP measure) falls below 2% for two consecutive quarters, or reported net revenue shrinks year-over-year for two consecutive fiscal years.",
+    "Net debt / EBITDA rises above 3.0x on a trailing basis (1.71x at 2026-07-03), or gross debt rises materially to fund the dividend.",
+    "KO loses the 11th Circuit appeal AND the ruling is applied to the 2010+ years, crystallising an obligation near the ~$14B the company itself has disclosed, or the ongoing effective tax rate rises by 3 percentage points or more on a sustained basis without an offsetting operational improvement.",
+    "The dividend is cut, frozen for a full year (ending the 64-year streak), or dividends paid exceed free cash flow excluding one-off items for two consecutive years.",
+    "Free cash flow excluding identified one-off payments falls below $9B in a full fiscal year (FY2025 normalised was $11.4B; FY2026 guided ~$12.4B).",
+    "Any serious accounting red flag, restatement, or auditor change.",
+    "Operating margin (comparable) falls below 28% for two consecutive quarters (Q2 2026 comparable was 35.6%)."
+  ],
+  "catalysts": [
+    "11th Circuit ruling on the IRS transfer-pricing appeal (argued 2026-06-25). A win removes a ~$14B disclosed overhang and would likely re-rate the stock; a loss is the main downside catalyst.",
+    "Q3 2026 earnings, expected late October 2026, which will show whether the Q2 volume acceleration (+5% unit cases) is durable or a FIFA World Cup marketing effect.",
+    "Completion of the Coca-Cola Beverages Africa sale, guided to close in H2 2026, which would simplify the portfolio and return KO closer to a pure concentrate model.",
+    "A price pullback toward the $65-$70 zone, which would put the stock inside our fair-value band with the ~12% margin of safety our config requires (buy trigger roughly $67.50 or below).",
+    "A dollar rally that turns the assumed FY2026 currency tailwind into a headwind would likely create the cheaper entry price we want."
+  ],
+  "sources": [
+    {
+      "claim": "FY2025 net operating revenues, gross profit, operating income, net income, diluted EPS",
+      "value": "Revenue $47.941B; gross profit $29.544B; operating income $13.762B; net income attributable to shareowners $13.107B; diluted EPS $3.04",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+      "publisher": "The Coca-Cola Company / SEC EDGAR (Form 10-K, FY ended 2025-12-31, filed 2026-02-20)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2022-FY2024 net operating revenues used for the 3-year growth rate, plus FY2020 for the 5-year rate",
+      "value": "FY2020 $33.014B; FY2022 $43.004B; FY2023 $45.754B; FY2024 $47.061B",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000021344/us-gaap/Revenues.json",
+      "publisher": "SEC EDGAR XBRL company-concept API (as tagged in KO's own 10-K filings)",
+      "as_of": "2024-12-31",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2025 consolidated balance sheet items used for net debt, invested capital and ROIC",
+      "value": "Cash and cash equivalents $10.270B; short-term investments $3.602B; marketable securities $1.934B; loans and notes payable $1.551B; current maturities of long-term debt $1.822B; long-term debt $42.119B; total equity $34.275B; total assets $104.816B; equity method investments $20.235B; assets held for sale $5.342B; goodwill $15.491B",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/R5.htm",
+      "publisher": "The Coca-Cola Company / SEC EDGAR (10-K, Consolidated Balance Sheets, R5)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2025 cash flow statement items used for free cash flow, D&A and dividends",
+      "value": "Net cash provided by operating activities $7.408B (2024: $6.805B); purchases of property, plant and equipment $2.112B (2024: $2.064B); depreciation and amortization $1.050B; dividends paid $8.779B; purchases of stock for treasury $0.746B",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/R7.htm",
+      "publisher": "The Coca-Cola Company / SEC EDGAR (10-K, Consolidated Statements of Cash Flows, R7)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2025 income tax expense and pre-tax income used for the effective tax rate in the ROIC calculation",
+      "value": "Income taxes $2.861B on income before income taxes $15.998B = 17.88% effective rate",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000021344/us-gaap/IncomeTaxExpenseBenefit.json",
+      "publisher": "SEC EDGAR XBRL company-concept API (as tagged in KO's FY2025 10-K)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2025 free cash flow, the fairlife one-off, FY2025 comparable EPS, and the original FY2026 outlook",
+      "value": "FY2025 cash flow from operations $7.4B and free cash flow (non-GAAP) $5.3B, reflecting $6.1B of the fairlife contingent consideration payment; free cash flow excluding that payment (non-GAAP) $11.4B. FY2025 EPS grew 23% to $3.04 and comparable EPS (non-GAAP) grew 4% to $3.00. Initial FY2026 outlook: free cash flow ~$12.2B (operating cash flow ~$14.4B less capex ~$2.2B)",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026006642/a2025q4earningsreleaseex-9.htm",
+      "publisher": "The Coca-Cola Company / SEC EDGAR (Form 8-K Exhibit 99.1, Q4 and FY2025 results, 2026-02-10)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Q2 2026 results and raised FY2026 guidance",
+      "value": "Q2 2026 net revenues $13.380B (+7%); organic revenues +6%; unit case volume +5%; operating margin 34.9% vs 34.1%; comparable operating margin 35.6% vs 34.7%; diluted EPS $1.03 (+16%); comparable EPS $0.97 (+11%). YTD operating cash flow $7.5B, free cash flow (non-GAAP) $6.9B. Raised FY2026 guidance: organic revenue ~5% growth, comparable EPS 9-10% growth, free cash flow ~$12.4B (~$14.6B operating cash flow less ~$2.2B capex), underlying effective tax rate 19.9%",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026049922/a2026q2earningsreleaseex-9.htm",
+      "publisher": "The Coca-Cola Company / SEC EDGAR (Form 8-K Exhibit 99.1, Q2 2026 results, 2026-07-28)",
+      "as_of": "2026-07-03",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "H1 2026 vs H1 2025 income statement and Q2 2026 balance sheet used for TTM figures and net debt",
+      "value": "H1 2026 net operating revenues $25.852B vs H1 2025 $23.664B; H1 gross profit $16.267B vs $14.787B; H1 operating income $9.031B vs $7.939B; H1 diluted EPS $1.94 vs $1.65; H1 D&A $0.530B vs $0.546B. At 2026-07-03: cash and short-term investments $13.529B, marketable securities $2.842B, loans and notes payable $0.048B, current maturities of long-term debt $6.494B, long-term debt $37.001B, diluted shares 4,313M",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026050503/ko-20260703.htm",
+      "publisher": "The Coca-Cola Company / SEC EDGAR (Form 10-Q, quarter ended 2026-07-03, filed 2026-07-29)",
+      "as_of": "2026-07-03",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "IRS transfer-pricing dispute: size of the claim, appeal status, and KO's own estimate of remaining exposure",
+      "value": "IRS Notice seeking ~$3.3B of additional federal income tax for 2007-2009 plus interest; KO paid $6.0B in response to IRS invoices issued in September 2024, with $385M of accrued interest receivable at 2025-12-31. KO estimates potential aggregate remaining incremental tax and interest for tax years 2010 through 2025 could be approximately $14 billion as of 2025-12-31, and that continued application of the Tax Court methodology in 2026 would increase the effective tax rate by approximately 3.5%",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+      "publisher": "The Coca-Cola Company / SEC EDGAR (FY2025 10-K, Contingencies and Income Taxes notes)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "11th Circuit appeal was argued on 2026-06-25 (status update after the 10-K)",
+      "value": "The U.S. Court of Appeals for the Eleventh Circuit heard the case on June 25, 2026; a decision was still pending as of the Q2 2026 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026050503/ko-20260703.htm",
+      "publisher": "The Coca-Cola Company / SEC EDGAR (Form 10-Q, quarter ended 2026-07-03)",
+      "as_of": "2026-07-03",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Dividend per share and the consecutive-increase streak",
+      "value": "Quarterly dividend raised to $0.53 per share, equal to $2.12 per share for full-year 2026, the 64th consecutive annual increase. Annualised dividend was $2.04 in 2025 and $1.94 in 2024",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+      "publisher": "The Coca-Cola Company / SEC EDGAR (FY2025 10-K, Liquidity and Capital Resources)",
+      "as_of": "2026-02-20",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Business scale and mix statistics",
+      "value": "Products sold in more than 200 countries and territories at 2.2 billion servings per day; the Coca-Cola system sold 33.8 billion unit cases in 2025 vs 33.7 billion in 2024; sparkling soft drinks were 69% of worldwide unit case volume in both years; Trademark Coca-Cola was 47% of worldwide unit case volume",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+      "publisher": "The Coca-Cola Company / SEC EDGAR (FY2025 10-K, Item 1 Business)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "CEO transition",
+      "value": "Henrique Braun, previously EVP and COO, became Chief Executive Officer effective 2026-03-31; James Quincey became Executive Chairman. Transition first announced 2025-12-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010052/ko-20260219.htm",
+      "publisher": "The Coca-Cola Company / SEC EDGAR (Form 8-K, filed 2026-02-20)",
+      "as_of": "2026-02-19",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2025 diluted weighted-average shares outstanding used for per-share figures",
+      "value": "4,313 million diluted shares (FY2025); 4,313 million in Q2 2026",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000021344/us-gaap/WeightedAverageNumberOfDilutedSharesOutstanding.json",
+      "publisher": "SEC EDGAR XBRL company-concept API (as tagged in KO's FY2025 10-K)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Current price and trend",
+      "value": "$88.01 (bid $88.02 / ask $88.03 at 2026-09-11 14:48 UTC); last close $88.03; 50-day average $86.55; 200-day average $78.78; 250-day range $65.65-$91.97. Price is above both the 50- and 200-day averages (uptrend)",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca paper feed (code/alpaca_client.py --quote KO / --bars KO --days 250)",
+      "as_of": "2026-09-11",
+      "retrieved": "2026-09-11"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ],
+  "unknowns": [
+    "The 11th Circuit's decision on the IRS appeal, and whether any adverse ruling would be extended to the 2010+ tax years, is unknown. KO's $14B figure is the company's own scenario estimate, not a liability it has booked.",
+    "KO's historical average P/E is not cited here; the 20x/24x/27x multiples used in the valuation are our own judgment, not a measured historical statistic.",
+    "The exact close date and final proceeds of the Coca-Cola Beverages Africa sale are unknown; only the $5.342B held-for-sale carrying value and an H2 2026 expected close are disclosed.",
+    "How much of the Q2 2026 +5% unit case volume was a one-off FIFA World Cup marketing effect versus durable demand is unknown until Q3/Q4 2026 results."
+  ]
+}

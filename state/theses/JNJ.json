@@ -1,0 +1,220 @@
+{
+  "ticker": "JNJ",
+  "thesis_id": "JNJ-2026Q2",
+  "company": "Johnson & Johnson",
+  "sector": "Health Care",
+  "as_of": "2026-Q2",
+  "retrieved": "2026-09-11",
+  "refresh_due": "2026-12-10",
+  "stale": false,
+  "business_summary": "Johnson & Johnson is a pure-play healthcare company run in two segments after the November 2023 spin-off of its consumer-health arm (Kenvue - Band-Aid, Tylenol, Listerine). What is left is: (1) Innovative Medicine, $60.401B of FY2025 sales (64% of the company), which invents, patents and sells prescription drugs in oncology (DARZALEX $14.351B, CARVYKTI $1.887B, ERLEADA $3.574B), immunology (TREMFYA $5.155B, STELARA $6.078B and falling fast), neuroscience (CAPLYTA, SPRAVATO, INVEGA), pulmonary hypertension, infectious disease and cardiovascular; and (2) MedTech, $33.792B of FY2025 sales (36%), which sells surgical instruments and sutures ($10.137B), orthopaedic implants ($9.258B), cardiovascular devices including electrophysiology catheters, Abiomed heart pumps and Shockwave ($8.928B) and contact lenses / eye-surgery products ($5.468B). Customers are hospitals, surgeons, wholesalers, pharmacies and government payers; drugs are sold on patent-protected pricing and devices on a razor/razor-blade model where surgeons who train on a platform keep buying its disposables. In 5-10 years the company should still be winning because it is the most diversified large-cap healthcare franchise in the world - no single drug is more than ~15% of sales, R&D of $14.665B a year (FY2025) refills the pipeline, the device business is protected by surgeon habit and hospital contracting, and the balance sheet (net debt ~$28B against ~$34B of normalized EBITDA) lets it buy innovation it does not invent. The catch is that the whole model is a treadmill: every drug eventually loses patent protection, so JNJ must keep replacing billions of lost revenue, and it carries a large, long-running talc-litigation liability from its former baby-powder business, on which it announced a proposed $5.5B settlement in July 2026.",
+  "moat": {
+    "type": "Patents and regulatory exclusivity in Innovative Medicine; surgeon switching costs, training lock-in and hospital contracting in MedTech; enormous scale in R&D, manufacturing and global distribution; brand/trust with physicians; 64 consecutive years of dividend increases signalling capital discipline",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "5.6% CAGR FY2022->FY2025 continuing operations ($79.990B -> $94.193B); 6.0% in FY2025 alone. TTM revenue through 2026-Q2 is $97.929B",
+    "gross_margin": "67.9% (FY2025 gross profit $63.937B / sales $94.193B); 67.9% on a TTM basis through 2026-Q2",
+    "roic": "~19% estimated for FY2025, normalized to exclude the one-off $7.0B talc-reserve reversal. Arithmetic from cited filing figures: normalized pre-tax income $32.581B - $7.0B = $25.581B; add back interest expense $0.971B, deduct interest income $1.056B = normalized EBIT $25.496B; times (1 - 17.7% effective tax rate) = NOPAT ~$20.98B; divided by invested capital (total debt $47.933B + shareholders' equity $81.544B - cash and marketable securities $20.102B = $109.375B) = 19.2%",
+    "net_debt_to_ebitda": "~0.8x at FY2025 year-end (net debt $27.831B = total debt $47.933B less cash and marketable securities $20.102B; normalized EBITDA ~$34.055B = normalized pre-tax $25.581B + interest expense $0.971B + D&A $7.503B). On reported pre-tax income including the talc reversal it is ~0.7x. Net debt was ~$28.278B at 2026-06-28",
+    "fcf_positive": "yes - FY2025 free cash flow $19.698B (operating cash flow $24.530B less capex $4.832B), which JNJ itself reported as ~$19.7B; FY2024 was $19.842B. First half 2026 FCF $8.760B ($11.130B OCF less $2.370B capex) vs $6.214B in first half 2025. Trailing-twelve-month FCF through 2026-Q2 ~$22.244B, about $9.16 per diluted share"
+  },
+  "valuation": {
+    "price": 268.31,
+    "price_source": "alpaca",
+    "price_asof": "2026-09-11",
+    "fair_value_low": 179.2,
+    "fair_value_base": 211.25,
+    "fair_value_high": 247.66,
+    "method": "Blend of two methods, arithmetic done by code/valuation.py. (1) P/E: JNJ's own raised FY2026 adjusted-EPS guidance midpoint of $11.68 at 15x / 17.5x / 20x = $175.20 / $204.40 / $233.60. The base 17.5x is a deliberate premium to the drug-manufacturer median (~14.7x) for JNJ's diversification, AAA-grade balance sheet, 64-year dividend record and now-reduced talc tail risk - but below the ~23x the market pays today. (2) FCF yield: trailing-twelve-month FCF/share of $9.16 (derived from FY2025 10-K plus the 2026 and 2025 second-quarter 10-Qs) at target yields of 5.0% / 4.2% / 3.5% = $183.20 / $218.10 / $261.71. Average of the two bands gives low $179.20, base $211.25, high $247.66."
+  },
+  "price_used": 268.31,
+  "fair_value": {
+    "fair_value_low": 179.2,
+    "fair_value_base": 211.25,
+    "fair_value_high": 247.66,
+    "method": "pe(11.68 adj EPS @ 15/17.5/20x) + fcf_yield($9.16 TTM FCF/sh @ 5.0/4.2/3.5%), averaged"
+  },
+  "margin_of_safety": -0.2127,
+  "margin_of_safety_note": "-0.2127 uses the formula (fair_value_base - price) / price = (211.25 - 268.31) / 268.31. Using the repo's own convention in code/valuation.py and code/thesis.py, (base - price) / base, the figure is -0.2701. Either way the number is negative: at $268.31 JNJ trades roughly 21-27% ABOVE our base fair value and above the high end of our band. There is no margin of safety here. This is a WATCH, not a BUY.",
+  "conviction": 3,
+  "bull_case": [
+    "Genuinely wide moat and unusual diversification: two segments, six therapeutic/device franchises, no single product above ~15% of sales, so one patent loss or one failed trial cannot break the company.",
+    "The growth engine is working. FY2025 sales grew 6.0% to $94.193B and Innovative Medicine grew 6.0% to $60.401B even while absorbing a 1,040 basis-point drag from the STELARA biosimilar cliff. Oncology grew 22.1% to $25.380B, led by DARZALEX +23.0% to $14.351B, CARVYKTI +95.9% to $1.887B and TREMFYA +40.5% to $5.155B.",
+    "Momentum accelerated in 2026: Q2 2026 sales $25.310B, up 6.6%, with Innovative Medicine +7.8% and MedTech +4.5%, and management raised FY2026 guidance to $100.8-101.4B of sales and $11.60-11.75 adjusted EPS (midpoint $11.68, up 8.2%).",
+    "High-quality economics: 67.9% gross margin, ~19% normalized ROIC, ~0.8x net-debt-to-EBITDA, and $19.698B of FY2025 free cash flow that comfortably covered $12.381B of dividends (63% of FCF) and $5.953B of buybacks.",
+    "The biggest overhang is being priced out: on 2026-07-27 JNJ announced an agreed comprehensive resolution of the ovarian talc litigation with the lead MDL and state-court plaintiff firms - a $5.5B commitment, first payment capped at $3B in 2027, nothing more due before 2028. That is a knowable, financeable number against ~$34B of annual EBITDA, versus a decade of open-ended uncertainty.",
+    "Owner-friendly and defensive: 64 consecutive years of dividend increases, $1.34 per quarter ($5.36 annualized, ~2.0% yield at $268.31), a business whose demand does not depend on the economic cycle."
+  ],
+  "risks": [
+    "VALUATION IS THE MAIN RISK. At $268.31 the stock is ~23.0x the FY2026 adjusted-EPS guidance midpoint of $11.68 and ~29x trailing free cash flow (~3.4% FCF yield) for a business growing sales ~6% and adjusted EPS ~7-8%. The stock is up ~54% from its 52-week Alpaca low of $174.20, which was only ~14.9x the same guidance figure. Most of the last year's return has been multiple expansion, not earnings growth, and multiple expansion can reverse.",
+    "The talc settlement is NOT final. It is conditioned on participation by lead plaintiff firms representing at least 95% of the ~76,000 remaining ovarian claims. If that threshold is not met, JNJ goes back to trying cases one by one - a process that has already produced a >$1.5B mesothelioma verdict in Baltimore and a $40M Los Angeles ovarian verdict (and a defence win in June 2026). Three prior bankruptcy-based attempts to end this litigation all failed, most recently in March 2025.",
+    "An incremental talc charge is coming. The reserve stood at ~$3.7B present value at 2026-Q2, against a $5.5B commitment announced after the quarter closed, so a top-up charge should appear in Q3 2026 GAAP results. And the settlement excludes mesothelioma claims, state consumer-protection actions, Canadian litigation and an ongoing securities class action, so the tail does not close entirely.",
+    "The patent treadmill is relentless. STELARA fell 41.3% to $6.078B in FY2025 and is still bleeding; IMBRUVICA -7.1%, ZYTIGA -20.4%, INVEGA -9.8%. Under the Inflation Reduction Act, XARELTO and STELARA were on the first Medicare price-negotiation list effective 2026, and CMS added ERLEADA - a $3.574B, +19.2% grower - to the 2028 list in January 2026. Government price-setting is now a permanent, expanding headwind.",
+    "MedTech is the weaker half. It grew only 5.4% operationally in FY2025 and 3.6% operationally in Q2 2026, and earns a 12.2% pre-tax segment margin versus Innovative Medicine's 36.9%. Orthopaedics grew just 1.1%, Spine/Sports fell 2.5%, and China volume-based procurement plus pulsed-field-ablation competition in electrophysiology are real pressures.",
+    "Growth has been bought as much as built. JNJ spent $17.541B on acquisitions in FY2025 (Intra-Cellular, $14.5B net) and $15.146B in FY2024 (Shockwave). Intangibles plus goodwill are $99.175B of $199.210B total assets at FY2025 year-end - if pipeline assets disappoint, impairments follow and reported ROIC falls.",
+    "GAAP earnings are noisy and can mislead. FY2025 net income of $26.804B and diluted EPS of $11.03 were flattered by a ~$7.0B reversal of previously accrued talc reserves; FY2024's $5.79 was depressed by ~$5.1B of talc charges. Only the adjusted and cash figures are comparable year to year, and adjusted EPS itself excludes real intangible amortisation.",
+    "Concentration in US pricing policy, tariffs on pharmaceutical manufacturing, and FDA/regulatory outcomes are all outside management's control."
+  ],
+  "what_would_break_thesis": [
+    "The proposed ovarian talc resolution fails to reach the required ~95% claimant participation and is abandoned or materially repriced, OR JNJ's total talc reserve rises above $10B.",
+    "Total company revenue declines year-over-year for two consecutive fiscal years.",
+    "Innovative Medicine segment sales decline year-over-year for two consecutive quarters on an operational (constant-currency) basis.",
+    "Company gross margin falls below 62% for two consecutive quarters.",
+    "Net-debt-to-EBITDA rises above 2.0x, or total debt exceeds $80B, without a clearly value-accretive acquisition behind it.",
+    "Free cash flow falls below $12B for a full fiscal year, or fails to cover the dividend in any fiscal year.",
+    "Normalized ROIC falls below 12% for two consecutive fiscal years.",
+    "The dividend is cut or the 60-plus-year increase streak is broken.",
+    "Goodwill and intangible impairments exceed $10B in any rolling two-year period (evidence that acquired growth was overpaid for).",
+    "Any accounting restatement, auditor change under dispute, or material governance red flag.",
+    "Price discipline trigger: do not buy above $211 (our base fair value). A first purchase only becomes justified at or below roughly $190 (about a 10% discount to base), and a full position below $179 (the low end of the band)."
+  ],
+  "catalysts": [
+    "Q3 2026 results, expected mid-October 2026 - the first report to quantify the incremental talc charge and to confirm the 95% claimant participation progress. This is important enough that the thesis should be refreshed early, before the 2026-12-10 refresh date, if results are materially different from guidance.",
+    "Formal court approval / confirmed 95% participation in the ovarian talc resolution would remove a decade-old discount but is, at today's price, arguably already assumed.",
+    "Continued Innovative Medicine acceleration as TREMFYA, DARZALEX, CARVYKTI, CAPLYTA, SPRAVATO and RYBREVANT/LAZCLUZE fully offset STELARA; management has targeted this as the pivot year.",
+    "MedTech re-acceleration - the OTTAVA robotic surgical system was submitted to the FDA in Q4 2025 and would be JNJ's entry against Intuitive Surgical.",
+    "A price pullback toward $190-211 would be the event that actually makes this ownable. A market-wide healthcare de-rating, a talc setback, or an IRA expansion scare are the plausible causes."
+  ],
+  "sources": [
+    {
+      "claim": "FY2025 sales $94,193M (FY2024 $88,821M, FY2023 $85,159M); gross profit $63,937M; cost of products sold $30,256M; R&D $14,665M; interest expense $971M; interest income $1,056M; earnings before taxes $32,581M; provision for taxes $5,777M; net earnings $26,804M; diluted EPS $11.03; diluted shares 2,429.4M",
+      "value": "sales 94193/88821/85159; gross profit 63937; pretax 32581; tax 5777; net 26804; diluted EPS 11.03; diluted shares 2429.4",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson FY2025 Form 10-K (filed 2026-02-11)",
+      "as_of": "FY2025 (fiscal year ended 2025-12-28)",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2022 sales from continuing operations $79,990M (used for the 3-year revenue CAGR, post-Kenvue basis)",
+      "value": "79990 (millions USD)",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000200406/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json",
+      "publisher": "U.S. SEC EDGAR XBRL company-concept API (source filing: JNJ FY2024 Form 10-K, filed 2025-02-13)",
+      "as_of": "FY2022 (fiscal year ended 2023-01-01)",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2025 balance sheet: cash and cash equivalents $19,709M, marketable securities $393M, loans and notes payable $8,495M, long-term debt $39,438M, total shareholders' equity $81,544M, total assets $199,210M, goodwill $48,772M, intangible assets net $50,403M. Management states total debt at end of 2025 was $47.9B and cash plus marketable securities $20.1B",
+      "value": "cash 19709; securities 393; ST debt 8495; LT debt 39438; equity 81544; total assets 199210; goodwill 48772; intangibles 50403",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson FY2025 Form 10-K",
+      "as_of": "2025-12-28",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2025 cash flows: net cash from operating activities $24,530M (FY2024 $24,266M, FY2023 $22,791M); additions to property, plant and equipment $4,832M (FY2024 $4,424M); depreciation and amortization $7,503M; dividends to shareholders $12,381M; repurchase of common stock $5,953M; acquisitions net of cash acquired $17,541M. Implied FY2025 FCF $19,698M",
+      "value": "OCF 24530; capex 4832; D&A 7503; dividends 12381; buybacks 5953; acquisitions 17541; FCF 19698",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson FY2025 Form 10-K",
+      "as_of": "FY2025 (fiscal year ended 2025-12-28)",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2025 segment detail: Innovative Medicine sales $60,401M (+6.0%) with pre-tax income $22,266M (36.9% of segment sales); MedTech sales $33,792M (+6.1%) with pre-tax income $4,113M (12.2%). Income not allocated to segments of $(6,202)M in FY2025 includes the reversal of approximately $7.0 billion of previously accrued talc reserve; FY2024 included talc charges of approximately $5.1 billion",
+      "value": "IM sales 60401, IM pretax 22266 (36.9%); MedTech sales 33792, pretax 4113 (12.2%); FY2025 talc reserve reversal ~+7000; FY2024 talc charges ~-5100",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson FY2025 Form 10-K, MD&A",
+      "as_of": "FY2025",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2025 product sales: DARZALEX $14,351M (+23.0%), STELARA $6,078M (-41.3%), TREMFYA $5,155M (+40.5%), ERLEADA $3,574M (+19.2%), INVEGA franchise $3,810M (-9.8%), IMBRUVICA $2,823M (-7.1%), XARELTO $2,633M (+11.0%), CARVYKTI $1,887M (+95.9%), SPRAVATO $1,696M (+57.4%), CAPLYTA $700M, ZYTIGA $502M (-20.4%); Total Oncology $25,380M (+22.1%), Total Immunology $15,728M (-11.8%). STELARA's decline was a ~10.4% drag on Innovative Medicine operational sales growth",
+      "value": "DARZALEX 14351; STELARA 6078; TREMFYA 5155; ERLEADA 3574; CARVYKTI 1887; oncology 25380; immunology 15728",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson FY2025 Form 10-K, MD&A",
+      "as_of": "FY2025",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2025 MedTech franchise sales: Surgery $10,137M (+3.0%), Orthopaedics $9,258M (+1.1%, Spine/Sports/Other -2.5%), Cardiovascular $8,928M (+15.8%, incl. Electrophysiology $5,634M +7.0%, Abiomed $1,751M, Shockwave $1,146M), Vision $5,468M (+6.3%)",
+      "value": "Surgery 10137; Ortho 9258; Cardiovascular 8928; Vision 5468",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson FY2025 Form 10-K, MD&A",
+      "as_of": "FY2025",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Inflation Reduction Act: XARELTO, STELARA and IMBRUVICA were on the first CMS Selected Drug list, subject to government-established Medicare prices beginning in 2026; in January 2026 CMS published the 2028 Selected Drug list, which includes ERLEADA",
+      "value": "XARELTO/STELARA/IMBRUVICA priced from 2026; ERLEADA added for 2028",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson FY2025 Form 10-K, Business / Risk Factors",
+      "as_of": "FY2025 10-K (filed 2026-02-11)",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "FY2025 adjusted (non-GAAP) net earnings $26,215M and adjusted diluted EPS $10.79 (vs FY2024 $24,242M / $9.98, +8.1%); FY2025 free cash flow reported as ~$19,700M (FY2024 $19,842M); Q4 2025 sales $24,564M; original January 2026 FY2026 guidance of $100.0-101.0B sales and $11.43-11.63 adjusted EPS",
+      "value": "FY2025 adj net 26215; adj EPS 10.79; FCF ~19700; Q4 sales 24564",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000002/a2025q4exhibit991.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson Form 8-K Exhibit 99.1, Q4 and Full-Year 2025 earnings release (2026-01-21)",
+      "as_of": "FY2025",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Q2 2026 results: reported sales $25,310M (+6.6%), GAAP diluted EPS $2.27, adjusted diluted EPS $2.90; Innovative Medicine $16,384M (+7.8% reported, +6.8% operational); MedTech $8,926M (+4.5% reported, +3.6% operational). Raised FY2026 guidance: reported sales $100.8-101.4B (midpoint $101.1B); adjusted EPS $11.60-11.75 (midpoint $11.68, +8.2%)",
+      "value": "Q2-26 sales 25310; GAAP EPS 2.27; adj EPS 2.90; FY2026 guide sales mid 101100; adj EPS mid 11.68",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000146/a2026q2exhibit991.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson Form 8-K Exhibit 99.1, Q2 2026 earnings release (2026-07-15)",
+      "as_of": "2026-Q2 (quarter ended 2026-06-28)",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Q2 2026 10-Q: six-month 2026 operating cash flow $11,130M and capex $2,370M (six-month 2025: $8,052M and $1,838M); Q2 2026 sales $25,310M, gross profit $17,259M, net earnings $5,534M, diluted EPS $2.27; balance sheet at 2026-06-28 loans and notes payable $11,692M, long-term debt $37,344M, cash and equivalents $20,422M, total assets $201,061M, shareholders' equity $84,971M. Talc: 'As of the second quarter of 2026, the total present value of the reserve for talc related matters is approximately $3.7 billion... Approximately 40% of the reserve is recorded as a current liability'",
+      "value": "1H26 OCF 11130, capex 2370; 1H25 OCF 8052, capex 1838; talc reserve PV ~3700",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000153/jnj-20260628.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson Form 10-Q for the quarter ended 2026-06-28 (filed 2026-07-23)",
+      "as_of": "2026-Q2",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Proposed ovarian talc resolution: 'The agreement calls for per claim payments, with a $5.5 billion commitment by the Company, and the first payment of no more than $3 billion to be made in 2027 and no additional payments due before 2028', conditioned on 'the express participation of at least of 95% of the remaining claims' by lead plaintiff firms in the federal MDL and related state court proceedings; approximately 76,000 remaining ovarian talc claims",
+      "value": "$5.5B commitment; <=$3B first payment in 2027; 95% participation condition; ~76,000 claims",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000155/jnj-20260727.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson Form 8-K, Item 7.01 (event date 2026-07-27, filed 2026-07-28)",
+      "as_of": "2026-07-27",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Talc litigation history and current posture: a bankruptcy court rejected JNJ's third (~$8B/25-year) resolution attempt in March 2025 and litigation in the tort system recommenced; ovarian and mesothelioma trials continue to be scheduled through 2026; a securities class action over talc disclosure remains in expert discovery after the Supreme Court denied certiorari in April 2026",
+      "value": "3rd bankruptcy attempt rejected March 2025; tort litigation recommenced; securities class action ongoing",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000153/jnj-20260628.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson Form 10-Q (2026-Q2), Legal Proceedings note",
+      "as_of": "2026-Q2",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Dividend: on 2026-04-14 JNJ declared a 3.1% increase in the quarterly dividend from $1.30 to $1.34 per share, the 64th consecutive year of increases; indicated annual rate $5.36 per share (previously $5.20)",
+      "value": "quarterly DPS 1.34; annual 5.36; 64th consecutive annual increase",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000076/a2026q1exhibit993.htm",
+      "publisher": "U.S. SEC EDGAR - Johnson & Johnson Form 8-K Exhibit 99.3, dividend increase press release (2026-04-14)",
+      "as_of": "2026-04-14",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Cross-check only (aggregator): market cap $644.84B, shares outstanding 2.41B, trailing P/E 30.87, forward P/E 23.72, EV $673.12B, EV/EBITDA 19.41, price/FCF 29.16, dividend per share $5.36, dividend yield 2.00%",
+      "value": "mkt cap 644840; fwd PE 23.72; EV/EBITDA 19.41; P/FCF 29.16; div yield 2.00%",
+      "url": "https://stockanalysis.com/stocks/JNJ/statistics/",
+      "publisher": "StockAnalysis.com (cross-check only, not used for any thesis number)",
+      "as_of": "2026-09-10",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Cross-check only (aggregator): JNJ forward P/E is approximately 42.6% above the Drug Manufacturers industry median forward P/E of about 14.70 - the basis for calling our 17.5x base multiple a deliberate premium to peers",
+      "value": "industry median forward P/E ~14.70",
+      "url": "https://www.gurufocus.com/term/forward-pe-ratio/JNJ",
+      "publisher": "GuruFocus (cross-check only)",
+      "as_of": "2026-09-10",
+      "retrieved": "2026-09-11"
+    },
+    {
+      "claim": "Price and trend from our own feed: latest close $268.31 on 2026-09-11; live quote bid $267.81 / ask $268.51; 50-day moving average $262.77; 200-day moving average $237.13; 52-week closing range $174.20 - $278.45. Price is above both the 50-day and 200-day averages (uptrend)",
+      "value": "close 268.31; 50dma 262.77; 200dma 237.13; 52w low 174.20; 52w high 278.45",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca (code/alpaca_client.py --quote / --bars, 250 daily bars)",
+      "as_of": "2026-09-11",
+      "retrieved": "2026-09-11"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}
