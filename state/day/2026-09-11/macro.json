@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-11",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 764.17,
+  "spy_sma200": 714.20,
+  "spy_pct_above_200d": 7.0,
+  "events": [
+    "CPI (Aug 2026) released today 8:30 AM ET: headline +3.4% YoY (+0.4% MoM, in line), core +2.4% YoY (+0.3% MoM, slightly above forecast)",
+    "FOMC meeting Sep 15-16 2026, rate decision Wed Sep 16 2:00 PM ET — rate hike odds ~30-40%",
+    "Next jobs report (nonfarm payrolls): Oct 2 2026 8:30 AM ET"
+  ],
+  "rates": "uncertain — hold vs 25bp hike at Sep 16 FOMC; elevated above Fed 2% target",
+  "sp500_trailing_pe": 25.9,
+  "sp500_forward_pe": 19.5,
+  "oil_wti_approx": 99.42,
+  "futures_this_morning": "S&P 500 +0.5%, Nasdaq +0.6% — bouncing after 4 consecutive down days",
+  "note": "Posture is cautious. CPI came in at 3.4% YoY, well above the Fed's 2% target, and core printed 0.1pp hot. The FOMC meets in five days with genuine rate-hike uncertainty (roughly 30-40% hike probability). Trailing P/E of ~26 is above the historical median of ~18. Oil near $100 adds inflationary pressure. SPY is in a technical uptrend (7% above 200d SMA) and futures are bouncing today, so this is not a crisis — but the combination of imminent FOMC risk, sticky inflation, and elevated valuations warrants demanding a larger margin of safety before any new buy.",
+  "sources": [
+    "https://www.bloomberg.com/news/articles/2026-09-11/futures-rise-with-help-from-oracle-s-beat-and-cooler-oil-prices",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-11-2026",
+    "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+    "https://www.cbsnews.com/news/august-cpi-report-inflation-fed-rates/",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://fedratecalc.com/us-economic-calendar/september-2026/",
+    "https://polymarkettrader.com/events/fed-fomc-september-2026/",
+    "https://www.chase.com/personal/investments/learning-and-insights/article/september-2026-rate-hike-now-expected-amid-energy-shocks",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio"
+  ]
+}
