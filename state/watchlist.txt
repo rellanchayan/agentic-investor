@@ -18,6 +18,11 @@ V
 MA
 JPM
 
+# --- Financial data, ratings & analytics ---
+SPGI   # S&P Global: credit ratings + indices + data; regulatory oligopoly moat; ~22x fwd P/E
+MCO    # Moody's: credit ratings + analytics; duopoly with SPGI; 55% adj operating margin
+MSCI   # MSCI Inc: index benchmarks + analytics; $16.5T AUM benchmarked; ~50% FCF margins
+
 # --- Consumer staples ---
 COST
 WMT
@@ -35,11 +40,15 @@ UNH
 JNJ
 LLY
 ABBV
+SYK    # Stryker: orthopedics + Mako surgical robot; ~24% below analyst consensus; high priority
+TMO    # Thermo Fisher Scientific: life sciences tools; "picks and shovels" for biopharma R&D
 
 # --- Industrials ---
 CAT
 HON
 UNP
+ITW    # Illinois Tool Works: 80/20 diversified industrials; 27% operating margin; >100% FCF/NI
+ODFL   # Old Dominion Freight Line: best-in-class LTL carrier; 27% ROIC; ~21% off 52w high
 
 # --- Energy ---
 XOM

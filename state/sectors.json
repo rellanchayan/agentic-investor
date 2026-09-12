@@ -27,5 +27,12 @@
   "XOM": "energy",
   "CVX": "energy",
   "DIS": "communication",
-  "SPY": "broad_etf"
+  "SPY": "broad_etf",
+  "SPGI": "financials",
+  "MCO": "financials",
+  "MSCI": "financials",
+  "SYK": "health_care",
+  "TMO": "health_care",
+  "ITW": "industrials",
+  "ODFL": "industrials"
 }
