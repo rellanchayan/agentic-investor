@@ -1,97 +1,109 @@
-# Visa Inc. (V) — Research Thesis
-*As of 2026-06-16 — fiscal data through Q2 FY2026 (quarter ended 2026-03-31). Visa's fiscal year ends Sept 30.*
+# Visa Inc. (V) — research note
 
-## What the business does (plain English)
-Visa runs the biggest electronic-payments network in the world (VisaNet). It is **not** a bank
-and **not** a lender. Banks issue the Visa-branded cards; Visa just moves the messages that say
-"this shopper is good for this purchase" between the shopper's bank and the merchant's bank, and
-then settles the money. For doing that, Visa skims a tiny fee on each swipe and on the dollar
-volume that flows across the network — plus richer fees on **cross-border** (international)
-payments. In FY2025 it handled **257.5 billion transactions**.
+**Updated:** 2026-09-12 · **Thesis ID:** V-2026Q3 · **As of fiscal period:** Q3 FY2026 (quarter ended 2026-06-30) · **Next refresh due:** 2026-12-12
+**Conviction:** 4 / 5 · **Moat:** wide
+**Price (Alpaca, 2026-09-11 close):** $370.47 · **Our fair value band:** $256 – **$300** – $350 → **no margin of safety; the stock is above the top of our band.**
 
-Because the network is already built, almost every extra transaction is nearly pure profit. Visa
-grows with (a) global consumer spending and (b) the slow, decades-long shift from cash and checks
-to cards and digital wallets. That is why it compounds at high margins year after year.
+> Previous version of this note: 2026-06-16, price $329.91, fair value $253 / $297 / $346. The stock has risen ~12% since; our estimate of what it is worth rose only ~1%.
 
-## Moat — **wide**
-- **Network effect:** more cardholders make Visa more valuable to merchants, and more accepting
-  merchants make it more valuable to cardholders. This flywheel is extremely hard to copy.
-- **Scale + near-duopoly:** together with Mastercard, Visa dominates global card rails. A new
-  entrant cannot replicate the acceptance footprint or the trust.
-- **High switching costs and brand:** banks, merchants and consumers are all locked into the
-  rails; "Visa" is a trust mark accepted almost everywhere.
+---
 
-## The key numbers (all cited)
-| Metric | Value | Period | Source |
-|---|---|---|---|
-| Net revenue | $40.0B (+11%) | FY2025 | SEC XBRL 10-K |
-| 3-yr revenue CAGR | ~10.9% (FY22 $29.31B → FY25 $40.0B) | FY22–FY25 | SEC XBRL 10-K |
-| GAAP net income | $20.058B | FY2025 | SEC XBRL 10-K |
-| GAAP diluted EPS | $10.20 | FY2025 | Visa IR / press |
-| Non-GAAP EPS | $11.47 | FY2025 | Visa IR / press |
-| Operating income (≈60% op margin) | $23.994B | FY2025 | SEC XBRL 10-K |
-| Operating cash flow | $23.059B | FY2025 | SEC XBRL 10-K |
-| Capex | $1.482B | FY2025 | SEC XBRL 10-K |
-| **Free cash flow** | **~$21.6B (positive)** | FY2025 | OCF − capex |
-| ROIC | ~34% (NOPAT ~$19.4B / ~$57.5B invested capital) | FY2025 | derived from 10-K |
-| Net debt / EBITDA | ~0.1x (LT debt $19.6B − cash $17.2B ≈ $2.4B net debt) | FY2025 | SEC XBRL 10-K |
-| Q2 FY2026 net revenue | $11.2B (+17%) | Q ended 2026-03-31 | Visa 8-K |
-| Q2 FY2026 GAAP EPS | $3.14 (+36%) | Q ended 2026-03-31 | Visa 8-K |
+## 1. What the company actually does
 
-These are exceptional quality marks: ~60% operating margins, ~34% ROIC, tiny capex, real cash
-flow, and almost no net debt.
+Visa runs the plumbing of card payments. It is **not** a bank and it does **not** lend you money. Your bank issues the card; the merchant's bank accepts it; Visa's network (VisaNet) carries the "can this person pay?" message between them and then settles the money.
 
-## Fair value
-Computed with `code/valuation.py`, blending two methods:
-- **P/E:** TTM GAAP EPS **$11.47** (= FY25 $10.20 − H1 FY25 $4.90 + H1 FY26 $6.17) × **25 / 29 / 33**.
-  A wide-moat compounder like Visa has historically commanded a premium multiple in the high-20s
-  to low-30s, so this is a sensible (and slightly humble) range.
-- **FCF yield:** FCF/share **~$10.97** at **5.0% / 4.2% / 3.5%** yields.
+It gets paid four ways:
 
-**Fair value band: low $253 / base $297 / high $346.**
+| Revenue line (Q3 FY2026) | Amount | YoY | What it is |
+| --- | --- | --- | --- |
+| Data processing | $6,042M | +17% | A tiny fee per transaction switched |
+| Service revenue | $4,922M | +14% | A fee on the dollar volume carried |
+| International transaction | $3,853M | +6% | Cross-border payments — the richest margin |
+| Other revenue | $1,496M | +45% | Value-added services: fraud tools, consulting, tokenisation |
+| *less* Client incentives | $(4,680)M | +18% | Payments back to banks to keep them issuing Visa cards |
+| **Net revenue** | **$11,633M** | **+14%** | |
 
-At the current price of **$329.91**, the margin of safety is **−11%** — the stock trades **above**
-our base fair value. The valuation tool's verdict: *"fair, leaning expensive."* This is a wonderful
-business, but today it is priced for it. The patient move is to wait for a better entry rather than
-chase. (Price is from our Alpaca feed; it is above the 50-day average ~$320 and roughly at the
-200-day ~$329 — a neutral trend.)
+In the June 2026 quarter it processed **71.7 billion transactions**, up 10%.
+([10-Q](https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm), [Q3 FY2026 earnings release](https://s1.q4cdn.com/050606653/files/doc_financials/2026/q3/Q3-2026-Earnings-Release_vF.pdf))
 
-## Why we'd want to own it (bull case)
-- Wide-moat near-duopoly with a multi-decade tailwind (cash → digital).
-- Best-in-class economics: ~60% op margin, ~34% ROIC, $21.6B FCF.
-- Strong momentum: Q2 FY2026 revenue +17%, GAAP EPS +36% (fastest revenue growth since 2022).
-- Fortress balance sheet + heavy capital return ($9.2B returned in Q2 FY2026; new $20B buyback).
-- New growth lanes: Visa Direct, value-added services, tokenization, B2B.
+## 2. Why it has a moat (wide)
 
-## The real risks (just as important)
-- **Regulation/antitrust:** interchange-fee caps and routing rules in the US/EU could squeeze the
-  fees that drive revenue. Visa is a perennial regulatory target.
-- **Disruption:** account-to-account/real-time rails (FedNow, Pix, UPI-style systems), stablecoins,
-  and Big-Tech wallets could route volume around the card networks over time.
-- **Cyclicality:** consumer spending — especially high-margin cross-border travel — falls in
-  recessions.
-- **Valuation:** at ~$330 there is little margin of safety; ~29x earnings leaves no room for
-  disappointment.
-- **Litigation:** long-running US merchant interchange litigation creates recurring cost and
-  headline risk.
+A **moat** is a lasting advantage that keeps competitors out. Visa's is a **network effect**: merchants accept Visa because billions of shoppers carry it; shoppers carry it because it is accepted in 200+ countries. Neither side can be peeled away without the other. Add to that enormous scale (an extra transaction costs Visa almost nothing — capex is $1.57B on $44.5B of revenue), a trusted brand, and high switching costs for the banks embedded in its rails. Practically speaking there are two global networks, Visa and Mastercard, and building a third is not a funding problem — it is a thirty-year chicken-and-egg problem.
 
-## Sell triggers (the rules we'll follow)
-1. GAAP operating margin below **50%** for two straight quarters.
-2. Net revenue **shrinks year-over-year for two straight quarters** outside a clear recession.
-3. **Net-debt/EBITDA above 2.0x.**
-4. Free cash flow **negative for a full fiscal year.**
-5. A regulatory ruling/settlement that structurally caps network fees in the US or EU and is
-   expected to cut net revenue by **more than ~15%.**
-6. Cross-border volume growth **stalls structurally** (not just one recession).
-7. Any **serious accounting red flag** or restatement.
+The August 2026 purchase of **BioCatch for $2.4B cash** (AI fraud detection, 350+ bank clients) widens this: the reason a bank stays on Visa's rails is increasingly the fraud and risk tooling bundled with them. ([Visa IR](https://investor.visa.com/news/news-details/2026/Visa-to-Acquire-BioCatch/default.aspx))
 
-## Conviction: 4 / 5
-A wide-moat, high-ROIC compounder with filing-backed numbers — clearly a business we'd want to own
-for years. Held to a 4 (not 5) only because today's price sits above our fair-value base, so there
-is no margin of safety right now. Quality: yes. Price: wait for a dip.
+## 3. The key numbers (all from filings)
 
-## Sources
-- [Visa FY2025 full-year results — Visa IR](https://investor.visa.com/news/news-details/2025/Visa-Fiscal-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx)
-- [Visa FY25 net income +2% — Electronic Payments International](https://www.electronicpaymentsinternational.com/news/visa-fy25-net-income/)
-- [Visa Q2 FY2026 8-K results — StockTitan](https://www.stocktitan.net/sec-filings/V/8-k-visa-inc-reports-material-event-e5b890a6c4d8.html)
-- SEC EDGAR XBRL (Visa 10-K, CIK 0001403161): [Revenue](https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json), [Net income](https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/NetIncomeLoss.json), [Operating income](https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/OperatingIncomeLoss.json), [Operating cash flow](https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/NetCashProvidedByUsedInOperatingActivities.json)
+Trailing twelve months = the four quarters ended 2026-06-30.
+
+| Measure | Value | Why it matters |
+| --- | --- | --- |
+| TTM net revenue | **$44.488B** | Sum of the last four quarters |
+| 9-month FY2026 revenue growth | **+15.3%** ($33.764B vs $29.276B) | Growth is *accelerating* vs the 10.9% 3-year CAGR |
+| 3-year revenue CAGR | **10.9%** (FY2022 $29.310B → FY2025 $40.0B) | The durable long-run rate |
+| TTM GAAP operating margin | **60.7%** ($26.996B / $44.488B) | Of every $1 of sales, 61c is operating profit |
+| TTM GAAP diluted EPS | **$11.75** | $10.20 (FY25) − $7.59 (9M FY25) + $9.14 (9M FY26) |
+| TTM non-GAAP diluted EPS | **$12.77** | Excludes litigation/severance charges |
+| TTM free cash flow | **~$21.0B** ($22.580B operating cash − $1.567B capex) | Real cash, not accounting profit |
+| **ROIC** | **~38%** | Profit per dollar invested. Anything over ~15% is excellent |
+| **Net debt / EBITDA** | **~0.35x** | $9.916B net debt vs ~$28.34B EBITDA. Very safe — but up from ~0.1x a year ago |
+| Buyback authorisation left | **$28.4B** at 2026-06-30 | Share count fell from 1,959M to 1,898M in a year |
+
+Sources: [Form 10-Q, period ended 2026-06-30](https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm) · [Q3 FY2026 earnings release](https://s1.q4cdn.com/050606653/files/doc_financials/2026/q3/Q3-2026-Earnings-Release_vF.pdf) · [FY2025 full-year release](https://s1.q4cdn.com/050606653/files/doc_financials/2025/q4/Q4-2025-Earnings-Release_vF.pdf)
+
+**Management guidance for FY2026: data not available.** Visa does not put a numeric outlook in its press release, and we have not sourced the earnings call. We would rather say "unknown" than guess.
+
+## 4. What changed since June — and it is not all good
+
+1. **Growth is still strong but the EPS comparison collapsed.** Q2 FY2026 showed +17% revenue and **+36%** GAAP EPS. Q3 FY2026 showed +14% revenue and only **+10%** GAAP EPS (net income +7%). The Q2 number flattered an easy prior-year quarter. **+10% is the honest run-rate**, not +36%.
+2. **Costs are outrunning revenue.** GAAP operating expenses +19% against +14% revenue. Personnel expense jumped from $1.749B to $2.458B. Operating margin slipped from 60.7% to **59.1%** year-over-year. Some of that is a one-off $563M severance charge — but a company taking severance charges while headcount cost rises 41% is worth watching.
+3. **The best business line is lagging its own volume.** Cross-border volume (ex-intra-Europe) grew **12%**, but international transaction revenue grew only **6%**. That gap means pricing/currency tailwinds are fading in Visa's highest-margin revenue. This is the single most important thing to watch next quarter.
+4. **The balance sheet is less pristine.** Net debt went from ~$2.4B to **~$9.9B** as Visa bought back $16.4B of stock in nine months and issued debt. Interest expense rose from $39M to $194M in the quarter. Still extremely safe at 0.35x — but the direction is one-way.
+5. **The 20-year interchange lawsuit moved toward the exit.** On 2026-06-09 the court gave **preliminary approval** to the Visa/Mastercard merchant settlement. Accrued litigation on the balance sheet fell from $3.033B to $1.274B. ([Payments Dive](https://www.paymentsdive.com/news/court-approves-visa-mastercard-settlement/822440/))
+
+## 5. How we got the fair value band
+
+Two methods, averaged, run through `code/valuation.py` so the arithmetic is not hand-done.
+
+**Method 1 — P/E.** TTM GAAP EPS **$11.75** × **25 / 29 / 33** = **$293.75 / $340.75 / $387.75**.
+Why those multiples: a wide-moat, ~60%-margin, ~38%-ROIC duopoly compounder has historically been awarded a high-20s multiple. 29x is our base; 25x is what a growth scare would do; 33x is the exuberant end.
+
+**Method 2 — FCF yield.** TTM FCF/share **$10.93** ($21.013B ÷ 1,923M TTM diluted shares) at **5.0% / 4.2% / 3.5%** required yield = **$218.60 / $260.24 / $312.29**.
+
+**Blended: low $256.18 · base $300.49 · high $350.02.**
+
+**An important honesty note.** We deliberately use **GAAP** earnings, not the prettier non-GAAP number. Visa books a litigation provision in essentially *every* quarter ($1.290B in nine months) — that is a recurring cost of being Visa, not a one-off. If you instead use TTM non-GAAP EPS of $12.77 at the same 29x, you get roughly **$370** — almost exactly today's price. So a reasonable person using adjusted earnings would call Visa fairly valued; we, using GAAP, call it ~23% expensive. **The gap between $300 and $370 is a judgement call about litigation charges, and readers should know that.**
+
+## 6. Risks, stated as hard as the bull case
+
+- **Price is the biggest risk right now.** $370.47 is ~23% above our $300 base and above the $350 top of our band. We are buyers of this business, not at this price.
+- Underlying EPS growth is ~10%, not the 30%+ the last quarter implied.
+- Costs growing faster than revenue; margin down year-over-year.
+- International transaction revenue (+6%) badly trailing cross-border volume (+12%).
+- **The settlement is not free.** It cuts credit interchange by 10bps for five years, caps standard consumer cards at 1.25% for eight years, and lets merchants surcharge, steer and **decline premium and commercial cards** — exactly the high-value volume Visa earns most on. Final approval is still pending and the convenience-store trade group has said it will appeal.
+- Net debt up 4x in a year.
+- Long-run disruption from account-to-account rails (FedNow, UPI, Pix), stablecoins and Big Tech wallets.
+- Recession would hit consumer spending and especially cross-border travel.
+- Goodwill + intangibles are $48.4B of a $94.6B balance sheet; BioCatch adds more, and does not close until fiscal Q2 2027.
+
+## 7. Sell triggers — the rules we follow, not the headlines we read
+
+We sell (or trim) if any of these become true:
+
+1. GAAP operating margin below **50%** for two consecutive quarters. *(Now: 59.1%.)*
+2. Net revenue shrinks year-over-year for **two consecutive quarters** outside a clearly identified recession.
+3. Net-debt/EBITDA above **2.0x**. *(Now: ~0.35x — but rising, was ~0.1x a year ago.)*
+4. Free cash flow negative for a full fiscal year.
+5. GAAP operating expenses grow faster than net revenue for **four consecutive quarters**. *(New trigger this refresh — Q3 FY2026 was the first such quarter.)*
+6. A regulatory ruling *beyond* the current settlement that structurally caps interchange/network fees in the US or EU and is expected to cut net revenue by more than ~15%.
+7. International transaction revenue declines year-over-year for two consecutive quarters, or cross-border volume growth stalls structurally.
+8. Processed transaction growth below **~3%** year-over-year for two consecutive quarters outside a recession *(new — this is how A2A rails or stablecoins would first show up in the numbers)*.
+9. Any serious accounting red flag or restatement.
+
+## 8. Bottom line
+
+The business is as good as we thought — arguably better, since revenue growth has accelerated to 15% and ROIC has risen to ~38%. **The business is not the problem; the price is.** At $370 we are paying ~31.5x trailing GAAP earnings for a company compounding EPS at ~10%, with margin pressure and a fading cross-border tailwind visible in the June quarter.
+
+**Action: hold the thesis, buy nothing here.** A price in the **$300s low end or below** would put us back inside the band with a real cushion. A missed buy costs nothing; an overpriced buy costs money.
+
+*Next scheduled look: Visa's Q4/FY2026 results, expected late October 2026 (fiscal year ends 2026-09-30).*
