@@ -1,175 +1,177 @@
 {
   "ticker": "V",
-  "thesis_id": "V-2026Q2",
+  "thesis_id": "V-2026Q3",
   "company": "Visa Inc.",
   "sector": "Financials / Payment Networks",
-  "as_of": "2026-Q2",
-  "retrieved": "2026-06-16",
-  "refresh_due": "2026-09-15",
-  "business_summary": "Visa runs the world's largest electronic payments network (VisaNet). It does NOT lend money or issue cards itself; banks issue Visa-branded cards and Visa simply moves the authorization and settlement messages between the shopper's bank and the merchant's bank. It earns a tiny fee on each transaction plus fees on cross-border (international) payments and on the dollar volume that flows across the network, partly offset by incentives paid to banks. In FY2025 it processed 257.5 billion transactions. Volume rises with global consumer spending and the long migration from cash/checks to cards and digital payments, so revenue compounds with the economy plus the cash-to-card shift, at very high margins and almost no incremental cost per transaction.",
+  "as_of": "2026-Q3",
+  "retrieved": "2026-09-12",
+  "refresh_due": "2026-12-12",
+  "business_summary": "Visa runs the world's largest electronic payments network (VisaNet). It does NOT lend money or issue cards itself; banks issue Visa-branded cards and Visa simply moves the authorization and settlement messages between the shopper's bank and the merchant's bank. It earns a tiny fee on each transaction (data processing revenue), a fee on the dollar volume that flows across the network (service revenue), a higher-margin fee on cross-border/international payments, plus a fast-growing 'other revenue' line of value-added services (fraud tools, consulting, tokenization) - all partly offset by incentives paid to banks. In the quarter ended June 30, 2026 it processed 71.7 billion transactions. Volume rises with global consumer spending and the long migration from cash/checks to cards and digital payments, so revenue compounds with the economy plus the cash-to-card shift, at very high margins and almost no incremental cost per transaction.",
   "moat": {
-    "type": "Network effect + scale + brand + high switching costs; near-duopoly with Mastercard",
+    "type": "Network effect + global scale + brand + high switching costs; near-duopoly with Mastercard",
     "rating": "wide"
   },
   "quality": {
-    "revenue_growth_3y": "10.9% CAGR (FY2022 $29.31B -> FY2025 $40.0B)",
-    "gross_margin": "n/a (network model; GAAP operating margin ~60.0% FY2025 = $23.994B op income / $40.0B net revenue)",
-    "roic": "~34% (NOPAT ~$19.4B on ~$57.5B invested capital = equity $37.9B + LT debt $19.6B, FY2025)",
-    "net_debt_to_ebitda": "~0.1x (LT debt $19.6B minus cash $17.2B = ~$2.4B net debt vs ~$24B+ EBITDA, FY2025)",
-    "fcf_positive": "yes ($21.6B FY2025 = $23.06B operating cash flow minus $1.48B capex)"
+    "revenue_growth_3y": "10.9% CAGR (FY2022 $29.310B -> FY2025 $40.0B); still accelerating - first nine months of FY2026 net revenue $33.764B vs $29.276B, +15.3% YoY; trailing-twelve-months (Jul 2025-Jun 2026) net revenue $44.488B",
+    "gross_margin": "n/a (network model; TTM GAAP operating margin 60.7% = $26.996B operating income / $44.488B net revenue, four quarters ended 2026-06-30). Q3 FY2026 alone was 59.1% ($6.877B / $11.633B), down from 60.7% in Q3 FY2025, depressed by $563M of severance costs.",
+    "roic": "~38% (TTM NOPAT $22.6B = $26.996B operating income x (1 - 16.19% TTM effective tax rate), on invested capital $59.0B = total equity $35.178B + total debt $23.858B, at 2026-06-30)",
+    "net_debt_to_ebitda": "~0.35x (total debt $23.858B = $2.996B current maturities + $20.862B long-term, minus $13.942B cash and investment securities = $9.916B net debt, vs TTM EBITDA ~$28.34B). NOTE: net debt rose from ~$2.4B at FY2025 year-end after $16.430B of buybacks in nine months.",
+    "fcf_positive": "yes (TTM FCF ~$21.0B = $22.580B operating cash flow minus $1.567B purchases of property, equipment and technology, four quarters ended 2026-06-30)"
   },
   "valuation": {
-    "price": 329.91,
+    "price": 370.47,
     "price_source": "alpaca",
-    "price_asof": "2026-06-16",
-    "fair_value_low": 253.07,
-    "fair_value_base": 296.91,
-    "fair_value_high": 345.97,
-    "method": "pe (TTM GAAP EPS $11.47 x 25/29/33) + fcf_yield (FCF/sh $10.97 at 5.0/4.2/3.5%)"
+    "price_asof": "2026-09-11",
+    "fair_value_low": 256.18,
+    "fair_value_base": 300.49,
+    "fair_value_high": 350.02,
+    "method": "Blend of two methods via code/valuation.py. (1) P/E: TTM GAAP diluted EPS $11.75 (FY2025 $10.20 - 9M FY2025 $7.59 + 9M FY2026 $9.14) x 25/29/33 = $293.75/$340.75/$387.75. A wide-moat near-duopoly compounder like Visa has historically earned a high-20s multiple, so 29x is the base. (2) FCF yield: TTM FCF/share $10.93 ($21.013B FCF / 1,923M TTM diluted shares) at 5.0%/4.2%/3.5% = $218.60/$260.24/$312.29. Average of the two = low $256.18 / base $300.49 / high $350.02. GAAP (not non-GAAP) EPS is used deliberately: Visa books a litigation provision in essentially every quarter ($1.290B in 9M FY2026), so we treat it as a real recurring cost. On TTM non-GAAP EPS of $12.77 the same 29x would imply ~$370, i.e. roughly today's price."
   },
   "conviction": 4,
   "bull_case": [
-    "Wide-moat near-duopoly: VisaNet's global network of issuers, merchants and acquirers is almost impossible to replicate; new entrants cannot match its acceptance footprint or trust.",
-    "Long secular tailwind: cash and checks are still a large share of global payments, giving Visa years of volume growth on top of GDP-linked consumer spending.",
-    "Exceptional economics: ~60% GAAP operating margin, ~34% ROIC, capex of only ~$1.5B on $40B revenue, and $21.6B free cash flow in FY2025 - a true compounder.",
-    "Strong recent momentum: Q2 FY2026 net revenue +17% and GAAP EPS +36%, the fastest revenue growth since 2022.",
-    "Fortress balance sheet (near-zero net debt) plus heavy buybacks/dividends - $9.2B returned in Q2 FY2026 and a new $20B repurchase authorization shrink the share count over time.",
-    "New growth lanes (Visa Direct, value-added services, tokenization, B2B) diversify beyond traditional card swipe fees."
+    "Wide-moat near-duopoly: VisaNet's global network of issuers, merchants and acquirers across more than 200 countries is almost impossible to replicate; new entrants cannot match its acceptance footprint or trust.",
+    "Long secular tailwind: cash and checks are still a large share of global payments, giving Visa years of volume growth on top of GDP-linked consumer spending. Q3 FY2026 payments volume +10%, total cross-border volume +13%, processed transactions +10% (all constant-dollar).",
+    "Exceptional and still-improving economics: 60.7% TTM GAAP operating margin, ~38% ROIC, capex of only $1.567B on $44.5B of TTM revenue, and ~$21.0B of TTM free cash flow.",
+    "Growth is holding up better than expected: nine-month FY2026 net revenue +15.3% YoY, faster than the 10.9% three-year CAGR; Q3 FY2026 net revenue +14%.",
+    "Value-added services are scaling fast: Q3 FY2026 'other revenue' $1.496B, +45% YoY - the fastest-growing line and a genuine diversification away from pure swipe fees.",
+    "Fortress balance sheet (0.35x net debt/EBITDA) funding heavy shareholder returns: $16.430B of class A buybacks plus $3.852B of dividends in nine months, with $28.4B of buyback authorization still remaining at 2026-06-30, shrinking the share count (diluted class A 1,898M in Q3 FY2026 vs 1,959M a year earlier).",
+    "The long-running US merchant interchange overhang moved toward resolution: the court granted preliminary approval to the Visa/Mastercard settlement on 2026-06-09, and Visa's accrued litigation balance fell from $3.033B to $1.274B over the nine months.",
+    "Buying capability rather than renting it: the $2.4B all-cash BioCatch acquisition (announced 2026-08-03) deepens the AI fraud-detection moat that keeps Visa's network the trusted default."
   ],
   "risks": [
-    "Regulatory/antitrust: interchange-fee caps, the Durbin-style routing rules, and litigation could compress the fees that drive revenue; Visa/Mastercard are perennial regulatory targets in the US and EU.",
-    "Disruption: account-to-account / real-time payment rails (FedNow, UPI-style systems, Pix), stablecoins, and Big Tech wallets could route volume around the card networks over time.",
+    "VALUATION IS THE MAIN RISK TODAY: at $370.47 the stock trades ~23% above our base fair value of $300.49 and above the high end of our band ($350.02). There is no margin of safety; on TTM GAAP EPS of $11.75 the stock is at ~31.5x trailing earnings.",
+    "Earnings growth decelerated sharply versus last quarter: Q3 FY2026 GAAP EPS grew only 10% (and net income only 7%) versus +36% GAAP EPS in Q2 FY2026. The Q2 figure flattered a weak prior-year comparison; +10% is the more honest run-rate.",
+    "Cost growth is outrunning revenue: Q3 FY2026 GAAP operating expenses rose 19% (non-GAAP +17%) against 14% revenue growth, with personnel expense up from $1.749B to $2.458B. Operating margin fell from 60.7% to 59.1% year over year. Client incentives grew 18%, faster than revenue.",
+    "The highest-margin line is lagging its volume: Q3 FY2026 international transaction revenue grew only 6% to $3.853B even though cross-border volume ex-intra-Europe grew 12% constant-dollar - a sign that currency-volatility tailwinds are fading and/or pricing is being competed away.",
+    "The interchange settlement is not free: it trims credit interchange by 10 basis points for five years, caps standard consumer card rates at 1.25% for eight years, and gives merchants new rights to surcharge, steer and decline premium/commercial cards. Those steering rights could slow the growth of Visa's richest volume mix. Final approval and a threatened appeal to the 2nd Circuit are still ahead.",
+    "Balance sheet is less pristine than a year ago: net debt rose from ~$2.4B to ~$9.916B as Visa levered up modestly to fund buybacks; interest expense jumped to $194M in Q3 FY2026 from $39M a year earlier.",
+    "Disruption: account-to-account / real-time payment rails (FedNow, UPI, Pix), stablecoins, and Big Tech wallets could route volume around the card networks over time.",
     "Cyclicality: consumer spending and especially high-margin cross-border travel volume fall in recessions.",
-    "Valuation: at ~$330 the stock trades above our base fair value (~$297), so there is little margin of safety today; a multiple of ~29x leaves little room for disappointment.",
-    "Litigation overhang: long-running US merchant interchange litigation and settlements create recurring legal cost and headline risk."
+    "Regulatory/antitrust remains perennial: interchange-fee caps and routing rules in the US and EU could compress network economics beyond the current settlement.",
+    "M&A execution: the $2.4B BioCatch deal is not expected to close until fiscal Q2 2027 and adds integration risk; goodwill and intangibles already total $48.4B of the $94.6B balance sheet."
   ],
   "what_would_break_thesis": [
-    "GAAP operating margin falls below 50% for two consecutive fiscal quarters (erosion of the network's pricing power).",
+    "GAAP operating margin falls below 50% for two consecutive fiscal quarters (erosion of the network's pricing power). Currently 59.1% in Q3 FY2026.",
     "Net revenue shrinks year-over-year for two consecutive quarters outside a clearly identified macro recession (signals structural volume loss / disruption).",
-    "Net-debt-to-EBITDA rises above 2.0x (a sign of balance-sheet deterioration or value-destroying M&A).",
+    "Net-debt-to-EBITDA rises above 2.0x (a sign of balance-sheet deterioration or value-destroying M&A). Currently ~0.35x - watch this, it has risen from ~0.1x in one year.",
     "Free cash flow turns negative for a full fiscal year.",
-    "A regulatory ruling or settlement that structurally caps interchange/network fees in a major market (US or EU) and is expected to cut net revenue by more than ~15%.",
-    "Cross-border volume growth stalls structurally (not just one recession), indicating a permanent loss of the highest-margin business.",
+    "GAAP operating expenses grow faster than net revenue for four consecutive quarters (the cost discipline that produces the 60% margin has broken).",
+    "A regulatory ruling or settlement beyond the current MDL deal that structurally caps interchange/network fees in a major market (US or EU) and is expected to cut net revenue by more than ~15%.",
+    "Cross-border volume growth stalls structurally (not just one recession), or international transaction revenue declines year-over-year for two consecutive quarters, indicating a permanent loss of the highest-margin business.",
+    "Processed transaction growth falls below ~3% year-over-year for two consecutive quarters outside a recession (evidence that A2A rails or stablecoins are taking share).",
     "A serious accounting red flag or restatement."
   ],
   "catalysts": [
-    "Q3 FY2026 earnings (expected late July 2026) - watch cross-border volume and incentive trends.",
-    "Continued execution of the $20B buyback authorization shrinking share count.",
-    "Resolution/progress on US merchant interchange litigation.",
-    "Growth in Visa Direct and value-added services as a larger share of revenue."
+    "Q4 and full-year FY2026 earnings, expected late October 2026 (FY ends 2026-09-30) - watch the cross-border/international transaction revenue gap and whether operating expense growth normalises after the $563M severance charge.",
+    "Final approval hearing in the US merchant interchange settlement, and the threatened appeal to the 2nd Circuit - a clean final approval would remove a two-decade overhang.",
+    "Closing of the $2.4B BioCatch acquisition, expected in fiscal Q2 2027.",
+    "Continued execution of the $28.4B remaining buyback authorization shrinking the share count.",
+    "Continued scaling of value-added services / 'other revenue' (+45% YoY in Q3 FY2026) as a larger share of the mix."
   ],
   "sources": [
     {
-      "claim": "FY2025 net revenue",
-      "value": "$40.0 billion (+11%)",
-      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json",
-      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
-      "as_of": "2025-09-30",
-      "retrieved": "2026-06-16"
+      "claim": "Q3 FY2026 (quarter ended 2026-06-30) net revenue, operating expenses, operating income, net income and diluted class A EPS; and nine-month FY2026 vs FY2025 figures",
+      "value": "Q3 net revenue $11,633M (+14%); total operating expenses $4,756M (+19%); operating income $6,877M; net income $5,628M (+7%); GAAP diluted class A EPS $2.97 (+10%); non-GAAP EPS $3.32 (+11%). 9M FY2026 net revenue $33,764M vs $29,276M; 9M net income $17,502M vs $14,968M; 9M GAAP diluted EPS $9.14 vs $7.59; 9M non-GAAP diluted EPS $9.79 vs $8.49",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+      "publisher": "SEC EDGAR - Visa Inc. Form 10-Q for the quarterly period ended June 30, 2026 (filed 2026-07-29)",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-12"
     },
     {
-      "claim": "FY2025 GAAP net income",
-      "value": "$20.058 billion",
-      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/NetIncomeLoss.json",
-      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
-      "as_of": "2025-09-30",
-      "retrieved": "2026-06-16"
+      "claim": "Q3 FY2026 earnings release headline figures, revenue mix, key business drivers and quarterly results table used to build TTM figures",
+      "value": "Service revenue $4,922M (+14%); data processing $6,042M (+17%); international transaction $3,853M (+6%); other revenue $1,496M (+45%); client incentives $(4,680)M (+18%). Payments volume +10%, cross-border ex-intra-Europe +12%, total cross-border +13%, processed transactions 71.7B (+10%), all constant-dollar. Quarterly net revenue: Q3 FY26 $11,633M, Q2 FY26 $11,230M, Q1 FY26 $10,901M, Q4 FY25 $10,724M, Q3 FY25 $10,172M. Quarterly operating income: $6,877M / $7,234M / $6,737M / $6,148M / $6,177M. Quarterly net income: $5,628M / $6,021M / $5,853M / $5,090M / $5,272M",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2026/q3/Q3-2026-Earnings-Release_vF.pdf",
+      "publisher": "Visa Investor Relations - Visa Reports Fiscal Third Quarter 2026 Results (furnished as Exhibit 99.1 to Form 8-K, 2026-07-28)",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-12"
     },
     {
-      "claim": "FY2025 GAAP diluted EPS $10.20; non-GAAP EPS $11.47; net income tops $20B",
-      "value": "GAAP EPS $10.20, non-GAAP EPS $11.47",
-      "url": "https://investor.visa.com/news/news-details/2025/Visa-Fiscal-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
-      "publisher": "Visa Investor Relations / electronicpaymentsinternational.com (FY25 results)",
-      "as_of": "2025-09-30",
-      "retrieved": "2026-06-16"
+      "claim": "Balance sheet at 2026-06-30 used for net debt, invested capital and ROIC",
+      "value": "Cash and cash equivalents $12,359M; current investment securities $1,433M; non-current investment securities $150M (company states cash, cash equivalents and investment securities were $13.9B); current maturities of debt $2,996M; long-term debt $20,862M; total equity $35,178M; total assets $94,590M; goodwill $20,825M; intangible assets, net $27,532M; accrued litigation $1,274M (vs $3,033M at 2025-09-30)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+      "publisher": "SEC EDGAR - Visa Inc. Form 10-Q, Consolidated Balance Sheets, period ended 2026-06-30",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-12"
     },
     {
-      "claim": "FY2025 operating income (for ~60% operating margin calc)",
-      "value": "$23.994 billion",
-      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/OperatingIncomeLoss.json",
-      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
-      "as_of": "2025-09-30",
-      "retrieved": "2026-06-16"
+      "claim": "Nine-month FY2026 and FY2025 cash flow items used to derive TTM free cash flow, plus capital returned",
+      "value": "9M FY2026 net cash provided by operating activities $16,342M (9M FY2025 $16,821M); purchases of property, equipment and technology $1,178M (9M FY2025 $1,093M); repurchases of class A common stock $16,430M; dividends paid $3,852M",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+      "publisher": "SEC EDGAR - Visa Inc. Form 10-Q, Consolidated Statements of Cash Flows, nine months ended 2026-06-30",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-12"
     },
     {
-      "claim": "FY2025 operating cash flow",
-      "value": "$23.059 billion",
+      "claim": "Q3 FY2026 special items, share count, buyback activity and remaining authorization, dividend",
+      "value": "$563M severance costs; $237M MDL litigation provision; $18M deferred tax benefit; GAAP effective tax rate 17.6%; weighted-average diluted class A shares 1,898M (vs 1,959M in Q3 FY2025); repurchased ~14.5M shares at an average $330.71 for $4.9B; $28.4B of remaining authorized repurchase funds at 2026-06-30; quarterly dividend declared $0.670 per class A share",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2026/q3/Q3-2026-Earnings-Release_vF.pdf",
+      "publisher": "Visa Investor Relations - Fiscal Third Quarter 2026 Financial Highlights and Other Notable Items",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-12"
+    },
+    {
+      "claim": "FY2025 full-year results used as the base for TTM EPS, FCF and revenue-growth calculations",
+      "value": "FY2025 GAAP net income $20.1B or $10.20 per share; non-GAAP net income $22.5B or $11.47 per share; net revenue $40.0B (+11%); Q4 FY2025 GAAP EPS $2.62 and non-GAAP EPS $2.98; share repurchases and dividends of $22.8B for the full year",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q4/Q4-2025-Earnings-Release_vF.pdf",
+      "publisher": "Visa Investor Relations - Visa Reports Fiscal Fourth Quarter and Full-Year 2025 Results (2025-10-28)",
+      "as_of": "2025-09-30",
+      "retrieved": "2026-09-12"
+    },
+    {
+      "claim": "FY2025 operating cash flow and capital expenditures (used with 9M figures to derive TTM FCF)",
+      "value": "FY2025 operating cash flow $23,059M; FY2025 purchases of property, equipment and technology $1,482M",
       "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/NetCashProvidedByUsedInOperatingActivities.json",
-      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
+      "publisher": "SEC EDGAR XBRL company concept data (Visa FY2025 Form 10-K); carried forward from the 2026-06-16 thesis where it was retrieved",
       "as_of": "2025-09-30",
       "retrieved": "2026-06-16"
     },
     {
-      "claim": "FY2025 capital expenditures (PP&E + productive assets)",
-      "value": "$1.482 billion",
-      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/PaymentsToAcquireProductiveAssets.json",
-      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
-      "as_of": "2025-09-30",
-      "retrieved": "2026-06-16"
-    },
-    {
-      "claim": "FY2025 long-term debt",
-      "value": "$19.602 billion",
-      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/LongTermDebtNoncurrent.json",
-      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
-      "as_of": "2025-09-30",
-      "retrieved": "2026-06-16"
-    },
-    {
-      "claim": "FY2025 cash and cash equivalents",
-      "value": "$17.164 billion",
-      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/CashAndCashEquivalentsAtCarryingValue.json",
-      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
-      "as_of": "2025-09-30",
-      "retrieved": "2026-06-16"
-    },
-    {
-      "claim": "FY2025 total stockholders equity (for ROIC)",
-      "value": "$37.909 billion",
-      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest.json",
-      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
-      "as_of": "2025-09-30",
-      "retrieved": "2026-06-16"
-    },
-    {
-      "claim": "FY2022-FY2025 revenue for 3y CAGR (FY22 $29.31B)",
+      "claim": "FY2022 net revenue, used for the three-year revenue CAGR",
       "value": "$29.310 billion (FY2022)",
       "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001403161/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json",
-      "publisher": "SEC EDGAR XBRL (Visa 10-K)",
+      "publisher": "SEC EDGAR XBRL company concept data (Visa Form 10-K); carried forward from the 2026-06-16 thesis where it was retrieved",
       "as_of": "2022-09-30",
       "retrieved": "2026-06-16"
     },
     {
-      "claim": "FY2025 processed transactions 257.5 billion (+10%)",
-      "value": "257.5 billion",
-      "url": "https://www.electronicpaymentsinternational.com/news/visa-fy25-net-income/",
-      "publisher": "Electronic Payments International (reporting Visa FY25)",
-      "as_of": "2025-09-30",
-      "retrieved": "2026-06-16"
+      "claim": "US merchant interchange multidistrict litigation settlement received preliminary court approval",
+      "value": "Judge Brian Cogan granted preliminary approval on 2026-06-09 for the settlement covering ~12 million merchants; terms trim credit interchange by 10 basis points for five years and cap standard consumer card rates at 1.25% for eight years, and give merchants new rights to surcharge, discount and decline certain premium/commercial credit cards. Final approval hearing still ahead; the National Association of Convenience Stores has said it will appeal to the 2nd Circuit if final approval is granted.",
+      "url": "https://www.paymentsdive.com/news/court-approves-visa-mastercard-settlement/822440/",
+      "publisher": "Payments Dive",
+      "as_of": "2026-06-09",
+      "retrieved": "2026-09-12"
     },
     {
-      "claim": "Q2 FY2026 net revenue $11.2B (+17%), GAAP EPS $3.14 (+36%), non-GAAP EPS $3.31; $9.2B returned; new $20B buyback",
-      "value": "Rev $11.2B, GAAP EPS $3.14",
-      "url": "https://www.stocktitan.net/sec-filings/V/8-k-visa-inc-reports-material-event-e5b890a6c4d8.html",
-      "publisher": "StockTitan (Visa 8-K, quarter ended 2026-03-31)",
-      "as_of": "2026-03-31",
-      "retrieved": "2026-06-16"
+      "claim": "Visa agreed to acquire fraud-detection firm BioCatch",
+      "value": "$2.4 billion in cash, announced 2026-08-03, purchased from funds advised by Permira and other shareholders; expected to close in Visa's fiscal second quarter of 2027",
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-to-Acquire-BioCatch/default.aspx",
+      "publisher": "Visa Investor Relations (corroborated by CNBC, 2026-08-03)",
+      "as_of": "2026-08-03",
+      "retrieved": "2026-09-12"
     },
     {
-      "claim": "H1 FY2026 GAAP diluted EPS $6.17 and H1 FY2025 GAAP diluted EPS $4.90 (used to derive TTM GAAP EPS $11.47)",
-      "value": "H1 FY26 EPS $6.17; H1 FY25 EPS $4.90",
-      "url": "https://www.stocktitan.net/sec-filings/V/8-k-visa-inc-reports-material-event-e5b890a6c4d8.html",
-      "publisher": "StockTitan (Visa 8-K) and Visa Q2 FY2025 8-K",
-      "as_of": "2026-03-31",
-      "retrieved": "2026-06-16"
+      "claim": "Fair-value band arithmetic",
+      "value": "code/valuation.py --stdin on price 370.47 with pe{eps 11.75, multiples 25/29/33} and fcf_yield{fcf_per_share 10.93, yields 5.0/4.2/3.5%} returns fair_value low 256.18 / base 300.49 / high 350.02, margin_of_safety -0.2329, verdict 'expensive (above the high end of fair value)'",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+      "publisher": "Own calculation (code/valuation.py) from the SEC 10-Q and Visa IR figures cited above",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-12"
     },
     {
-      "claim": "Current price (used for margin-of-safety)",
-      "value": "$329.91 (close ~$330.28; bid/ask 330.17/330.40)",
+      "claim": "Current price and trend (used for margin-of-safety)",
+      "value": "Last daily close $370.47 (2026-09-11); 50-day moving average $365.21; 200-day moving average $334.97; 250-day range $295.50-$384.06. Price is above both moving averages (uptrend).",
       "url": "https://paper-api.alpaca.markets",
-      "publisher": "Alpaca market data (code/alpaca_client.py --quote V)",
-      "as_of": "2026-06-16",
-      "retrieved": "2026-06-16"
+      "publisher": "Alpaca market data (code/alpaca_client.py --bars V --days 250)",
+      "as_of": "2026-09-11",
+      "retrieved": "2026-09-12"
+    },
+    {
+      "claim": "FY2026 full-year management guidance",
+      "value": "data not available - Visa does not include a numeric outlook in its quarterly earnings release; guidance is discussed on the earnings call, which we have not sourced",
+      "url": "https://investor.visa.com/financial-information/quarterly-earnings/default.aspx",
+      "publisher": "Visa Investor Relations",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-12"
     }
   ],
   "data_quality": [
