@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-14",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 758.66,
+  "spy_sma200": 714.65,
+  "spy_pct_above_200d": 6.2,
+  "futures_direction": "down",
+  "futures_note": "S&P 500 E-mini futures -0.54% (~-41 pts to 7,618); Nasdaq 100 futures -1.59% (~-461 pts) pre-market",
+  "events": [
+    "FOMC meeting begins Tue Sep 15 — rate decision Wed Sep 16 at 2:00pm ET (hike vs hold, market split)",
+    "No CPI or jobs report this week — August data already released and showed inflation above 2% target"
+  ],
+  "rates": "hold-or-hike-risk",
+  "rates_note": "Fed funds target 3.50-3.75% since Dec 2025. Sep 16 decision: markets lean toward 25bp hike to 3.75-4.00% after hawkish Jackson Hole speech (Warsh, Aug 28) and solid August jobs report. July FOMC held 9-3.",
+  "valuation": "elevated",
+  "valuation_note": "S&P 500 trailing P/E ~25.9 (upper-middle of historical range); forward P/E 19.1 (near 10-yr avg of 19.0, below 5-yr avg of 19.8). Not extreme but not cheap.",
+  "vix_recent": 15.09,
+  "sector_news": "Broad tech/AI selloff: Anthropic CEO Amodei and OpenAI CEO Altman both called for slowing AI frontier development (safety grounds). NVDA -3%, ARM/MRVL -6% pre-market. Nasdaq leading losses.",
+  "oil": "Brent crude +3% to ~$107.65 after Saudi Arabia shut key pipeline bypassing Strait of Hormuz — inflationary, supports rate-hike case",
+  "thesis_bench_note": "All 3 thesis names (AAPL, MSFT, V) trade 26-71% above their base fair-value estimates. Nothing is near a buy trigger regardless of posture.",
+  "note": "Cautious posture driven by live FOMC rate-hike risk on Wed Sep 16, oil-price spike adding inflationary pressure, and tech sector headwind from AI-slowdown statements. SPY remains above 200-day MA — the trend is not broken — but the upcoming Fed decision with a credible hike probability warrants demanding a larger margin of safety before committing capital. No thesis names are anywhere near entry price; posture has no practical impact today but should be noted for mid-week if any name pulls back sharply.",
+  "sources": [
+    "https://www.benzinga.com/markets/equities/26/09/61758310/dow-sp500-nasdaq-futures-us-stock-market-sept-14-2026",
+    "https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap",
+    "https://tradingstrategyguides.com/monday-futures-preview-september-14-2026-equity-futures-signal-weak-open/",
+    "https://fedratecalc.com/fomc-meeting-schedule/september-2026/",
+    "https://cambridgecurrencies.com/next-federal-reserve-interest-rate-decision/",
+    "https://www.atfxcapital.com/en/analysis/financial-events/september-fomc-meeting-2026",
+    "https://fedratecalc.com/us-economic-calendar/september-2026/",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+    "https://www.nbcnews.com/business/markets/stocks-tumble-ai-leaders-warning-slowdown-ipos-amodei-altman-rcna597643"
+  ]
+}
