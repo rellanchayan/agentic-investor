@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-15",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 757.26,
+  "spy_sma200": 715.07,
+  "events": [
+    "FOMC Day 1 today (Sep 15) — rate decision Wed Sep 16 at 2:00 PM ET; market pricing >50% chance of 25 bp hike to 3.75–4.00%",
+    "Advance Retail Sales Wed Sep 16 at 8:30 AM ET (before FOMC decision)",
+    "MSFT and V theses due for refresh today (Sep 15)",
+    "AAPL thesis refresh due Sep 16"
+  ],
+  "rates": "Fed funds target 3.50–3.75%; 25 bp hike to 3.75–4.00% is the live scenario for tomorrow",
+  "inflation": "CPI 3.4% YoY (Aug 2026, released Sep 11); monthly +0.4% (up from +0.1% in Jul); core CPI +2.45% YoY; all above Fed 2% target",
+  "oil": "Brent ~$107.63; WTI ~$103.31; US-Iran war driving Strait of Hormuz disruption; oil up ~18% in September",
+  "sp500_pe": "~26x trailing (sources range 25.9–29.6x); historical avg ~19.7x; market appears significantly overvalued",
+  "futures_am": "S&P 500 futures -0.30% pre-market; mixed/negative tone on FOMC uncertainty and energy costs",
+  "note": "FOMC meeting is live today (Day 1) with the rate decision tomorrow at 2 PM ET. A 25 bp hike is more likely than not, driven by hot CPI (+0.4% monthly in Aug, 3.4% annual) and an oil shock from the US-Iran war pushing Brent to $107+. Market P/E at ~26x is well above historical norms. Futures are slightly negative. All three active thesis candidates (MSFT, V, AAPL) remain 26–69% above their cautious entry bars. No buy is warranted. Maintain cautious posture; demand a larger margin of safety before deploying any capital.",
+  "sources": [
+    "https://www.benzinga.com/markets/prediction-markets/26/09/61781323/stock-market-will-sp-500-open-up-or-down-today-37",
+    "https://cambridgecurrencies.com/next-federal-reserve-interest-rate-decision/",
+    "https://fedratecalc.com/fomc-meeting-schedule/september-2026/",
+    "https://www.atfxcapital.com/en/analysis/financial-events/september-fomc-meeting-2026",
+    "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
+    "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+    "https://fedratecalc.com/us-economic-calendar/september-2026/"
+  ]
+}
