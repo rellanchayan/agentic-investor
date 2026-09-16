@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-16",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 759.87,
+  "spy_sma200": 715.48,
+  "events": [
+    "FOMC rate decision TODAY at 2:00 PM ET — 25bp hike ~90% probability (CME/prediction markets)",
+    "Fed Chair press conference TODAY at 2:30 PM ET",
+    "Fed dot plot (Summary of Economic Projections) released alongside decision",
+    "Next CPI (September data) releases October 13-14, 2026 at 8:30 AM ET"
+  ],
+  "rates": "rising — 25bp hike widely expected today; August CPI printed 3.4% (in line, Sept 11)",
+  "market_valuation": "expensive — Shiller CAPE ~40.7 (highest since dot-com bubble); forward P/E ~24.4; ~2.3 std devs above modern-era average",
+  "futures_premarket": "S&P 500 futures +0.16% premarket; slight green open expected",
+  "note": "FOMC decision this afternoon is the dominant event. A 25bp hike is ~90% priced in, but the dot plot and press conference tone matter more — a hawkish tilt would further compress already-stretched valuations. Market is expensive (CAPE near dot-com levels) and rising rates pressure multiples. All three thesis candidates (MSFT, V, AAPL) remain well above fair-value entry thresholds. SPY is above its 200-day average (uptrend structurally intact) but the FOMC event and valuation stretch justify a cautious posture.",
+  "sources": [
+    "https://www.cnbc.com/2026/09/15/stock-market-today-live-updates.html",
+    "https://fedratecalc.com/fed-rate-decision/",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://finance.yahoo.com/economy/policy/articles/fomc-september-2026-odds-rate-201618784.html",
+    "https://www.chase.com/personal/investments/learning-and-insights/article/september-2026-rate-hike-now-expected-amid-energy-shocks",
+    "https://nowflation.com/cpi-release-dates",
+    "https://www.fool.com/investing/2026/09/14/the-sp-500-is-trading-at-a-valuation-not-seen-in-a/",
+    "https://www.longtermtrends.com/sp500-price-earnings-shiller-pe-ratio/",
+    "https://www.benzinga.com/markets/prediction-markets/26/09/61808033/stock-market-will-sp-500-open-up-or-down-today-38"
+  ]
+}
