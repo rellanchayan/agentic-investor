@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-17",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 761.94,
+  "spy_sma200": 715.84,
+  "events": [
+    "FOMC rate hike +25bp to 3.75-4.00% announced Wed Sep 16 (yesterday) — first hike since 2023",
+    "16 of 18 Fed officials project at least one more hike in 2026",
+    "August CPI released Thu Sep 11: headline +3.4% YoY, core +2.4% YoY",
+    "No major scheduled data releases today (Sep 17)"
+  ],
+  "rates": "rising — Fed hiked to 3.75-4.00% range on Sep 16; tightening cycle resumed",
+  "inflation": "elevated — Aug CPI 3.4% headline, 2.4% core; Fed PCE target is 2%",
+  "valuation": "above average — S&P 500 trailing PE ~25.7; forward PE 19.1 vs 10-year avg 19.0",
+  "futures_morning": "S&P 500 futures +0.80% (recovering from FOMC selloff)",
+  "note": "Cautious posture: the Fed just raised rates for the first time since 2023 and signaled more hikes are likely; inflation at 3.4% is still well above target; market is not cheap at a forward PE slightly above its 10-year average; our three thesis candidates (MSFT, V, AAPL) are all materially above their entry bars. SPY remains above its 200-day average so the broad trend is intact, but the rising-rate, above-average-valuation combination means we should demand a full margin of safety before deploying any capital.",
+  "sources": [
+    "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+    "https://www.cnbc.com/2026/09/16/fed-meeting-today-live-updates.html",
+    "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://equityclock.com/2026/09/16/stock-market-outlook-for-september-17-2026/",
+    "https://en.macromicro.me/series/20052/sp500-forward-pe-ratio"
+  ]
+}

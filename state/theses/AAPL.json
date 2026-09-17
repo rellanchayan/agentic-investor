@@ -1,130 +1,186 @@
 {
   "ticker": "AAPL",
-  "thesis_id": "AAPL-2025Q4",
+  "thesis_id": "AAPL-2026Q3",
   "company": "Apple Inc.",
   "sector": "Information Technology / Consumer Electronics",
-  "as_of": "2025-Q4",
-  "retrieved": "2026-06-16",
-  "refresh_due": "2026-09-16",
-  "business_summary": "Apple designs and sells premium consumer hardware (iPhone, Mac, iPad, Apple Watch, AirPods) and a fast-growing, high-margin Services business (App Store, iCloud, Apple Music/TV+, AppleCare, advertising, payments). It makes money by selling devices at strong margins and then earning a recurring software-like cut from its ~2.4B active-device installed base. iPhone is ~half of revenue (FY2025 iPhone ~$209.6B of $416.2B total); Services is the high-margin growth engine.",
+  "as_of": "2026-Q3",
+  "retrieved": "2026-09-17",
+  "refresh_due": "2026-10-17",
+  "stale": false,
+  "price_used": 332.55,
+  "margin_of_safety": -0.4284,
+  "business_summary": "Apple designs and sells premium consumer hardware (iPhone, Mac, iPad, Watch, AirPods) and attaches a high-margin, recurring Services business (App Store, iCloud, Apple Music/TV+, AppleCare, advertising, search-licensing, payments) to the installed base. In fiscal Q3 2026 (quarter ended 2026-06-27) revenue was $109.417B, of which iPhone $54.252B (49.6%) and Services $30.739B (28.1%). The business model is: sell a device at a ~35-40% hardware margin, then earn a software-like recurring cut from the same customer for years. FY2026 has seen a sharp re-acceleration: 9-month revenue $364.357B, +16.2% vs $313.695B a year earlier, driven by the iPhone 17 cycle, Mac, and Services.",
   "moat": {
-    "type": "Ecosystem switching costs + premium brand + installed-base network effect + extreme capital efficiency",
+    "type": "Ecosystem switching costs + premium brand + installed-base network effect + extreme capital efficiency and silicon vertical integration",
     "rating": "wide"
   },
   "quality": {
-    "revenue_growth_3y": "~1.8% CAGR FY2022->FY2025 (FY2025 +6.4% YoY); slow grower",
-    "gross_margin": "46.9% (FY2025)",
-    "roic": "very high, >50% (small invested capital base after buybacks; NOPAT ~$112B on invested capital ~$118B)",
-    "net_debt_to_ebitda": "~0.3x (net debt ~$44B vs EBITDA ~$145B, FY2025)",
-    "fcf_positive": "yes; $98.77B FCF FY2025"
+    "revenue_growth_3y": "~6.8% CAGR from FY2023 ($383.285B) to TTM ended 2026-06-27 ($466.823B); most recent year +16.2% (9M FY2026 $364.357B vs 9M FY2025 $313.695B) - a sharp re-acceleration off a flat 2022-2024 base",
+    "gross_margin": "48.7% TTM (gross profit $227.14B on revenue $466.823B, = Q4 FY2025 $48.341B + 9M FY2026 $178.8B); 50.1% in Q3 FY2026 but that included ~2pp of one-off tariff-refund benefit; company guided 47-48% for Q4 FY2026",
+    "roic": "~67% TTM. NOPAT ~$127.6B (TTM operating income $154.83B x (1 - 17.6% effective tax rate)) over invested capital of ~$191.8B (shareholders' equity $107.5B + total term debt and commercial paper $84.3B). Excluding the $146.5B of cash and marketable securities the return on operating capital is far higher.",
+    "net_debt_to_ebitda": "negative - Apple is NET CASH by ~$62.2B ($146.517B cash + marketable securities vs $84.3B term debt + commercial paper at 2026-06-27). Ratio is not meaningful; balance-sheet risk is effectively nil.",
+    "fcf_positive": "yes; TTM free cash flow ~$136.7B (TTM operating cash flow $146.72B less capex $10.04B). 9M FY2026 alone: OCF $116.996B - capex $6.799B = $110.20B."
   },
   "valuation": {
-    "price": 297.46,
+    "price": 332.55,
     "price_source": "alpaca",
-    "price_asof": "2026-06-16",
-    "fair_value_low": 163,
-    "fair_value_base": 195,
-    "fair_value_high": 230,
-    "method": "pe (EPS $7.46 x 24/29/34) + fcf_yield (FCF/sh $6.58 at 4.5/3.8/3.2%); blended via code/valuation.py"
+    "price_asof": "2026-09-17",
+    "fair_value_low": 197.66,
+    "fair_value_base": 232.82,
+    "fair_value_high": 276.76,
+    "margin_of_safety": -0.4284,
+    "verdict": "expensive - trading ~43% above our base fair value and ~20% above the high end of the band",
+    "method": "Blend of two methods via code/valuation.py. (1) P/E: TTM diluted EPS $8.73 (Q4 FY2025 $1.85 + 9M FY2026 $6.88) x 24 / 28 / 33. The 28x base is set at Apple's own 10-year median P/E of ~27.25x; 33x high allows for the current growth re-acceleration; 24x low reflects a 3.75-4.00% Fed funds rate. (2) FCF yield: TTM FCF per diluted share $9.29 ($136.683B / 14.715B diluted shares) at required yields of 5.0% / 4.2% / 3.5% - with cash yielding ~4%, a 3.5-5.0% FCF yield is the sensible demand from a mega-cap. At $332.55 the stock trades at 38.1x TTM EPS and a 2.79% FCF yield.",
+    "trend": "Price $332.55 is above its 50-day average ($319.65) and well above its 200-day average ($286.03); 52-week range $245.30-$340.01 on Alpaca daily closes. Strong uptrend - momentum, not value, is what is supporting the price."
   },
   "conviction": 3,
   "bull_case": [
-    "Wide moat: ecosystem lock-in and premium brand give durable pricing power; 46.9% gross margin is exceptional for hardware.",
-    "Services is a recurring, high-margin engine riding a ~2.4B active-device installed base that keeps growing.",
-    "Exceptional capital efficiency and cash generation: $98.8B FCF in FY2025, ~0.3x net-debt/EBITDA, ~$112B returned to shareholders via buybacks+dividends.",
-    "Buybacks steadily shrink the share count (15.4B -> 15.0B diluted), boosting per-share value over time."
+    "Wide moat proven by pricing power: company gross margin reached 50.1% in Q3 FY2026 and 48.7% TTM - extraordinary for a business that is still ~74% hardware by revenue (TTM Products $346.3B of $466.8B).",
+    "Growth genuinely re-accelerated: 9M FY2026 revenue +16.2% YoY and 9M diluted EPS +22.4% ($6.88 vs $5.62), with iPhone +21.7% and Greater China +22.4% in Q3 FY2026 - the China-decline narrative broke.",
+    "Services is a $120.5B-TTM annuity (Q4 FY2025 $28.750B + 9M FY2026 $91.728B) growing ~14% and carrying much higher margins than hardware; it converts one-time device sales into recurring cash.",
+    "Fortress balance sheet: ~$62.2B net cash. No refinancing risk, and a $100B buyback authorization added 2026-04-30 on top of $38.0B remaining - $62.1B of stock repurchased in 9M FY2026 alone, shrinking diluted shares ~2%/yr (15,056M in Q2 FY2025 to 14,726M in Q2 FY2026).",
+    "Cash generation is enormous and capital-light: $136.7B TTM FCF on only ~$10B of capex - Apple gets AI compute largely through partners (Google Gemini powers the revamped Siri) rather than tens of billions of its own capex, unlike its mega-cap peers."
   ],
   "risks": [
-    "Valuation is the dominant risk: ~40x trailing EPS and ~2.2% FCF yield at $297 with only low-single-digit revenue growth.",
-    "iPhone concentration: ~half of revenue from one product in a saturated replacement market.",
-    "China: large revenue and manufacturing exposure to geopolitical/competitive risk.",
-    "Regulatory pressure (EU DMA, antitrust, Google search-default payment) threatens high-margin Services take-rate.",
-    "Perceived AI laggard; the premium assumes Apple closes the generative-AI gap."
+    "VALUATION IS THE THESIS-KILLER. At $332.55 the stock is 38.1x TTM EPS and a 2.79% FCF yield, against a 10-year median P/E of ~27.25x and a Fed funds rate of 3.75-4.00%. Our base fair value is $232.82; the price is ~43% above it. Even our optimistic high case ($276.76) sits ~17% below the market price. There is no margin of safety; there is negative margin of safety.",
+    "Peak-earnings risk on top of peak-multiple risk. Q3 FY2026's 50.1% gross margin included ~2 percentage points (and $0.11 of EPS) of one-off tariff refunds following the February 2026 Supreme Court ruling. Guidance for Q4 FY2026 is 47-48% gross margin and 9-11% revenue growth - a clear deceleration from 16%. Buying 38x earnings that are themselves flattered is how permanent capital loss happens.",
+    "Cost and supply squeeze ahead. The Q3 FY2026 10-Q warns of 'supply constraints and increasing costs for components' and expects those trends 'to intensify' - advanced-node (2nm/3nm) capacity and rising memory prices. Management also flagged a ~2.5pp FX headwind to Q4 growth.",
+    "Regulatory attack on the highest-margin revenue. (a) EU DMA: a EUR 500M fine already levied and a separate Article 6(4) investigation that could carry penalties of up to 10% of worldwide net sales. (b) Epic: the Ninth Circuit's December 2025 injunction barring any commission on purchases made outside an app remains; the Supreme Court granted review of the civil-contempt standard on 2026-06-30. (c) DOJ's March 2024 monopolization suit. (d) Remedies in the Google search case could cut Apple's search-licensing revenue, which is near-100%-margin.",
+    "iPhone concentration and cycle dependence: ~50% of revenue from one product. The current 16% growth is substantially an upgrade-supercycle effect; supercycles pull demand forward and create brutal comparisons the following year.",
+    "AI dependence has been outsourced. Apple's revamped Siri runs on Google's Gemini models. That fixed the near-term product gap, but it means Apple is renting rather than owning the most important platform technology of the decade, and it deepens a commercial relationship that regulators are actively attacking.",
+    "Greater China remains ~17% of revenue ($18.816B of $109.417B in Q3 FY2026) and a large share of manufacturing - a standing geopolitical and tariff exposure."
   ],
   "what_would_break_thesis": [
-    "Company-wide gross margin falls below 42% for two consecutive quarters.",
-    "Revenue shrinks year-over-year for two consecutive fiscal years.",
-    "Services revenue growth turns negative for two consecutive quarters.",
-    "Net-debt/EBITDA rises above 1.5x.",
-    "A forced material change to the App Store model (regulatory) that visibly cuts Services margin or revenue.",
-    "Any serious accounting red flag or financial restatement."
+    "Company-wide gross margin falls below 44% for two consecutive quarters (it is 48.7% TTM; guidance is 47-48%).",
+    "Total revenue shrinks year-over-year for two consecutive fiscal years.",
+    "Services revenue declines year-over-year for two consecutive quarters (Services is the moat's cash register).",
+    "iPhone revenue declines year-over-year for three consecutive quarters, indicating the upgrade franchise - not just a cycle - has broken.",
+    "The net cash position of ~$62.2B turns into net debt of more than 1.0x EBITDA.",
+    "TTM free cash flow falls below $90B (a ~35% drop from the current $136.7B).",
+    "A final, non-appealable regulatory or court outcome that forces Apple to give up its App Store commission on a material share of transactions, or that ends the Google search-licensing payments, without an offsetting replacement.",
+    "Annual buybacks fall below $40B while the balance sheet still holds net cash - a signal management no longer believes the shares are worth retiring.",
+    "Any serious accounting red flag, restatement, or auditor change.",
+    "PRICE DISCIPLINE (entry rule, not a sell rule): do not initiate or add above $233 (base fair value). A first tranche is only justified below ~$210 (roughly 10% under base)."
   ],
   "catalysts": [
-    "Re-acceleration of Services and/or a successful AI feature cycle driving iPhone upgrades.",
-    "A price pullback into the $200-$230 zone, which would offer a margin of safety to buy."
+    "A pullback into the $200-$233 zone - the only thing that would make this ownable. That requires a ~30-40% decline, which historically has needed a broad de-rating or a growth stumble.",
+    "Q4 FY2026 results (late October 2026) will show whether the 9-11% guided growth and 47-48% gross margin hold once the tariff-refund benefit fades - the single most important near-term datapoint for this thesis.",
+    "The iPhone 18 / foldable cycle and the Gemini-powered Siri shipping with iOS 27 - if the AI experience actually drives upgrades, high-teens growth could persist and partly justify today's multiple.",
+    "A Supreme Court outcome in the Epic contempt matter, or a Google-search-remedy ruling, either of which could re-rate Services expectations in either direction.",
+    "Further Fed tightening beyond 3.75-4.00% would compress long-duration equity multiples and could deliver the entry price we need."
   ],
   "sources": [
     {
-      "claim": "FY2025 total net sales (revenue)",
-      "value": "$416.161B",
+      "claim": "Q3 FY2026 results: revenue $109.417B (+16% YoY), diluted EPS $2.02 (+29%), gross margin 50.1% (incl. ~2pp tariff-refund benefit and $0.11 EPS benefit), net income $29.789B, diluted shares 14,714.676M; segment detail iPhone $54.252B, Services $30.739B, Greater China $18.816B",
+      "value": "Revenue $109.417B; diluted EPS $2.02; GM 50.1%; net income $29.789B",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/a8-kex991q3202606272026.htm",
+      "publisher": "Apple Inc. / SEC EDGAR (8-K Exhibit 99.1, FY2026 Q3)",
+      "as_of": "2026-06-27",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "claim": "Nine months ended 2026-06-27: revenue $364.357B, Products $272.629B, Services $91.728B, gross margin 49.0% ($178.8B), operating income $122.4B, provision for income taxes $21.6B, net income $101.464B, diluted EPS $6.88, diluted shares 14,750.302M",
+      "value": "9M FY2026 revenue $364.357B; net income $101.464B; diluted EPS $6.88",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/a8-kex991q3202606272026.htm",
+      "publisher": "Apple Inc. / SEC EDGAR (8-K Exhibit 99.1, FY2026 Q3)",
+      "as_of": "2026-06-27",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "claim": "Nine months ended 2026-06-27 cash flows: operating cash flow $116.996B, payments for property/plant/equipment $6.799B, share repurchases $62.094B, dividends paid $11.778B. Prior-year 9M ended 2026-06-28: OCF $81.754B, capex $9.473B, buybacks $70.579B, dividends $11.559B",
+      "value": "9M FY2026 OCF $116.996B; capex $6.799B; FCF $110.197B",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/a8-kex991q3202606272026.htm",
+      "publisher": "Apple Inc. / SEC EDGAR (8-K Exhibit 99.1, FY2026 Q3)",
+      "as_of": "2026-06-27",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "claim": "Balance sheet at 2026-06-27: cash and equivalents $39.5B, current marketable securities $22.9B, non-current marketable securities $84.1B (total $146.517B); current term debt $11.0B + non-current term debt $71.3B + commercial paper $2.0B = $84.3B; total shareholders' equity $107.5B; total assets $383.3B. Implies net cash ~$62.2B",
+      "value": "Cash + marketable securities $146.517B vs debt $84.3B; net cash ~$62.2B; equity $107.5B",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/a8-kex991q3202606272026.htm",
+      "publisher": "Apple Inc. / SEC EDGAR (8-K Exhibit 99.1, FY2026 Q3)",
+      "as_of": "2026-06-27",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "claim": "Prior-year comparatives: three months ended 2025-06-28 revenue $94.036B, gross margin 46.5%, net income $23.434B, diluted EPS $1.57, Services $27.423B, iPhone $44.582B, Greater China $15.369B; nine months ended 2025-06-28 revenue $313.695B, gross margin 46.9%, net income $84.544B, diluted EPS $5.62, Services $80.408B",
+      "value": "9M FY2025 revenue $313.695B; diluted EPS $5.62",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/a8-kex991q3202606272026.htm",
+      "publisher": "Apple Inc. / SEC EDGAR (8-K Exhibit 99.1, FY2026 Q3)",
+      "as_of": "2025-06-28",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "claim": "Q2 FY2026 (quarter ended 2026-03-28): revenue $111.2B (+17% YoY), gross margin $54.8B, net income $29.6B, diluted EPS $2.01, diluted shares 14,725.9M (vs 15,056.1M a year earlier); six months ended 2026-03-28 revenue $254.9B, diluted EPS $4.85, OCF $82.6B, capex $4.3B",
+      "value": "Q2 FY2026 revenue $111.2B; diluted EPS $2.01; diluted shares 14,725.9M",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000011/a8-kex991q2202603282026.htm",
+      "publisher": "Apple Inc. / SEC EDGAR (8-K Exhibit 99.1, FY2026 Q2)",
+      "as_of": "2026-03-28",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "claim": "FY2025 (year ended 2025-09-27) and Q4 FY2025: FY revenue $416.161B, Products $307.003B, Services $109.158B, gross margin 46.9%, operating income $133.050B, net income $112.010B, diluted EPS $7.46, diluted shares 15,004.697M, OCF $111.482B, capex $12.715B. Q4 FY2025: revenue $102.466B, Services $28.750B, gross margin 47.2%, operating income $32.427B, net income $27.466B, diluted EPS $1.85",
+      "value": "FY2025 revenue $416.161B, diluted EPS $7.46; Q4 FY2025 revenue $102.466B, diluted EPS $1.85",
       "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019325000077/a8-kex991q4202509272025.htm",
-      "publisher": "Apple Inc. / SEC EDGAR (8-K)",
+      "publisher": "Apple Inc. / SEC EDGAR (8-K Exhibit 99.1, FY2025 Q4)",
       "as_of": "2025-09-27",
-      "retrieved": "2026-06-16"
+      "retrieved": "2026-09-17"
     },
     {
-      "claim": "FY2024 and FY2023 revenue ($391.035B, $383.285B)",
-      "value": "$391.035B / $383.285B",
-      "url": "https://stockanalysis.com/stocks/AAPL/financials/",
-      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
-      "as_of": "2024-09-28",
-      "retrieved": "2026-06-16"
+      "claim": "FY2023 total net sales, used as the base for the 3-year growth CAGR (also FY2024 $391.035B, FY2025 $416.161B). Verified directly against SEC XBRL as reported in Apple's FY2025 Form 10-K.",
+      "value": "FY2023 $383.285B; FY2024 $391.035B; FY2025 $416.161B",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000320193/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json",
+      "publisher": "SEC EDGAR XBRL company-concept API (Apple Inc., CIK 0000320193)",
+      "as_of": "2023-09-30",
+      "retrieved": "2026-09-17"
     },
     {
-      "claim": "FY2025 net income and diluted EPS",
-      "value": "Net income $112.010B; diluted EPS $7.46",
-      "url": "https://stockanalysis.com/stocks/AAPL/financials/",
-      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
-      "as_of": "2025-09-27",
-      "retrieved": "2026-06-16"
+      "claim": "Q3 FY2026 10-Q: effective tax rate 17.9% for the quarter and 17.6% for nine months; $38.0B remaining under the May 2025 repurchase authorization plus a new $100B program announced 2026-04-30; $25.8B repurchased in Q3 FY2026; tariff refunds following the February 2026 Supreme Court ruling recognized as a reduction of products cost of sales; warning of 'supply constraints and increasing costs for components' expected 'to intensify'; EU DMA EUR 500M fine (March 2025) under appeal plus Article 6(4) investigation with exposure up to 10% of worldwide net sales; Ninth Circuit December 2025 Epic injunction barring commissions on out-of-app purchases, Supreme Court granted review of the civil contempt standard 2026-06-30; DOJ March 2024 monopolization suit; Google search-licensing remedy risk",
+      "value": "Effective tax rate 17.6% (9M FY2026); $138.0B of buyback authorization available; regulatory exposure up to 10% of worldwide net sales under DMA Art. 6(4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000020/aapl-20260627.htm",
+      "publisher": "Apple Inc. / SEC EDGAR (Form 10-Q, FY2026 Q3)",
+      "as_of": "2026-06-27",
+      "retrieved": "2026-09-17"
     },
     {
-      "claim": "FY2025 gross margin",
-      "value": "46.9% (gross profit $195.201B on revenue $416.161B)",
-      "url": "https://stockanalysis.com/stocks/AAPL/financials/",
-      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
-      "as_of": "2025-09-27",
-      "retrieved": "2026-06-16"
+      "claim": "Q4 FY2026 guidance given on the 2026-07-30 earnings call: total revenue growth 9-11% YoY; gross margin 47-48% including ~1pp of tariff-refund benefit; ~2.5pp FX headwind to the YoY growth rate; iPhone revenue growth mid-teens; continuing supply constraints on advanced semiconductor nodes",
+      "value": "Q4 FY2026 guide: revenue +9-11%, gross margin 47-48%",
+      "url": "https://www.macrumors.com/2026/07/30/apple-3q-2026-earnings/",
+      "publisher": "MacRumors (reporting Apple management guidance from the Q3 FY2026 earnings call)",
+      "as_of": "2026-07-30",
+      "retrieved": "2026-09-17"
     },
     {
-      "claim": "FY2025 operating cash flow and free cash flow",
-      "value": "OCF $111.482B; capex $12.715B; FCF $98.767B",
-      "url": "https://stockanalysis.com/stocks/AAPL/financials/cash-flow-statement/",
-      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
-      "as_of": "2025-09-27",
-      "retrieved": "2026-06-16"
+      "claim": "Apple's own 10-year median P/E, used to set the base multiple in our P/E method (sanity check only, not a company figure)",
+      "value": "P/E (TTM) 35.84 as of 2026-09-09, 32% above the 10-year median of 27.25",
+      "url": "https://www.gurufocus.com/term/pettm/AAPL",
+      "publisher": "GuruFocus (aggregator)",
+      "as_of": "2026-09-09",
+      "retrieved": "2026-09-17"
     },
     {
-      "claim": "FY2025 total debt and cash & short-term investments (for net debt)",
-      "value": "Total debt $98.657B; cash & ST investments $54.697B; total equity $73.733B",
-      "url": "https://stockanalysis.com/stocks/AAPL/financials/balance-sheet/",
-      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
-      "as_of": "2025-09-27",
-      "retrieved": "2026-06-16"
+      "claim": "Apple's revamped Siri is powered by Google Gemini models, confirmed by Google Cloud CEO Thomas Kurian; launch 'later this year' (2026) alongside iOS 27. NOTE: the widely reported ~$1B/year fee is press speculation and is NOT confirmed by either company - treat as unknown.",
+      "value": "Gemini-powered Siri launching 2026; annual fee unknown",
+      "url": "https://www.macrumors.com/2026/04/22/google-gemini-powered-siri-2026/",
+      "publisher": "MacRumors",
+      "as_of": "2026-04-22",
+      "retrieved": "2026-09-17"
     },
     {
-      "claim": "FY2025 capital return (buybacks + dividends) and diluted share count",
-      "value": "Buybacks $96.671B; dividends $15.421B; diluted shares 15.004B (FY24 15.408B)",
-      "url": "https://stockanalysis.com/stocks/AAPL/financials/cash-flow-statement/",
-      "publisher": "StockAnalysis.com (cross-check of SEC filings)",
-      "as_of": "2025-09-27",
-      "retrieved": "2026-06-16"
-    },
-    {
-      "claim": "FY2025 10-K primary filing",
-      "value": "Apple Inc. Form 10-K for fiscal year ended Sept 27 2025",
-      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019325000079/aapl-20250927.htm",
-      "publisher": "Apple Inc. / SEC EDGAR",
-      "as_of": "2025-09-27",
-      "retrieved": "2026-06-16"
-    },
-    {
-      "claim": "Current price",
-      "value": "$297.46",
+      "claim": "Current price and moving averages from our own feed",
+      "value": "Price $332.55 (bid 332.22 / ask 332.28); 50-day MA $319.65; 200-day MA $286.03; 52-week close range $245.30-$340.01",
       "url": "https://paper-api.alpaca.markets",
-      "publisher": "Alpaca paper feed",
-      "as_of": "2026-06-16",
-      "retrieved": "2026-06-16"
+      "publisher": "Alpaca paper feed (code/alpaca_client.py --quote / --bars)",
+      "as_of": "2026-09-17",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "claim": "Fair-value band arithmetic (computed, not sourced): TTM EPS $8.73 x 24/28/33 = $209.52/$244.44/$288.09; TTM FCF per share $9.29 at 5.0%/4.2%/3.5% = $185.80/$221.19/$265.43; blended band $197.66/$232.82/$276.76; margin of safety at $332.55 = -42.84%",
+      "value": "Fair value low $197.66 / base $232.82 / high $276.76; MoS -42.84%",
+      "url": "https://github.com/rellanchayan/agentic-investor/blob/main/code/valuation.py",
+      "publisher": "code/valuation.py (this repo) using the SEC-sourced inputs above",
+      "as_of": "2026-09-17",
+      "retrieved": "2026-09-17"
     }
   ],
   "data_quality": [
