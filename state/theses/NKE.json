@@ -1,0 +1,287 @@
+{
+  "ticker": "NKE",
+  "thesis_id": "NKE-2026Q4",
+  "date": "2026-09-18",
+  "company": "NIKE, Inc.",
+  "sector": "Consumer Discretionary — Athletic Footwear & Apparel",
+  "as_of": "2026-Q4",
+  "retrieved": "2026-09-18",
+  "refresh_due": "2026-10-05",
+  "refresh_note": "Set to 2026-10-05 (not the default 90 days) because NIKE reports fiscal 2027 Q1 on 2026-10-01. A 90-day date would have been 2026-12-17; this thesis would be stale the day after a major print. Re-check immediately after Q1 FY27 results.",
+  "business_summary": "NIKE designs, markets and sells athletic footwear, apparel and equipment under the NIKE, Jordan and Converse brands. It does not own most of its factories — it contracts manufacturing (mostly in Vietnam, Indonesia, China) and makes its money from the gap between what shoes cost to make and what the brand lets it charge. In fiscal 2026 (year ended 31 May 2026) revenue was $46.4B: NIKE Brand $45.2B and Converse $1.2B. Sales reach customers two ways: wholesale (Foot Locker, Dick's, JD Sports and similar) at $27.5B, and NIKE Direct (nike.com, the SNKRS app and its own stores) at $17.7B. Geographically, North America was $20.5B, EMEA $12.6B, Greater China $5.8B and APLA $6.2B. The thesis question is whether a still-dominant brand that is currently shrinking in its highest-margin channel (Direct, -6%) and in its highest-margin region (Greater China, -11%) can stabilise before the brand premium itself erodes.",
+  "moat": {
+    "type": "Brand / intangible assets, scale in sports marketing and athlete endorsement, global distribution and sourcing scale",
+    "rating": "narrow",
+    "rationale": "NIKE's advantage is the brand: consumers pay more for a swoosh than for an equivalent unbranded shoe, which shows up as a 42.9% gross margin and a 22.3% return on invested capital in FY2026 despite a bad year. It also has scale nobody else has in athlete/team sponsorship and in contract-manufacturing leverage. We rate the moat NARROW, not wide, because the evidence says it is being penetrated right now: revenue has fallen at a -3.2% annual rate over three years, Greater China has declined for eight consecutive quarters, NIKE Digital fell 12% in FY2026, Converse fell 31%, and On and HOKA are visibly taking shelf space and running-category share. A wide moat should produce stable or rising share; NIKE's is currently shrinking. If FY2027-FY2028 shows stabilisation we would revisit and may upgrade to wide."
+  },
+  "quality": {
+    "revenue_growth_3y": -0.0324,
+    "gross_margin": 0.4291,
+    "roic": 0.2233,
+    "net_debt_to_ebitda": -0.24,
+    "fcf_positive": true,
+    "ebit_margin_fy2026": 0.083,
+    "ebit_margin_fy2024": 0.111,
+    "fcf_fy2026_usd_m": 2184,
+    "fcf_fy2025_usd_m": 3268,
+    "fcf_fy2024_usd_m": 6617,
+    "dividend_per_share_fy2026": 1.63,
+    "dividends_as_pct_of_fcf_fy2026": 1.102,
+    "notes": "revenue_growth_3y = FY2023 $51.217B -> FY2026 $46.398B compound annual rate (negative: the business is shrinking). gross_margin = FY2026 gross profit $19,911M / revenue $46,398M. roic = NOPAT / invested capital, where NOPAT = FY2026 EBIT $3,850M x (1 - 20.3% effective tax rate) = $3,068M, and invested capital = total debt ($5,942M long-term + $2,000M current) + shareholders' equity $14,865M - cash $7,563M - short-term investments $1,500M = $13,744M. This EXCLUDES operating-lease liabilities; including them would lower ROIC to roughly high-teens. net_debt_to_ebitda = (total debt $7,942M - cash and short-term investments $9,063M) / (EBIT $3,850M + D&A $747M) = -0.24x, i.e. NIKE has net CASH, not net debt. fcf = cash from operations - capital expenditure, from the FY2026 10-K cash-flow statement."
+  },
+  "valuation": {
+    "price": 36.34,
+    "price_used": 36.34,
+    "price_source": "alpaca",
+    "price_asof": "2026-09-18",
+    "fair_value_low": 25.94,
+    "fair_value_base": 32.6,
+    "fair_value_high": 40.49,
+    "method": "pe + fcf_yield (equal-weighted average of the two bands, computed by code/valuation.py)",
+    "method_detail": "P/E leg: trailing FY2026 GAAP diluted EPS of $2.10 x multiples of 13x / 17x / 21x = $27.30 / $35.70 / $44.10. 13x = the brand premium is permanently impaired and earnings keep sliding; 17x = revenue and margin stabilise with no real growth, a reasonable multiple for a no-growth but high-ROIC consumer brand; 21x = the 'Win Now' turnaround works and margins head back toward the ~11% EBIT margin NIKE earned in FY2024 (it is well below the ~30x NIKE commanded in its growth years, which we do not think is the right comparison any more). FCF-yield leg: FY2026 free cash flow per share of $1.475 ($2,184M / 1,481.0M diluted shares) at required yields of 6.0% / 5.0% / 4.0% = $24.58 / $29.50 / $36.88. We demand a HIGHER yield than we would for a stable compounder because FY2026 free cash flow fell 33% year-on-year and did not cover the dividend.",
+    "margin_of_safety": -0.1147,
+    "verdict": "fair, leaning expensive — the price is about 11% ABOVE our base fair value, so this is NOT a buy today",
+    "caveats": "Both legs rest on FY2026 figures that are distorted in opposite directions and we cannot cleanly separate them. (1) FY2026 diluted EPS of $2.10 includes a one-time $0.52 benefit from the expected recovery of IEEPA tariffs; strip it out and clean EPS is about $1.58, which on the same 13/17/21x multiples gives $20.54 / $26.86 / $33.18. (2) Against that, FY2026 earnings also absorbed roughly a year of tariff COSTS that may not recur, and management said the tariff headwind persists through Q1 FY2027 with margin expansion expected from Q2 FY2027. We have deliberately NOT chosen whichever adjustment makes the stock look cheaper; we used the reported GAAP figure and widened the multiple range instead.",
+    "sensitivity_runs": [
+      {
+        "label": "No recovery — clean FY2026 EPS $1.58 (GAAP $2.10 less the $0.52 tariff one-timer) at 13/17/22x, plus the same FCF-yield leg",
+        "fair_value": {"low": 22.56, "base": 28.18, "high": 35.82},
+        "margin_of_safety_at_36_34": -0.2896
+      },
+      {
+        "label": "Turnaround works — ANALYST ASSUMPTION (not a cited figure) of EBIT margin recovering to 10% on flat $46.4B revenue, giving roughly $2.47 EPS, at 16/19/22x",
+        "fair_value": {"low": 39.52, "base": 46.93, "high": 54.34},
+        "margin_of_safety_at_36_34": 0.2257,
+        "warning": "The $2.47 EPS here is OUR assumption about a margin that has not happened, not a reported number. It is shown to size the upside honestly, and it is NOT used to set the headline fair-value band."
+      }
+    ]
+  },
+  "price_used": 36.34,
+  "margin_of_safety": -0.1147,
+  "fair_value": {
+    "fair_value_low": 25.94,
+    "fair_value_base": 32.6,
+    "fair_value_high": 40.49,
+    "method": "pe + fcf_yield"
+  },
+  "trend": {
+    "last_close": 36.335,
+    "sma50": 40.46,
+    "sma200": 50.23,
+    "range_250d_high": 74.57,
+    "range_250d_low": 35.81,
+    "comment": "Price is below both the 50-day ($40.46) and 200-day ($50.23) averages and sits essentially at the 250-day low. The trend is firmly down; we are not trying to catch this falling knife with a buy today.",
+    "source": "alpaca --bars NKE --days 250, retrieved 2026-09-18"
+  },
+  "conviction": 2,
+  "summary": "NIKE is the strongest brand in athletic footwear, still earning a 42.9% gross margin and a 22.3% ROIC with net cash on the balance sheet — but it is currently a shrinking business, not a compounding one. Revenue has fallen at a -3.2% annual rate over three years, EBIT margin is down from 11.1% (FY2024) to 8.3% (FY2026), free cash flow has collapsed from $6.6B to $2.2B in two years and no longer covers the $2.4B dividend, Greater China has declined for eight straight quarters, and On and HOKA are taking running-category share. The stock at $36.34 is at a twelve-year low and down about 51% over the past year, which is why it is interesting — but on our filing-backed numbers our base fair value is $32.60, so the price is still about 11% ABOVE it. Verdict: WATCH, do not buy. The turnaround under CEO Elliott Hill is real but unproven, and JPMorgan's flagged China online-marketplace reset (a claimed $1B+ annual revenue headwind from January 2027) is a specific, dated risk in front of us. We would want the low-$20s, or clear evidence of revenue and margin inflection, before this earns capital.",
+  "bull_case": [
+    "The brand is still the category standard: even in a bad year NIKE earned a 42.9% gross margin and a 22.3% return on invested capital, and it took $46.4B of revenue — roughly the size of its next several Western competitors combined.",
+    "The balance sheet cannot force a bad decision: net CASH of about $1.1B (cash $7,563M + short-term investments $1,500M vs total debt $7,942M), equal to -0.24x EBITDA. Long-term debt was cut by $2.0B in FY2026. NIKE can fund a multi-year turnaround without a rescue financing.",
+    "The Q4 FY2026 exit rate showed the first concrete margin evidence: EBIT of $1,321M was up 346% year-on-year and wholesale revenue grew 4% reported, as the deliberate pullback from discounted digital selling started to lap.",
+    "Management is executing a coherent, if painful, plan: CEO Elliott Hill is deliberately shrinking low-quality NIKE Digital revenue (-12% in FY2026) and rebuilding wholesale shelf presence (+6% in FY2026) and performance/running product, which is the right trade if it restores full-price selling.",
+    "An approximately $986M IEEPA tariff recovery was recognised in Q4 FY2026 as a receivable; collecting it should be a one-time cash inflow in FY2027 on top of operating cash flow, and removal of those tariffs going forward would relieve a roughly $1B annual cost headwind.",
+    "Sentiment and positioning are washed out: a twelve-year low, the worst performer in the Dow in 2026, removal from the S&P 100 on 2026-09-21, and downgrades from JPMorgan (Underweight) and Baird (Neutral, target cut $70 -> $44). Bad news is well known."
+  ],
+  "risks": [
+    "China is broken, not just soft. Greater China revenue fell 11% in FY2026 to $5.8B (-13% currency-neutral) and 12% in Q4 (-17% currency-neutral) — the eighth consecutive quarterly decline. JPMorgan flags a China online-marketplace reset starting January 2027 that it estimates as an unmitigated headwind of more than $1B a year, roughly 20% of the region's revenue.",
+    "Structural share loss to focused competitors. Running footwear grew about 8.9% year-on-year while NIKE lost share; On Holding did CHF 3.01B of 2025 net sales (+30%) and Deckers' HOKA did $653.1M in the quarter ended 30 June 2026 (+19.8%). These brands are winning shelf space at the same retailers NIKE is trying to win back.",
+    "Free cash flow no longer covers the dividend. FY2026 FCF was $2,184M against $2,407M of dividends paid — a 110% payout of free cash flow. Buybacks were already cut to $146M in FY2026 from $2,985M in FY2025. If FCF does not recover, either the dividend or the balance sheet has to give.",
+    "The earnings base is flattered. FY2026 diluted EPS of $2.10 includes roughly $0.52 of one-time IEEPA tariff recovery; clean EPS is about $1.58. On clean earnings the stock is already about 23x, which is not cheap for a shrinking business.",
+    "Converse is collapsing. Revenue fell 31% in FY2026 to $1,174M (from $1,692M) and 32% in Q4. It is small, but it is direct evidence that a NIKE-owned brand can lose relevance quickly.",
+    "Tariffs and sourcing. Management flagged an approximately $1B tariff headwind and is responding with sourcing shifts and price increases; price increases into a weak consumer risk further volume loss, and the IEEPA recovery is an expected receivable, not cash in hand.",
+    "Organisational churn. Repeated senior-leadership reshuffles under CEO Hill (including an August 2026 senior-leadership announcement, and earlier elimination of the CTO and chief commercial officer roles) are consistent with a company still searching for the right structure two years into a turnaround.",
+    "Turnaround duration risk. Even if the plan works, NIKE-Direct de-stocking and wholesale rebuilding can suppress reported revenue and margin for several more quarters, and we would be paid nothing but a 4.5% dividend to wait.",
+    "Valuation risk from the other side: if the turnaround does work, our conservative band means we will probably miss part of the recovery. We accept that — a missed buy costs nothing."
+  ],
+  "what_would_break_thesis": [
+    "Gross margin (excluding one-time tariff recoveries) falls below 40.0% for two consecutive quarters. FY2026 was 42.91%; below 40% means the brand premium itself is going.",
+    "Total revenue declines year-on-year for a third consecutive fiscal year (FY2027 below the FY2026 $46,398M, after FY2025 and FY2026 already below the FY2024 $51,362M).",
+    "Greater China revenue falls below $5.0B on a trailing-twelve-month basis (FY2026 was $5,800M), or China declines continue past the end of FY2027 — confirming the JPMorgan marketplace-reset thesis rather than a cyclical dip.",
+    "Free cash flow falls below $1.5B in any fiscal year, or free cash flow stays below dividends paid for a second consecutive year (FY2026 FCF $2,184M vs dividends $2,407M).",
+    "Net debt to EBITDA rises above 1.5x (it is -0.24x today, i.e. net cash), or total debt rises while free cash flow is still falling.",
+    "The dividend is cut. NIKE has raised it for over two decades; a cut would be management conceding the cash-generation thesis is wrong.",
+    "EBIT margin falls below 7.0% for a full fiscal year (FY2026 was 8.3%, FY2024 was 11.1%).",
+    "NIKE Direct revenue keeps declining into FY2028 while wholesale growth stalls below 2% — that would mean the channel-rebalancing plan has failed on both legs at once.",
+    "CEO Elliott Hill departs, or a third major strategy reset is announced, before FY2028 — we would treat that as evidence there is no stable plan to underwrite.",
+    "Any serious accounting red flag: a restatement, a material weakness in internal controls, an auditor change under dispute, or inventory growing materially faster than revenue for two consecutive quarters."
+  ],
+  "sell_triggers": [
+    "Gross margin (ex one-time tariff recoveries) below 40.0% for two consecutive quarters (FY2026: 42.91%).",
+    "A third consecutive fiscal year of revenue decline (FY2027 revenue below $46,398M).",
+    "Trailing-twelve-month Greater China revenue below $5.0B (FY2026: $5,800M).",
+    "Free cash flow below $1.5B in a fiscal year, or below dividends paid for a second consecutive year (FY2026: FCF $2,184M vs dividends $2,407M).",
+    "Net debt to EBITDA above 1.5x (currently -0.24x, net cash).",
+    "A dividend cut.",
+    "Full-year EBIT margin below 7.0% (FY2026: 8.3%).",
+    "NIKE Direct still declining into FY2028 with wholesale growth below 2%.",
+    "Departure of CEO Elliott Hill or a third major strategy reset before FY2028.",
+    "Any accounting red flag: restatement, material weakness, disputed auditor change, or inventory growing much faster than revenue for two consecutive quarters."
+  ],
+  "catalysts": [
+    "Fiscal 2027 Q1 results on 2026-10-01 (after the close). Management guided to 'flattish' earnings through the first two quarters of FY2027 and slightly positive Q1 gross margin. Watch Greater China (does the eight-quarter decline streak break?), NIKE Direct, and whether the tariff receivable converts to cash.",
+    "Q2 FY2027 results (approximately December 2026) — management said margin expansion should begin in Q2 FY2027; this is the first real test of the margin-recovery claim.",
+    "January 2027: the China online-marketplace reset JPMorgan flagged as a $1B+ annual revenue headwind actually begins. Confirm or refute with FY2027 Q3 results.",
+    "Removal from the S&P 100 on 2026-09-21 — mechanical index selling that may create a better entry price without changing the business.",
+    "Collection of the approximately $986M IEEPA tariff receivable, and clarity on whether the roughly $1B annual tariff cost is permanently removed.",
+    "Any further senior-leadership change or a formal investor day laying out FY2028 margin targets."
+  ],
+  "sources": [
+    {
+      "claim": "FY2026 (year ended 31 May 2026) total revenue, and revenue by geography and channel: total $46.4B (flat reported, -2% currency-neutral); North America $20.5B (+5%); EMEA $12.6B (+3%); Greater China $5.8B (-11% reported, -13% currency-neutral); APLA $6.2B (flat); Wholesale $27.5B (+6%); NIKE Direct $17.7B (-6%, digital -12%, owned stores -4%); Converse $1.2B (-31%). Q4 FY2026 revenue $11.0B (-1%), Greater China $1.3B (-12% reported, -17% currency-neutral), Converse $244M (-32%).",
+      "value": "FY2026 revenue $46.4B; Greater China $5.8B (-11%); NIKE Direct $17.7B (-6%); Converse $1.2B (-31%)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000076/q4fy26exhibit991er.htm",
+      "publisher": "NIKE, Inc. Form 8-K Exhibit 99.1 (Q4 FY2026 earnings release), SEC EDGAR",
+      "as_of": "2026-05-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "FY2026 profitability: gross margin 42.9% (+20bps); SG&A $16.1B; EBIT $3,850M (FY2025 EBIT $3,778M); income before income taxes $3,900M; interest income net $(50)M; net income $3.1B (-3%); diluted EPS $2.10 (-3%); effective tax rate 20.3%. NIKE Brand revenue $45,222M vs Converse $1,174M.",
+      "value": "FY2026 EBIT $3,850M; diluted EPS $2.10; effective tax rate 20.3%; gross margin 42.9%",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000076/q4fy26exhibit991er.htm",
+      "publisher": "NIKE, Inc. Form 8-K Exhibit 99.1 (Q4 FY2026 earnings release), SEC EDGAR",
+      "as_of": "2026-05-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Q4 FY2026: gross margin 49.2%, up 890bps, including an approximately 900bps benefit from the expected recovery of IEEPA tariffs ($986M); diluted EPS $0.72 including a $0.52 benefit from that tariff recovery; EBIT $1,321M (+346%); net income $1,069M (+407%).",
+      "value": "Q4 FY2026 EPS $0.72 including $0.52 one-time IEEPA tariff-recovery benefit; $986M tariff recovery",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000076/q4fy26exhibit991er.htm",
+      "publisher": "NIKE, Inc. Form 8-K Exhibit 99.1 (Q4 FY2026 earnings release), SEC EDGAR",
+      "as_of": "2026-05-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Balance sheet at 31 May 2026: cash and equivalents $7.6B, short-term investments $1.5B (total liquid assets $9.0B); inventories $7.5B; current portion of long-term debt $2.0B; long-term debt $5.9B; total shareholders' equity $14.9B (+13%).",
+      "value": "Cash $7,563M + short-term investments $1,500M vs total debt $7,942M = net cash of about $1.1B",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000076/q4fy26exhibit991er.htm",
+      "publisher": "NIKE, Inc. Form 8-K Exhibit 99.1 (Q4 FY2026 earnings release), SEC EDGAR",
+      "as_of": "2026-05-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "FY2026 shareholder returns: $2.5B total, of which dividends $2.4B (+5%) and share repurchases $123M (1.8M shares retired). FY2026 average diluted shares outstanding 1,481.0 million; Q4 average 1,482.9 million.",
+      "value": "FY2026 dividends $2.4B; buybacks $123M; 1,481.0M average diluted shares",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000076/q4fy26exhibit991er.htm",
+      "publisher": "NIKE, Inc. Form 8-K Exhibit 99.1 (Q4 FY2026 earnings release), SEC EDGAR",
+      "as_of": "2026-05-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Revenue history from the FY2026 10-K as tagged in SEC XBRL: FY2023 $51,217M; FY2024 $51,362M; FY2025 $46,309M; FY2026 $46,398M. Three-year compound annual growth rate FY2023 to FY2026 = -3.24%.",
+      "value": "-3.24% 3-year revenue CAGR (FY2023 $51,217M -> FY2026 $46,398M)",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000320187/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json",
+      "publisher": "SEC EDGAR XBRL company-concept API (NIKE, Inc. CIK 0000320187, 10-K filed 2026-07-15)",
+      "as_of": "2026-05-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "FY2026 gross profit $19,911M (FY2025 $19,790M; FY2024 $22,887M) and net income $3,108M (FY2025 $3,219M; FY2024 $5,700M), per the FY2026 10-K XBRL. Gross margin = 19,911/46,398 = 42.91%.",
+      "value": "FY2026 gross profit $19,911M; net income $3,108M; gross margin 42.91%",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000320187/us-gaap/GrossProfit.json",
+      "publisher": "SEC EDGAR XBRL company-concept API (NIKE, Inc. CIK 0000320187, 10-K filed 2026-07-15)",
+      "as_of": "2026-05-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Cash from operations: FY2024 $7,429M; FY2025 $3,698M; FY2026 $2,868M. Capital expenditure: FY2024 $812M; FY2025 $430M; FY2026 $684M. Free cash flow = operations minus capex: FY2024 $6,617M; FY2025 $3,268M; FY2026 $2,184M. FY2026 FCF per share = $2,184M / 1,481.0M = $1.475.",
+      "value": "FY2026 free cash flow $2,184M ($1.475 per share), down from $6,617M in FY2024",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000320187/us-gaap/NetCashProvidedByUsedInOperatingActivities.json",
+      "publisher": "SEC EDGAR XBRL company-concept API (NIKE, Inc. CIK 0000320187, 10-K filed 2026-07-15)",
+      "as_of": "2026-05-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Capital allocation from the cash-flow statement: dividends paid FY2024 $2,169M, FY2025 $2,300M, FY2026 $2,407M. Share repurchases FY2024 $4,250M, FY2025 $2,985M, FY2026 $146M. FY2026 dividends per share = $2,407M / 1,481.0M = $1.63, a 4.47% yield at $36.34; dividends were 110% of FY2026 free cash flow.",
+      "value": "FY2026 dividends paid $2,407M (110% of FCF); buybacks cut to $146M from $2,985M",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000320187/us-gaap/PaymentsForRepurchaseOfCommonStock.json",
+      "publisher": "SEC EDGAR XBRL company-concept API (NIKE, Inc. CIK 0000320187, 10-K filed 2026-07-15)",
+      "as_of": "2026-05-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Balance-sheet detail from the FY2026 10-K XBRL: shareholders' equity $14,865M (FY2025 $13,213M); long-term debt non-current $5,942M (FY2025 $7,961M); current portion of long-term debt $2,000M (FY2025 $0); cash and equivalents $7,563M (FY2025 $7,464M); depreciation and amortisation FY2026 $747M. EBITDA = EBIT $3,850M + D&A $747M = $4,597M; net debt = $7,942M - $9,063M = -$1,121M; net debt/EBITDA = -0.24x.",
+      "value": "Net debt/EBITDA = -0.24x (net cash); D&A FY2026 $747M; equity $14,865M",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000320187/us-gaap/StockholdersEquity.json",
+      "publisher": "SEC EDGAR XBRL company-concept API (NIKE, Inc. CIK 0000320187, 10-K filed 2026-07-15)",
+      "as_of": "2026-05-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "FY2026 10-K (annual report) filed 2026-07-15, accession 0000320187-26-000088 — the source filing behind the XBRL figures above.",
+      "value": "NIKE, Inc. FY2026 Form 10-K, filed 2026-07-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/0000320187-26-000088-index.htm",
+      "publisher": "SEC EDGAR",
+      "as_of": "2026-05-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Management guidance on the Q4 FY2026 call (30 June 2026): earnings expected to be 'flattish' through the first two quarters of fiscal 2027; Q1 FY2027 gross margin slightly positive; the tariff headwind persists through Q1 FY2027 with margin expansion expected to begin in Q2 FY2027. Greater China sales fell 12% in the quarter; the company expects a $986M tariff refund after the Supreme Court struck down many IEEPA duties.",
+      "value": "FY2027 H1 earnings guided 'flattish'; margin expansion expected from Q2 FY2027; $986M expected tariff refund",
+      "url": "https://www.cnbc.com/2026/06/30/nike-nke-q4-2026-earnings.html",
+      "publisher": "CNBC",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "NIKE plans to release fiscal 2027 first-quarter results on Thursday, 1 October 2026 at approximately 1:15 p.m. PT, with a conference call at 2:00 p.m. PT.",
+      "value": "Q1 FY2027 earnings date: 2026-10-01",
+      "url": "https://investors.nike.com/investors/news-events-and-reports/investor-news/investor-news-details/2026/NIKE-Inc--Announces-First-Quarter-Fiscal-2027-Earnings-and-Conference-Call/default.aspx",
+      "publisher": "NIKE, Inc. Investor Relations",
+      "as_of": "2026-08-28",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "NIKE shares closed at a twelve-year low of $39.09 on 1 September 2026, about 78% below their November 2021 peak, after an eighth straight quarter of declining China sales. JPMorgan downgraded NIKE to Underweight, citing a China online-marketplace reset beginning January 2027 that it estimates as an unmitigated revenue headwind of more than $1B a year (about 20% of the region's revenue), rising tariff costs pressuring earnings through fiscal 2028, and continued share loss to HOKA and On in North America.",
+      "value": "JPMorgan Underweight; China marketplace reset from January 2027 estimated at >$1B annual revenue headwind",
+      "url": "https://qz.com/nike-stock-12-year-low-jpmorgan-downgrade-081826",
+      "publisher": "Quartz",
+      "as_of": "2026-08-18",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "NIKE closed at $36.22 on 17 September 2026 (-2.24%), is down roughly 40% in 2026 and is the worst-performing stock in the Dow Jones Industrial Average. S&P Dow Jones Indices will remove NIKE from the S&P 100 on 21 September 2026 (it stays in the S&P 500). Average analyst price target $50.46; Morgan Stanley has a $31 target arguing China-recovery expectations are too optimistic.",
+      "value": "Down ~40% year-to-date 2026; removed from S&P 100 on 2026-09-21; analyst targets range from $31 to an average of $50.46",
+      "url": "https://www.vantagemarkets.com/market-analysis/nike-stock-nke-sp100-exit-september-8-2026/",
+      "publisher": "Vantage Markets",
+      "as_of": "2026-09-17",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Robert W. Baird downgraded NIKE from Outperform to Neutral and cut its price target from $70 to $44 (-37.1%), citing consumer demand and competitive pressure; the stock's decline is compounded by weak sales, falling resale values and internal restructuring.",
+      "value": "Baird downgrade to Neutral, price target cut $70 -> $44",
+      "url": "https://www.fxleaders.com/news/2026/08/17/nike-stock-drops-to-12-year-low-breaking-40-support-as-downgrade-sales-weakness-and-leadership-changes-raise-risks/",
+      "publisher": "FX Leaders",
+      "as_of": "2026-08-17",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Competitive context: running footwear grew about 8.9% year-on-year while lifestyle declined 0.9%, with NIKE losing share across channels while HOKA, On, New Balance and adidas gained. On Holding posted record 2025 net sales of CHF 3.01B (+30%); Deckers' HOKA net sales rose 19.8% to $653.1M in the quarter ended 30 June 2026.",
+      "value": "Running +8.9% y/y with NIKE losing share; On 2025 sales CHF 3.01B (+30%); HOKA quarterly sales $653.1M (+19.8%)",
+      "url": "https://www.yipitdata.com/resources/blog/corporate-footwear-market-trends-running-growth",
+      "publisher": "YipitData",
+      "as_of": "2026-08-31",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "NIKE announced changes to its Senior Leadership Team in August 2026 under CEO Elliott Hill, part of a repeated pattern of C-suite reorganisation that earlier in 2026 eliminated the chief technology officer and chief commercial officer roles. Hill became President & CEO effective 14 October 2024.",
+      "value": "Repeated senior-leadership restructuring through 2026 under CEO Elliott Hill",
+      "url": "https://about.nike.com/en/newsroom/releases/nike-inc-august-27-2026-senior-leadership-announcement",
+      "publisher": "NIKE, Inc. Newsroom",
+      "as_of": "2026-08-27",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Price and trend from our own Alpaca feed: last close $36.335 on 2026-09-18, bid $36.34; 50-day simple moving average $40.46; 200-day simple moving average $50.23; 250-day high $74.57, 250-day low $35.81.",
+      "value": "Price $36.34; 50-day SMA $40.46; 200-day SMA $50.23",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca (our own market-data feed, code/alpaca_client.py --quote/--bars)",
+      "as_of": "2026-09-18",
+      "retrieved": "2026-09-18"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ],
+  "data_quality_note": "All quality and valuation inputs (revenue, gross margin, EBIT, EPS, cash flow, capex, debt, equity, shares, dividends, buybacks) come from NIKE's Q4 FY2026 8-K earnings release and the FY2026 10-K XBRL on SEC EDGAR. Price and moving averages come from our own Alpaca feed. Competitive-share data, analyst ratings and the January 2027 China marketplace-reset estimate come from media/third parties and are labelled as such — they inform the risk list, not the fair-value arithmetic. ROIC and net-debt/EBITDA are our own calculations from cited filing inputs, with the formulas written out in quality.notes; ROIC excludes operating-lease liabilities and is therefore flattering by a few points."
+}

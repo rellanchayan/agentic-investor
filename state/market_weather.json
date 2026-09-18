@@ -1,35 +1,37 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-09-18",
   "posture": "cautious",
   "spy_above_200d": true,
-  "spy_last": 778.37,
-  "spy_sma200": 704.97,
-  "spy_pct_above_200d": 10.4,
+  "spy_last": 758.99,
+  "spy_sma200": 716.24,
+  "spy_pct_above_200d": 6.0,
+  "vix": 15.21,
+  "ten_year_yield_pct": 4.95,
   "events": [
-    "PPI July 2026 released today 8:30am ET — flat monthly, +4.7% annual, cooler than expected",
-    "Jobless claims released today 8:30am ET",
-    "Retail Sales Friday Aug 14 8:30am ET",
-    "Next FOMC meeting Sep 16 2026"
+    "US Industrial Production & Capacity Utilization (G.17) at 9:15am ET today",
+    "Fed Vice Chair Bowman speech in London at 9:30am ET today (stress-testing topic)",
+    "Quarterly options expiration / triple witching Friday — elevated end-of-day volume likely",
+    "No FOMC scheduled; next meeting likely November 2026"
   ],
-  "rates": "elevated — Fed funds 3.50%-3.75%, held Jul 29; 3 dissenters wanted hikes; 33% market probability of Sep hike",
-  "inflation": "CPI +3.4% annual (Jul), core +2.5%; above Fed 2% target for 5+ years; PPI today decelerated more than expected",
-  "labor_market": "shock: July payrolls -23,000 vs +110,000 expected; prior 2 months revised down 103,000; unemployment 4.1%",
-  "valuation": "elevated — trailing P/E ~25-26x vs 20-year average ~17x; forward P/E ~20x",
-  "futures_am": "S&P 500 futures +0.2%, Nasdaq futures +0.6%",
+  "rates": "hiking cycle just resumed — Fed raised 25bp to 3.75-4.00% on Sep 16 (first hike since 2023); 16 of 18 officials project at least one more hike in 2026; 10-year yield ~4.95%",
+  "inflation": "CPI Aug 2026 +3.4% headline / +2.4% core (released Sep 11); well above Fed 2% PCE target; energy (gasoline +27% YoY) driving headline",
+  "labor_market": "no new data today; July payrolls were -23k; September jobs report expected early October",
+  "valuation": "elevated — trailing P/E ~25.7, forward P/E ~19.5, CAPE (Shiller 10-yr) ~39.7 which is 91% above long-run average of 20.8",
+  "futures_am": "S&P 500 futures +1.94% pre-open; Nasdaq QQQ +2.26%; tech/semis leading; crude oil -6.46%",
+  "credit": "credit conditions described as supportive; 10Y-2Y yield spread +0.22pp (slightly positive curve); no specific IG/HY spread data found",
   "candidates_vs_fair_value": {
-    "AAPL": {"price": 304.75, "fair_value_base": 195.0, "pct_above_fv": 56.3},
-    "MSFT": {"price": 498.10, "fair_value_base": 378.07, "pct_above_fv": 31.7},
-    "V":    {"price": 360.44, "fair_value_base": 296.91, "pct_above_fv": 21.4}
+    "AAPL": {"price": 333.25, "fair_value_base": 232.82, "pct_above_fv": 43.1},
+    "MSFT": {"price": 491.53, "fair_value_base": 399.67, "pct_above_fv": 23.0},
+    "V":    {"price": 359.16, "fair_value_base": 291.73, "pct_above_fv": 23.1}
   },
-  "note": "Cautious: market expensive at ~25x trailing P/E, inflation stuck above Fed target, July jobs shock (-23k vs +110k expected) adds stagflationary risk, Fed holds rates elevated with hike risk; all thesis candidates trade well above our fair-value estimates. Futures slightly positive on PPI beat but retail sales Friday is the next key risk event.",
+  "note": "Cautious maintained: Fed just resumed rate-hiking cycle 2 days ago (3.75-4.00%, first hike since 2023) with more hikes projected; 10-year yield near 5%; CPI still 3.4%; CAPE at 39.7 is 91% above historical average. Low VIX (15.2) reflects calm not cheap — all thesis candidates remain 23-43% above our entry prices. Today's tech-led morning rally is pleasant but changes nothing fundamental. Triple witching adds intraday noise to watch but not act on.",
   "sources": [
-    "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
-    "https://www.bls.gov/news.release/archives/ppi_08132026.htm",
-    "https://www.bloomberg.com/news/articles/2026-08-13/us-producer-price-growth-decelerates-by-more-than-forecast",
-    "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138",
-    "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html",
+    "https://strongbuyanalytics.com/stock-market-outlook",
     "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
-    "https://sg.finance.yahoo.com/news/us-stock-market-today-p-080906060.html",
-    "https://capitalstreetfx.com/market-analysis/week-ahead-1014-august-2026-july/"
+    "https://en.macromicro.me/series/20052/sp500-forward-pe-ratio",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://fred.stlouisfed.org/series/dgs10",
+    "https://www.cboe.com/tradable-products/vix/",
+    "https://investsnips.com/sp500-pe-ratio/"
   ]
 }

@@ -1,0 +1,198 @@
+{
+  "ticker": "GOOGL",
+  "thesis_id": "GOOGL-2026Q2",
+  "company": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "as_of": "2026-Q2",
+  "retrieved": "2026-09-18",
+  "refresh_due": "2026-12-17",
+  "date": "2026-09-18",
+  "business_summary": "Alphabet is the parent of Google. It makes money in four ways. (1) ADVERTISING - by far the biggest: people search on Google and watch YouTube, and advertisers pay to appear next to that attention. In Q2 2026 Google Search & other brought in $63.271B (+17% year over year), YouTube ads $11.055B (+13%), and the Google Network (ads Google places on other people's websites) $7.303B (-1%). (2) SUBSCRIPTIONS, PLATFORMS AND DEVICES - YouTube Premium/TV, Google One, the Play store cut, and Pixel hardware: $12.911B (+15%). (3) GOOGLE CLOUD - renting computing, storage, AI chips (TPUs) and software to businesses: $24.768B in Q2 2026, up 82%, with segment operating income of $8.814B (35.6% margin) versus $2.826B a year earlier. Google Cloud's signed-but-not-yet-delivered backlog reached $514B. (4) OTHER BETS - Waymo self-driving, Verily and similar long-shot ventures: $0.382B of revenue and a $1.799B operating LOSS in Q2 2026. Total Q2 2026 revenue was $119.796B (+24%) and operating income $40.770B (+30%, a 34% operating margin). In five to ten years Alphabet should still be winning because Search is the default way billions of people find things, YouTube is the largest video platform, Android and Chrome are the pipes most of the world's internet runs through, and Google now owns a full AI stack (its own TPU chips, its own Gemini models, its own distribution). The open question - and it is a big one - is not demand but COST: Alphabet is spending $195-205B of capital expenditure in 2026 alone, which has taken free cash flow to roughly zero, stopped the buyback entirely, and forced the company to raise $80B of equity and roughly $50B of new debt.",
+  "moat": {
+    "type": "Network effects (Search's query-data flywheel, YouTube's two-sided creator/viewer marketplace, Android and Play ecosystems), enormous scale economies in data centres and custom AI silicon (TPUs), high switching costs in Google Cloud and Workspace enterprise contracts (a $514B Cloud backlog), default distribution through Chrome and Android, and one of the world's strongest consumer brands",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "12.5% CAGR FY2022 -> FY2025 ($282.836B -> $402.836B). Growth is ACCELERATING, not slowing: FY2025 +15.1% and Q2 2026 +24.2% ($119.796B vs $96.428B), driven by Google Cloud +82%. Trailing-twelve-month revenue to 2026-06-30 is $445.866B (derived: FY2025 $402.836B - H1 2025 $186.662B + H1 2026 $229.692B).",
+    "gross_margin": "60.9% trailing twelve months to 2026-06-30 (derived: TTM revenue $445.866B less TTM cost of revenue $174.349B); 59.7% for FY2025 ($402.836B revenue less $162.535B cost of revenue). Operating margin 33.1% TTM and 34% in Q2 2026.",
+    "roic": "~37.7% estimated, NOT a reported metric. Derived as: normalized after-tax operating profit of $119.6B (TTM operating income $147.628B x (1 - 19% tax rate, the Q2 2026 effective rate)) divided by average operating invested capital of ~$317.5B. Invested capital = shareholders' equity + total debt - cash - marketable securities - non-marketable investments, averaged between 2025-12-31 ($268.3B) and 2026-06-30 ($366.7B). Treat as approximate: the capital base is growing so fast (capex is 5.25x depreciation) that today's ROIC flatters the returns the newly built assets will actually earn.",
+    "net_debt_to_ebitda": "NEGATIVE ~-0.82x, i.e. net CASH. At 2026-06-30: cash $55.911B + marketable securities $186.563B = $242.474B versus total debt of $100.164B ($98.165B long-term + $1.999B current), so net cash of $142.310B against TTM EBITDA of ~$172.9B (TTM operating income $147.628B + TTM depreciation $25.237B). But note the direction of travel: total debt has roughly doubled from $48.543B at 2025-12-31 to $100.164B at 2026-06-30, and Alphabet also holds $131.461B of non-marketable long-term investments whose value is an estimate, not cash.",
+    "fcf_positive": "BARELY, and deteriorating. TTM free cash flow to 2026-06-30 was $53.273B (TTM operating cash flow $185.675B less TTM capex $132.402B), down from $73.266B in FY2025 and $72.764B in FY2024. First half 2026 FCF was only $4.261B ($84.859B OCF - $80.598B capex), and management stated on the Q2 2026 call that Q2 free cash flow was NEGATIVE $5.9B and that 'free cash flow will remain under pressure'. Capex is guided to $195-205B for full-year 2026 and to rise significantly again in 2027."
+  },
+  "valuation": {
+    "price": 350.16,
+    "price_source": "alpaca",
+    "price_asof": "2026-09-18",
+    "fair_value_low": 176.83,
+    "fair_value_base": 214.32,
+    "fair_value_high": 257.47,
+    "method": "Blend (simple average) of two methods computed by code/valuation.py. METHOD 1 - P/E on NORMALIZED CORE EPS. Reported GAAP EPS is useless right now: TTM GAAP diluted EPS is $19.93 (FY2025 $10.81 - H1 2025 $5.12 + H1 2026 $14.24), but $135.8B of the last six months' pre-tax income was a paper gain on debt and equity securities, mostly the mark-up of Alphabet's Anthropic stake to ~$124.3B and its SpaceX stake. So we strip ALL non-operating income out: TTM operating income $147.628B x (1 - 19.0% Q2 2026 effective tax rate) = $119.6B of core after-tax operating profit, divided by 12,309M Q2 2026 weighted-average diluted shares = core EPS of $9.71. Multiples 21x / 26x / 31x. The 26x base sits just BELOW Alphabet's 10-year median P/E of ~27.5x (GuruFocus) because cash conversion has structurally worsened - capex is now 5.25x depreciation and free cash flow is near zero - while 21x is a de-rating to the low end of its own history if the AI capex disappoints, and 31x is the case where AI monetisation proves out. That gives $203.91 / $252.46 / $301.01. METHOD 2 - FCF YIELD. We deliberately do NOT use trailing-twelve-month FCF per share ($4.33) because it is a trough distorted by a one-off capex super-cycle; we use FY2025 free cash flow per share of $5.99 ($73.266B / 12,230M FY2025 weighted diluted shares), the last complete fiscal year. Required yields 4.0% / 3.4% / 2.8% - a touch above what we demanded of Microsoft, because Alphabet's FCF is under more pressure and it has just issued equity. That gives $149.75 / $176.18 / $213.93. BLEND: $176.83 / $214.32 / $257.47. Margin of safety at $350.16 = -63.4%, i.e. the stock trades far ABOVE the high end of our band. SENSITIVITY, STATED HONESTLY - three views, all bearish on price: (a) P/E-only band $203.91-$301.01, margin of safety -38.7%; (b) our blended band, -63.4%; (c) a stress case using actual TTM FCF per share of $4.33 gives $108.25 / $127.35 / $154.64, margin of safety -175%. We also did NOT add the ~$22.39 per share of net non-operating assets Alphabet holds (cash $55.911B + marketable securities $186.563B + non-marketable investments $131.461B - debt $100.164B = $273.771B, / 12,230M shares); adding it would lift the band to roughly $199 / $237 / $280 and the margin of safety to about -48%. Every way we cut it, GOOGL at $350.16 is expensive on our framework. What we are NOT saying is that the market is wrong - the market is paying for AI optionality we are choosing not to underwrite."
+  },
+  "price_used": 350.16,
+  "margin_of_safety": -0.6338,
+  "conviction": 3,
+  "summary": "Alphabet is one of the best businesses in the world - a wide moat, 60.9% gross margins, ~37.7% estimated ROIC, $142.3B of net cash, and revenue re-accelerating to +24% on the back of an 82% Google Cloud quarter with a $514B backlog. It is also, right now, in the middle of a capital-spending shock that has taken free cash flow from $73.3B (FY2025) to roughly zero in the first half of 2026, ended a decade-long buyback, and required an $80B equity raise plus a doubling of debt. Headline GAAP earnings look cheap only because $135.8B of six-month pre-tax 'profit' is an unrealised paper mark-up on Anthropic and SpaceX stakes - not operating cash. Stripping that out, GOOGL trades at about 36x core after-tax operating earnings of $9.71 per share, versus its own 10-year median of ~27.5x. Our fair-value band is $176.83 / $214.32 / $257.47, so at $350.16 the margin of safety is -63.4%. Verdict: WATCH, DO NOT BUY. This is a name we would very much like to own - but materially lower, and ideally after we can see whether the $200B/year of capex is earning a return.",
+  "bull_case": [
+    "Revenue is ACCELERATING at enormous scale: Q2 2026 revenue $119.796B, +24% year over year, versus a 12.5% three-year CAGR. Operating income rose 30% to $40.770B and the operating margin expanded from 32% to 34%.",
+    "Google Cloud has become a second engine, not a science project: Q2 2026 revenue $24.768B (+82%) with segment operating income of $8.814B, a 35.6% margin versus 20.7% a year earlier. The signed backlog is $514B, of which management expects to recognise just over 50% as revenue within 24 months - the clearest evidence that customers are committing years of spend in advance.",
+    "The core advertising business is NOT being eaten by AI chatbots - at least not yet. Google Search & other revenue grew 17% to $63.271B in Q2 2026, its fastest growth in years, and management reports AI Mode in Search has passed 1 billion monthly active users and the Gemini app 950 million.",
+    "Exceptional economics and a fortress balance sheet: 60.9% TTM gross margin, 33.1% TTM operating margin, ~37.7% estimated ROIC, $242.5B of cash and marketable securities against $100.2B of debt (net cash $142.3B).",
+    "Alphabet owns the whole AI stack - its own TPU silicon, its own Gemini models, its own data centres, and default distribution via Chrome, Android, Search and YouTube. Very few companies have all five, and it is the reason Cloud can grow 82% while expanding margins.",
+    "Large hidden asset value: Alphabet's stake in Anthropic alone was marked at roughly $124.3B at 2026-06-30, and it holds $131.461B of non-marketable long-term investments in total (Anthropic, SpaceX and others) - about $10.75 per share that our operating-earnings valuation ignores entirely. An Anthropic IPO could crystallise this.",
+    "Warren Buffett's Berkshire Hathaway took a $10B private placement in the June 2026 raise ($5B Class A at $351.81, $5B Class C at $348.20), an outside quality signal - though note that is a price near today's, not a bargain price."
+  ],
+  "risks": [
+    "VALUATION IS THE PRIMARY RISK AND WE ARE BLUNT ABOUT IT: at $350.16 GOOGL trades roughly 36x our normalized core EPS of $9.71, versus a 10-year median P/E of about 27.5x, and 63% above our base fair value of $214.32. Even the most generous view we ran (P/E-only, plus net non-operating assets) leaves it ~40-48% above fair value. This is not a buy at this price on our framework.",
+    "FREE CASH FLOW HAS ESSENTIALLY STOPPED. H1 2026 FCF was $4.261B versus $73.266B for all of FY2025; Q2 2026 FCF was NEGATIVE $5.9B. Capex is guided to $195-205B for 2026 (raised from $180-190B) and 'significantly higher' in 2027, and the CFO said FCF 'will remain under pressure'. A quality-at-a-fair-price investor is being asked to own a company that currently generates almost no distributable cash.",
+    "THE BUYBACK IS GONE. Alphabet repurchased $0 of stock in both Q1 and Q2 2026, versus $13.238B in Q2 2025 alone and $45.709B for FY2025. Instead of returning capital it RAISED capital: an $80B equity programme announced 1 June 2026 ($15B mandatory convertible preferred, $15B common, a $40B at-the-market programme still running in Q3 2026, and a $10B Berkshire private placement) plus roughly $50B of new debt. Shareholders are being diluted, not compounded - shares outstanding rose from 12,088M to 12,230M in six months, 19 million preferred depositary shares now exist, and the $40B ATM will add more.",
+    "EARNINGS QUALITY IS POOR RIGHT NOW. $135.8B of H1 2026 pre-tax income was a gain on debt and equity securities - largely unrealised mark-ups on Anthropic (~$124.3B carrying value) and SpaceX. Q2 2026 'other income' was $97.983B against operating income of just $40.770B. Screens showing GOOGL at ~17x earnings are measuring paper gains, not the business. Those marks can reverse violently if AI private valuations fall.",
+    "THE AI CAPEX BET IS ENORMOUS AND UNPROVEN. Capex is 5.25x depreciation. That means today's operating margin is flattered relative to the depreciation charge this asset base will eventually carry; when ~$200B/year of assets start depreciating, margins and ROIC fall mechanically unless revenue keeps compounding at today's pace.",
+    "REGULATORY OVERHANG ON MULTIPLE FRONTS. US Search case: a final judgment entered December 2025 restricts Google's distribution arrangements and forces data-sharing and search syndication with competitors; Google appealed in January 2026 and the DOJ cross-appealed in February 2026, both pending in the D.C. Circuit. US ad tech case: Judge Brinkema rejected a forced AdX divestiture in September 2026 (a win), but a final judgment is still being drafted. EU: an 890 million euro DMA fine in July 2026 for search self-preferencing and Play Store steering restrictions, with compliance required by roughly 21 September 2026 and the threat of daily penalties of up to 5% of worldwide daily turnover, on top of a 2.95 billion euro adtech fine in September 2025. Any of these can change how Search is distributed or monetised.",
+    "AI-NATIVE COMPETITION FOR THE QUERY. ChatGPT, Perplexity and Microsoft Copilot are taking informational queries that used to start on Google, and AI answers can reduce the number of monetisable clicks per query. We could not verify a trustworthy, consistent market-share number for this shift - aggregator estimates disagree wildly - so we mark it 'unknown' and watch Search revenue growth instead. The counter-evidence is that Search revenue still grew 17% in Q2 2026.",
+    "CONCENTRATION IN ADVERTISING. Roughly 68% of Q2 2026 revenue ($81.6B of $119.8B) is still advertising, which is cyclical. A recession would hit Search, YouTube and Network revenue together, at exactly the moment capex commitments are locked in.",
+    "GOOGLE NETWORK IS SHRINKING (-0.7% year over year in Q2 2026) and Other Bets lost $1.799B in the quarter, an increasing loss.",
+    "KEY-MAN AND GOVERNANCE: dual-class share structure means outside shareholders have very limited voting power over a capital-allocation decision of this magnitude."
+  ],
+  "sell_triggers": [
+    "Google Search & other revenue grows less than 5% year over year for two consecutive quarters (Q2 2026: +17%). This is our single best early warning that AI assistants are taking the query.",
+    "Total Alphabet revenue declines year over year in any quarter.",
+    "Google Cloud revenue growth falls below 20% year over year for two consecutive quarters (Q2 2026: +82%), or the Cloud backlog ($514B at 2026-06-30) declines year over year.",
+    "Company-wide gross margin falls below 52% for two consecutive quarters (TTM: 60.9%).",
+    "Consolidated operating margin falls below 25% for two consecutive quarters (Q2 2026: 34%) - the signal that AI capex depreciation is overwhelming the profit and loss account.",
+    "Free cash flow is negative for a full fiscal year, or TTM free cash flow falls below $25B (TTM to 2026-06-30: $53.3B). FCF is already the weakest link in this thesis.",
+    "Capital expenditure exceeds 50% of revenue in any fiscal year (FY2026 guidance of $195-205B on consensus revenue of roughly $480B is already about 42%), or 2027 capex guidance is raised above $280B without a matching acceleration in Cloud revenue.",
+    "Net debt (total debt less cash and marketable securities) turns POSITIVE and net-debt-to-EBITDA rises above 1.0x (currently net cash, -0.82x).",
+    "Diluted shares outstanding rise more than 5% from the 12,309M reported for Q2 2026 without the buyback resuming - that would mean the AI build is being funded by permanently diluting us.",
+    "Estimated ROIC falls below 15% on a sustained basis (currently ~37.7%).",
+    "A court-ordered structural remedy actually takes effect that forces divestiture of Chrome, Android, AdX or DFP, or that ends default search placement payments outright.",
+    "The carrying value of non-marketable equity investments is written down by more than 40% from the $131.461B at 2026-06-30 - evidence that the AI private-market marks that are currently inflating reported earnings were not real.",
+    "Any serious accounting red flag: a restatement, an SEC enforcement action, a change in data-centre asset useful lives that materially boosts reported margins, or a material weakness in internal controls."
+  ],
+  "what_would_break_thesis": [
+    "Google Search & other revenue grows less than 5% year over year for two consecutive quarters (Q2 2026: +17%). This is our single best early warning that AI assistants are taking the query.",
+    "Total Alphabet revenue declines year over year in any quarter.",
+    "Google Cloud revenue growth falls below 20% year over year for two consecutive quarters (Q2 2026: +82%), or the Cloud backlog ($514B at 2026-06-30) declines year over year.",
+    "Company-wide gross margin falls below 52% for two consecutive quarters (TTM: 60.9%).",
+    "Consolidated operating margin falls below 25% for two consecutive quarters (Q2 2026: 34%) - the signal that AI capex depreciation is overwhelming the profit and loss account.",
+    "Free cash flow is negative for a full fiscal year, or TTM free cash flow falls below $25B (TTM to 2026-06-30: $53.3B).",
+    "Capital expenditure exceeds 50% of revenue in any fiscal year, or 2027 capex guidance is raised above $280B without a matching acceleration in Cloud revenue.",
+    "Net debt (total debt less cash and marketable securities) turns POSITIVE and net-debt-to-EBITDA rises above 1.0x (currently net cash, -0.82x).",
+    "Diluted shares outstanding rise more than 5% from the 12,309M reported for Q2 2026 without the buyback resuming.",
+    "Estimated ROIC falls below 15% on a sustained basis (currently ~37.7%).",
+    "A court-ordered structural remedy actually takes effect that forces divestiture of Chrome, Android, AdX or DFP, or that ends default search placement payments outright.",
+    "The carrying value of non-marketable equity investments is written down by more than 40% from the $131.461B at 2026-06-30.",
+    "Any serious accounting red flag: a restatement, an SEC enforcement action, a change in data-centre asset useful lives that materially boosts reported margins, or a material weakness in internal controls."
+  ],
+  "catalysts": [
+    "Q3 2026 results, expected late October 2026 (date not yet confirmed by Alphabet). This is the key test: does Search revenue keep growing mid-teens, does Cloud hold 70%+ growth, and how negative does free cash flow get? We should refresh this thesis immediately after that print rather than waiting for the 2026-12-17 refresh date.",
+    "An Anthropic IPO, widely reported as being prepared as of September 2026. It would turn a ~$124.3B unrealised mark into an observable market price - in either direction - and materially change reported earnings.",
+    "Completion of the $40B at-the-market equity programme in Q3 2026, which will tell us the final dilution number, and any signal on whether the buyback restarts.",
+    "The EU DMA compliance deadline of roughly 21 September 2026 for search self-preferencing and Play Store steering - non-compliance risks daily penalties of up to 5% of worldwide daily turnover.",
+    "The D.C. Circuit ruling on the Search-case appeal and cross-appeal, and entry of the final judgment in the ad tech case following the September 2026 remedies ruling.",
+    "A price pullback toward our $257 high or $214 base. The 250-day low from our Alpaca feed is $236.57, so the high end of our band is not an impossible price - it traded there within the last year.",
+    "Capex growth normalising toward depreciation, which would cause free cash flow to jump sharply and resolve the disagreement between our two valuation methods."
+  ],
+  "sources": [
+    {
+      "claim": "Q2 2026 (quarter ended 2026-06-30) consolidated results: revenue $119,796M vs $96,428M in Q2 2025 (+24%); operating income $40,770M vs $31,271M (+30%); operating margin 34% vs 32%; other income (expense) net $97,983M vs $2,662M; net income $112,193M vs $28,196M; diluted EPS $9.11 vs $2.31; effective tax rate 19.2%; capital expenditures $44.9B; repurchases of stock $0 vs $13,238M; employees 198,933. Revenue by line Q2 2026 vs Q2 2025: Google Search & other $63,271M vs $54,190M; YouTube ads $11,055M vs $9,796M; Google Network $7,303M vs $7,354M; Google subscriptions, platforms and devices $12,911M vs $11,203M; Google Cloud $24,768M vs $13,624M; Other Bets $382M vs $373M; hedging gains (losses) $106M vs $(112)M. Segment operating income Q2 2026 vs Q2 2025: Google Services $39,544M vs $33,063M; Google Cloud $8,814M vs $2,826M; Other Bets $(1,799)M vs $(1,246)M; Alphabet-level activities $(5,789)M vs $(3,372)M. Dividend of $0.22 per share declared July 2026.",
+      "value": "Q2 2026 revenue 119796; operating income 40770; other income 97983; net income 112193; diluted EPS 9.11; Cloud revenue 24768 (+82%); Cloud operating income 8814; Search & other 63271; buybacks 0 (USD millions)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet Form 8-K Exhibit 99.1, Q2 2026 earnings press release, filed 2026-07-22)",
+      "as_of": "2026-Q2 (quarter ended 2026-06-30)",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Alphabet Form 10-Q for the quarter ended 2026-06-30, filed 2026-07-23: six-month 2026 revenue $229,692M, cost of revenue $87,214M, operating income $80,466M, other income (expense) net $135,699M, income before tax $216,165M, income tax $41,394M, net income $174,771M, diluted EPS $14.24, weighted-average diluted shares 12,274M (Q2 alone 12,309M). Six-month cash flow: operating cash flow $84,859M, purchases of property and equipment $80,598M, depreciation $13,586M, share-based compensation $14,708M, repurchases of common stock $0, dividends paid $5,231M, proceeds from issuance of common stock $30,499M, and 'Loss (gain) on debt and equity securities, net' of $(135,803)M. Balance sheet at 2026-06-30: cash and equivalents $55,911M, marketable securities $186,563M, non-marketable and other long-term investments $131,461M, long-term debt $98,165M plus current portion $1,999M, total stockholders' equity $640,480M, total assets $921,983M, 12,230M common shares outstanding and 19,000,000 preferred shares outstanding. Legal proceedings: final judgment in the US Search antitrust case entered December 2025 (distribution restrictions plus data-sharing and search-syndication obligations); Google appealed January 2026 and the DOJ and state Attorneys General cross-appealed February 2026, both pending.",
+      "value": "H1 2026 revenue 229692; H1 operating income 80466; H1 OCF 84859; H1 capex 80598; H1 FCF 4261; gain on securities 135803; cash 55911; marketable securities 186563; non-marketable investments 131461; total debt 100164; equity 640480; diluted shares Q2 12309 (USD millions / millions of shares)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000071/goog-20260630.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet Inc. Form 10-Q, period ended 2026-06-30)",
+      "as_of": "2026-Q2 (quarter ended 2026-06-30)",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Full-year historical figures used for growth rates, margins and the FCF-yield method, taken from Alphabet's XBRL company facts as filed in its Forms 10-K: revenue FY2022 $282,836M, FY2023 $307,394M, FY2024 $350,018M, FY2025 $402,836M. Cost of revenue FY2025 $162,535M. Operating income FY2025 $129,039M. Operating cash flow FY2025 $164,713M, FY2024 $125,299M. Capital expenditure FY2025 $91,447M, FY2024 $52,535M. Depreciation FY2025 $21,136M. Diluted EPS FY2025 $10.81; weighted-average diluted shares FY2025 12,230M. Repurchases of common stock FY2025 $45,709M, FY2024 $62,222M. Dividends paid FY2025 $10,049M. Balance sheet at 2025-12-31: cash $30,708M, marketable securities $96,135M, non-marketable and other long-term investments $68,687M, long-term debt $46,547M plus current $1,996M, equity $415,265M, total assets $595,281M, shares outstanding 12,088M. Implied FY2025 free cash flow $73,266M ($5.99 per diluted share) and FY2024 $72,764M.",
+      "value": "FY2025 revenue 402836; FY2025 operating income 129039; FY2025 OCF 164713; FY2025 capex 91447; FY2025 FCF 73266; FY2025 FCF/share 5.99; FY2022 revenue 282836 (USD millions)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+      "publisher": "U.S. SEC EDGAR XBRL company facts for Alphabet Inc. (CIK 0001652044), sourced from its Forms 10-K",
+      "as_of": "FY2025 (ended 2025-12-31) and earlier fiscal years",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Alphabet FY2025 Form 10-K (filed 2026-02-05, period ended 2025-12-31) - the primary filing behind the full-year figures above.",
+      "value": "10-K accession 0001652044-26-000018",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "publisher": "U.S. SEC EDGAR",
+      "as_of": "FY2025 (ended 2025-12-31)",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Alphabet's $80B capital raise announced 1 June 2026: $15B of depositary shares representing mandatory convertible preferred stock, $15B of Class A and Class C common stock, a $40B at-the-market common stock programme expected to begin in Q3 2026, and a $10B private placement to Berkshire Hathaway ($5B Class A at $351.81 per share and $5B Class C at $348.20 per share). Stated use of proceeds: capital expenditure to scale AI infrastructure and compute, and employee equity tax obligations.",
+      "value": "equity raise 80000 total: 15000 mandatory convertible preferred + 15000 common + 40000 ATM + 10000 Berkshire private placement (USD millions)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000119312526257724/d83560dex991.htm",
+      "publisher": "U.S. SEC EDGAR (Alphabet Form 8-K Exhibit 99.1, filed 2026-06-04)",
+      "as_of": "2026-06-01",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Q2 2026 earnings call management statements: full-year 2026 capital expenditure guidance raised to $195-205B from $180-190B (roughly 60% servers, 40% data centres and networking); capex expected to 'increase significantly in 2027'; Google Cloud backlog grew to $514B with just over 50% expected to be recognised as revenue over the next 24 months; Q2 2026 free cash flow was negative $5.9B with trailing-twelve-month free cash flow of $53.3B; 'we expect the free cash flow will remain under pressure'; long-term debt expanded from roughly $16B to roughly $100B over the past year; 'we're not planning to go back to the equity markets, with the exception of ... the ATM'. Product metrics: Gemini app 950 million monthly active users; AI Mode in Search over 1 billion monthly active users; 9+ million developers building with Gemini models.",
+      "value": "FY2026 capex guidance 195000-205000; Cloud backlog 514000; Q2 2026 FCF -5900; TTM FCF 53300 (USD millions); Gemini app MAU 950,000,000",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-beats-q2-2026-estimates-shares-fall-on-capex-surge-93CH-4807140",
+      "publisher": "Investing.com (transcript of Alphabet's Q2 2026 earnings call, 2026-07-22) - a secondary source; the capex range is cross-checked against CNBC's 2026-07-22 earnings coverage",
+      "as_of": "2026-07-22 (Q2 2026 earnings call)",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Alphabet disclosed in its 10-Q filed 2026-07-23 that its investments in private companies totalled roughly $124.3B as of 2026-06-30, driven primarily by its stake in Anthropic, having booked nearly $77B of unrealised gains on it in Q2 2026. Alphabet's Q2 2026 'other income' of $99B was largely unrealised and realised gains on Anthropic and SpaceX.",
+      "value": "Anthropic-driven private investment carrying value ~124300; Q2 2026 unrealised gain on that stake ~77000 (USD millions)",
+      "url": "https://fortune.com/2026/07/22/anthropic-spacex-investments-google-earnings-biggest-ever-profit-quarter/",
+      "publisher": "Fortune (reporting on Alphabet's Q2 2026 results and 10-Q disclosure); Bloomberg reported the same ~$124B figure on 2026-07-23. Secondary sources - the underlying $131,461M non-marketable investments balance and the $135,803M six-month securities gain are confirmed in the 10-Q itself.",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Alphabet's 10-year median price-to-earnings ratio is approximately 27.51x, with reported 10-year averages ranging from about 26.0x to 28.6x. Used only to sanity-check the 21x / 26x / 31x multiples applied to normalized core EPS. Note the site's own current TTM P/E of 16.59x (as of 2026-09-09) is distorted by Alphabet's unrealised investment gains and should not be used.",
+      "value": "10-year median P/E 27.51x",
+      "url": "https://www.gurufocus.com/term/pettm/GOOGL",
+      "publisher": "GuruFocus (data aggregator - NOT a filing; treated as context only)",
+      "as_of": "2026-09-09",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "European Commission fined Google 890 million euros in July 2026 for Digital Markets Act breaches - 460 million euros for self-preferencing its own services in search results and 430 million euros for restricting app developers from steering users to cheaper purchases outside Google Play. Google has roughly until 21 September 2026 to end both practices, after which the Commission can impose periodic penalty payments of up to 5% of Alphabet's average daily worldwide turnover. This follows a 2.95 billion euro adtech abuse-of-dominance fine in September 2025.",
+      "value": "DMA fine 890,000,000 EUR (460M search self-preferencing + 430M Play steering); prior adtech fine 2,950,000,000 EUR",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1670",
+      "publisher": "European Commission press release",
+      "as_of": "2026-07",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "In the US ad tech antitrust case, Judge Leonie Brinkema rejected the DOJ's proposed divestiture of AdX, the open-sourcing of DFP's final auction logic, and the contingent divestiture of DFP Remainder, and ordered the parties to submit a jointly proposed final judgment within 30 days. Google therefore avoided a structural break-up of its ad tech business at the remedies stage.",
+      "value": "no AdX divestiture ordered; final judgment to be jointly drafted within 30 days",
+      "url": "https://www.courthousenews.com/google-dodges-antitrust-breakup-of-ad-tech-business/",
+      "publisher": "Courthouse News Service (secondary source reporting the September 2026 remedies ruling)",
+      "as_of": "2026-09",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Price and trend from our own Alpaca feed. Quote at 14:47 UTC on 2026-09-18: bid $350.65 / ask $352.29. Price used for this thesis: $350.16 (supplied by the portfolio manager). Last daily close $351.86; 50-day average close $345.61; 200-day average close $337.50; 250-day close range $236.57 to $402.63. The price is above both its 50-day and 200-day averages, i.e. in an uptrend.",
+      "value": "price used 350.16; last close 351.86; 50d MA 345.61; 200d MA 337.50; 250d low 236.57; 250d high 402.63",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca (our own market-data feed)",
+      "as_of": "2026-09-18",
+      "retrieved": "2026-09-18"
+    },
+    {
+      "claim": "Fair-value arithmetic was computed by our own code, not by hand. Inputs: P/E method eps $9.71, multiples [21, 26, 31]; FCF-yield method fcf_per_share $5.99, yields [0.040, 0.034, 0.028]; price $350.16. Output: per-method P/E band $203.91 / $252.46 / $301.01; FCF-yield band $149.75 / $176.18 / $213.93; blended fair value $176.83 / $214.32 / $257.47; margin of safety -0.6338.",
+      "value": "fair value low 176.83, base 214.32, high 257.47; margin of safety -63.38%",
+      "url": "https://github.com/rellanchayan/agentic-investor/blob/main/code/valuation.py",
+      "publisher": "This repository's code/valuation.py (arithmetic only; inputs are the cited figures above)",
+      "as_of": "2026-09-18",
+      "retrieved": "2026-09-18"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ],
+  "stale": false,
+  "verdict": "expensive (well above the high end of fair value) - WATCH, DO NOT BUY at $350.16; our base fair value is $214.32 and even the most generous variant of our method is ~40% below today's price"
+}

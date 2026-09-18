@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-18",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 758.99,
+  "spy_sma200": 716.24,
+  "spy_pct_above_200d": 6.0,
+  "vix": 15.21,
+  "ten_year_yield_pct": 4.95,
+  "events": [
+    "US Industrial Production & Capacity Utilization (G.17) at 9:15am ET today",
+    "Fed Vice Chair Bowman speech in London at 9:30am ET today (stress-testing topic)",
+    "Quarterly options expiration / triple witching Friday — elevated end-of-day volume likely",
+    "No FOMC scheduled; next meeting likely November 2026"
+  ],
+  "rates": "hiking cycle just resumed — Fed raised 25bp to 3.75-4.00% on Sep 16 (first hike since 2023); 16 of 18 officials project at least one more hike in 2026; 10-year yield ~4.95%",
+  "inflation": "CPI Aug 2026 +3.4% headline / +2.4% core (released Sep 11); well above Fed 2% PCE target",
+  "valuation": "trailing P/E ~25.7, forward P/E ~19.5, CAPE ~39.7 (91% above long-run average of 20.8)",
+  "futures_am": "S&P 500 futures +1.94% pre-open; Nasdaq QQQ +2.26%; tech/semis leading",
+  "note": "Cautious maintained: Fed just resumed rate-hiking cycle 2 days ago to 3.75-4.00%, more hikes projected; 10-year yield near 5%; CPI still 3.4%; CAPE 91% above historical average. Low VIX (15.2) reflects calm not cheap. All thesis candidates 23-43% above entry prices. Triple witching adds noise today.",
+  "sources": [
+    "https://strongbuyanalytics.com/stock-market-outlook",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://en.macromicro.me/series/20052/sp500-forward-pe-ratio",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://fred.stlouisfed.org/series/dgs10",
+    "https://www.cboe.com/tradable-products/vix/"
+  ]
+}
