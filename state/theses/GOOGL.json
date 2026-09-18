@@ -60,7 +60,7 @@
     "Company-wide gross margin falls below 52% for two consecutive quarters (TTM: 60.9%).",
     "Consolidated operating margin falls below 25% for two consecutive quarters (Q2 2026: 34%) - the signal that AI capex depreciation is overwhelming the profit and loss account.",
     "Free cash flow is negative for a full fiscal year, or TTM free cash flow falls below $25B (TTM to 2026-06-30: $53.3B). FCF is already the weakest link in this thesis.",
-    "Capital expenditure exceeds 50% of revenue in any fiscal year (FY2026 guidance of $195-205B on consensus revenue of roughly $480B is already about 42%), or 2027 capex guidance is raised above $280B without a matching acceleration in Cloud revenue.",
+    "Capital expenditure exceeds 50% of revenue in any fiscal year. For scale: FY2026 capex guidance of $195-205B against an annualised H1 2026 revenue run-rate of roughly $459B (2 x $229.692B) is already about 43%. Also breaks if 2027 capex guidance is raised above $280B without a matching acceleration in Cloud revenue.",
     "Net debt (total debt less cash and marketable securities) turns POSITIVE and net-debt-to-EBITDA rises above 1.0x (currently net cash, -0.82x).",
     "Diluted shares outstanding rise more than 5% from the 12,309M reported for Q2 2026 without the buyback resuming - that would mean the AI build is being funded by permanently diluting us.",
     "Estimated ROIC falls below 15% on a sustained basis (currently ~37.7%).",
@@ -85,7 +85,7 @@
   ],
   "catalysts": [
     "Q3 2026 results, expected late October 2026 (date not yet confirmed by Alphabet). This is the key test: does Search revenue keep growing mid-teens, does Cloud hold 70%+ growth, and how negative does free cash flow get? We should refresh this thesis immediately after that print rather than waiting for the 2026-12-17 refresh date.",
-    "An Anthropic IPO, widely reported as being prepared as of September 2026. It would turn a ~$124.3B unrealised mark into an observable market price - in either direction - and materially change reported earnings.",
+    "A possible Anthropic IPO. Multiple financial-media outlets reported in mid-September 2026 that one is being prepared; this is NOT confirmed by Anthropic or Alphabet and we treat it as rumour. If it happened it would turn a ~$124.3B unrealised mark into an observable market price - in either direction - and materially change reported earnings.",
     "Completion of the $40B at-the-market equity programme in Q3 2026, which will tell us the final dilution number, and any signal on whether the buyback restarts.",
     "The EU DMA compliance deadline of roughly 21 September 2026 for search self-preferencing and Play Store steering - non-compliance risks daily penalties of up to 5% of worldwide daily turnover.",
     "The D.C. Circuit ruling on the Search-case appeal and cross-appeal, and entry of the final judgment in the ad tech case following the September 2026 remedies ruling.",
@@ -134,7 +134,7 @@
       "retrieved": "2026-09-18"
     },
     {
-      "claim": "Q2 2026 earnings call management statements: full-year 2026 capital expenditure guidance raised to $195-205B from $180-190B (roughly 60% servers, 40% data centres and networking); capex expected to 'increase significantly in 2027'; Google Cloud backlog grew to $514B with just over 50% expected to be recognised as revenue over the next 24 months; Q2 2026 free cash flow was negative $5.9B with trailing-twelve-month free cash flow of $53.3B; 'we expect the free cash flow will remain under pressure'; long-term debt expanded from roughly $16B to roughly $100B over the past year; 'we're not planning to go back to the equity markets, with the exception of ... the ATM'. Product metrics: Gemini app 950 million monthly active users; AI Mode in Search over 1 billion monthly active users; 9+ million developers building with Gemini models.",
+      "claim": "Q2 2026 earnings call management statements: full-year 2026 capital expenditure guidance raised to $195-205B from $180-190B (roughly 60% servers, 40% data centres and networking); capex expected to 'increase significantly in 2027'; Google Cloud backlog grew to $514B with just over 50% expected to be recognised as revenue over the next 24 months; Q2 2026 free cash flow was negative $5.9B with trailing-twelve-month free cash flow of $53.3B; 'we expect the free cash flow will remain under pressure'; 'we're not planning to go back to the equity markets, with the exception of ... the ATM'. Product metrics: Gemini app 950 million monthly active users; AI Mode in Search over 1 billion monthly active users; 9+ million developers building with Gemini models.",
       "value": "FY2026 capex guidance 195000-205000; Cloud backlog 514000; Q2 2026 FCF -5900; TTM FCF 53300 (USD millions); Gemini app MAU 950,000,000",
       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-beats-q2-2026-estimates-shares-fall-on-capex-surge-93CH-4807140",
       "publisher": "Investing.com (transcript of Alphabet's Q2 2026 earnings call, 2026-07-22) - a secondary source; the capex range is cross-checked against CNBC's 2026-07-22 earnings coverage",
@@ -194,5 +194,11 @@
     "filing-backed"
   ],
   "stale": false,
-  "verdict": "expensive (well above the high end of fair value) - WATCH, DO NOT BUY at $350.16; our base fair value is $214.32 and even the most generous variant of our method is ~40% below today's price"
+  "verdict": "expensive (well above the high end of fair value) - WATCH, DO NOT BUY at $350.16; our base fair value is $214.32 and even the most generous variant of our method is ~40% below today's price",
+  "fair_value": {
+    "fair_value_low": 176.83,
+    "fair_value_base": 214.32,
+    "fair_value_high": 257.47,
+    "method": "pe (21/26/31x on normalized core EPS $9.71) + fcf_yield (4.0/3.4/2.8% on FY2025 FCF/share $5.99), simple average via code/valuation.py"
+  }
 }
