@@ -12,11 +12,13 @@ NVDA
 AVGO
 ADBE
 CRM
+INTU  # Intuit — TurboTax/QuickBooks switching-cost moat, $7.7B FCF (+26%), fwd PE ~14x below hist. avg
 
 # --- Payments & financials ---
 V
 MA
 JPM
+SPGI  # S&P Global — ratings/data duopoly, wide moat, asset-light, ~20% below historical PE
 
 # --- Consumer staples ---
 COST
@@ -35,6 +37,7 @@ UNH
 JNJ
 LLY
 ABBV
+ISRG  # Intuitive Surgical — robotic surgery ~85% share, razor-blade consumables, net cash, FCF +71% H1
 
 # --- Industrials ---
 CAT
