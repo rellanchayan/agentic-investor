@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-21",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 768.77,
+  "spy_sma200": 716.69,
+  "vix": 14.81,
+  "cape": 40.58,
+  "fed_funds_rate": "3.75-4.00%",
+  "ten_year_yield": 5.01,
+  "futures_direction": "up ~0.41-0.70%",
+  "events": [
+    "No major US macro releases this week (Sep 21-25)",
+    "Next major releases: Sep 29-30",
+    "Next FOMC meeting: Oct 27-28"
+  ],
+  "rates": "rising -- Fed raised 25 bp to 3.75-4.00% on Sep 16; 10-year Treasury at 5.01%",
+  "note": "Bull trend intact (SPY 7.3% above 200-day MA) and VIX calm at 14.81, but the CAPE ratio at 40.58 is the second-highest reading in 145 years of data, at the 98.8th percentile. The Fed hiked rates last week to 3.75-4.00%; the 10-year Treasury at 5.01% now competes directly with equities. No thesis candidate meets the 18% margin-of-safety bar (cautious threshold). Quiet week with no scheduled events provides no catalyst to change posture. Cautious maintained.",
+  "sources": [
+    "https://tradingstrategyguides.com/monday-futures-preview-september-21-2026-bulls-take-control-into-monday-open/",
+    "https://strongbuyanalytics.com/stock-market-outlook",
+    "https://fedratecalc.com/fed-rate-decision/",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://www.thetrading.tools/shiller-cape",
+    "https://fedratecalc.com/us-economic-calendar/september-2026/",
+    "https://fred.stlouisfed.org/series/dgs10",
+    "https://finance.yahoo.com/quote/%5EVIX/"
+  ]
+}
