@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-23",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 769.21,
+  "spy_sma200": 717.58,
+  "spy_pct_above_200d": 7.2,
+  "events": [
+    "S&P Global Flash PMI (Manufacturing + Services) today 9:45 AM ET",
+    "Fed speakers today 10:05 AM and 10:20 AM ET",
+    "Initial Jobless Claims Thu Sep 24 8:30 AM ET",
+    "New Home Sales Thu Sep 24 10:00 AM ET",
+    "Durable Goods Orders Fri Sep 25 8:30 AM ET",
+    "Next FOMC meeting Oct 27-28 (decision Oct 28)"
+  ],
+  "rates": "rising — Fed raised 25bp to 3.75%-4.00% on Sep 16; 10-year Treasury ~4.96%",
+  "valuation": "extremely elevated — CAPE ratio ~40.6x (98.8th percentile, second-highest ever; only dot-com peak of 1999-2000 was higher)",
+  "futures_today": "slight gains: S&P 500 +0.11%, Nasdaq +0.06%, Dow +0.16%",
+  "note": "The market is in a technical uptrend (SPY +7.2% above 200-day SMA) but valuations are near dot-com-bubble extremes (CAPE ~40.6x). The Fed just raised rates for the first time in 3+ years on Sep 16, adding borrowing-cost headwind. The 10-year Treasury at ~4.96% provides real competition for equities. No imminent market-moving data this week (no CPI, no FOMC), but the combination of extreme valuation and a tightening Fed warrants a cautious posture. All thesis candidates remain 25-46% above our entry thresholds.",
+  "sources": [
+    "https://www.benzinga.com/markets/prediction-markets/26/09/61938049/stock-market-will-sp-500-open-up-or-down-today-43",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-060348380.html",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-september-2026",
+    "https://www.eoption.com/weekly-event-calendar-09-21-2026-09-25-2026/",
+    "https://therighttrader.com/economic-calendar/this-week",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://www.thestreet.com/investing/sp-500-shiller-cape-ratio-dot-com-warning-2026",
+    "https://tradingeconomics.com/united-states/interest-rate",
+    "https://www.forbes.com/advisor/investing/treasury-rates/"
+  ]
+}
