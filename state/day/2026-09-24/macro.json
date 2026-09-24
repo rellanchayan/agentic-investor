@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-24",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 765.07,
+  "spy_sma200": 717.97,
+  "spy_pct_above_200d": 6.6,
+  "cape_ratio": 40.6,
+  "vix": 15.84,
+  "treasury_10yr_pct": 5.12,
+  "fed_funds_rate": "3.75-4.00%",
+  "futures_this_morning": "S&P 500 -0.6%, Nasdaq 100 -1.1%",
+  "events": [
+    "Initial Claims 8:30am ET Wed Sep 24",
+    "S&P Global US Manufacturing PMI shortly after open Wed Sep 24",
+    "August New Home Sales Wed Sep 24",
+    "Darden Restaurants (DRI) and Costco (COST) earnings Wed Sep 24",
+    "Advance Durable Goods 8:30am ET Thu Sep 25",
+    "Michigan Consumer Sentiment Final 10:00am ET Thu Sep 25",
+    "Multiple Fed speakers throughout this week",
+    "Next FOMC meeting Oct 27-28 (rate decision Oct 28 at 2pm ET)"
+  ],
+  "rates": "rising",
+  "note": "Market is expensive (CAPE ~40.6, near dot-com bubble highs; 98th percentile since 1881). The Fed raised rates 25bp to 3.75-4.00% on Sep 16 and 16 of 18 FOMC members expect at least one more hike before year-end. The 10-year Treasury yield is at 5.12%, the highest since 2007, competing meaningfully with stocks. SPY is 6.6% above its 200-day average (an uptrend) but all three thesis candidates (AAPL, MSFT, V) remain 24-44% above their fair-value targets. Futures are slightly negative this morning (-0.6% S&P). No change to cautious posture from Sep 18; environment has marginally worsened as the 10-year rose from ~4.95% to 5.12%.",
+  "sources": [
+    "https://www.bloomberg.com/news/articles/2026-09-23/stock-market-today-dow-s-p-live-updates",
+    "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081532735.html",
+    "https://fedratecalc.com/fed-rate-decision/",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://www.macroradar.io/shiller-pe-ratio",
+    "https://www.vantagemarkets.com/market-news/us-10-year-treasury-yield-2007-high-september-24-2026/",
+    "https://fedratecalc.com/economic-calendar-this-week/",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+  ]
+}
