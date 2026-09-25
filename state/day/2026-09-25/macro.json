@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-25",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "events": [
+    "Durable Goods Orders today (Fri Sep 25) 8:30am ET",
+    "Jobs report (NFP) Fri Oct 2 8:30am ET",
+    "CPI release Wed Oct 14 8:30am ET (consensus 3.7%)",
+    "FOMC meeting Oct 27-28 (rate decision 2pm ET Oct 28)"
+  ],
+  "rates": "rising",
+  "note": "S&P 500 futures +0.24% premarket (7,786). SPY at 768.00 is 6.9% above its 200-day average of 718.41, indicating a continued uptrend. However, the Shiller CAPE ratio is ~41, the second-highest reading in 145 years of data. The Fed raised rates 25bp to 3.75-4.00% on Sep 16 and 16 of 18 policymakers expect at least one further hike. The 10-year Treasury yields ~5.16%, up ~5bp from yesterday and ~95bp higher than a year ago. CPI held at 3.4% in August, well above the 2% target, with the next print due Oct 14. No market-shaking event is scheduled today, but a busy October macro calendar (NFP Oct 2, CPI Oct 14, FOMC Oct 27-28) warrants extra caution. Posture remains cautious: demand at least 18% margin of safety (12% normal + 6% cautious premium) on any new buy.",
+  "sources": [
+    "https://investrade.com/morning-preview-september-25-2026/",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://cambridgecurrencies.com/next-federal-reserve-interest-rate-decision/",
+    "https://fedratecalc.com/us-economic-calendar/september-2026/",
+    "https://nowflation.com/cpi-release-dates",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://www.thestreet.com/investing/sp-500-shiller-cape-ratio-dot-com-warning-2026",
+    "https://tradingeconomics.com/united-states/government-bond-yield"
+  ]
+}
