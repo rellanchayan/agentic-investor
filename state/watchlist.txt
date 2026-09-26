@@ -12,11 +12,13 @@ NVDA
 AVGO
 ADBE
 CRM
+NOW  # enterprise workflow automation; near-100% renewal rates reflect deep switching-cost moat
 
 # --- Payments & financials ---
 V
 MA
 JPM
+PGR  # P&C auto insurance; data/telematics moat with best-in-class underwriting discipline
 
 # --- Consumer staples ---
 COST
@@ -35,11 +37,13 @@ UNH
 JNJ
 LLY
 ABBV
+SYK  # medical devices / orthopedics; wide moat from Mako robotics and surgeon switching costs
 
 # --- Industrials ---
 CAT
 HON
 UNP
+CSX  # eastern US Class I railroad; near-monopoly corridor economics east of the Mississippi
 
 # --- Energy ---
 XOM

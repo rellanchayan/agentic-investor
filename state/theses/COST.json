@@ -1,0 +1,166 @@
+{
+  "ticker": "COST",
+  "thesis_id": "COST-2026Q3",
+  "company": "Costco Wholesale Corporation",
+  "sector": "Consumer Staples / Warehouse-Club Retail",
+  "as_of": "2026-Q3",
+  "retrieved": "2026-09-26",
+  "refresh_due": "2026-12-25",
+  "stale": false,
+  "price_used": 922.76,
+  "margin_of_safety": -0.3357,
+  "business_summary": "Costco runs 939 membership-only warehouse clubs (647 in the US and Puerto Rico, 115 in Canada, 177 elsewhere) plus e-commerce sites in nine countries. It sells a narrow range of bulk groceries, household goods, gasoline, electronics, pharmacy and its own Kirkland Signature brand at a deliberately tiny markup: merchandise gross margin was only 11.09% of net sales in FY2026 (fiscal year ended 2026-08-30). The profit engine is the annual membership fee: 84.1M paid memberships (150.4M cardholders) paid $5.907B of membership fees in FY2026 - equal to ~51% of Costco's $11.685B operating income - and that fee revenue has almost no direct cost attached. Low prices drive loyalty (92.3% US/Canada renewal rate), loyalty drives volume, volume drives buying power and even lower prices. FY2026: total revenue $303.154B (+10.1% net sales), net income $9.226B, diluted EPS $20.76 (incl. a one-off $0.15 tariff-refund benefit). The business is asset-heavy: it owns most of its warehouses and spent $6.435B on capex in FY2026, guiding to ~$7.5B in FY2027 as it opens ~30 net new warehouses a year.",
+  "moat": {
+    "type": "Membership-fee flywheel + scale purchasing power + lowest-cost operating model (few SKUs, huge volume per SKU, cheap self-service boxes) + Kirkland Signature private-label brand + member trust/habit (92.3% US/Canada renewal). Competitors cannot match prices without also giving up their margin structure.",
+    "rating": "wide"
+  },
+  "quality": {
+    "revenue_growth_3y": "~7.8% CAGR in total revenue from FY2023 ($242.290B, a 53-week year) to FY2026 ($303.154B); FY2025 $275.235B (+8.2%), FY2026 +10.1% on net sales ($297.247B vs $269.912B). FY2026 adjusted total-company comparable sales (ex gas and FX) +6.6%; management now calls 6-7% comps a 'more normal' pace.",
+    "gross_margin": "11.09% of net sales in FY2026 ((net sales $297.247B - merchandise costs $264.279B) / $297.247B); Q4 FY2026 11.02% (-11 bps reported, +20 bps ex-gas). Low by design - Costco caps markups; membership fees ($5.907B, ~100% margin) sit on top. Operating margin 3.85% of total revenue ($11.685B / $303.154B).",
+    "roic": "~21% in FY2026: NOPAT ~$8.80B (operating income $11.685B x (1 - 24.7% effective tax rate, $3.025B tax / $12.251B pre-tax)) over invested capital ~$41.97B (equity $35.803B + total debt $6.162B), even with $21.3B of cash sitting in that capital base. Return on average equity ~28% ($9.226B / avg of $35.803B and $29.164B). Excluding excess cash the return on operating capital is materially higher.",
+    "net_debt_to_ebitda": "Negative (net cash) - about -1.05x. Cash + short-term investments $21.301B vs long-term debt incl. current portion $6.162B at 2026-08-30 = ~$15.1B net cash; FY2026 EBITDA ~$14.36B (operating income $11.685B + D&A $2.674B). Excludes operating/finance lease liabilities (long-term operating lease liabilities $2.414B).",
+    "fcf_positive": "yes; FY2026 FCF ~$9.39B (operating cash flow $15.825B - capex $6.435B) = ~$21.13 per diluted share (444.427M shares). Caveat: $2.328B came from favourable working-capital swings (Costco sells inventory before paying suppliers), and FY2027 capex is guided up to ~$7.5B."
+  },
+  "valuation": {
+    "price": 922.76,
+    "price_source": "alpaca",
+    "price_asof": "2026-09-25 close (latest bar before 2026-09-26)",
+    "fair_value_low": 587.18,
+    "fair_value_base": 690.83,
+    "fair_value_high": 803.5,
+    "margin_of_safety": -0.3357,
+    "verdict": "expensive - price is ~34% above our base fair value and ~15% above even the high end of the band",
+    "method": "Equal-weighted blend of two methods via code/valuation.py. (1) P/E: FY2026 diluted EPS $20.76 LESS the one-off $0.15 IEEPA tariff-refund benefit = clean EPS $20.61, x 30 / 35 / 40 = $618.30 / $721.35 / $824.40. Why these multiples: Costco's clean EPS compounded ~13.6%/yr FY2023-FY2026 ($14.16 -> $20.76) and is unusually steady, which earns a premium to MSFT (30x base) and V (28x base) in our other theses - but NOT the post-2020 median of ~45x (computed from Alpaca closes and SEC EPS; 25th percentile ~39.5x, low ~32x). That median was set during a decade of falling rates; with the Fed at 3.75-4.00% and growth guided to normalise to 6-7% comps, we will not underwrite a PEG near 3.5. 40x high = roughly the post-2020 25th percentile; 30x low = below the post-2020 minimum, i.e. a real de-rating. (2) FCF yield: FY2026 FCF per diluted share $21.13 at required yields of 3.8% / 3.2% / 2.7% (same yields as our MSFT thesis; lower than AAPL's because ~60% of Costco's capex is growth capex - capex $6.435B vs D&A $2.674B - so reported FCF understates owner earnings) = $556.05 / $660.31 / $782.59. Blended band $587.18 / $690.83 / $803.50. At $922.76 the stock trades at 44.4x FY2026 GAAP EPS (44.8x clean) and a 2.29% FCF yield.",
+    "trend": "Price $922.76 (2026-09-25 close) is below its 50-day average ($934.44) and its 200-day average ($960.38). 52-week closing range $849.75 (2025-12-22) - $1,095.06 (2026-05-19); now ~15.7% below the May high. Stock rose from $896.51 to $922.76 (+2.9%) the day after Q4 results. 6-month return -6.2% vs SPY +21.7% (caller's screen.json). Downtrend is valuation-driven de-rating, not business deterioration."
+  },
+  "conviction": 3,
+  "bull_case": [
+    "Wide, proven moat: 92.3% US/Canada and 89.8% worldwide renewal rates at FY2026 year-end, with paid memberships +3.8% to 84.1M and Executive (higher-fee) members at 42.3M generating 75.6% of sales. Members keep paying because the warehouse saves them more than the fee.",
+    "Membership fees ($5.907B in FY2026, +11.0%) are essentially pure profit and equal ~51% of operating income, giving Costco an annuity-like earnings base that makes profits unusually stable through cycles.",
+    "Steady compounding: clean EPS grew from $14.16 (FY2023) to $20.76 (FY2026), ~13.6%/yr; Q4 FY2026 net income ex tariff benefit still grew 12.3%. Traffic is growing (+3.3% Q4 comp traffic), not just ticket.",
+    "Long runway: 939 warehouses growing ~25-30 net per year (967 planned by end of FY2027), with international (Japan, Korea, Taiwan, Australia, Europe, China) still early; digitally-enabled comps +20.9% in FY2026 with same-day delivery via DoorDash, Instacart and Uber Eats.",
+    "Fortress balance sheet: ~$15.1B net cash; history of special dividends when cash builds (quarterly dividend raised to $1.47). Capital allocation is conservative and shareholder-friendly.",
+    "The stock has de-rated from ~$1,095 (May 2026) to ~$923 while the business kept beating - every further de-rating toward ~35x moves a wonderful business toward a buyable price."
+  ],
+  "risks": [
+    "VALUATION IS THE THESIS-KILLER. At $922.76 the stock is 44.4x FY2026 EPS and a 2.29% FCF yield, versus a Fed funds rate of 3.75-4.00%. Our base fair value is $690.83; the price is ~34% above it and ~15% above our HIGH case. Even a flawless business can deliver poor returns for years if bought at a peak multiple - that de-rating is exactly what has happened since May (-15.7%).",
+    "Growth is normalising: management signaled 6-7% comps are 'a more normal level'; Q4's 9.4% reported comp was flattered by gasoline prices (adjusted 6.7%). Monthly sales deceleration already knocked the stock in July (June comps +8.8% vs May +12.5%).",
+    "The membership-fee tailwind is fading: the September 2024 US/Canada fee increase accounted for ~35% of membership-income growth in the first 36 weeks of FY2026; membership-fee growth slowed from +11% in Q3 to +7.3% in Q4 as the increase laps. The timing of the next fee increase is unknown; until then membership-income growth depends on member count and Executive upgrades.",
+    "Renewal-rate drift: worldwide renewal slipped as more members sign up online/through digital promotions, which renew at a lower rate (company disclosure). A slow grind down in renewals would hit the highest-margin revenue.",
+    "Thin operating margin (3.85%) leaves little room for error: wage and health-care inflation, tariffs ('higher tariffs are more likely to adversely impact rather than improve our results'), or a price war with Walmart/Sam's Club, Amazon or BJ's would hit earnings disproportionately.",
+    "Earnings quality items: Q4 FY2026 EPS included a non-recurring $0.15 tariff-refund benefit; four class actions (filed March 2026) seek to make Costco pass IEEPA tariff refunds to members; FY2026 FCF included $2.328B of working-capital inflow; FY2027 capex rising to ~$7.5B.",
+    "Data caveat: FY2026 figures come from the unaudited 8-K earnings release ('subject to reclassification'); the audited FY2026 10-K is expected in October 2026 and must be re-checked."
+  ],
+  "what_would_break_thesis": [
+    "US/Canada membership renewal rate falls below 90.0% for two consecutive quarterly reports (it is 92.3% at FY2026 year-end; 92.2% at Q3).",
+    "Worldwide renewal rate falls below 87.0% (89.8% now).",
+    "Paid memberships decline year-over-year in any quarterly report (84.1M, +3.8% now).",
+    "Membership fee revenue declines year-over-year (ex-FX) in any quarter - the moat's cash register shrinking.",
+    "Adjusted total-company comparable sales (ex gas and FX) below +2% for two consecutive quarters (+6.7% in Q4 FY2026; +6.6% FY2026).",
+    "Full-year operating margin (operating income / total revenue) falls below 3.0% (3.85% in FY2026) - a sign of a price war or cost structure breaking.",
+    "Net cash (~$15.1B) turns into net debt above 1.0x EBITDA, or a large debt-funded acquisition that departs from the warehouse model.",
+    "Operating cash flow fails to cover capex for a full fiscal year (FY2026 OCF $15.825B vs capex $6.435B).",
+    "Any serious accounting red flag, restatement, material weakness in internal controls, or auditor change.",
+    "PRICE DISCIPLINE (entry rule, not a sell rule): do not initiate or add above $691 (base fair value). A first small tranche is only justified below ~$620 (~10% under base, about 30x clean EPS)."
+  ],
+  "catalysts": [
+    "Audited FY2026 Form 10-K (expected October 2026) - confirm the press-release numbers, finance-lease totals, and any new risk disclosures.",
+    "Monthly sales reports (early each month) and Q1 FY2027 results (expected mid-December 2026): watch adjusted comps vs the 6-7% 'normal' guide and membership-fee growth after the fee-increase lap.",
+    "A continued de-rating toward ~30-35x EPS (roughly $620-$720) - the only thing that makes this ownable under our rules; it requires a further ~22-33% decline, which historically has needed a broad market sell-off or a growth scare.",
+    "A special dividend (Costco has paid them when cash builds; $20.2B cash at FY2026 year-end) or the renewal of the $4.0B buyback authorization that expires January 2027.",
+    "Resolution of the IEEPA tariff-refund class actions (motions to dismiss pending)."
+  ],
+  "sources": [
+    {
+      "claim": "FY2026 and Q4 FY2026 income statement, balance sheet and cash flow (unaudited, subject to reclassification): net sales FY2026 $297.247B vs $269.912B (+10.1%); membership fees $5.907B vs $5.323B; total revenue $303.154B; merchandise costs $264.279B; operating income $11.685B; pre-tax $12.251B; tax $3.025B; net income $9.226B; diluted EPS $20.76 vs $18.21; 444.427M diluted shares. Q4 (16 weeks): net sales $93.873B (+11.2%), membership fees $1.850B vs $1.724B, net income $2.998B, EPS $6.75 incl. $0.15 non-recurring IEEPA tariff-refund benefit. Balance sheet 2026-08-30: cash $20.207B, short-term investments $1.094B, current LTD $2.248B, LTD $3.914B, LT operating lease liabilities $2.414B, total equity $35.803B (prior year $29.164B). Cash flow: OCF $15.825B, capex $6.435B, D&A $2.674B, working capital +$2.328B, dividends $2.458B, buybacks $0.848B. Comparable sales FY2026 total 8.4% / adjusted 6.6%; Q4 9.4% / 6.7%; digitally-enabled FY2026 20.9%. 939 warehouses.",
+      "value": "FY2026 revenue $303.154B; EPS $20.76; OCF $15.825B; capex $6.435B; net cash ~$15.1B",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm",
+      "publisher": "Costco Wholesale Corp. / SEC EDGAR (Form 8-K Exhibit 99.1, Q4 & FY2026 earnings release)",
+      "as_of": "2026-08-30",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Q4 FY2026 slides: paid memberships 84.1M (+3.8%), cardholders 150.4M (+3.6%), Executive memberships 42.3M, 75.6% of sales to Executive members, worldwide renewal 89.8%, US/Canada renewal 92.3%, membership income growth +7.3% (+7.7% ex-FX); gross margin 11.02% (-11 bps; +20 bps ex-gas); SG&A 8.94%; net income +14.9%, ex tariff benefit +12.3%; Q4 comp traffic +3.3%, ticket +5.9%; warehouses 914 -> 939 in FY2026, 967 estimated end of FY2027 (US 665, Canada 120, Other Intl 182)",
+      "value": "Renewal 92.3% US/CN, 89.8% WW; 84.1M paid members; 967 warehouses planned FY2027",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426.htm",
+      "publisher": "Costco Wholesale Corp. / SEC EDGAR (Form 8-K Exhibit 99.2, Q4 FY2026 slide presentation)",
+      "as_of": "2026-08-30",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Q3 FY2026 10-Q: membership fee revenue +11% in Q3 ($1.373B) and +13% in 36 weeks; paid members 82.9M, cardholders 148.5M; renewal 92.2% US/Canada and 89.7% worldwide, pressured by online/digital-promotion sign-ups that renew at a lower rate; the Sept 1, 2024 US/Canada fee increase accounted for ~25% (Q3) and ~35% (36 weeks) of membership income growth; 'higher tariffs are more likely to adversely impact rather than improve our results'; four IEEPA tariff-refund class actions filed March 2026; $4.0B buyback authorization expiring January 2027 with $1.359B remaining; quarterly dividend $1.47",
+      "value": "Fee increase drove ~35% of 36-week membership income growth; $1.359B buyback remaining",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510.htm",
+      "publisher": "Costco Wholesale Corp. / SEC EDGAR (Form 10-Q, Q3 FY2026)",
+      "as_of": "2026-05-10",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Total revenue history for the 3-year growth CAGR: FY2023 (53 weeks, ended 2023-09-03) $242.290B; FY2024 $254.453B; FY2025 $275.235B",
+      "value": "FY2023 $242.290B; FY2024 $254.453B; FY2025 $275.235B",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000909832/us-gaap/Revenues.json",
+      "publisher": "SEC EDGAR XBRL company-concept API (Costco, CIK 0000909832, as reported in 10-Ks)",
+      "as_of": "2025-08-31",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Diluted EPS history used for the EPS CAGR and the historical P/E study: FY2023 $14.16, FY2024 $16.56, FY2025 $18.21, plus quarterly EPS back to FY2015",
+      "value": "FY2023 $14.16; FY2024 $16.56; FY2025 $18.21",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000909832/us-gaap/EarningsPerShareDiluted.json",
+      "publisher": "SEC EDGAR XBRL company-concept API (Costco, CIK 0000909832)",
+      "as_of": "2025-08-31",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Current price, moving averages and 52-week range from our own feed",
+      "value": "Close $922.76 (2026-09-25); 50-day MA $934.44; 200-day MA $960.38; 52-week closing range $849.75-$1,095.06; prior close $896.51 (2026-09-24)",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca paper feed (code/alpaca_client.py --bars COST --days 260)",
+      "as_of": "2026-09-25",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Historical trailing P/E computed by us (not a company figure): daily Alpaca closes 2020-07-27 to 2026-09-25 divided by trailing-four-quarter SEC diluted EPS (35-day reporting lag)",
+      "value": "Median ~44.9x; 25th percentile ~39.5x; 75th percentile ~52.2x; min ~32.0x; max ~63.2x; yearly medians 2021 39.1x, 2023 39.0x, 2024 52.8x, 2025 54.6x, 2026 YTD 50.7x",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000909832/us-gaap/EarningsPerShareDiluted.json",
+      "publisher": "Computed from SEC EDGAR XBRL EPS + Alpaca daily bars (this repo)",
+      "as_of": "2026-09-25",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Why the stock fell after Q3 FY2026: shares dropped ~4.6% despite a revenue beat ($70.53B) and in-line EPS ($4.93) because a ~49-50x P/E left little room for upside",
+      "value": "-4.6% on Q3 results; P/E ~49-50x",
+      "url": "https://www.fool.com/investing/2026/05/29/why-costco-stock-was-sliding-today/",
+      "publisher": "The Motley Fool",
+      "as_of": "2026-05-29",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Why the stock fell in July 2026: June net sales +10.6% to $29.24B and comps +8.8%, decelerating from May (+14.5% net sales, +12.5% comps); premium multiple left no room for slowing growth",
+      "value": "June 2026 comps +8.8% vs May +12.5%",
+      "url": "https://www.fool.com/investing/2026/07/09/why-costco-stock-fell-today/",
+      "publisher": "The Motley Fool",
+      "as_of": "2026-07-09",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Q4 FY2026 call commentary: FY2027 capex ~$7.5B (vs $6.4B FY2026); ~33 openings planned in FY2027; management signaled 6-7% comparable sales growth is a more normal level going forward",
+      "value": "FY2027 capex ~$7.5B; 'normal' comps 6-7%",
+      "url": "https://www.investing.com/news/company-news/costco-q4-fy2026-slides-11-sales-growth-digital-surge-continues-93CH-4916354",
+      "publisher": "Investing.com (reporting Costco Q4 FY2026 slides and call)",
+      "as_of": "2026-09-24",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Fair-value band arithmetic (computed, not sourced): clean EPS $20.61 x 30/35/40 = $618.30/$721.35/$824.40; FCF/share $21.13 at 3.8%/3.2%/2.7% = $556.05/$660.31/$782.59; blended $587.18/$690.83/$803.50; margin of safety at $922.76 = -33.57%. Derived ratios: ROIC ~21% (NOPAT $8.80B / $41.97B), net debt/EBITDA ~-1.05x, gross margin 11.09%, operating margin 3.85%, revenue CAGR FY2023-FY2026 7.76%, P/E 44.4x, FCF yield 2.29%",
+      "value": "Fair value low $587.18 / base $690.83 / high $803.50; MoS -33.57%",
+      "url": "https://github.com/rellanchayan/agentic-investor/blob/main/code/valuation.py",
+      "publisher": "code/valuation.py (this repo) using the SEC-sourced inputs above",
+      "as_of": "2026-09-26",
+      "retrieved": "2026-09-26"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "ticker": "MCD",
+  "thesis_id": "MCD-2026Q3",
+  "company": "McDonald's Corporation",
+  "sector": "Consumer Discretionary - Restaurants (franchisor / restaurant real estate)",
+  "as_of": "2026-Q2",
+  "as_of_note": "Latest reported fiscal period is Q2 2026 (quarter ended 2026-06-30, 10-Q filed 2026-08-07). Price and events (Investor Day 2026-09-23) are as of 2026-09-26. thesis_id uses the calendar quarter in which the thesis was written (Q3 2026).",
+  "retrieved": "2026-09-26",
+  "refresh_due": "2026-12-25",
+  "refresh_note": "Set to 2026-12-25 (90 days) as instructed, BUT McDonald's Q3 2026 results are expected in early November 2026 (Q3 2025 was reported 2025-11-05; the exact 2026 date is not confirmed in our sources). Re-check this thesis immediately after the Q3 print: U.S. comparable sales and guest counts are the swing factors, and the July 2026 U.S. comp was reportedly slightly negative.",
+  "business_summary": "McDonald's is mostly a landlord and brand-licensor, not a burger cook. Of 46,028 restaurants at 2026-06-30, 44,016 (95.6%) are run by franchisees and only 2,012 by the company. Franchisees pay McDonald's rent plus a royalty that is a percentage of their sales; McDonald's generally owns or holds long-term leases on the land and building, so it collects rent on real estate it controls. In FY2025 total revenue was $26.885B: franchised revenues $16.548B (rent + royalties + initial fees), company-operated restaurant sales $9.690B, other $0.647B. The franchise stream is the profit engine: franchised margin was $13.930B on $16.548B of franchised revenue (84.2%), and franchised margins were ~90% of all restaurant-margin dollars. Because McDonald's books only fees (not the $139.4B of FY2025 Systemwide sales), the reported operating margin is very high (46.1% in FY2025). The thesis question in 2026 is whether a structurally superb royalty/real-estate model can re-ignite guest counts: U.S. comps slowed to +0.8% in Q2 2026 with negative guest counts, low-income traffic has reportedly fallen nearly double digits over two years, and management just committed ~$8.5B of franchisee 'partnering support' (rent relief + capital) through 2036 to fund the McDonald's > NEXT turnaround.",
+  "moat": {
+    "type": "Global brand + unmatched scale (46,028 restaurants, >70M customers/day, ~220M active loyalty members) + controlled prime real estate leased to franchisees + purchasing/marketing scale that individual competitors cannot match",
+    "rating": "wide",
+    "rationale": "The moat is structural and has survived decades: McDonald's controls the land/buildings under most restaurants, so franchisees are locked into long-term leases (future minimum rent receivable from franchisees under operating leases was $31.45B at 2025-12-31 per the 10-K lease note). The brand, marketing fund and supply chain scale let it sell at price points small chains cannot match, and the franchise structure earns an 84% margin on franchised revenue. Company-reported after-tax ROIC was 20.3% in FY2025. We keep WIDE rather than narrow because the damage in 2025-2026 is to traffic/demand, not to the franchise/real-estate economics; but we flag that ROIC has drifted down from 25.2% (FY2023) to 21.8% (FY2024) to 20.3% (FY2025), low-income guest counts are falling, and the company now has to pay franchisees (rent relief) to fund reinvestment - a sign the system's economics are stretched. If U.S. guest counts keep falling through 2027 despite NEXT, we would downgrade to narrow."
+  },
+  "quality": {
+    "revenue_growth_3y": 0.0506,
+    "gross_margin": 0.571,
+    "roic": 0.203,
+    "net_debt_to_ebitda": 2.59,
+    "fcf_positive": true,
+    "franchised_margin_pct_fy2025": 0.842,
+    "operating_margin_fy2025": 0.461,
+    "roic_fy2024": 0.218,
+    "roic_fy2023": 0.252,
+    "net_debt_plus_leases_to_ebitda": 3.57,
+    "fcf_fy2025_usd_m": 7186,
+    "fcf_fy2024_usd_m": 6672,
+    "fcf_fy2023_usd_m": 7255,
+    "fcf_ttm_q2_2026_usd_m": 7761,
+    "eps_diluted_ttm_q2_2026": 12.31,
+    "eps_diluted_fy2025": 11.95,
+    "dividend_annual_rate_per_share": 7.44,
+    "dividends_pct_of_fcf_fy2025": 0.712,
+    "notes": "revenue_growth_3y = compound annual growth FY2022 $23.183B -> FY2025 $26.885B (5.1%/yr, includes FX; constant-currency growth was lower, e.g. FY2025 +4% reported / +2% constant currency). TTM revenue to 2026-06-30 is $27.702B (FY2025 $26.885B - H1 2025 $12.799B + H1 2026 $13.616B). gross_margin: McDonald's does NOT report a 'gross profit' line. We use the closest analogue, total restaurant margins / total revenues = FY2025 $15.351B / $26.885B = 57.1% (restaurant margins include $1.7B of D&A). H1 2026 was 56.7% ($7.716B / $13.616B). roic = COMPANY-REPORTED after-tax ROIC from the FY2025 10-K (20.3%), not our own calculation; our cross-check (TTM operating income $12.805B x (1 - 21.4% TTM tax rate) = NOPAT ~$10.06B over debt $39.863B + equity -$1.023B - cash $0.822B = ~$38.0B) gives ~26% ex-leases and ~19% if the $14.73B of operating-lease liabilities are added to capital. net_debt_to_ebitda = (long-term debt $39.863B - cash $0.822B at 2026-06-30) / TTM EBITDA $15.071B (TTM operating income $12.805B + TTM D&A $2.266B) = 2.59x. Including operating-lease liabilities ($14.039B long-term + $0.690B current) it is ~3.57x (approximate: a strict lease-adjusted ratio would also add back rent to EBITDA). Shareholders' equity is NEGATIVE (-$1.023B at 2026-06-30) because decades of buybacks were debt-funded; this is a deliberate capital-structure choice, not a sign of losses. FCF = cash from operations - capital expenditures: FY2023 $9.612B - $2.357B; FY2024 $9.447B - $2.775B; FY2025 $10.551B - $3.365B; TTM Q2 2026 $11.347B - $3.586B. FY2025 dividends paid $5.115B = 71.2% of FCF; dividends + buybacks ($2.056B) = 99.8% of FCF."
+  },
+  "valuation": {
+    "price": 236.53,
+    "price_used": 236.53,
+    "price_source": "alpaca",
+    "price_asof": "2026-09-25 close (latest bar; retrieved 2026-09-26, market closed)",
+    "fair_value_low": 201.71,
+    "fair_value_base": 238.35,
+    "fair_value_high": 276.07,
+    "margin_of_safety": 0.0077,
+    "method": "pe + fcf_yield (equal-weighted average of the two bands, computed by code/valuation.py)",
+    "method_detail": "P/E leg: TTM GAAP diluted EPS $12.31 (FY2025 $11.95 - H1 2025 $5.74 + H1 2026 $6.10) x 18 / 21 / 24 = $221.58 / $258.51 / $295.44. 18x = roughly the bottom of MCD's 10-year P/E range (low ~18.8x per GuruFocus): traffic keeps falling, NEXT rent relief compresses franchised revenue, EPS growth stalls. 21x base = ~19% below the ~25.9x 10-year median - we deliberately do NOT assume the old premium returns, because EPS growth has slowed to ~6% (H1 2026), U.S. guest counts are negative, balance-sheet leverage is ~2.6x and cash yields ~4%. 24x high = NEXT works, guest counts recover, and the market re-rates toward (still below) the historical median. FCF-yield leg: TTM FCF per diluted share $10.91 ($7.761B / 711.1M Q2 2026 diluted shares) at required yields 6.0% / 5.0% / 4.25% = $181.83 / $218.20 / $256.71. We demand MORE than the 5.0/4.2/3.5% used for net-cash mega-caps (AAPL, V) because MCD carries ~$39B of net debt and management has just pre-committed ~$5B of partnering support through 2030 that will weigh on FCF. At $236.53 the stock trades at 19.2x TTM EPS and a 4.61% TTM FCF yield; dividend yield on the $7.44 annual rate is 3.15%.",
+    "verdict": "fair - price is essentially AT our base fair value (+0.8% margin of safety). Not a buy under our 12% minimum margin of safety; a 12% MoS entry would be ~$209.75 and the cautious 18% rule would be ~$195.45.",
+    "caveats": "The reported TTM figures do NOT yet include the cost of the McDonald's > NEXT partnering support announced 2026-09-23 (~$8.5B through 2036, ~$5B through 2030, a mix of rent relief and capital support; the company guides ~$3B/yr baseline capex 2027-2030 plus $1.5-2B cumulative capital partnering). Rent relief directly reduces franchised revenue, the highest-margin line. We cannot yet split the $5B between P&L (rent relief) and capex, so we show a sensitivity below rather than guess. Management targets offset this with operating margin in the 'low-to-mid 50% range by 2030' and FCF conversion in the 'mid-to-high 80% range by 2030' - those are targets, not results, and we did not put them into the base case.",
+    "sensitivity_runs": [
+      {
+        "label": "NEXT cost fully hits P&L and FCF: ~$5B through 2030 spread over ~4.25 years = ~$1.18B/yr = $1.65/share pre-tax; EPS reduced by the after-tax $1.30 to $11.01, FCF/share reduced by $1.65 to $9.26; same 18/21/24x and 6.0/5.0/4.25% (an assumption-driven stress case, not a forecast)",
+        "fair_value": {
+          "low": 176.26,
+          "base": 208.2,
+          "high": 241.06
+        },
+        "margin_of_safety_at_236_53": -0.136
+      },
+      {
+        "label": "Historical-premium case: TTM EPS $12.31 x 21/24/26x and FCF/share $10.91 at mega-cap yields 5.0/4.2/3.5% (what the stock would be worth if the old quality premium returned)",
+        "fair_value": {
+          "low": 238.35,
+          "base": 277.6,
+          "high": 315.89
+        },
+        "margin_of_safety_at_236_53": 0.1479
+      }
+    ],
+    "trend": "Price $236.53 (2026-09-25 close) is below its 50-day average ($262.52) and far below its 200-day average ($291.83) on Alpaca daily closes; it closed at a new 52-week low. 52-week close range $236.53-$341.08 (high on 2026-02-27); down 30.7% from that high and -22.6% since the 2025-12-31 close ($305.60). Clear downtrend - the market is pricing a structural traffic problem."
+  },
+  "conviction": 3,
+  "conviction_rationale": "3 of 5: a world-class, filing-verified business model (84% franchised margins, ~$7.2-7.8B/yr FCF, 50 consecutive years of dividend increases) at a price that is merely fair, not cheap, with genuinely unresolved problems - U.S. guest counts negative, low-income traffic reportedly down nearly double digits for two years, a July 2026 U.S. comp reportedly slightly negative, and a new multi-year $8.5B reinvestment bill whose returns are unproven. Leverage (2.6x net debt/EBITDA, negative equity) leaves less room for error than AAPL/V. We would need either (a) evidence that NEXT is lifting U.S. guest counts or (b) a price near/below ~$210 before this becomes a 4.",
+  "bull_case": [
+    "Royalty + real-estate engine: FY2025 franchised revenue $16.548B at an 84.2% margin; franchised margins are ~90% of restaurant-margin dollars. McDonald's collects a percentage of franchisee sales (FY2025 Systemwide sales $139.4B) without bearing most restaurant-level labor and food costs.",
+    "Contractual rent annuity: $31.45B of future minimum rent receivable from franchisees under operating leases at 2025-12-31 - long-dated cash flows that do not depend on this quarter's traffic.",
+    "Fundamentals are slowing, not collapsing: H1 2026 revenue +6% (+3% constant currency), operating income +7%, diluted EPS $6.10 (+6%); every segment had positive comparable sales in Q2 2026. The 30% price fall is far bigger than any earnings decline so far.",
+    "Cash machine: FCF $7.2B in FY2025 and $7.76B TTM; 50 consecutive years of dividend payments with an increase every year; current rate $1.86/quarter ($7.44/yr, ~3.15% yield at $236.53).",
+    "Scale advantages in the value war: >70M customers served daily, nearly 220M 90-day active loyalty users (+13%), loyalty-member Systemwide sales $40B TTM (+20%). No rival can spread marketing, tech (GenAI ArchIQ) and purchasing costs over 46,000 units.",
+    "Unit growth continues: ~2,600 gross openings planned for 2026 and net unit expansion contributing ~2.5% to 2026 Systemwide sales growth (and 'nearly 2.5%' in 2027).",
+    "Valuation has de-rated: 19.2x TTM EPS vs a ~25.9x 10-year median (aggregator figure) - if NEXT restores guest-count growth, the premium case values the shares at ~$278 base."
+  ],
+  "risks": [
+    "TRAFFIC IS THE CORE RISK. U.S. comps slowed to +0.8% in Q2 2026 (from +2.5% in Q2 2025), driven by price/mix with NEGATIVE guest counts; press reports say U.S. comps turned slightly negative in July 2026 and the CEO said low-income traffic has fallen nearly double digits over ~two years and 'we're not expecting things to change.' Global comps slowed from +3.8% (Q2 2025) to +1.3% (Q2 2026).",
+    "Execution: management conceded on the Q2 call that it 'didn't execute at the level we needed'; the U.S. everyday-affordable-price menu was reportedly adopted by only ~60-65% of U.S. franchisees. The President of McDonald's USA (Joe Erlinger) was replaced on 2026-08-04.",
+    "The $8.5B NEXT partnering bill: ~$5B through 2030 of rent relief and capital support to franchisees. Rent relief directly cuts the highest-margin revenue line; press reports put the company's own payback at 5-6 years. The market sold the stock ~5% on the day (Alpaca close $250.36 on 9/22 -> $238.30 on 9/23). In our stress case, fair value falls to ~$208 base (-13.6% MoS).",
+    "Franchisee health: company-operated U.S. margins fell 14% in FY2025 and another 14% in H1 2026 on 'ongoing inflationary cost pressures' - franchisees face the same squeeze. The need for rent relief suggests franchisee cash flows are strained; a system-wide conflict or slower remodel investment would hurt comps.",
+    "Leverage: $39.9B of long-term debt vs $0.8B cash; net debt/EBITDA 2.59x (~3.6x including $14.7B of operating-lease liabilities); negative shareholders' equity (-$1.0B). Ratings BBB+/Baa1. Interest expense guided +4-6% in 2026. Dividends + buybacks consumed ~100% of FY2025 FCF, so extra NEXT spending likely slows buybacks or raises debt.",
+    "Secular demand headwinds: GLP-1 weight-loss drugs are cited by analysts as an early but real headwind to fast-food frequency; this is not quantified in any filing and we treat its size as unknown.",
+    "International softness: France and China cited as negative comps in Q2 2026; ~39% of debt is foreign-currency denominated and reported results swing with FX (FY2025 revenue +4% reported vs +2% constant currency).",
+    "Growth target slippage: the 50,000-restaurant goal was reportedly pushed from 2027 to 2028."
+  ],
+  "what_would_break_thesis": [
+    "U.S. comparable sales negative for two consecutive quarters (Q2 2026 was +0.8%; press reports July 2026 slightly negative) - the demand engine is failing, not just slowing.",
+    "Global comparable sales negative for two consecutive quarters outside a recognised recession (Q2 2026: +1.3%).",
+    "Franchised margins (franchised revenue less franchised occupancy) decline year-on-year in constant currency for two consecutive quarters - that would mean rent relief / franchisee distress is eating the royalty engine (Q2 2026: $3.713B, +3% constant currency).",
+    "Net debt to EBITDA (ex-leases) rises above 3.25x (2.59x at 2026-06-30), or S&P/Moody's downgrade the long-term rating below BBB/Baa2 (currently BBB+/Baa1).",
+    "Free cash flow below $6.0B in any full fiscal year (FY2025 $7.186B; TTM $7.761B), or dividends paid exceed free cash flow for a full year (FY2025: dividends were 71% of FCF).",
+    "Dividend cut or freeze (50 consecutive years of increases through FY2025).",
+    "Company-reported after-tax ROIC below 17% (FY2025 20.3%, down from 25.2% in FY2023).",
+    "The NEXT partnering commitment is raised materially above the announced ~$8.5B (or ~$5B through 2030), or operating margin guidance is cut below the 'mid-to-high 40%' 2026 range.",
+    "Any accounting red flag: restatement, material weakness, qualified audit opinion, or an unexplained auditor change."
+  ],
+  "sell_triggers": [
+    "U.S. comparable sales negative for two consecutive quarters (Q2 2026: +0.8%).",
+    "Global comparable sales negative for two consecutive quarters outside a recession (Q2 2026: +1.3%).",
+    "Franchised margins down YoY in constant currency for two consecutive quarters (Q2 2026: +3% cc).",
+    "Net debt/EBITDA (ex-leases) above 3.25x (now 2.59x) or a credit downgrade below BBB/Baa2.",
+    "Full-year FCF below $6.0B (FY2025 $7.186B), or dividends exceed FCF for a full year.",
+    "A dividend cut or freeze.",
+    "Company-reported ROIC below 17% (FY2025: 20.3%).",
+    "NEXT partnering support raised materially above ~$8.5B, or 2026 operating-margin guidance cut below mid-to-high 40%.",
+    "Any accounting red flag (restatement, material weakness, qualified opinion)."
+  ],
+  "catalysts": [
+    "Q3 2026 results, expected early November 2026 (Q3 2025 was reported 2025-11-05; 2026 date not yet confirmed in our sources). The key numbers: U.S. comparable sales and guest counts (was July's reported negative comp a blip?), franchised margin growth, and any quantification of NEXT costs for 2027.",
+    "'Make It Golden' system-wide customer-experience program launching 2026-10-05 (Founder's Day) - early read on whether hospitality/food-quality investments move traffic.",
+    "Q4 2026 results and 2027 guidance (~February 2027): first guidance year that includes NEXT partnering support; watch operating margin and capex vs the ~$3B/yr baseline target.",
+    "Annual dividend increase decision (last raised 5% to $1.86/quarter in Q4 2025) - the size of the Q4 2026 raise is a signal of management's FCF confidence.",
+    "Downside catalyst: a consumer recession would hit the low-income customer hardest; upside catalyst: easing cost-of-living pressure or a successful value platform reset restoring guest counts."
+  ],
+  "sources": [
+    {
+      "claim": "FY2025 10-K: total revenues $26.885B (FY2024 $25.920B, FY2023 $25.494B); franchised revenues $16.548B; company-operated sales $9.690B; operating income $12.393B; operating margin 46.1% (45.2% FY2024); diluted EPS $11.95 (+5%); Systemwide sales $139.4B; global comps +3.1% (U.S. +2.1%); cash from operations $10.551B; capex $3.365B; FCF $7.2B (+8%); ~2,300 openings",
+      "value": "FY2025 revenue $26.885B; op. margin 46.1%; EPS $11.95; FCF $7.186B",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+      "publisher": "McDonald's Corporation / SEC EDGAR (Form 10-K, FY2025)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "FY2025 10-K restaurant margins: franchised $13.930B (FY2024 $13.178B), company-operated $1.422B (U.S. company-operated -14%), total restaurant margins $15.351B (used for the 57.1% gross-margin analogue); franchised margins ~90% of restaurant-margin dollars",
+      "value": "Total restaurant margins $15.351B / revenue $26.885B = 57.1%; franchised margin 84.2% of franchised revenue",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+      "publisher": "McDonald's Corporation / SEC EDGAR (Form 10-K, FY2025)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Company-reported after-tax ROIC from continuing operations",
+      "value": "20.3% (FY2025), 21.8% (FY2024), 25.2% (FY2023)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+      "publisher": "McDonald's Corporation / SEC EDGAR (Form 10-K, FY2025, MD&A and Exhibit 99.1)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Debt highlights and ratings: total debt obligations $39.973B (FY2024 $38.424B); 97% fixed rate; weighted-average interest rate 4.0%; 39% foreign-currency denominated; S&P BBB+ / Moody's Baa1 long-term; $4.0B unused credit line to June 2028",
+      "value": "Debt $39.973B at 2025-12-31; BBB+/Baa1",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+      "publisher": "McDonald's Corporation / SEC EDGAR (Form 10-K, FY2025)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Dividend record: quarterly dividend raised 5% to $1.86 in Q4 2025 ($7.44 annual rate); FY2025 dividends $7.17/share; 50 consecutive years of dividends with an increase every year; $7.1B returned to shareholders in 2025",
+      "value": "$7.44 annual rate; dividends paid $5.115B, buybacks $2.056B (FY2025)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+      "publisher": "McDonald's Corporation / SEC EDGAR (Form 10-K, FY2025)",
+      "as_of": "2025-12-31",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "XBRL series used for 3-year revenue CAGR, TTM figures and FCF history: Revenues FY2022 $23.183B; H1 2025 $12.799B; H1 2026 $13.616B. Diluted EPS FY2025 $11.95, H1 2025 $5.74, H1 2026 $6.10 (TTM $12.31). Operating cash flow FY2023 $9.612B / FY2024 $9.447B / FY2025 $10.551B / H1 2025 $4.426B / H1 2026 $5.222B; capex FY2023 $2.357B / FY2024 $2.775B / FY2025 $3.365B / H1 2025 $1.295B / H1 2026 $1.516B. D&A FY2025 $2.199B, H1 2025 $1.064B, H1 2026 $1.131B. Operating income H1 2025 $5.880B, H1 2026 $6.292B. Income tax and net income for TTM tax rate (21.4%). Future minimum rent receivable from franchisees (lessor operating leases) $31.451B at 2025-12-31.",
+      "value": "3y revenue CAGR 5.06%; TTM EPS $12.31; TTM FCF $7.761B; TTM EBITDA $15.071B",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000063908.json",
+      "publisher": "SEC EDGAR XBRL company-facts API (McDonald's Corp, CIK 0000063908)",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Q2 2026 10-Q balance sheet: long-term debt $39.863B; cash $0.822B; long-term lease liability $14.039B; current lease liability $0.690B; shareholders' equity -$1.023B; restaurants 46,028 of which 44,016 franchised and 2,012 company-operated",
+      "value": "Net debt $39.041B; net debt/TTM EBITDA 2.59x; 95.6% franchised",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000073/mcd-20260630.htm",
+      "publisher": "McDonald's Corporation / SEC EDGAR (Form 10-Q, Q2 2026)",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Q2 2026 10-Q MD&A: U.S. comps +0.8% Q2 / +2.3% H1 driven by check growth 'partly offset by negative comparable guest counts'; IOM +1.5% (France negative); IDL +1.9% (China negative); U.S. company-operated margins -14% H1 on inflationary cost pressure; franchised margins Q2 $3.713B (+3% cc), H1 $7.044B; 2026 outlook: ~2.5% unit-growth contribution, operating margin mid-to-high 40%, interest expense +4-6%, tax 21-23%, capex $3.7-3.9B, ~2,600 openings, FCF conversion low-to-mid 80%",
+      "value": "U.S. comps +0.8% (Q2 2026); 2026 op-margin guide mid-to-high 40%",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000073/mcd-20260630.htm",
+      "publisher": "McDonald's Corporation / SEC EDGAR (Form 10-Q, Q2 2026)",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Q2 2026 earnings release (8-K Ex. 99.1): revenue $7.099B (+4%, +2% cc); operating income $3.338B (+3%); diluted EPS $3.32 (+6%), $3.38 ex-charges; global comps +1.3% vs +3.8% in Q2 2025; U.S. +0.8% vs +2.5%; Systemwide sales $37B; loyalty sales $40B TTM (+20%), ~220M 90-day active users (+13%); 711.1M diluted shares",
+      "value": "Q2 2026 EPS $3.32; global comps +1.3%",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000067/exhibit991-6302026.htm",
+      "publisher": "McDonald's Corporation / SEC EDGAR (8-K Exhibit 99.1, Q2 2026)",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Leadership change: Skye Anderson appointed President of McDonald's USA effective 2026-08-04, succeeding Joe Erlinger who is leaving the company; release cites focus on 'strengthening value offerings'",
+      "value": "U.S. president replaced 2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000069/exhibitpressrelease.htm",
+      "publisher": "McDonald's Corporation / SEC EDGAR (8-K Exhibit 99.1, 2026-08-04)",
+      "as_of": "2026-08-04",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Investor Day 8-K (McDonald's > NEXT): ~$8.5B partnering support to franchisees through 2036 (~$5B through 2030) via rent relief and capital support; targets: operating margin low-to-mid 50% by 2030, G&A ~1.9% of Systemwide sales by 2030, ~$3B/yr baseline capex 2027-2030 plus $1.5-2B cumulative capital partnering, FCF conversion mid-to-high 80% by 2030, ~250bp restaurant-level efficiency, +1.5pp chicken and beverage share by 2030; unit expansion ~2.5% contribution in 2027 moderating to ~2% by 2030; Make It Golden launches 2026-10-05",
+      "value": "$8.5B partnering support through 2036; op-margin target low-to-mid 50% by 2030",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000076/exhibit991-investorupdate2.htm",
+      "publisher": "McDonald's Corporation / SEC EDGAR (8-K Exhibit 99.1, 2026-09-23)",
+      "as_of": "2026-09-23",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Q3 2025 earnings were reported on 2025-11-05 (used only to estimate the timing of the Q3 2026 report)",
+      "value": "Q3 2025 report date 2025-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000057/mcd-20251105.htm",
+      "publisher": "McDonald's Corporation / SEC EDGAR (8-K, 2025-11-05)",
+      "as_of": "2025-11-05",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Press reporting on Investor Day and CEO comments: low-income customer traffic down nearly double digits over two years; U.S. comps slightly negative in July 2026; only ~60-65% of U.S. franchises implemented the value menu pricing; 50,000-restaurant goal pushed from 2027 to 2028; company payback on NEXT 5-6 years; CEO: 'We're not expecting things to change'; average analyst target $307.70, forward P/E ~18x. NOT from filings - treat as secondary.",
+      "value": "July 2026 U.S. comps slightly negative (press); low-income traffic down ~double digits (press)",
+      "url": "https://247wallst.com/investing/2026/09/24/mcdonalds-breaks-to-a-new-52-week-low-after-the-ceo-says-things-are-not-getting-better/",
+      "publisher": "24/7 Wall St. (secondary/press)",
+      "as_of": "2026-09-24",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Stock fell up to ~6% on Investor Day (largest one-day drop since March 2020) on concern about the cost of the $8.5B franchisee plan",
+      "value": "~-4.8% to -6% intraday on 2026-09-23",
+      "url": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-remodels-training-chicken-growth-plans.html",
+      "publisher": "CNBC (secondary/press; page returned 403 to our fetcher, claim taken from search-result summary)",
+      "as_of": "2026-09-23",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Analyst framing of 2026 decline: global comps decelerating (Q4 2025 +5.7% per article, Q1 2026 +3.8%, Q2 2026 +1.3%); GLP-1 drugs an early but genuine headwind; value-menu rollout under-performed; system pulled back on digital offers",
+      "value": "Qualitative - GLP-1 impact size unknown",
+      "url": "https://www.trefis.com/stock/mcd/articles/615678/why-has-mcdonalds-gone-quiet-on-its-low-income-customer/2026-09-17",
+      "publisher": "Trefis (aggregator/analysis)",
+      "as_of": "2026-09-17",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "MCD 10-year P/E history used to anchor our multiples (sanity check only, not a company figure): 10-year median ~25.85x, 10-year range ~18.84x-35.69x",
+      "value": "10y median P/E 25.85x; range 18.84-35.69x",
+      "url": "https://www.gurufocus.com/term/pettm/MCD",
+      "publisher": "GuruFocus (aggregator; page 403 to our fetcher, figures from search-result snippet)",
+      "as_of": "2026-09",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Current price and trend from our own feed: last close $236.525 on 2026-09-25 (quote bid $224.55 / ask $243.89 - wide after-hours spread, not used); 50-day SMA $262.52; 200-day SMA $291.83; 52-week close high $341.075 (2026-02-27); 2025-12-31 close $305.60; Investor Day closes $250.36 (9/22) -> $238.30 (9/23)",
+      "value": "Price $236.53; 50d $262.52; 200d $291.83",
+      "url": "https://paper-api.alpaca.markets",
+      "publisher": "Alpaca paper feed (code/alpaca_client.py --quote / --bars)",
+      "as_of": "2026-09-25",
+      "retrieved": "2026-09-26"
+    },
+    {
+      "claim": "Fair-value band arithmetic (computed, not sourced): TTM EPS $12.31 x 18/21/24 = $221.58/$258.51/$295.44; TTM FCF/share $10.91 at 6.0%/5.0%/4.25% = $181.83/$218.20/$256.71; blended $201.71/$238.35/$276.07; MoS at $236.53 = +0.77%. Stress case (EPS $11.01, FCF/share $9.26) = $176.26/$208.20/$241.06",
+      "value": "Fair value low $201.71 / base $238.35 / high $276.07; MoS +0.77%",
+      "url": "https://github.com/rellanchayan/agentic-investor/blob/main/code/valuation.py",
+      "publisher": "code/valuation.py (this repo) using the SEC-sourced inputs above",
+      "as_of": "2026-09-26",
+      "retrieved": "2026-09-26"
+    }
+  ],
+  "data_quality": [
+    "filing-backed"
+  ],
+  "data_quality_note": "All quality metrics, EPS, FCF, debt, margins and the NEXT commitments come from McDonald's 10-K, 10-Q and 8-K filings (SEC EDGAR). Secondary/press sources are used ONLY for: the July 2026 U.S. comp, CEO comments on low-income traffic, the 50,000-unit delay, the NEXT payback period, the GLP-1 narrative, and the historical P/E median. Those are labelled as such. The size of the GLP-1 effect and the P&L vs capex split of the ~$5B 2026-2030 partnering support are UNKNOWN."
+}
