@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-28",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 764.58,
+  "spy_sma200": 718.83,
+  "spy_pct_above_200d": 6.4,
+  "events": [
+    "JOLTS job openings Tue Sep 29 10:00am ET",
+    "GDP (Q2 final) expected this week",
+    "PCE inflation expected Thu Oct 1",
+    "Nonfarm payrolls (jobs report) Fri Oct 2 8:30am ET",
+    "CPI inflation Tue Oct 13 8:30am ET",
+    "FOMC rate decision Wed Oct 28 2:00pm ET"
+  ],
+  "rates": "rising — fed funds 3.88%, market pricing 4.2% by Dec 2026 and 4.8% by Sep 2027; 10-year Treasury 5.17%, near 16-year high",
+  "valuation": "expensive — Shiller CAPE ~40.6x, 98.8th percentile since 1881; only late 1999 was higher",
+  "futures_am": "negative — Nasdaq futures -~1%, S&P 500 futures -~0.3% as of early morning; oil above $107/bbl on Trump-Iran diplomatic breakdown",
+  "note": "Cautious posture. Three converging reasons: (1) Shiller CAPE near historic peak at 40.6x — the market is expensive by any long-run measure; (2) rates are high and rising — fed funds at 3.88% and 10-year Treasury at 5.17%, with futures markets pricing further hikes into 2027; (3) a jobs report on Friday and a geopolitical oil spike this morning add near-term uncertainty. SPY is above its 200-day average (uptrend intact), so this is not a crisis posture — but the risk/reward of buying at these prices without a meaningful margin of safety is poor. All five thesis names with valuations remain well above entry thresholds. No thesis name is within 20% of its base fair value except MCD (essentially at fair value, conviction 3/5 — below the 4/5 minimum). Hold cash. Demand a larger-than-normal discount before buying.",
+  "sources": [
+    "https://sundayguardianlive.com/business/us-stock-market-prediction-dow-jones-futures-rise-sp-500-futures-gain-nasdaq-futures-point-higher-check-monday-september-28-wall-street-outlook-key-market-factors-to-watch-293297/amp/",
+    "https://finance.yahoo.com/markets/stocks/articles/nasdaq-p-500-futures-fall-083648379.html",
+    "https://therighttrader.com/economic-calendar/this-week",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://fedratecalc.com/us-economic-calendar/september-2026/",
+    "https://www.federalreserve.gov/releases/h15/",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://www.macroradar.io/shiller-pe-ratio"
+  ]
+}
