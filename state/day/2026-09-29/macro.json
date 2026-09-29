@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-29",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 764.28,
+  "spy_sma200": 719.22,
+  "spy_pct_above_200d": 6.3,
+  "futures_this_morning": "flat (S&P 500 -0.01%, Nasdaq +0.14%) after Monday losses",
+  "shiller_cape": 41.1,
+  "treasury_10y_yield_pct": 5.22,
+  "oil_comment": "elevated, near recent highs; taking a brief pause today per morning commentary",
+  "events": [
+    "JOLTS Job Openings 10:00 AM ET today (Sep 29) — actual 7.079M vs 7.225M est, below expectations",
+    "Consumer Confidence 10:00 AM ET today (Sep 29) — est 89.2",
+    "PCE Inflation 8:30 AM ET Thursday (Oct 1)",
+    "Nonfarm Payrolls / Jobs Report 8:30 AM ET Friday (Oct 2) — est +100k, unemployment 4.2%"
+  ],
+  "rates": "elevated — 10-year Treasury at 5.22%, near multi-year highs; Fed watching PCE and payrolls before deciding on October rate move",
+  "valuation": "expensive — Shiller CAPE ~41x, near second-highest reading in 150 years of data",
+  "note": "Market is in a structural uptrend (SPY 6.3% above 200d SMA) but is historically expensive (CAPE ~41x) and rates are elevated (10y at 5.22%). Two high-impact data releases — PCE Thursday and jobs Friday — can move markets sharply either way. JOLTS this morning came in below estimate (7.079M vs 7.225M), mildly positive for rate outlook but not a game-changer. Futures flat. Cautious posture maintained: demand a larger margin of safety before buying.",
+  "sources": [
+    "https://investrade.com/morning-preview-september-29-2026/",
+    "https://www.bloomberg.com/news/articles/2026-09-29/us-stock-futures-rise-as-traders-await-key-economic-data",
+    "https://www.bls.gov/news.release/archives/jolts_09292026.htm",
+    "https://www.marketscreener.com/news/august-jolts-report-shows-7-079-million-job-openings-vs-expected-7-228-million-prior-7-335-million-ce785addde88f525",
+    "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html",
+    "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+    "https://finance.yahoo.com/economy/policy/articles/october-fed-rate-hike-hinges-232828169.html"
+  ]
+}
