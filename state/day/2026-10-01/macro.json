@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-01",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 761.80,
+  "spy_sma200": 719.98,
+  "events": [
+    "PCE inflation (Aug) released today 8:30am ET — core 3.0% vs 3.3% expected, cooler than forecast",
+    "Nonfarm Payrolls (Sep) due Friday Oct 2 8:30am ET — highest single-day market-moving release",
+    "FOMC next meeting Oct 28 2026 — rate decision pending, 10-year at 5.33% highest since 2002",
+    "NKE thesis refresh due Monday Oct 5"
+  ],
+  "rates": "rising",
+  "fed_funds_rate": "3.75-4.00%",
+  "treasury_10y_approx": "5.33%",
+  "cape_approx": 40.6,
+  "note": "Market is extremely expensive (CAPE ~40.6x, near all-time highs outside the 1999 dot-com peak) and rates are surging (10-year at 5.33%, highest since April 2002). The Fed hiked to 3.75-4.0% in September with more hikes possible at Oct 28 meeting. PCE came in cooler this morning (core 3.0% vs 3.3% expected) — mildly positive for rate expectations but does not change the big picture. Jobs report tomorrow is a major near-term risk event. SPY is above its 200-day average but elevated valuations and rising yields are significant headwinds. No thesis candidate is within 20% of a valid entry price. Demand a higher margin of safety before buying.",
+  "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-080815180.html",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-01-2026",
+    "https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html",
+    "https://247wallst.com/investing/2026/10/01/the-10-year-yield-just-broke-its-2007-peak-here-is-what-comes-next/",
+    "https://finance.yahoo.com/economy/policy/article/pce-inflation-eases-to-34--cooling-the-case-for-another-fed-rate-hike-125513195.html",
+    "https://fedratecalc.com/fed-rate-decision/",
+    "https://www.financecalendar.com/us-jobs-report/",
+    "https://chartrow.com/sp500/shiller-pe",
+    "https://www.chamberlinfinancial.com/blog/the-shiller-cape-ratio-what-it-means-and-why-its-flashing-red-in-2026"
+  ]
+}
