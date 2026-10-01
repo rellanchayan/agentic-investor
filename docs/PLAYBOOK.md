@@ -19,6 +19,8 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 
 ## Learned lessons
 
+- A narrowing SPY gap driven entirely by index retreat — with zero portfolio action taken — is a measurement artifact, not a performance signal. When the gap improves solely because SPY fell, the absolute cost of inaction is unchanged; only the relative number moved. In future gap reports, always note explicitly whether improvement came from portfolio gains or from index decline, so that a passive SPY pullback cannot dampen urgency or be mistaken for validation of the cash-holding posture. — 2026-10-01
+
 - When a bench name is within realistic price striking distance (less than 25% decline needed) but fails on conviction alone, the conviction-upgrade analysis must be completed before the price drops — not after. A gap-down of 15-20% can close within hours; scrambling to refresh a thesis while the price is moving is too late to act on it cleanly. Do the work in calm markets so that the only remaining gate is price. — 2026-09-28
 
 - An index removal event creates mechanical forced selling that has no bearing on the underlying business quality or fair value. When a bench name is dropped from a major index (as NKE was removed from the S&P 100 on 2026-09-21), the resulting price decline is not a thesis-break signal — it is calendar-driven rebalancing by passive funds. The obligation is to run a same-day price check against current fair value and entry thresholds even when the morning cycle has not run that day, because mechanical selling at scale can briefly hand you the margin of safety you have been waiting for. A lower price from forced index selling is exactly as valuable as a lower price from any other source — provided the thesis and conviction still hold. — 2026-09-26
@@ -37,6 +39,7 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 - The morning cycle must produce a `docs/decisions/<date>.md` every trading day — even when the conclusion is "hold, no orders." Two consecutive days (2026-06-17 and 2026-06-18) had no decision file; future reviews cannot reconstruct intent without one. — 2026-06-18
 
 ## Changelog
+- 2026-10-01 — Added lesson: a narrowing SPY gap driven by index retreat rather than portfolio gains is a measurement artifact; always note the source of gap change to prevent false readings from dampening urgency.
 - 2026-09-28 — Added lesson: when a bench name is within striking distance on price but conviction is below threshold, complete the conviction-upgrade analysis in calm markets before the price drops — a gap-down window closes in hours.
 - 2026-09-26 — Added lesson: index removal events (e.g., NKE removed from S&P 100 on Sep 21) create mechanical forced selling unrelated to business quality; when a bench name is removed from a major index, run a same-day price check against fair value regardless of morning cycle status — forced selling can create the entry margin we have been waiting for.
 - 2026-09-17 — Added lesson: upward fair-value revisions during thesis refreshes must cite a specific changed fundamental; incremental drift without a named reason is motivated reasoning that erodes margin-of-safety discipline.
