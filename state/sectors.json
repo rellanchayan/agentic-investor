@@ -31,5 +31,8 @@
   "XOM": "energy",
   "CVX": "energy",
   "DIS": "communication",
+  "META": "communication",
+  "SPGI": "financials",
+  "INTU": "technology",
   "SPY": "broad_etf"
 }

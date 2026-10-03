@@ -12,13 +12,15 @@ NVDA
 AVGO
 ADBE
 CRM
-NOW  # enterprise workflow automation; near-100% renewal rates reflect deep switching-cost moat
+NOW   # enterprise workflow automation; near-100% renewal rates reflect deep switching-cost moat
+INTU  # TurboTax + QuickBooks; annual-filing data lock-in and SMB accounting switching costs; ~81% gross margin
 
 # --- Payments & financials ---
 V
 MA
 JPM
-PGR  # P&C auto insurance; data/telematics moat with best-in-class underwriting discipline
+PGR   # P&C auto insurance; data/telematics moat with best-in-class underwriting discipline
+SPGI  # ratings-agency duopoly + S&P 500 index franchise; regulatory entrenchment and 100-year brand
 
 # --- Consumer staples ---
 COST
@@ -51,6 +53,7 @@ CVX
 
 # --- Communication / media ---
 DIS
+META  # social-network moat (Facebook/Instagram/WhatsApp); ~3B+ daily active users across family of apps
 
 # --- Broad-market ballast & benchmark (we measure ourselves against SPY) ---
 SPY
