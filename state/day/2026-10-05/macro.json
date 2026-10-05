@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-05",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 772.37,
+  "spy_sma200": 720.91,
+  "spy_pct_above_200d": 7.1,
+  "futures_direction": "down_slightly",
+  "futures_note": "S&P 500 futures -0.19%, Nasdaq futures -0.27% Monday morning",
+  "ten_year_yield": 5.287,
+  "fed_funds_rate": 4.00,
+  "rates": "elevated_stable",
+  "rate_hike_odds_oct": 0.17,
+  "valuation": {
+    "cape_shiller": 41.07,
+    "trailing_pe": 26.34,
+    "note": "CAPE 25.6% above long-term average; market modestly to significantly elevated"
+  },
+  "events": [
+    "ISM Services PMI today 10:00am ET (est 55.0)",
+    "FOMC September meeting minutes Wed Oct 7 2:00pm ET",
+    "CPI September release Wed Oct 14 8:30am ET",
+    "PPI + Retail Sales Thu Oct 15 8:30am ET",
+    "FOMC rate decision Tue-Wed Oct 27-28",
+    "PCE + GDP Advance Q3 Thu Oct 29 8:30am ET"
+  ],
+  "note": "Market in uptrend (SPY 7.1% above 200d SMA) but valuations are elevated (CAPE 41.07, 25.6% above long-term avg). 10-year yield at 5.287% competes with equity returns. Fed minutes Wednesday and CPI next week are key risk events. All thesis candidates remain well above entry prices. Cautious posture maintained — demand wider margin of safety before any buy.",
+  "sources": [
+    "https://investrade.com/morning-preview-october-05-2026/",
+    "https://fedratecalc.com/us-economic-calendar/october-2026/",
+    "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio",
+    "https://www.gurufocus.com/economic_indicators/57/sp-500-pe-ratio",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+    "https://www.bloomberg.com/news/articles/2026-10-03/fed-ecb-minutes-to-show-inflation-fears-as-hike-bets-fade",
+    "https://tradingstrategyguides.com/monday-futures-preview-october-5-2026-equity-futures-signal-an-upbeat-open/"
+  ]
+}
