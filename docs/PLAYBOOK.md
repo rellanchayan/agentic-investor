@@ -19,6 +19,8 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 
 ## Learned lessons
 
+- The thesis bench should include names in the laggard quadrant — below both the 50- and 200-day SMAs and down 15+ pp vs SPY over six months — not only momentum leaders. Entry-range valuations are far more likely to appear there. When the weekly screen surfaces a quality name in that quadrant with no existing thesis, write one within two weeks. NKE is the standing counterweight: price weakness alone is not a buy signal — diagnose whether the deterioration is temporary or structural before assigning any conviction, and do not assume recovery by default. The Oct 10 screen showed nine laggard names (HD, PEP, SYK, HON, MCD, NKE, AVGO, CAT, WMT) with no thesis coverage except MCD; omitting the entire laggard quadrant from the bench is a research blind spot, not discipline. — 2026-10-10
+
 - In the morning cycle, thesis refreshes must run before context is built. If a refresh runs after context is frozen and changes any number, rebuild context before writing the decision file — a stale context on a day where a name crosses a gate in either direction is a silent error that changes the outcome without leaving a trace in the record. — 2026-10-06
 
 - When a bench name is within realistic price striking distance (less than 25% decline needed) but fails on conviction alone, the conviction-upgrade analysis must be completed before the price drops — not after. A gap-down of 15-20% can close within hours; scrambling to refresh a thesis while the price is moving is too late to act on it cleanly. Do the work in calm markets so that the only remaining gate is price. — 2026-09-28
@@ -39,6 +41,7 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 - The morning cycle must produce a `docs/decisions/<date>.md` every trading day — even when the conclusion is "hold, no orders." Two consecutive days (2026-06-17 and 2026-06-18) had no decision file; future reviews cannot reconstruct intent without one. — 2026-06-18
 
 ## Changelog
+- 2026-10-10 — Weekly review: no calibration data (zero fills in 117 days); tuner gate open but no rule fired (no change applied). Added lesson: thesis bench must cover laggard-quadrant names (below both SMAs, down 15+ pp vs SPY over 6m) — entries are more likely there; Oct 10 screen showed nine such names with no thesis coverage. Portfolio started 2026-06-16; universe screened to 33 names; momentum leaders (NOW +58%, MSFT +39%, CRM +33%, ABBV +34%) identified.
 - 2026-10-06 — Added lesson: thesis refreshes must run before context is built in the morning cycle; a stale context on a gate-crossing day is a silent error.
 - 2026-09-28 — Added lesson: when a bench name is within striking distance on price but conviction is below threshold, complete the conviction-upgrade analysis in calm markets before the price drops — a gap-down window closes in hours.
 - 2026-09-26 — Added lesson: index removal events (e.g., NKE removed from S&P 100 on Sep 21) create mechanical forced selling unrelated to business quality; when a bench name is removed from a major index, run a same-day price check against fair value regardless of morning cycle status — forced selling can create the entry margin we have been waiting for.

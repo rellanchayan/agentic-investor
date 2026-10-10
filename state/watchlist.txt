@@ -52,5 +52,12 @@ CVX
 # --- Communication / media ---
 DIS
 
+# --- Materials ---
+LIN  # industrial gases oligopoly; long-term take-or-pay contracts and regional network density keep rivals out
+
+# --- Business services ---
+ADP  # payroll/HR outsourcing; deep switching costs from embedded compliance, benefits, and workforce data
+SPGI # credit-ratings & financial-data duopoly (with MCO); near-monopoly pricing power; ~35% FCF margin
+
 # --- Broad-market ballast & benchmark (we measure ourselves against SPY) ---
 SPY

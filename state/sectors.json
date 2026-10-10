@@ -31,5 +31,8 @@
   "XOM": "energy",
   "CVX": "energy",
   "DIS": "communication",
+  "LIN": "materials",
+  "ADP": "industrials",
+  "SPGI": "financials",
   "SPY": "broad_etf"
 }
