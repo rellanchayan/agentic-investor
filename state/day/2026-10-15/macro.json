@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-15",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 768.97,
+  "spy_sma200": 724.59,
+  "spy_premium_to_200d_pct": 6.1,
+  "events": [
+    "September CPI released Oct 14: +3.7% YoY / +0.6% MoM — above ~3.6% consensus; hot print",
+    "FOMC rate decision Oct 27-28 (13 days away) — rate hike odds elevated after hot CPI",
+    "Q3 earnings season in progress — big banks began reporting Oct 13",
+    "September retail sales due this week"
+  ],
+  "rates": "rising — Fed hiked to 3.75%-4.00% in September; 10-year Treasury at 5.28%; another hike at Oct FOMC possible",
+  "inflation": "hot — September CPI +3.7% YoY / +0.6% MoM, above consensus; highest monthly gain in several months",
+  "valuation": "elevated — S&P 500 trailing P/E approx 28-29x; market near record highs as of Oct 9",
+  "sentiment": "greed — Fear & Greed index approx 58 (Greed), down from 73 (Extreme Greed) earlier in summer",
+  "earnings_season": true,
+  "note": "Maintaining CAUTIOUS posture from yesterday. Hot September CPI (+3.7% YoY) above consensus raises FOMC hike odds at Oct 27-28 meeting. Market near record highs with P/E ~28-29x and 10-year yields at 5.28%. Every thesis candidate trades 34-63% above fair value entry. Demand bigger margin of safety before any buy.",
+  "sources": [
+    "https://www.oppenheimer.com/news-media/2026/market-strategy/10-12-2026",
+    "https://247wallst.com/investing/2026/10/03/the-fed-may-now-skip-october-rate-hike-but-december-is-still-very-much-in-play/",
+    "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/",
+    "https://insight.factset.com/sp-500-earnings-season-preview-q3-2026",
+    "https://ycharts.com/indicators/sandp_500_pe_ratio_estimate",
+    "https://www.fxstreet.com/analysis/the-october-fed-hike-just-died-heres-what-the-29k-jobs-report-really-means-for-rates-202610021806"
+  ]
+}
