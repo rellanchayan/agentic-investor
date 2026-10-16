@@ -19,6 +19,8 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 
 ## Learned lessons
 
+- A down day that narrows the cash-drag deficit is not evidence the cautious posture was correct — it is evidence that markets go up and down. On 2026-10-16, SPY fell roughly 1.1 pp in one session, cutting our 282 bp trailing deficit to 170 bp overnight. Resist the reflex to read this as validation; the same logic that makes a down day feel like confirmation would make an up day feel like a mistake. The only questions that matter are whether each thesis is sound and whether each entry price reflects a genuine margin of safety. Benchmark tracking is for calibration, not for justifying inaction after the fact. — 2026-10-16
+
 - In the morning cycle, thesis refreshes must run before context is built. If a refresh runs after context is frozen and changes any number, rebuild context before writing the decision file — a stale context on a day where a name crosses a gate in either direction is a silent error that changes the outcome without leaving a trace in the record. — 2026-10-06
 
 - When a bench name is within realistic price striking distance (less than 25% decline needed) but fails on conviction alone, the conviction-upgrade analysis must be completed before the price drops — not after. A gap-down of 15-20% can close within hours; scrambling to refresh a thesis while the price is moving is too late to act on it cleanly. Do the work in calm markets so that the only remaining gate is price. — 2026-09-28
@@ -39,6 +41,7 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 - The morning cycle must produce a `docs/decisions/<date>.md` every trading day — even when the conclusion is "hold, no orders." Two consecutive days (2026-06-17 and 2026-06-18) had no decision file; future reviews cannot reconstruct intent without one. — 2026-06-18
 
 ## Changelog
+- 2026-10-16 — Added lesson: a down day that narrows the cash-drag deficit is not confirmation of the cautious posture; avoid reading benchmark tracking as validation of inaction.
 - 2026-10-06 — Added lesson: thesis refreshes must run before context is built in the morning cycle; a stale context on a gate-crossing day is a silent error.
 - 2026-09-28 — Added lesson: when a bench name is within striking distance on price but conviction is below threshold, complete the conviction-upgrade analysis in calm markets before the price drops — a gap-down window closes in hours.
 - 2026-09-26 — Added lesson: index removal events (e.g., NKE removed from S&P 100 on Sep 21) create mechanical forced selling unrelated to business quality; when a bench name is removed from a major index, run a same-day price check against fair value regardless of morning cycle status — forced selling can create the entry margin we have been waiting for.
