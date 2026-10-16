@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-16",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 772.12,
+  "spy_sma200": 725.03,
+  "spy_pct_above_200d": 6.5,
+  "futures_direction": "up_modestly",
+  "futures_note": "S&P 500 futures +0.2% (~+15 pts) and Dow futures +0.4% (~+183 pts) as of early Friday premarket; Nasdaq 100 roughly flat",
+  "events": [
+    "FOMC rate decision: Oct 28, 2:00 PM ET (meeting Oct 27-28) — hawkish risk elevated after hot CPI",
+    "Q3 GDP advance estimate + September PCE: Oct 29, 8:30 AM ET",
+    "Mega-cap tech earnings week: Oct 26-30 (MSFT, GOOGL, META, AMZN, AAPL expected)",
+    "September CPI already released Oct 14: +3.7% YoY / +0.6% MoM — above consensus of +3.6% YoY"
+  ],
+  "rates": "tightening",
+  "fed_funds_rate": "3.75-4.00%",
+  "fed_funds_note": "25 bp hike delivered at Sep 15-16 FOMC; next decision Oct 28; hawkish bias given hot inflation",
+  "ten_year_yield_approx": "~5.28%",
+  "ten_year_yield_note": "From Oct 15 journal; no fresher data found; 30-yr touched 5.337% in August per MercoPress",
+  "inflation": "hot",
+  "cpi_sep_yoy": 3.7,
+  "cpi_sep_mom": 0.6,
+  "core_cpi_sep_yoy": 2.6,
+  "core_cpi_sep_mom": 0.3,
+  "market_valuation": "expensive",
+  "sp500_forward_pe": 20.0,
+  "sp500_cape": 41.6,
+  "earnings_season": "active — Q3 underway; big banks reported Oct 13-14 (mixed); mega-cap tech Oct 26-30",
+  "note": "Market is in a technical uptrend (SPY 6.5% above 200-day avg) but is expensive (CAPE near all-time high), inflation is running hot above consensus for the second straight month, the Fed just hiked in September, the 10-year yield is near 5.3%, and the FOMC meets again in 12 days. Mega-cap tech earnings land Oct 26-30, the same week as the Fed decision. Two major binary events in one week demand caution. Posture is CAUTIOUS: every buy must meet the elevated 18% margin-of-safety threshold and conviction >= 4.",
+  "sources": [
+    "https://foxbusiness.com/economy/cpi-inflation-september-2026",
+    "https://www.benzinga.com/markets/equities/26/10/62404483/stock-market-today-dow-sp-500-futures-rise-as-bessent-intensifies-economic-pressure-on-iran-treasury-yields-cool-off-tsla-aa-ibkr-in-focus",
+    "https://investinglive.com/stocks/earnings-calendar-october-12-16-big-banks-asml-and-tsmc-take-center-stage/",
+    "https://en.mercopress.com/2026/10/12/s-p-500-price-prediction-what-macro-signals-say-about-the-index-in-2026",
+    "https://www.century.ae/en/blog/fomc-meeting-schedule-2026/",
+    "https://fedratecalc.com/us-economic-calendar/october-2026/",
+    "https://vestedfinance.com/blog/us-stocks/q3-earnings-season-2026-what-wall-street-expects-and-what-to-watch/"
+  ]
+}
