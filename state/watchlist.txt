@@ -13,12 +13,14 @@ AVGO
 ADBE
 CRM
 NOW  # enterprise workflow automation; near-100% renewal rates reflect deep switching-cost moat
+ASML  # sole manufacturer of EUV lithography machines; every advanced chip fab must buy from ASML (NASDAQ ADR)
 
 # --- Payments & financials ---
 V
 MA
 JPM
 PGR  # P&C auto insurance; data/telematics moat with best-in-class underwriting discipline
+SPGI  # S&P Global; NRSRO ratings duopoly + S&P 500 index licensing + Market Intelligence data platform
 
 # --- Consumer staples ---
 COST
@@ -39,11 +41,12 @@ LLY
 ABBV
 SYK  # medical devices / orthopedics; wide moat from Mako robotics and surgeon switching costs
 
-# --- Industrials ---
+# --- Industrials / Aerospace & Defense ---
 CAT
 HON
 UNP
 CSX  # eastern US Class I railroad; near-monopoly corridor economics east of the Mississippi
+RTX  # Pratt & Whitney jet engines (25-30yr aftermarket lock-in) + Raytheon defense; $289B backlog
 
 # --- Energy ---
 XOM
