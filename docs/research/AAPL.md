@@ -1,9 +1,16 @@
 # Apple Inc. (AAPL) — Research Thesis
 
 **Thesis ID:** AAPL-2026Q3 · **As of:** fiscal Q3 2026 (quarter ended 2026-06-27)
-**Written:** 2026-09-17 · **Refresh due:** 2026-10-17 (FY2026 Q4 earnings land late October)
-**Price used:** $332.55 (Alpaca) · **Conviction:** 3 / 5
-**Verdict: wonderful business, wrong price. Do not buy here.**
+**Written:** 2026-09-17 · **Refreshed:** 2026-10-19 · **Refresh due:** 2026-11-04 (two days after FY2026 Q4 earnings on 2026-11-02)
+**Price used:** $344.11 (Alpaca, 2026-10-19) · **Conviction:** 3 / 5
+**Verdict: wonderful business, wrong price, and the price has moved further away. Do not buy here.**
+
+### What changed in the 2026-10-19 refresh
+- **No new financial numbers.** Apple has filed no 10-K, 10-Q, or earnings release since the Q3 FY2026 10-Q ([EDGAR filing list](https://data.sec.gov/submissions/CIK0000320193.json)). All revenue, margin, cash-flow, and ROIC figures below still reflect the quarter ended 2026-06-27. Following the playbook, **the fair-value band was not moved**, because no fundamental input changed.
+- **Price rose** from $332.55 to **$344.11** (+3.5%), a fresh 52-week high. Margin of safety went from −42.8% to **−47.8%**.
+- **New CEO.** John Ternus became CEO on 2026-09-01; Tim Cook is now Executive Chair ([8-K/A](https://www.sec.gov/Archives/edgar/data/320193/000114036126035325/ef20081427_8ka.htm)).
+- **Product cycle split.** The iPhone 18 Pro models shipped in September. The foldable **iPhone Duo** (from $1,999) opened preorders on 2026-10-16, ships 2026-10-23, and was backordered to late January within hours ([CBS News](https://www.cbsnews.com/news/iphone-duo-pre-order-sales-apple-foldable/)). The base iPhone 18 moves to spring 2027. Apple has given no unit figures.
+- **Earnings date confirmed:** Q4 FY2026 results land Monday **2026-11-02** after the close ([MacRumors](https://macrumors.com/2026/10/06/apple-q4-2026-earnings-nov-2)). This thesis must be refreshed right after, using the 10-K.
 
 ---
 
@@ -99,10 +106,10 @@ is the honest hurdle today.
 |---|---|---|---|
 | Fair value | **$197.66** | **$232.82** | **$276.76** |
 
-**Price today: $332.55. That is ~43% ABOVE our base fair value, and ~20% above the top of the
-band.** Margin of safety = **−42.8%** — i.e. there is none; there is a negative cushion.
+**Price today: $344.11. That is ~48% ABOVE our base fair value, and ~24% above the top of the
+band.** Margin of safety = **−47.8%**, meaning there is no cushion at all; the cushion is negative.
 
-At $332.55 you are paying **38.1x trailing earnings** for a **2.79% free-cash-flow yield**, in a
+At $344.11 you are paying **39.4x trailing earnings** for a **2.70% free-cash-flow yield**, in a
 market where a Treasury bill pays roughly 4% with no risk at all.
 
 ### The bull's rebuttal, stated fairly
@@ -113,8 +120,8 @@ willing to underwrite both at once — see the next section for why.
 
 ## 5. The risks — written as hard as the bull case
 
-1. **Valuation is the whole problem.** 38.1x TTM earnings against a 10-year median of 27.25x.
-   Even our optimistic case is 17% below the market price.
+1. **Valuation is the whole problem.** 39.4x TTM earnings against a 10-year median of 27.25x.
+   Even our optimistic case is ~20% below the market price.
 2. **The earnings themselves are flattered.** Q3 FY2026's 50.1% gross margin **included about
    2 percentage points — and $0.11 of EPS — from one-off tariff refunds** after the February 2026
    Supreme Court ruling. Paying a peak multiple for peak, partly one-off earnings is exactly how
@@ -142,11 +149,15 @@ willing to underwrite both at once — see the next section for why.
    the decade is licensed — and it deepens a commercial tie that regulators are attacking.
 8. **China is ~17% of revenue and a large share of manufacturing** — a standing geopolitical and
    tariff exposure, even after the tariff refunds.
+9. **New CEO, untested in a reported quarter.** John Ternus took over on 2026-09-01. The
+   Services-plus-buybacks machine this thesis leans on was built under Cook (who stays as Executive Chair).
+10. **Split, more complex product cycle.** iPhone 18 Pro this fall, a $1,999 foldable in late October,
+   the base iPhone 18 in spring 2027. Early backorders show demand but say nothing about volume or margin.
 
 ## 6. Trend check (Alpaca only)
 
-Price **$332.55** is above its **50-day average $319.65** and well above its **200-day average
-$286.03**; the 52-week close range is **$245.30–$340.01**. The stock is in a strong uptrend near
+Price **$344.11** (2026-10-19) is above its **50-day average $326.33** and well above its **200-day average
+$292.80**; the 250-day close range is **$246.72–$344.14**, so it is at a 52-week high. The stock is in a strong uptrend near
 its highs. That is momentum, not value — and it is precisely why we are not buying.
 
 ## 7. Sell triggers — the exact rules
@@ -171,10 +182,10 @@ A first tranche is only justified **below ~$210**, roughly 10% under base.
 
 ## 8. What would make me buy
 
-- A pullback into the **$200–$233** zone. That needs a ~30–40% decline — historically that has
+- A pullback into the **$200–$233** zone. That needs a ~32–42% decline from $344.11 — historically that has
   required a broad market de-rating or a real growth stumble, both of which are possible with the
   Fed hiking into 3.4% inflation.
-- **Q4 FY2026 results (late October 2026)** are the key near-term test: do the guided 9–11%
+- **Q4 FY2026 results (2026-11-02)** are the key near-term test: do the guided 9–11%
   growth and 47–48% gross margin hold once the tariff refunds stop flattering the numbers?
 
 ## 9. Why conviction is 3, not 4 or 5
@@ -182,7 +193,7 @@ A first tranche is only justified **below ~$210**, roughly 10% under base.
 The *business* deserves a 4 or 5 — the moat got wider, growth re-accelerated, the balance sheet
 is a fortress, and the data is entirely filing-backed. But conviction here means "would we
 happily own a lot of this, for years, at this price," and the answer is no: we would be paying
-43% above our own estimate of what it is worth, for earnings that contain a one-off tariff
+48% above our own estimate of what it is worth, for earnings that contain a one-off tariff
 benefit, into guided deceleration, with the Fed tightening. **Quality says 4. Price says 2.
 Net: 3, and a clear "watch, do not buy."**
 
