@@ -4,9 +4,9 @@
   "company": "Microsoft Corporation",
   "sector": "Information Technology",
   "as_of": "2026-Q4",
-  "retrieved": "2026-09-17",
-  "refresh_due": "2026-10-17",
-  "business_summary": "Microsoft sells software, cloud computing and devices to businesses, governments and consumers. FY2026 (ended 2026-06-30) revenue was $331.839B, up 18% from $281.724B, across three reported segments: Productivity & Business Processes (Microsoft 365, Teams, LinkedIn, Dynamics) $139.996B; Intelligent Cloud (Azure, server products, GitHub) $137.791B; More Personal Computing (Windows, Xbox, Surface, search advertising) $54.052B. Azure passed $100B of annual revenue for the first time in FY2026 and grew 43% in Q4. Most revenue is recurring subscription or consumption-based, and commercial remaining performance obligation (contracted future revenue) reached $678B, up 84%. From FY2027 Microsoft reports in two new segments, 'Agents and Infra' ($268.1B FY2026 revenue recast) and 'Devices and Consumer' ($63.7B). The business should still be winning in 5-10 years because enterprises run their operations on Microsoft software, switching costs are very high, and Microsoft is one of a handful of credible platforms for the AI buildout. The open question this year is not demand but capital intensity: cash capex nearly doubled to $115.948B in FY2026 (plus $24.608B of finance-lease right-of-use assets), so free cash flow FELL to $66.987B from $71.611B even as revenue grew 18%.",
+  "retrieved": "2026-10-19",
+  "refresh_due": "2026-10-30",
+  "business_summary": "Microsoft sells software, cloud computing and devices to businesses, governments and consumers. FY2026 (ended 2026-06-30) revenue was $331.839B, up 18% from $281.724B, across three reported segments: Productivity & Business Processes (Microsoft 365, Teams, LinkedIn, Dynamics) $139.996B; Intelligent Cloud (Azure, server products, GitHub) $137.791B; More Personal Computing (Windows, Xbox, Surface, search advertising) $54.052B. Azure revenue was $101.938B in FY2026 (first year above $100B, per the 2026-09-02 recast 8-K) and grew 43% in Q4. Most revenue is recurring subscription or consumption-based, and commercial remaining performance obligation (contracted future revenue) reached $678B, up 84%. From FY2027 Microsoft reports in two new segments, 'Agents and Infra' ($268.1B FY2026 revenue recast) and 'Devices and Consumer' ($63.7B). The business should still be winning in 5-10 years because enterprises run their operations on Microsoft software, switching costs are very high, and Microsoft is one of a handful of credible platforms for the AI buildout. The open question this year is not demand but capital intensity: cash capex nearly doubled to $115.948B in FY2026 (plus $24.608B of finance-lease right-of-use assets), so free cash flow FELL to $66.987B from $71.611B even as revenue grew 18%. REFRESH 2026-10-19: no new quarterly results since the 2026-09-17 refresh (only insider Form 4s were filed); Q1 FY2027 results are due after the close on 2026-10-28. Fundamentals and fair value are unchanged; only the price (now $533.63) and some context changed. Notable context: from FY2027 Microsoft lengthened the assumed useful life of data centers and office buildings from 15 to 25 years (the FY2026 10-K lists buildings at 5-15 years). Management called the FY2027 operating-income benefit 'minimal', but the change shifts more future data-center leases from finance leases (counted in capex) to operating leases (not counted in capex). That lowered calendar-2026 capex guidance to ~$175B from ~$190B without any cut in actual building.",
   "moat": {
     "type": "High switching costs (Microsoft 365, Windows, Azure, Dynamics), network effects (Teams, LinkedIn, GitHub), scale economies in cloud infrastructure, deep enterprise distribution and contracted backlog",
     "rating": "wide"
@@ -15,17 +15,17 @@
     "revenue_growth_3y": "16.1% CAGR FY2023->FY2026 ($211.915B -> $331.839B); FY2026 alone +17.8%",
     "gross_margin": "67.9% (FY2026 gross profit $225.465B / revenue $331.839B); operating margin 46.8%",
     "roic": "~31% estimated: NOPAT $125.1B (operating income $155.237B x (1 - 19.4% effective tax rate)) on average invested capital ~$405.3B (equity + total debt + finance-lease liabilities - cash and short-term investments, FY2025/FY2026 average). Derived from 10-K figures, not a reported metric.",
-    "net_debt_to_ebitda": "~0.15x. Net cash of $36.5B excluding leases ($76.843B cash + short-term investments vs $40.294B total debt); including $66.594B of finance-lease liabilities, net debt is ~$30.0B against EBITDA of ~$199.6B (operating income $155.237B + depreciation $34.3B + intangible amortization $4.7B + finance-lease ROU amortization $5.403B). Finance-lease liabilities have grown from $27.145B (FY2024) to $66.594B (FY2026) and are the fastest-growing obligation on the balance sheet.",
+    "net_debt_to_ebitda": "~0.15x. Net cash of $36.5B excluding leases ($76.843B cash + short-term investments vs $40.294B total debt); including $66.594B of finance-lease liabilities, net debt is ~$30.0B against EBITDA of ~$199.6B (operating income $155.237B + depreciation $34.3B + intangible amortization $4.7B + finance-lease ROU amortization $5.403B). Finance-lease liabilities have grown from $27.145B (FY2024) to $66.594B (FY2026) and are the fastest-growing obligation on the balance sheet. Note: from FY2027 more new datacentre leases will be OPERATING leases (because of the 15->25 year useful-life change), so finance-lease growth will understate the real lease build-up; operating-lease liabilities ($21.925B at 2026-06-30) must now be watched too. Combined finance + operating lease liabilities at 2026-06-30: $88.519B.",
     "fcf_positive": "yes, but shrinking: FY2026 FCF $66.987B (operating cash flow $182.935B - capex $115.948B), down from $71.611B in FY2025. Net of $3.101B finance-lease principal payments, $63.886B."
   },
   "valuation": {
-    "price": 497.58,
+    "price": 533.63,
     "price_source": "alpaca",
-    "price_asof": "2026-09-17",
+    "price_asof": "2026-10-19",
     "fair_value_low": 342.93,
     "fair_value_base": 399.67,
     "fair_value_high": 460.24,
-    "method": "Blend (simple average) of two methods run through code/valuation.py. (1) P/E: 26x / 30x / 34x on FY2026 non-GAAP diluted EPS of $17.28 -> $449.28 / $518.40 / $587.52. Base 30x is roughly where a wide-moat ~18% grower with 47% operating margins has historically traded; the low case reflects a de-rating if AI capex disappoints, the high case continued AI-driven acceleration. Multiples are one turn lower than the June 2026 thesis (28/32/36x) because the Fed has since hiked to 3.75-4.00%, raising the risk-free rate. (2) FCF yield: 3.8% / 3.2% / 2.7% on FY2026 FCF per share of $8.99 ($66.987B / 7,453M diluted shares) -> $236.58 / $280.94 / $332.96; required yields are ~0.3pp above the June thesis for the same rate reason. Blended band $342.93 / $399.67 / $460.24. Margin of safety at $497.58 = -24.5% (NEGATIVE: the stock trades ABOVE the high end of our band). SENSITIVITY, stated honestly: the two methods disagree sharply. On earnings alone MSFT trades at 27.7x trailing GAAP EPS ($17.95) and 28.8x non-GAAP, which is near its own historical average, and a P/E-only band would be $449-$588 - i.e. roughly fair. The blend is dragged down entirely by the FCF method, because capex ($115.9B cash, plus $24.6B of finance leases) is now 3.4x depreciation ($34.3B) and has pushed reported free cash flow down year over year. Which view is right depends on whether that capex earns a return - which is not yet knowable. We deliberately keep the cash-flow method in, so the band is wide and humble."
+    "method": "Blend (simple average) of two methods run through code/valuation.py. (1) P/E: 26x / 30x / 34x on FY2026 non-GAAP diluted EPS of $17.28 -> $449.28 / $518.40 / $587.52. Base 30x is roughly where a wide-moat ~18% grower with 47% operating margins has historically traded; the low case reflects a de-rating if AI capex disappoints, the high case continued AI-driven acceleration. Multiples are one turn lower than the June 2026 thesis (28/32/36x) because the Fed has since hiked to 3.75-4.00%, raising the risk-free rate. (2) FCF yield: 3.8% / 3.2% / 2.7% on FY2026 FCF per share of $8.99 ($66.987B / 7,453M diluted shares) -> $236.58 / $280.94 / $332.96; required yields are ~0.3pp above the June thesis for the same rate reason. Blended band $342.93 / $399.67 / $460.24. Margin of safety at $533.63 (2026-10-19) = -33.5% (NEGATIVE: the stock trades ~16% ABOVE the $460.24 high end of our band). SENSITIVITY, stated honestly: the two methods disagree sharply. On earnings alone MSFT now trades at 29.7x trailing GAAP EPS ($17.95) and 30.9x non-GAAP ($17.28); a P/E-only band would be $449-$588, putting today's price slightly above the $518 P/E base. The blend is dragged down entirely by the FCF method, because capex ($115.9B cash, plus $24.6B of finance leases) is now 3.4x depreciation ($34.3B) and has pushed reported free cash flow down year over year. Which view is right depends on whether that capex earns a return - which is not yet knowable. We deliberately keep the cash-flow method in, so the band is wide and humble. REFRESH 2026-10-19: inputs deliberately UNCHANGED (same FY2026 EPS and FCF/share, same multiples and yields). Per the playbook rule of 2026-09-17, fair value only moves when a cited fundamental changes, and none has (no new quarter has been reported). The +7.2% price move since 2026-09-17 ($497.58 -> $533.63) is price only, and it widens the gap. valuation.py re-run at $533.63 returned the identical band $342.93 / $399.67 / $460.24, MoS -0.3352. Caveat for the next refresh: the useful-life change mechanically lowers FY2027 depreciation and reported capex, so FY2027 EPS and 'OCF minus capex' will look somewhat better without the economics changing. Lease-adjusted cash flow should be used before any upward revision."
   },
   "conviction": 3,
   "bull_case": [
@@ -36,9 +36,11 @@
     "Diversified and durable: Productivity ($140.0B) and Intelligent Cloud ($137.8B) are now similarly sized, so no single product carries the company; FY2026 diluted EPS grew 32% GAAP / 22% non-GAAP."
   ],
   "risks": [
-    "VALUATION IS THE PRIMARY RISK, AND WE ARE HONEST ABOUT IT: at $497.58 MSFT trades ~25% above our base fair value of $399.67 and above the $460.24 high end of our band. On our framework this stock is OVERVALUED today and is not a buy at this price. The free-cash-flow yield at today's price is just 1.81%, versus a 3.75-4.00% federal funds rate - an investor is accepting less cash yield than cash itself pays.",
+    "VALUATION IS THE PRIMARY RISK, AND WE ARE HONEST ABOUT IT: at $533.63 (2026-10-19) MSFT trades ~33.5% above our base fair value of $399.67 and ~16% above the $460.24 high end of our band. The stock has risen ~7% since our last refresh with no new fundamental information. On our framework it is OVERVALUED and not a buy at this price. The FCF yield at today's price is ~1.68% ($8.99 / $533.63), well below the 3.75-4.00% federal funds rate.",
     "Free cash flow is going backwards: FY2026 FCF of $66.987B was BELOW FY2025's $71.611B despite 18% revenue growth, because cash capex nearly doubled from $64.551B to $115.948B. Q1 FY2027 capex alone is guided to over $50B. If this continues, FCF could fall again in FY2027.",
     "The AI capex bet is unproven and enormous. Capex ($115.9B) is now 3.4x depreciation ($34.3B), which means today's earnings are flattered relative to the depreciation charge that this asset base will eventually carry. If AI demand disappoints, both margins and returns on capital fall hard.",
+    "Accounting optics are changing in MSFT's favour: from FY2027 data centers and office buildings are depreciated over 25 years instead of 15, and more future datacentre leases become operating leases, which are excluded from capex. Calendar-2026 capex guidance fell from ~$190B to ~$175B purely from this reclassification. Reported capex, FCF and EPS will look better without the underlying spending falling, so we must compare like for like (add back operating-lease additions) before crediting any FCF 'recovery'.",
+    "Event risk in 9 days: Q1 FY2027 results come out 2026-10-28. Guidance is Azure +44-45% cc, revenue $89.85-90.95B, operating margin roughly flat year over year, and capex over $50B. With the stock near its 250-day high and above its 50-day ($505.52) and 200-day ($435.23) averages, a miss on Azure or a capex surprise could move the price sharply in either direction.",
     "Off-balance-sheet-ish leverage is building: finance-lease liabilities rose from $27.145B (FY2024) to $46.172B (FY2025) to $66.594B (FY2026). This is real debt-like obligation used to fund datacentres and it does not show up in the headline 'net cash' figure.",
     "Earnings quality: FY2026 GAAP net income ($133.749B) was boosted by discrete items including a $3.2B gain on the Anthropic investment. Non-GAAP net income was $128.786B. Mark-to-market gains on AI-company stakes are not repeatable operating profit.",
     "Macro and rates: the Fed hiked to 3.75-4.00% with inflation at 3.4%. Higher risk-free rates compress the multiple investors will pay for long-duration growth, and a corporate IT spending slowdown would hit cloud consumption and seat growth.",
@@ -51,15 +53,15 @@
     "Company-wide gross margin falls below 60% for two consecutive quarters (FY2026: 67.9%).",
     "Operating margin falls below 38% for two consecutive quarters (FY2026: 46.8%) - the signal that AI capex depreciation is overwhelming the P&L.",
     "Free cash flow declines year over year for a third consecutive fiscal year, or turns negative for any full fiscal year (FY2025 $71.6B -> FY2026 $67.0B is already one year of decline).",
-    "Net-debt-to-EBITDA including finance-lease liabilities rises above 1.5x (currently ~0.15x), or finance-lease liabilities exceed $150B.",
+    "Net-debt-to-EBITDA including ALL lease liabilities (finance + operating) rises above 1.5x (currently ~0.26x on that basis: $30.0B finance-lease-inclusive net debt + $21.9B operating leases, vs ~$199.6B EBITDA), or combined finance + operating lease liabilities exceed $175B (currently $88.5B). Revised 2026-10-19 because the useful-life change moves new datacentre leases from finance to operating leases, which would make a finance-lease-only trigger blind.",
     "Estimated ROIC falls below 15% on a sustained multi-year basis (currently ~31%).",
     "Commercial remaining performance obligation declines year over year.",
     "A serious accounting restatement, an SEC enforcement action, or a material governance red flag - in particular any restatement of datacentre asset useful lives or of revenue recognised on AI-related related-party transactions."
   ],
   "catalysts": [
-    "Q1 FY2027 earnings in late October 2026: the test of whether Azure hits the guided 44-45% constant-currency growth and whether capex really exceeds $50B in a single quarter.",
+    "Q1 FY2027 earnings after the close on Wednesday 2026-10-28 (confirmed by Microsoft IR). Tests: Azure at the guided 44-45% cc, revenue within $89.85-90.95B, operating margin roughly flat year over year, capex over $50B, and the first quarter reported under the new 'Agents and Infra' / 'Devices and Consumer' segments and new useful lives. Thesis refresh_due is set to 2026-10-30 so this thesis is rebuilt on the new 10-Q.",
     "Evidence of return on AI capex - specifically Intelligent Cloud / 'Agents and Infra' operating margin holding up while the depreciation from the FY2026-27 buildout starts to hit the P&L.",
-    "A price pullback toward the $400 base or the $343 low end of our band, which would open a genuine margin of safety. The 250-day low from the Alpaca feed is $352.42, so this is not an impossible price.",
+    "A price pullback toward the $400 base or the $343 low end of our band, which would open a genuine margin of safety. The 250-day low from the Alpaca feed is $349.21 (2026-06-25), so this is not an impossible price.",
     "Capex growth normalising back toward depreciation, which would cause reported free cash flow to jump sharply and resolve the earnings-versus-cash-flow disagreement in our valuation.",
     "Copilot paid seats compounding well beyond 30 million, proving AI is a revenue line and not just a cost line."
   ],
@@ -137,12 +139,12 @@
       "retrieved": "2026-06-16"
     },
     {
-      "claim": "Current price and trend. Quote bid $496.51 / ask $497.25 at 14:48 UTC on 2026-09-17; price used $497.58 as supplied by the morning cycle. Last daily close $496.58; 50-day average close $462.50; 200-day average close $431.54; 250-day range $352.42-$542.43. Price is above both its 50-day and 200-day averages (uptrend).",
-      "value": "price 497.58; last close 496.58; 50d MA 462.50; 200d MA 431.54; 250d low 352.415; 250d high 542.425",
+      "claim": "Current price and trend. Quote bid $532.49 / ask $534.78 at 14:47 UTC on 2026-10-19; price used $533.63 as supplied by the morning cycle (inside the bid/ask). Last completed daily close $528.99 (2026-10-16); 50-day average close $505.52; 200-day average close $435.23 (both on completed bars through 2026-10-16); 250-day range $349.21 (2026-06-25) to $553.63 (2025-10-28). Price is above both its 50-day and 200-day averages (uptrend).",
+      "value": "price 533.63; last close 528.99; 50d MA 505.52; 200d MA 435.23; 250d low 349.205; 250d high 553.63",
       "url": "https://paper-api.alpaca.markets",
       "publisher": "Alpaca (our own market-data feed)",
-      "as_of": "2026-09-17",
-      "retrieved": "2026-09-17"
+      "as_of": "2026-10-19",
+      "retrieved": "2026-10-19"
     },
     {
       "claim": "Macro context used to set required multiples and yields: federal funds target raised to 3.75-4.00%, CPI inflation 3.4%. Supplied by the morning cycle's market-weather step, not independently verified from a Federal Reserve source in this refresh.",
@@ -151,13 +153,64 @@
       "publisher": "Federal Reserve (context passed in by the morning cycle; treat as unverified in this refresh)",
       "as_of": "2026-09",
       "retrieved": "2026-09-17"
+    },
+    {
+      "claim": "Azure revenue for FY2026 under the restated definition was $101.938B (quarterly $22.384B / $24.129B / $26.008B / $29.417B). Q1 FY2027 outlook reaffirmed ('No change to outlook'): operating margin 'expected to remain relatively flat year-over-year', operating expenses $16.8-16.9B, capex 'expected to be over $50 billion including the impact of the useful life update'.",
+      "value": "Azure FY2026 101938; Q1 FY27 opex 16800-16900; capex >50000 (millions USD)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526380280/d291965dex991.htm",
+      "publisher": "U.S. SEC EDGAR (Form 8-K Exhibit 99.1, filed 2026-09-02)",
+      "as_of": "FY2026 / Q1 FY2027 guidance",
+      "retrieved": "2026-10-19"
+    },
+    {
+      "claim": "Q1 FY2027 earnings release date: after market close on Wednesday 2026-10-28, webcast at 2:30 p.m. PT (announced 2026-10-07)",
+      "value": "2026-10-28",
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1",
+      "publisher": "Microsoft Investor Relations (cross-checked with PR Newswire release via https://finviz.com/news/400058/microsoft-announces-quarterly-earnings-release-date)",
+      "as_of": "2026-10-07",
+      "retrieved": "2026-10-19"
+    },
+    {
+      "claim": "Useful-life change: from the start of FY2027 Microsoft extends the estimated useful life of data centers and office buildings from 15 to 25 years. CFO Amy Hood said it gives 'a minimal benefit' to FY2027 operating income, and that 'more of our future data center leases will shift from finance leases to operating leases'. Calendar-2026 capex guidance was adjusted to about $175B from about $190B; excluding the useful-life impact, capex expectations are unchanged. Disclosed on the 2026-07-29 earnings call; secondary press source, not yet visible in a filing.",
+      "value": "useful life 15 -> 25 years; CY2026 capex ~175000 (was ~190000) (millions USD)",
+      "url": "https://www.cfodive.com/news/microsoft-holds-line-ai-spending-plans/826648/",
+      "publisher": "CFO Dive (reporting the FY2026 Q4 earnings call)",
+      "as_of": "2026-07-30",
+      "retrieved": "2026-10-19"
+    },
+    {
+      "claim": "FY2026 10-K accounting policy: estimated useful lives of buildings and improvements are 5 to 15 years; servers and network equipment 2 to 6 years (the baseline the FY2027 change departs from)",
+      "value": "buildings 5-15 years; servers 2-6 years",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "publisher": "U.S. SEC EDGAR (FY2026 Form 10-K)",
+      "as_of": "FY2026 (ended 2026-06-30)",
+      "retrieved": "2026-10-19"
+    },
+    {
+      "claim": "No new 8-K, 10-Q or 10-K filed between the 2026-09-17 refresh and 2026-10-19; only Form 4 insider filings (2026-09-17, 2026-10-14, 2026-10-15)",
+      "value": "0 new periodic or current reports",
+      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "publisher": "U.S. SEC EDGAR submissions index",
+      "as_of": "2026-10-19",
+      "retrieved": "2026-10-19"
     }
   ],
   "data_quality": [
     "filing-backed"
   ],
-  "price_used": 497.58,
-  "margin_of_safety": -0.245,
+  "price_used": 533.63,
+  "margin_of_safety": -0.3352,
   "stale": false,
-  "verdict": "expensive (above the high end of fair value) - HOLD/DO NOT BUY at $497.58; our base fair value is $399.67"
+  "verdict": "expensive (above the high end of fair value) - HOLD/DO NOT BUY at $533.63; base fair value $399.67, margin of safety -33.5%. Re-underwrite after Q1 FY2027 results on 2026-10-28.",
+  "sell_triggers": [
+    "Azure constant-currency revenue growth falls below 20% for two consecutive quarters (guidance for Q1 FY2027 is 44-45%; a fall to sub-20% would mean the AI cloud thesis has broken).",
+    "Total company revenue declines year over year for two consecutive quarters.",
+    "Company-wide gross margin falls below 60% for two consecutive quarters (FY2026: 67.9%).",
+    "Operating margin falls below 38% for two consecutive quarters (FY2026: 46.8%) - the signal that AI capex depreciation is overwhelming the P&L.",
+    "Free cash flow declines year over year for a third consecutive fiscal year, or turns negative for any full fiscal year (FY2025 $71.6B -> FY2026 $67.0B is already one year of decline).",
+    "Net-debt-to-EBITDA including ALL lease liabilities (finance + operating) rises above 1.5x (currently ~0.26x on that basis: $30.0B finance-lease-inclusive net debt + $21.9B operating leases, vs ~$199.6B EBITDA), or combined finance + operating lease liabilities exceed $175B (currently $88.5B). Revised 2026-10-19 because the useful-life change moves new datacentre leases from finance to operating leases, which would make a finance-lease-only trigger blind.",
+    "Estimated ROIC falls below 15% on a sustained multi-year basis (currently ~31%).",
+    "Commercial remaining performance obligation declines year over year.",
+    "A serious accounting restatement, an SEC enforcement action, or a material governance red flag - in particular any restatement of datacentre asset useful lives or of revenue recognised on AI-related related-party transactions."
+  ]
 }
