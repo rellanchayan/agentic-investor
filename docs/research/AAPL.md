@@ -1,9 +1,36 @@
 # Apple Inc. (AAPL) — Research Thesis
 
 **Thesis ID:** AAPL-2026Q3 · **As of:** fiscal Q3 2026 (quarter ended 2026-06-27)
-**Written:** 2026-09-17 · **Refresh due:** 2026-10-17 (FY2026 Q4 earnings land late October)
-**Price used:** $332.55 (Alpaca) · **Conviction:** 3 / 5
+**Written:** 2026-09-17 · **Refreshed:** 2026-10-20 · **Refresh due:** 2026-11-04 (two days after Q4 FY2026 results on 2026-11-02)
+**Price used:** $342.00 (Alpaca, 2026-10-20) · **Conviction:** 3 / 5
 **Verdict: wonderful business, wrong price. Do not buy here.**
+
+---
+
+## 0. What changed in the 2026-10-20 refresh
+
+- **No new financial statements.** Apple's fiscal Q4 2026 (ended 2026-09-26) has not been
+  reported yet. Results are due **Monday 2026-11-02**
+  ([MacRumors, citing Apple IR](https://macrumors.com/2026/10/06/apple-q4-2026-earnings-nov-2)).
+  The latest SEC filings since the Q3 10-Q are insider Form 4s and Form 144s only
+  ([SEC EDGAR](https://data.sec.gov/submissions/CIK0000320193.json)). All fundamentals below still
+  describe the twelve months to 2026-06-27.
+- **Fair value is unchanged at $197.66 / $232.82 / $276.76.** No fundamental input changed, so
+  under our playbook rule the band does not move.
+- **The price rose from $332.55 to $342.00 (+2.8%).** The premium to base fair value widened
+  from ~43% to **~47%**.
+- **New CEO.** John Ternus became CEO on 2026-09-01. He was previously SVP of Hardware
+  Engineering and joined Apple in 2001. Tim Cook is now executive chairman
+  ([Apple Newsroom](https://apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/)).
+  This was a planned handover to a long-time insider, so continuity is reasonable. Still, a new
+  CEO adds some uncertainty, and it has been added to the risks.
+- **iPhone 18 Pro launched at $1,199** (Pro Max $1,299). That is $100 above the iPhone 17 Pro, and
+  it began shipping 2026-09-18 ([MacRumors](https://www.macrumors.com/2026/09/09/iphone-18-pro-pricing/)).
+  TrendForce, a third-party research firm, estimates the phone's parts cost is ~38% higher, mostly
+  because of memory prices ([AI Weekly](https://aiweekly.co/node/9630)). This is not an Apple
+  figure. It suggests the price increase may not fully cover the extra cost, which puts gross
+  margin at risk.
+- **Conviction stays at 3.**
 
 ---
 
@@ -99,10 +126,12 @@ is the honest hurdle today.
 |---|---|---|---|
 | Fair value | **$197.66** | **$232.82** | **$276.76** |
 
-**Price today: $332.55. That is ~43% ABOVE our base fair value, and ~20% above the top of the
-band.** Margin of safety = **−42.8%** — i.e. there is none; there is a negative cushion.
+**Price today (2026-10-20): $342.00. That is ~47% ABOVE our base fair value, and ~24% above the top
+of the band.** Margin of safety = **−46.9%**. In other words there is no cushion at all; the price
+is well above what we think the business is worth. Just to reach base fair value, the stock would
+have to fall ~32%.
 
-At $332.55 you are paying **38.1x trailing earnings** for a **2.79% free-cash-flow yield**, in a
+At $342.00 you are paying **39.2x trailing earnings** for a **2.72% free-cash-flow yield**, in a
 market where a Treasury bill pays roughly 4% with no risk at all.
 
 ### The bull's rebuttal, stated fairly
@@ -113,8 +142,13 @@ willing to underwrite both at once — see the next section for why.
 
 ## 5. The risks — written as hard as the bull case
 
-1. **Valuation is the whole problem.** 38.1x TTM earnings against a 10-year median of 27.25x.
-   Even our optimistic case is 17% below the market price.
+1. **Valuation is the whole problem.** 39.2x TTM earnings against a 10-year median of 27.25x.
+   Even our optimistic case is ~19% below the market price.
+1b. **Memory costs are rising just as margins are guided down.** The iPhone 18 Pro's $100 price
+   increase may not cover a parts cost that TrendForce estimates is ~38% higher (a third-party
+   estimate). If margins and the multiple shrink together, the stock would take a double hit.
+1c. **New CEO.** John Ternus took over on 2026-09-01 and has no public track record as a CEO.
+   Cook staying on as executive chairman reduces this risk but does not remove it.
 2. **The earnings themselves are flattered.** Q3 FY2026's 50.1% gross margin **included about
    2 percentage points — and $0.11 of EPS — from one-off tariff refunds** after the February 2026
    Supreme Court ruling. Paying a peak multiple for peak, partly one-off earnings is exactly how
@@ -145,8 +179,8 @@ willing to underwrite both at once — see the next section for why.
 
 ## 6. Trend check (Alpaca only)
 
-Price **$332.55** is above its **50-day average $319.65** and well above its **200-day average
-$286.03**; the 52-week close range is **$245.30–$340.01**. The stock is in a strong uptrend near
+Price **$342.00** (2026-10-20) is above its **50-day average $326.99** and well above its
+**200-day average $293.15**; the 52-week close range is **$246.72–$343.39**. The stock is in a strong uptrend near
 its highs. That is momentum, not value — and it is precisely why we are not buying.
 
 ## 7. Sell triggers — the exact rules
@@ -174,7 +208,7 @@ A first tranche is only justified **below ~$210**, roughly 10% under base.
 - A pullback into the **$200–$233** zone. That needs a ~30–40% decline — historically that has
   required a broad market de-rating or a real growth stumble, both of which are possible with the
   Fed hiking into 3.4% inflation.
-- **Q4 FY2026 results (late October 2026)** are the key near-term test: do the guided 9–11%
+- **Q4 FY2026 results (Monday 2026-11-02, the first under CEO Ternus)** are the key near-term test: do the guided 9–11%
   growth and 47–48% gross margin hold once the tariff refunds stop flattering the numbers?
 
 ## 9. Why conviction is 3, not 4 or 5
@@ -182,7 +216,7 @@ A first tranche is only justified **below ~$210**, roughly 10% under base.
 The *business* deserves a 4 or 5 — the moat got wider, growth re-accelerated, the balance sheet
 is a fortress, and the data is entirely filing-backed. But conviction here means "would we
 happily own a lot of this, for years, at this price," and the answer is no: we would be paying
-43% above our own estimate of what it is worth, for earnings that contain a one-off tariff
+~47% above our own estimate of what it is worth, for earnings that contain a one-off tariff
 benefit, into guided deceleration, with the Fed tightening. **Quality says 4. Price says 2.
 Net: 3, and a clear "watch, do not buy."**
 

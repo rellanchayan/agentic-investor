@@ -1,11 +1,11 @@
 # Microsoft Corporation (MSFT) — research thesis
 
 - **Thesis ID:** MSFT-2026Q4 · **As of:** FY2026 Q4 (fiscal year ended 30 June 2026)
-- **Written:** 2026-09-17 · **Next refresh due:** 2026-10-17 (FY2027 Q1 earnings, late October)
+- **Written:** 2026-09-17 · **Refreshed:** 2026-10-20 (price-only; no new filings) · **Next refresh due:** 2026-10-30 (after FY2027 Q1 results on 28 Oct)
 - **Moat:** wide · **Conviction:** 3 / 5
-- **Price used:** $497.58 (Alpaca) · **Our fair value:** $342.93 low / **$399.67 base** / $460.24 high
-- **Margin of safety: −24.5% (NEGATIVE).** On our own framework, **Microsoft is overvalued today.**
-  This is a wonderful business at a price we do not want to pay. **Do not buy at $497.58.**
+- **Price used:** $530.20 (Alpaca, 2026-10-20) · **Our fair value:** $342.93 low / **$399.67 base** / $460.24 high
+- **Margin of safety: −32.7% (NEGATIVE).** On our own framework, **Microsoft is overvalued today.**
+  This is a wonderful business at a price we do not want to pay. **Do not buy at $530.20.**
 
 ---
 
@@ -87,16 +87,16 @@ since hiked to 3.75–4.00% — when safe cash pays more, growth is worth less.
 rate reason.
 
 **Blended band: $342.93 low / $399.67 base / $460.24 high.**
-At $497.58 the margin of safety is **−24.5%** — we would be paying about a quarter *more* than we
+At $530.20 the margin of safety is **−32.7%** — we would be paying about a third *more* than we
 think it's worth.
 
 ### Being honest: the two methods disagree, badly
 
 They should not be papered over.
 
-- On **earnings**, MSFT trades at 27.7x trailing GAAP / 28.8x non-GAAP — near its own long-run
-  average. A P/E-only view says $449–$588, i.e. roughly *fair*.
-- On **cash**, the free-cash-flow yield at $497.58 is **1.81%**. The Fed pays 3.75–4.00% on cash.
+- On **earnings**, MSFT now trades at 29.5x trailing GAAP / 30.7x non-GAAP. A P/E-only view says
+  $449–$588 with a $518 base, so at $530 the stock is slightly *above* even the friendlier method.
+- On **cash**, the free-cash-flow yield at $530.20 is **1.70%**. The Fed pays 3.75–4.00% on cash.
   You are accepting less cash yield from Microsoft than from a Treasury bill, and taking equity risk
   to get it.
 
@@ -105,8 +105,8 @@ earn a good return?** If yes, today's depressed FCF is temporary and the P/E vie
 cash-flow view wins and the stock has a long way to fall. Because we genuinely do not know, we keep
 both methods in and accept a wide, humble band — and a band whose top end is still below today's price.
 
-**Trend check (Alpaca only):** last close $496.58, 50-day average $462.50, 200-day average $431.54.
-The price is above both — a strong uptrend. The 250-day range is $352.42–$542.43, so a pullback to
+**Trend check (Alpaca only, 2026-10-20):** last close $531.23, 50-day average $506.70, 200-day average
+$435.77. The price is above both — a strong uptrend. The 250-day range is $349.21–$553.63, so a pullback to
 our band is not fantasy; it happened within the last year.
 
 ## 5. The bull case
@@ -122,7 +122,7 @@ our band is not fantasy; it happened within the last year.
 
 ## 6. The risks (written as hard as the bull case)
 
-1. **The price.** At $497.58 we are 25% above our base value and above the top of our band. This is
+1. **The price.** At $530.20 we are 33% above our base value and 15% above the top of our band. This is
    the single biggest risk in this thesis and it is not a subtle one.
 2. **Free cash flow is shrinking**, and Q1 FY2027 capex alone is guided at **over $50B**. FY2027 FCF
    could fall again.
@@ -162,7 +162,7 @@ If any of these happen, the reason we own Microsoft has broken and we sell (or t
 - A pullback to **$400 or below** (our base), ideally toward **$343** (our low), for a real cushion.
 - Capex growth normalising toward depreciation, which would make reported free cash flow jump and
   settle the earnings-vs-cash argument in the bulls' favour.
-- Evidence in the Q1 FY2027 report (late October) that cloud operating margin holds up *while* the
+- Evidence in the Q1 FY2027 report (after the close on **28 Oct 2026**) that cloud operating margin holds up *while* the
   new depreciation starts hitting.
 
 ## 9. Conviction: 3 / 5 — and why it fell from 4
@@ -170,13 +170,36 @@ If any of these happen, the reason we own Microsoft has broken and we sell (or t
 The **business** deserves a 4 or 5: wide moat, ~31% ROIC, 68% gross margin, 18% growth, net cash.
 The **thesis at this price** does not. Three things pulled it down since the June refresh:
 
-- the margin of safety went from −4% to **−24.5%**;
+- the margin of safety went from −4% to −24.5% (Sep) and now **−32.7%** (Oct);
 - free cash flow **fell** for the first time in this thesis's life, and the capex driving it doubled;
 - finance-lease obligations grew another **$20B**, and the Fed **hiked**, raising the bar for every
   long-duration asset.
 
 A 3 means: excellent company, **keep it on the bench, wait for the price.** A missed buy costs
 nothing; an overpriced buy costs money.
+
+## Refresh note — 2026-10-20
+
+**What changed: only the price.** Microsoft has filed no new 10-Q, 10-K or earnings 8-K since the
+2026-09-17 refresh (the [SEC EDGAR filing index](https://data.sec.gov/submissions/CIK0000789019.json)
+shows only Form 4 insider reports, a Form 144 and a shareholder-proposal PX14A6G). Every fundamental
+figure above therefore still reflects FY2026 (ended 30 June 2026).
+
+**Why the fair value did not move.** Our playbook rule (2026-09-17) says a fair-value estimate may only
+move when we can name the input that changed. No input changed: same EPS ($17.28 non-GAAP), same FCF
+per share ($8.99), same multiples and yields. Rerunning `code/valuation.py` with the new price gives
+the identical band, **$342.93 / $399.67 / $460.24**. The stock rose ~6.6% (from $497.58 to $530.20);
+the business did not get 6.6% more valuable in a month with no new information.
+
+**New risk: the earnings print is 8 days away.** Microsoft will report FY2027 Q1 after the close on
+**Wednesday 28 October 2026** ([announcement, 7 Oct 2026](https://finviz.com/news/400058/microsoft-announces-quarterly-earnings-release-date)).
+The stock has run up into the report and sits near the top of its 250-day range, so expectations for
+Azure (guided 44–45% cc) and capex (>$50B) are high. We should not buy into the print at this price.
+This thesis must be refreshed again by **30 October** with the real Q1 numbers. That refresh is when
+the band can legitimately change: up if free cash flow per share recovers or Azure beats, down if capex
+grows again without matching revenue.
+
+**Conviction stays at 3.** The business is still excellent. The price is now further from our band.
 
 ---
 

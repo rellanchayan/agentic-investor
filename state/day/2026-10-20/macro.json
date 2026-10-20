@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-20",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 771.72,
+  "spy_sma200": 725.85,
+  "spy_vs_200d_pct": 6.3,
+  "futures_this_morning": "unavailable — no reliable pre-market data found for Oct 20 2026",
+  "rates": {
+    "fed_funds_target_range": "3.75-4.00%",
+    "fed_funds_effective": "3.88% (as of Oct 9)",
+    "ten_year_yield": "~5.22% (as of Oct 9; may have moved)",
+    "trend": "elevated — Fed hiked Sep 15-16; another hike possible Oct 28"
+  },
+  "inflation": {
+    "cpi_sept_yoy": "3.7%",
+    "cpi_sept_mom": "0.6%",
+    "vs_consensus": "above (+3.6% expected)",
+    "release_date": "2026-10-14"
+  },
+  "valuation": {
+    "sp500_trailing_pe": "~28.7x",
+    "sp500_forward_pe": "~20.0x",
+    "sp500_cape": "~41.6",
+    "note": "CAPE near all-time high; forward PE slightly above 5-year average of 19.9x"
+  },
+  "earnings_season": "active — peak week Oct 19-23; Netflix tonight, Tesla/Meta Wed, MCD/MA/HON/UNP Thu, CVX/XOM Fri",
+  "events": [
+    "Netflix (NFLX) Q3 earnings — Tue Oct 20 after close",
+    "GM, NOC, RTX, 3M earnings — Tue Oct 20 pre-market (already released)",
+    "Tesla (TSLA), Meta (META), IBM earnings — Wed Oct 21 after close",
+    "MCD, MA, HON, UNP, LMT earnings — Thu Oct 22 pre-market",
+    "CVX, XOM, AXP, AbbVie earnings — Fri Oct 23",
+    "FOMC rate decision — Wed Oct 28 2:00 PM ET (8 days away)"
+  ],
+  "note": "Posture unchanged at cautious. Elevated CAPE (~41.6), 10-year yield ~5.22%, hot CPI (+3.7% YoY), and imminent FOMC meeting (Oct 28) with above-consensus inflation creating risk of another hike all argue for demanding a full margin of safety before any buy. This is peak Q3 earnings week — elevated daily volatility expected. SPY remains in a technical uptrend above its 200-day average, but absolute valuation is stretched by every long-run measure.",
+  "sources": [
+    "https://www.macroradar.io/as-of/2026-10-10",
+    "https://fedratecalc.com/fomc-meeting-schedule/october-2026/",
+    "https://fedratecalc.com/us-economic-calendar/october-2026/",
+    "https://en.mercopress.com/2026/10/12/s-p-500-price-prediction-what-macro-signals-say-about-the-index-in-2026",
+    "https://fffinstill.com/earnings-calendar/week/2026-10-19",
+    "https://www.century.ae/en/blog/fomc-meeting-schedule-2026/"
+  ]
+}
