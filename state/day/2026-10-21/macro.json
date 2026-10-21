@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 770.35,
+  "spy_sma200": 726.25,
+  "spy_vs_200d_pct": 6.07,
+  "events": [
+    "Tesla, Meta, IBM earnings after close TODAY (Oct 21)",
+    "FOMC meeting Oct 27-28; rate decision Wed Oct 28 2:00 PM ET",
+    "GDP and PCE inflation Thu Oct 29",
+    "MSFT, GOOGL, AMZN earnings week of Oct 26"
+  ],
+  "rates": "elevated — Fed funds 3.75-4.00%; 10-year Treasury ~5.28% (last confirmed Oct 15)",
+  "inflation": "September CPI 3.7% YoY (above 3.6% consensus); core CPI 2.6% YoY (above 2.5% expected); released Oct 14",
+  "futures_today": "S&P 500 futures +0.24%, Nasdaq +0.70% premarket; tech-led rally on SpaceX Q3 beat",
+  "valuation": "forward P/E ~19x; Shiller CAPE ~41x — expensive by historical standards",
+  "oil": "Brent crude ~$110/barrel — inflationary",
+  "earnings_season": "Q3 2026 in progress; 84% beat rate from early reporters; tech sector expected +43% YoY",
+  "note": "CAUTIOUS: hot September CPI, Fed hike risk at Oct 28 FOMC, 10-year yield ~5.28%, all thesis candidates well above fair value, heavy earnings calendar. Futures pointing modestly higher this morning on SpaceX/tech enthusiasm but structural backdrop is unchanged.",
+  "sources": [
+    "https://fortune.com/2026/10/21/tech-futures-rise-premarket-trading-spacex-stock-rockets-overnight-wells-fargos-buy-signal-triggered/",
+    "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-rise-premarket-spacex-ai-boom-lifts-chip-stocks-smci-tsla-meta-ibm-crwv-nflx-be-in-focus/cZxtvuZRBHU",
+    "https://fedratecalc.com/fomc-meeting-schedule/october-2026/",
+    "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026",
+    "https://investinglive.com/news/us-september-cpi-vs-3-6-expected-0/",
+    "https://blofin.com/academy/education/tradfi/earnings-season-october-2026",
+    "https://tech-insider.org/meta-tesla-netflix-earnings-week-70-companies-2026/",
+    "https://www.ftportfolios.com/Commentary/Insights/2026/10/5/market-minute---october-2026"
+  ]
+}

@@ -1,11 +1,43 @@
 # Apple Inc. (AAPL) — Research Thesis
 
 **Thesis ID:** AAPL-2026Q3 · **As of:** fiscal Q3 2026 (quarter ended 2026-06-27)
-**Written:** 2026-09-17 · **Refresh due:** 2026-10-17 (FY2026 Q4 earnings land late October)
-**Price used:** $332.55 (Alpaca) · **Conviction:** 3 / 5
+**Written:** 2026-09-17 · **Refreshed:** 2026-10-21 · **Refresh due:** 2026-11-03 (day after Q4 FY2026 earnings on 2026-11-02)
+**Price used:** $340.36 (Alpaca, 2026-10-21) · **Conviction:** 3 / 5
 **Verdict: wonderful business, wrong price. Do not buy here.**
 
 ---
+
+## Refresh note — 2026-10-21
+
+**What changed:** only the price and the calendar. **No new financial filings** exist since the
+Q3 FY2026 10-Q (filed 2026-07-31); everything Apple filed since is insider Forms 4 and 144
+([SEC EDGAR submissions](https://data.sec.gov/submissions/CIK0000320193.json)). So every
+fundamental input (TTM EPS $8.73, TTM FCF/share $9.29) is the same, and **the fair-value band is
+deliberately left unchanged** at $197.66 / $232.82 / $276.76. Our playbook rule (2026-09-17) says
+not to move fair value unless we can name an input that changed, and we can't.
+
+- **Price:** $340.36, up from $332.55 on 2026-09-17. The gap has widened: margin of safety went
+  from −42.8% to **−46.2%**. The price rose; the business numbers did not change.
+- **New CEO.** Per Apple's [8-K of 2026-04-20](https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm),
+  John Ternus (SVP Hardware Engineering, at Apple since 2001) became CEO on **2026-09-01**; Tim
+  Cook is now Executive Chair. The board planned it and approved it unanimously, so it is an
+  orderly handover. Still, buyback and AI-spending decisions now sit with a CEO who has no record
+  in the job yet. The previous version of this thesis left this out, which was a gap.
+- **Earnings date:** Q4 FY2026 will be reported on **Monday 2026-11-02** at 1:30pm PT
+  ([MacRumors, citing Apple IR](https://macrumors.com/2026/10/06/apple-q4-2026-earnings-nov-2)).
+  The quarter includes only about 9 days of iPhone 18 Pro sales. The iPhone Duo goes on sale
+  2026-10-23, so it falls in the December quarter.
+- **iPhone 18 early signals are mixed and unofficial.** US/Canada pre-order delivery checks
+  suggested a lukewarm start for the base Pro, with the Pro Max stronger
+  ([iPhone in Canada](https://www.iphoneincanada.ca/2026/09/15/iphone-18-pro-pre-orders-reportedly-off-to-a-lukewarm-start/)).
+  India and UAE reports were strong. None of this is company data.
+- **Epic case:** the Supreme Court took the contempt appeal on 2026-06-30, and Justice Kagan put
+  lower-court proceedings on administrative hold on 2026-08-12
+  ([Giga Law](https://giga.law/daily-news/2026/8/12/supreme-court-pauses-proceedings-in-apple-epic-case)).
+  The decision date is unknown.
+
+**Verdict unchanged:** a wonderful business at the wrong price. Conviction stays at 3, and it is
+"watch, do not buy." Re-run the full thesis on 2026-11-03 with the FY2026 10-K numbers.
 
 ## 1. What the company actually does, in plain words
 
@@ -99,10 +131,10 @@ is the honest hurdle today.
 |---|---|---|---|
 | Fair value | **$197.66** | **$232.82** | **$276.76** |
 
-**Price today: $332.55. That is ~43% ABOVE our base fair value, and ~20% above the top of the
-band.** Margin of safety = **−42.8%** — i.e. there is none; there is a negative cushion.
+**Price today: $340.36. That is ~46% ABOVE our base fair value, and ~23% above the top of the
+band.** Margin of safety = **−46.2%** — i.e. there is none; there is a negative cushion.
 
-At $332.55 you are paying **38.1x trailing earnings** for a **2.79% free-cash-flow yield**, in a
+At $340.36 you are paying **39.0x trailing earnings** for a **2.73% free-cash-flow yield**, in a
 market where a Treasury bill pays roughly 4% with no risk at all.
 
 ### The bull's rebuttal, stated fairly
@@ -113,8 +145,8 @@ willing to underwrite both at once — see the next section for why.
 
 ## 5. The risks — written as hard as the bull case
 
-1. **Valuation is the whole problem.** 38.1x TTM earnings against a 10-year median of 27.25x.
-   Even our optimistic case is 17% below the market price.
+1. **Valuation is the whole problem.** 39.0x TTM earnings against a 10-year median of 27.25x.
+   Even our optimistic case is ~19% below the market price.
 2. **The earnings themselves are flattered.** Q3 FY2026's 50.1% gross margin **included about
    2 percentage points — and $0.11 of EPS — from one-off tariff refunds** after the February 2026
    Supreme Court ruling. Paying a peak multiple for peak, partly one-off earnings is exactly how
@@ -145,9 +177,9 @@ willing to underwrite both at once — see the next section for why.
 
 ## 6. Trend check (Alpaca only)
 
-Price **$332.55** is above its **50-day average $319.65** and well above its **200-day average
-$286.03**; the 52-week close range is **$245.30–$340.01**. The stock is in a strong uptrend near
-its highs. That is momentum, not value — and it is precisely why we are not buying.
+Price **$340.36** (2026-10-21) is above its **50-day average $327.65** and well above its **200-day
+average $293.50**; the 250-day close range is **$246.72–$343.39** (high on 2026-10-16). The stock is
+in an uptrend sitting at its highs, though it has flattened over the past month. That is momentum, not value — and it is precisely why we are not buying.
 
 ## 7. Sell triggers — the exact rules
 
@@ -165,16 +197,19 @@ calm conditions, so we follow them later.
 8. **Annual buybacks fall below $40B** while the balance sheet is still net cash — a signal
    management no longer thinks the shares are worth retiring.
 9. Any serious **accounting red flag, restatement, or auditor change**.
+10. **Q4 FY2026 check (2026-11-02):** gross margin below 46% or revenue growth below 5% YoY —
+    clearly missing the 47–48% / 9–11% guide — means the earnings base in our valuation is
+    overstated: cut conviction to 2 and re-run fair value.
 
 **Entry discipline (not a sell rule):** do not initiate or add above **$233** (base fair value).
-A first tranche is only justified **below ~$210**, roughly 10% under base.
+A first tranche is only justified **below ~$210**, roughly 10% under base — a ~38% fall from $340.36.
 
 ## 8. What would make me buy
 
 - A pullback into the **$200–$233** zone. That needs a ~30–40% decline — historically that has
   required a broad market de-rating or a real growth stumble, both of which are possible with the
   Fed hiking into 3.4% inflation.
-- **Q4 FY2026 results (late October 2026)** are the key near-term test: do the guided 9–11%
+- **Q4 FY2026 results (2026-11-02, 1:30pm PT)** are the key near-term test: do the guided 9–11%
   growth and 47–48% gross margin hold once the tariff refunds stop flattering the numbers?
 
 ## 9. Why conviction is 3, not 4 or 5
@@ -182,7 +217,7 @@ A first tranche is only justified **below ~$210**, roughly 10% under base.
 The *business* deserves a 4 or 5 — the moat got wider, growth re-accelerated, the balance sheet
 is a fortress, and the data is entirely filing-backed. But conviction here means "would we
 happily own a lot of this, for years, at this price," and the answer is no: we would be paying
-43% above our own estimate of what it is worth, for earnings that contain a one-off tariff
+46% above our own estimate of what it is worth, for earnings that contain a one-off tariff
 benefit, into guided deceleration, with the Fed tightening. **Quality says 4. Price says 2.
 Net: 3, and a clear "watch, do not buy."**
 

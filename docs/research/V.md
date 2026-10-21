@@ -1,10 +1,42 @@
 # Visa Inc. (V) — Research Thesis
 
 - **Thesis ID:** V-2026Q3 · **As of:** fiscal Q3 2026 (quarter ended 2026-06-30)
-- **Retrieved:** 2026-09-17 · **Refresh due:** 2026-10-17 (FY2026 full-year results land late October)
-- **Price used:** $369.51 · **Moat:** wide · **Conviction:** 4 / 5
-- **Fair value band:** $246 (low) — **$292 (base)** — $340 (high)
-- **Margin of safety: −26.7% → the stock is EXPENSIVE. This is a "great business, wrong price" — not a buy today.**
+- **Retrieved:** 2026-10-21 (refresh) · **Refresh due:** 2026-10-28 (the day after FY2026 results on 2026-10-27)
+- **Price used:** $411.42 (Alpaca, 2026-10-21) · **Moat:** wide · **Conviction:** 4 / 5
+- **Fair value band:** $246 (low) — **$292 (base)** — $340 (high) — unchanged
+- **Margin of safety: −41.0% → the stock is EXPENSIVE. Still a "great business, wrong price" — not a buy today.**
+
+## 2026-10-21 refresh — what changed and what did not
+
+**The business numbers did not change.** Visa has published no new financial statements since the
+Q3 FY2026 8-K and 10-Q (late July). The only new company filing is an
+[8-K dated 2026-09-23](https://www.sec.gov/Archives/edgar/data/1403161/000140316126000121/v-20260918.htm):
+Visa put $405M into its US litigation escrow account. That works like a small buyback for
+class A holders, but it will probably also show up as a GAAP litigation charge in Q4.
+Full-year results come out on **Tuesday 2026-10-27** after the close
+([Visa IR](https://investor.visa.com/news/news-details/2026/Visa-to-Announce-Fiscal-Fourth-Quarter-and-Full-Year-2026-Financial-Results-on-October-27-2026/default.aspx)).
+
+**The price did change.** V went from $369.51 (2026-09-17) to $411.42, a record high. It now sits
+well above its 50-day ($375.14) and 200-day ($340.03) averages, computed from Alpaca daily closes.
+According to [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/visa-stock-11-october-while-204244589.html)
+(an aggregator), analysts barely changed their earnings estimates during the run: forward
+adjusted EPS stayed near $14.45 while the forward P/E went from about 25x to about 28x. So
+**the stock got more expensive; the business did not get more valuable.**
+
+**Fair value is deliberately unchanged.** Our playbook rule (2026-09-17) says fair value only
+moves when a cited fundamental changes. None did. Raising the band to "catch up" with the price
+would be exactly the motivated reasoning that rule warns against. Even using the friendlier
+non-GAAP EPS ($12.78 TTM), the band is $307 / $358 / $409, and the price is above the top of that too.
+
+**New things to watch (not counted in our numbers):** China's central bank let Visa *start
+preparing* a domestic card-clearing business (2026-10-13). That is preparation only, with no
+licence to operate and no timeline. Separately, Visa Direct's stablecoin (USDC) prefunding went
+commercial in mid-October ([Tickeron](https://tickeron.com/blogs/visa-v-shares-rise-9-3-in-30-days-on-china-approval-and-stablecoin-momentum-19647/)).
+Both are real options on the future, but neither has revenue attached yet.
+
+**What would make us buy:** at a 12% margin of safety we would need about $257, and about $239
+under the cautious 18% rule. From $411 that is a 38–42% fall. The other way to get there is for
+earnings to grow into the price over a few years. The sell triggers below are unchanged.
 
 ---
 
