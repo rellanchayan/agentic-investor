@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-22",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 762.67,
+  "spy_sma200": 726.62,
+  "spy_premium_to_200d_pct": 5.0,
+  "events": [
+    "FOMC rate decision Oct 28, 2:00 PM ET (6 days away) — hike odds ~17-20%; hot Sep CPI keeps the door open",
+    "Meta + Tesla Q3 earnings released Oct 21 after-close — market digesting results today",
+    "Procter & Gamble Q3 earnings due today Oct 22 (before open)",
+    "Microsoft + Alphabet Q3 earnings expected Oct 28 — same day as FOMC decision, double binary event",
+    "Next CPI release Nov 10 (October data) — no inflation report this week",
+    "Q3 2026 earnings season active — ~9% of S&P 500 reported; 84% beat rate but stocks falling on beats (unusual bearish sign)"
+  ],
+  "rates": "elevated — Fed funds at 3.75%-4.00% after Sep 16 hike; 10-year Treasury approx 5.1-5.3%; FOMC Oct 27-28 meeting pending with decision Oct 28",
+  "inflation": "hot — Sep 2026 CPI +3.7% YoY / +0.6% MoM (above +3.6% consensus); core CPI +2.6% YoY (above +2.5% expected); no fresh CPI print this week",
+  "valuation": "elevated — S&P 500 trailing P/E approx 28-29x; CAPE approx 41.6 near all-time record; forward P/E ~20x near 5-year average",
+  "earnings_season": true,
+  "note": "Maintaining CAUTIOUS posture. SPY at 762.67 is 5.0% above its 200-day average (726.62) — technically in an uptrend but not in discount territory. SPY has pulled back from ~772 last Friday, consistent with the prior week's tech-led selloff (Nasdaq -4.48%, PHLX Semiconductor index -11.4%). Earnings beats are not being rewarded — stocks are falling on beats at twice the historical rate, a cautionary signal. The FOMC decision on Oct 28 is the next major binary event; the small but nonzero rate-hike probability, combined with Microsoft and Alphabet results on the same day, sets up a volatile window. The 10-year yield near 5.1-5.3% continues to compress the equity risk premium. All thesis candidates remain far above their cautious entry prices. Demand the full margin of safety before any buy.",
+  "sources": [
+    "https://investinglive.com/news/us-september-cpi-vs-3-6-expected-0/",
+    "https://tradingeconomics.com/united-states/inflation-rate-mom/news/591944",
+    "https://political.org/2026/10/12/fed-officials-hope-to-skip-an-october-rate-hike-but-this-weeks-inflation-report-could-upend-that-plan/",
+    "https://www.octagonai.co/markets/economics/fed/fed-decision-in-october/",
+    "https://digg.com/world-business/gn59dv2o",
+    "https://roboforex.com/beginners/analytics/forex-forecast/indices/indices-forecast-2026-10-19/",
+    "https://blofin.com/academy/education/tradfi/earnings-this-week-oct-19-23-2026",
+    "https://en.mercopress.com/2026/10/12/s-p-500-price-prediction-what-macro-signals-say-about-the-index-in-2026",
+    "https://fred.stlouisfed.org/graph/?g=1q06w",
+    "https://www.century.ae/en/blog/fomc-meeting-schedule-2026/"
+  ]
+}
