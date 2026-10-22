@@ -1,11 +1,40 @@
 # Apple Inc. (AAPL) — Research Thesis
 
 **Thesis ID:** AAPL-2026Q3 · **As of:** fiscal Q3 2026 (quarter ended 2026-06-27)
-**Written:** 2026-09-17 · **Refresh due:** 2026-10-17 (FY2026 Q4 earnings land late October)
-**Price used:** $332.55 (Alpaca) · **Conviction:** 3 / 5
+**Written:** 2026-09-17 · **Refreshed:** 2026-10-22 · **Refresh due:** 2026-11-06 (Q4 FY2026 results 2026-11-02)
+**Price used:** $342.93 (Alpaca, 2026-10-22) · **Conviction:** 3 / 5
 **Verdict: wonderful business, wrong price. Do not buy here.**
 
 ---
+
+## 0. What changed in the 2026-10-22 refresh
+
+- **No new financial filing.** Apple has not reported since Q3 FY2026. Q4 FY2026 results come out
+  **Monday 2026-11-02 after the close**
+  ([MacTrast](https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/)).
+  I re-checked every Q3 figure against the
+  [SEC 8-K](https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/a8-kex991q3202606272026.htm),
+  and they all match.
+- **The fair-value band is deliberately unchanged** ($197.66 / $232.82 / $276.76). No earnings
+  input changed. The rate backdrop is also the same: the Fed's 2026-09-16 hike to 3.75–4.00%
+  ([Fed statement](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm))
+  was already assumed in the last version. Under our playbook rule, a number doesn't move without
+  a cited reason to move it.
+- **The price rose** from $332.55 to **$342.93**, so the margin of safety fell from −42.8% to
+  **−47.3%**. The stock got more expensive, and the business didn't change.
+- **New CEO.** John Ternus became CEO on **2026-09-01**, and Tim Cook moved to Executive Chair
+  ([SEC 8-K, Item 5.02](https://www.sec.gov/Archives/edgar/data/0000320193/000114036126015711/ef20071035_8k.htm)).
+  His first earnings call is 2026-11-02.
+- **Epic case corrected and updated.** The December 2025 Ninth Circuit ruling *upheld* the contempt
+  finding but *sent back* the permanent zero-commission ban, so Apple may charge a cost-based fee
+  ([Courthouse News](https://courthousenews.com/ninth-circuit-confirms-contempt-finding-against-apple-in-epic-games-battle/)).
+  The US Solicitor General has filed a brief urging the Supreme Court to reverse the contempt
+  finding on the 27% commission. Epic's reply is due 2026-11-13
+  ([9to5Mac](https://9to5mac.com/2026/09/22/u-s-government-urges-supreme-court-to-reverse-apple-contempt-ruling-over-app-store-commission/)).
+- **Signals on iPhone 18 demand are mixed, and none come from Apple.** KeyBanc models about 80M
+  iPhone 18 builds over Q4 FY26 and Q1 FY27, versus about 91M a year earlier
+  ([iThinkDiff](https://www.ithinkdiff.com/iphone-18-keybanc-stock-decline-warning/)). Other analysts
+  are more upbeat. Treat all of this as unverified until Apple reports.
 
 ## 1. What the company actually does, in plain words
 
@@ -99,10 +128,11 @@ is the honest hurdle today.
 |---|---|---|---|
 | Fair value | **$197.66** | **$232.82** | **$276.76** |
 
-**Price today: $332.55. That is ~43% ABOVE our base fair value, and ~20% above the top of the
-band.** Margin of safety = **−42.8%** — i.e. there is none; there is a negative cushion.
+**Price today (2026-10-22): $342.93. That is ~47% ABOVE our base fair value, and ~24% above the
+top of the band.** Margin of safety = **−47.3%**. In other words there is no cushion at all, only a
+negative one.
 
-At $332.55 you are paying **38.1x trailing earnings** for a **2.79% free-cash-flow yield**, in a
+At $342.93 you are paying **39.3x trailing earnings** for a **2.71% free-cash-flow yield**, in a
 market where a Treasury bill pays roughly 4% with no risk at all.
 
 ### The bull's rebuttal, stated fairly
@@ -113,8 +143,8 @@ willing to underwrite both at once — see the next section for why.
 
 ## 5. The risks — written as hard as the bull case
 
-1. **Valuation is the whole problem.** 38.1x TTM earnings against a 10-year median of 27.25x.
-   Even our optimistic case is 17% below the market price.
+1. **Valuation is the whole problem.** 39.3x TTM earnings against a 10-year median of 27.25x.
+   Even our optimistic case is about 19% below the market price.
 2. **The earnings themselves are flattered.** Q3 FY2026's 50.1% gross margin **included about
    2 percentage points — and $0.11 of EPS — from one-off tariff refunds** after the February 2026
    Supreme Court ruling. Paying a peak multiple for peak, partly one-off earnings is exactly how
@@ -128,26 +158,32 @@ willing to underwrite both at once — see the next section for why.
 5. **Regulators are aiming at the most profitable revenue Apple has.**
    - EU DMA: a €500M fine already levied and under appeal, plus a separate Article 6(4)
      investigation carrying exposure of **up to 10% of worldwide net sales**.
-   - Epic: the Ninth Circuit's December 2025 injunction bars Apple from charging *any* commission
-     on purchases made outside an app; the Supreme Court granted review of the contempt standard
-     on 2026-06-30.
+   - Epic: the Ninth Circuit (December 2025) upheld the contempt finding but sent back the
+     permanent zero-commission ban. Any fee on link-out purchases must be limited to costs that
+     are "genuinely and reasonably necessary." The Supreme Court (No. 25-1311) is reviewing only
+     the contempt standard. The US government supports Apple on the 27% commission, Epic's brief
+     is due 2026-11-13, and no argument date has been set.
    - DOJ's March 2024 monopolization suit is still live.
-   - Remedies in the Google search case could cut Apple's search-licensing revenue, which is
-     close to 100% margin.
+   - Google search case: the current remedies still let Google pay Apple on a non-exclusive
+     basis, but DOJ and the states have appealed to ban those payments
+     ([MediaPost](https://www.mediapost.com/publications/article/416888/google-search-remedies-too-weak-feds-tell-appeals.html)).
+     That revenue is close to 100% margin.
    ([10-Q](https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000020/aapl-20260627.htm))
 6. **One product is half the company,** and the current growth is substantially an upgrade
    supercycle. Supercycles pull demand forward and create ugly comparisons the year after.
 7. **Apple rents its AI rather than owning it.** The new Siri runs on Google's Gemini models.
    That solved the near-term product gap, but it means the most important platform technology of
    the decade is licensed — and it deepens a commercial tie that regulators are attacking.
-8. **China is ~17% of revenue and a large share of manufacturing** — a standing geopolitical and
+8. **New CEO.** Ternus took over on 2026-09-01. He is a 25-year Apple hardware veteran, so
+   continuity is likely, but he has no record as CEO and capital-allocation habits could change.
+9. **China is ~17% of revenue and a large share of manufacturing** — a standing geopolitical and
    tariff exposure, even after the tariff refunds.
 
 ## 6. Trend check (Alpaca only)
 
-Price **$332.55** is above its **50-day average $319.65** and well above its **200-day average
-$286.03**; the 52-week close range is **$245.30–$340.01**. The stock is in a strong uptrend near
-its highs. That is momentum, not value — and it is precisely why we are not buying.
+Price **$342.93** (2026-10-22) is above its **50-day average $328.54** and well above its
+**200-day average $293.93**. The 250-day close range is **$246.72–$343.94**, so the stock is
+sitting at its highs. That is momentum, not value — and it is precisely why we are not buying.
 
 ## 7. Sell triggers — the exact rules
 
@@ -174,7 +210,7 @@ A first tranche is only justified **below ~$210**, roughly 10% under base.
 - A pullback into the **$200–$233** zone. That needs a ~30–40% decline — historically that has
   required a broad market de-rating or a real growth stumble, both of which are possible with the
   Fed hiking into 3.4% inflation.
-- **Q4 FY2026 results (late October 2026)** are the key near-term test: do the guided 9–11%
+- **Q4 FY2026 results (2026-11-02)** are the key near-term test: do the guided 9–11%
   growth and 47–48% gross margin hold once the tariff refunds stop flattering the numbers?
 
 ## 9. Why conviction is 3, not 4 or 5
@@ -182,7 +218,7 @@ A first tranche is only justified **below ~$210**, roughly 10% under base.
 The *business* deserves a 4 or 5 — the moat got wider, growth re-accelerated, the balance sheet
 is a fortress, and the data is entirely filing-backed. But conviction here means "would we
 happily own a lot of this, for years, at this price," and the answer is no: we would be paying
-43% above our own estimate of what it is worth, for earnings that contain a one-off tariff
+47% above our own estimate of what it is worth, for earnings that contain a one-off tariff
 benefit, into guided deceleration, with the Fed tightening. **Quality says 4. Price says 2.
 Net: 3, and a clear "watch, do not buy."**
 

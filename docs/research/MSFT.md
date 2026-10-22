@@ -1,11 +1,21 @@
 # Microsoft Corporation (MSFT) — research thesis
 
 - **Thesis ID:** MSFT-2026Q4 · **As of:** FY2026 Q4 (fiscal year ended 30 June 2026)
-- **Written:** 2026-09-17 · **Next refresh due:** 2026-10-17 (FY2027 Q1 earnings, late October)
+- **Written:** 2026-09-17 · **Refreshed:** 2026-10-22 · **Next refresh due:** 2026-10-30 (right after FY2027 Q1 earnings on 2026-10-28)
 - **Moat:** wide · **Conviction:** 3 / 5
-- **Price used:** $497.58 (Alpaca) · **Our fair value:** $342.93 low / **$399.67 base** / $460.24 high
-- **Margin of safety: −24.5% (NEGATIVE).** On our own framework, **Microsoft is overvalued today.**
-  This is a wonderful business at a price we do not want to pay. **Do not buy at $497.58.**
+- **Price used:** $523.62 (Alpaca, 2026-10-22) · **Our fair value:** $342.93 low / **$399.67 base** / $460.24 high
+- **Margin of safety: −31.0% (NEGATIVE).** On our own framework, **Microsoft is overvalued today.**
+  This is a wonderful business at a price we do not want to pay. **Do not buy at $523.62.**
+
+> **2026-10-22 refresh — what changed and what didn't.** Microsoft has filed no new financial
+> statements since the 2 Sep 2026 8-K (only insider Form 4s, the proxy and the annual report to
+> shareholders, per [EDGAR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&dateb=&owner=include&count=40)).
+> We re-checked the FY2026 10-K figures against SEC XBRL and they match. So **fair value is
+> unchanged** ($342.93 / $399.67 / $460.24). The share price is not a fundamental, so we did not
+> move fair value because of it. The only thing that changed is the price, which rose from $497.58 to $523.62, so
+> the margin of safety got **worse**, from −24.5% to −31.0%. FY2027 Q1 results are due **Wed 28 Oct
+> after the close** ([announcement](https://finviz.com/news/400058/microsoft-announces-quarterly-earnings-release-date)),
+> the same day as an FOMC decision. This thesis is deliberately short-dated so it is rebuilt on those numbers.
 
 ---
 
@@ -87,16 +97,17 @@ since hiked to 3.75–4.00% — when safe cash pays more, growth is worth less.
 rate reason.
 
 **Blended band: $342.93 low / $399.67 base / $460.24 high.**
-At $497.58 the margin of safety is **−24.5%** — we would be paying about a quarter *more* than we
-think it's worth.
+At $523.62 the margin of safety is **−31.0%**. We would be paying almost a third *more* than we
+think it's worth, and $63 above even the top of the band.
 
 ### Being honest: the two methods disagree, badly
 
 They should not be papered over.
 
-- On **earnings**, MSFT trades at 27.7x trailing GAAP / 28.8x non-GAAP — near its own long-run
-  average. A P/E-only view says $449–$588, i.e. roughly *fair*.
-- On **cash**, the free-cash-flow yield at $497.58 is **1.81%**. The Fed pays 3.75–4.00% on cash.
+- On **earnings**, MSFT trades at 29.2x trailing GAAP / 30.3x non-GAAP. A P/E-only view says
+  $449–$588 with a base of $518, so today's price is now slightly *above* even the friendlier method's base.
+- On **cash**, the free-cash-flow yield at $523.62 is **1.72%**. The Fed pays 3.75–4.00% on cash and
+  the 10-year Treasury yields ~4.70%.
   You are accepting less cash yield from Microsoft than from a Treasury bill, and taking equity risk
   to get it.
 
@@ -105,8 +116,8 @@ earn a good return?** If yes, today's depressed FCF is temporary and the P/E vie
 cash-flow view wins and the stock has a long way to fall. Because we genuinely do not know, we keep
 both methods in and accept a wide, humble band — and a band whose top end is still below today's price.
 
-**Trend check (Alpaca only):** last close $496.58, 50-day average $462.50, 200-day average $431.54.
-The price is above both — a strong uptrend. The 250-day range is $352.42–$542.43, so a pullback to
+**Trend check (Alpaca only, 2026-10-22):** latest close $523.98, 50-day average $507.93, 200-day average $436.30.
+The price is above both, so the trend is up. The 250-day range is $349.21–$553.63, so a pullback to
 our band is not fantasy; it happened within the last year.
 
 ## 5. The bull case
@@ -122,7 +133,7 @@ our band is not fantasy; it happened within the last year.
 
 ## 6. The risks (written as hard as the bull case)
 
-1. **The price.** At $497.58 we are 25% above our base value and above the top of our band. This is
+1. **The price.** At $523.62 we are 31% above our base value and 14% above the top of our band. This is
    the single biggest risk in this thesis and it is not a subtle one.
 2. **Free cash flow is shrinking**, and Q1 FY2027 capex alone is guided at **over $50B**. FY2027 FCF
    could fall again.
@@ -137,6 +148,8 @@ our band is not fantasy; it happened within the last year.
 7. **Regulation.** Antitrust scrutiny in the US and EU over cloud bundling, the OpenAI relationship,
    and AI market power.
 8. **Less transparency** after the FY2027 segment change.
+9. **Event risk this week.** Earnings (28 Oct) and an FOMC decision priced roughly 50/50 hike-vs-hold land
+   on the same day, with the stock near its 250-day high ($553.63) and the market's CAPE ~41.
 
 ## 7. Sell triggers — the exact rules
 
@@ -170,7 +183,7 @@ If any of these happen, the reason we own Microsoft has broken and we sell (or t
 The **business** deserves a 4 or 5: wide moat, ~31% ROIC, 68% gross margin, 18% growth, net cash.
 The **thesis at this price** does not. Three things pulled it down since the June refresh:
 
-- the margin of safety went from −4% to **−24.5%**;
+- the margin of safety went from −4% to −24.5% (Sep) to **−31.0%** (Oct 22);
 - free cash flow **fell** for the first time in this thesis's life, and the capex driving it doubled;
 - finance-lease obligations grew another **$20B**, and the Fed **hiked**, raising the bar for every
   long-duration asset.
