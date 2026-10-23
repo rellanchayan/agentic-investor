@@ -4,8 +4,8 @@
   "company": "Microsoft Corporation",
   "sector": "Information Technology",
   "as_of": "2026-Q4",
-  "retrieved": "2026-09-17",
-  "refresh_due": "2026-10-17",
+  "retrieved": "2026-10-23",
+  "refresh_due": "2026-10-29",
   "business_summary": "Microsoft sells software, cloud computing and devices to businesses, governments and consumers. FY2026 (ended 2026-06-30) revenue was $331.839B, up 18% from $281.724B, across three reported segments: Productivity & Business Processes (Microsoft 365, Teams, LinkedIn, Dynamics) $139.996B; Intelligent Cloud (Azure, server products, GitHub) $137.791B; More Personal Computing (Windows, Xbox, Surface, search advertising) $54.052B. Azure passed $100B of annual revenue for the first time in FY2026 and grew 43% in Q4. Most revenue is recurring subscription or consumption-based, and commercial remaining performance obligation (contracted future revenue) reached $678B, up 84%. From FY2027 Microsoft reports in two new segments, 'Agents and Infra' ($268.1B FY2026 revenue recast) and 'Devices and Consumer' ($63.7B). The business should still be winning in 5-10 years because enterprises run their operations on Microsoft software, switching costs are very high, and Microsoft is one of a handful of credible platforms for the AI buildout. The open question this year is not demand but capital intensity: cash capex nearly doubled to $115.948B in FY2026 (plus $24.608B of finance-lease right-of-use assets), so free cash flow FELL to $66.987B from $71.611B even as revenue grew 18%.",
   "moat": {
     "type": "High switching costs (Microsoft 365, Windows, Azure, Dynamics), network effects (Teams, LinkedIn, GitHub), scale economies in cloud infrastructure, deep enterprise distribution and contracted backlog",
@@ -19,13 +19,13 @@
     "fcf_positive": "yes, but shrinking: FY2026 FCF $66.987B (operating cash flow $182.935B - capex $115.948B), down from $71.611B in FY2025. Net of $3.101B finance-lease principal payments, $63.886B."
   },
   "valuation": {
-    "price": 497.58,
+    "price": 524.3,
     "price_source": "alpaca",
-    "price_asof": "2026-09-17",
+    "price_asof": "2026-10-23",
     "fair_value_low": 342.93,
     "fair_value_base": 399.67,
     "fair_value_high": 460.24,
-    "method": "Blend (simple average) of two methods run through code/valuation.py. (1) P/E: 26x / 30x / 34x on FY2026 non-GAAP diluted EPS of $17.28 -> $449.28 / $518.40 / $587.52. Base 30x is roughly where a wide-moat ~18% grower with 47% operating margins has historically traded; the low case reflects a de-rating if AI capex disappoints, the high case continued AI-driven acceleration. Multiples are one turn lower than the June 2026 thesis (28/32/36x) because the Fed has since hiked to 3.75-4.00%, raising the risk-free rate. (2) FCF yield: 3.8% / 3.2% / 2.7% on FY2026 FCF per share of $8.99 ($66.987B / 7,453M diluted shares) -> $236.58 / $280.94 / $332.96; required yields are ~0.3pp above the June thesis for the same rate reason. Blended band $342.93 / $399.67 / $460.24. Margin of safety at $497.58 = -24.5% (NEGATIVE: the stock trades ABOVE the high end of our band). SENSITIVITY, stated honestly: the two methods disagree sharply. On earnings alone MSFT trades at 27.7x trailing GAAP EPS ($17.95) and 28.8x non-GAAP, which is near its own historical average, and a P/E-only band would be $449-$588 - i.e. roughly fair. The blend is dragged down entirely by the FCF method, because capex ($115.9B cash, plus $24.6B of finance leases) is now 3.4x depreciation ($34.3B) and has pushed reported free cash flow down year over year. Which view is right depends on whether that capex earns a return - which is not yet knowable. We deliberately keep the cash-flow method in, so the band is wide and humble."
+    "method": "Blend (simple average) of two methods run through code/valuation.py on 2026-10-23. Inputs are UNCHANGED from the 2026-09-17 refresh because no new financial statements have been filed since then (Q1 FY2027 results are due 2026-10-28); per the playbook, fair value is not moved without a changed, citable fundamental. Only the price changed. (1) P/E: 26x / 30x / 34x on FY2026 non-GAAP diluted EPS of $17.28 -> $449.28 / $518.40 / $587.52. Base 30x is roughly where a wide-moat ~18% grower with 47% operating margins has historically traded; low = de-rating if AI capex disappoints, high = continued AI-driven acceleration. Multiples are one turn below the June 2026 thesis because the Fed raised rates to 3.75-4.00% on 2026-09-17 (now confirmed on the Federal Reserve's open-market page). (2) FCF yield: 3.8% / 3.2% / 2.7% on FY2026 FCF per share of $8.99 ($66.987B / 7,453M diluted shares) -> $236.58 / $280.94 / $332.96. Blended band $342.93 / $399.67 / $460.24. Margin of safety at $524.30 = -31.2% (NEGATIVE; price is ~14% ABOVE the high end of the band). SENSITIVITY, stated honestly: the two methods still disagree sharply. At $524.30 MSFT trades at 29.2x trailing GAAP EPS ($17.95) and 30.3x non-GAAP ($17.28), right at our P/E base case, so a P/E-only view says roughly fair ($449-$588). The blend is dragged down entirely by the FCF method: FCF yield at today's price is only 1.71%, because capex ($115.9B cash plus $24.6B of finance leases) is 3.4x depreciation ($34.3B). Which view is right depends on whether that capex earns a return, which is not yet knowable. The cash-flow method stays in, so the band is wide and humble."
   },
   "conviction": 3,
   "bull_case": [
@@ -36,14 +36,16 @@
     "Diversified and durable: Productivity ($140.0B) and Intelligent Cloud ($137.8B) are now similarly sized, so no single product carries the company; FY2026 diluted EPS grew 32% GAAP / 22% non-GAAP."
   ],
   "risks": [
-    "VALUATION IS THE PRIMARY RISK, AND WE ARE HONEST ABOUT IT: at $497.58 MSFT trades ~25% above our base fair value of $399.67 and above the $460.24 high end of our band. On our framework this stock is OVERVALUED today and is not a buy at this price. The free-cash-flow yield at today's price is just 1.81%, versus a 3.75-4.00% federal funds rate - an investor is accepting less cash yield than cash itself pays.",
+    "VALUATION IS THE PRIMARY RISK: at $524.30 (Alpaca, 2026-10-23) MSFT trades ~31% above our base fair value of $399.67 and ~14% above the $460.24 high end of our band. The price ROSE 5.4% since the 2026-09-17 refresh ($497.58) with no new financial results to justify it, so the gap got wider, not narrower. On our framework this stock is OVERVALUED and is not a buy at this price. FCF yield at today's price is 1.71%, versus a 3.75-4.00% federal funds rate.",
     "Free cash flow is going backwards: FY2026 FCF of $66.987B was BELOW FY2025's $71.611B despite 18% revenue growth, because cash capex nearly doubled from $64.551B to $115.948B. Q1 FY2027 capex alone is guided to over $50B. If this continues, FCF could fall again in FY2027.",
     "The AI capex bet is unproven and enormous. Capex ($115.9B) is now 3.4x depreciation ($34.3B), which means today's earnings are flattered relative to the depreciation charge that this asset base will eventually carry. If AI demand disappoints, both margins and returns on capital fall hard.",
     "Off-balance-sheet-ish leverage is building: finance-lease liabilities rose from $27.145B (FY2024) to $46.172B (FY2025) to $66.594B (FY2026). This is real debt-like obligation used to fund datacentres and it does not show up in the headline 'net cash' figure.",
     "Earnings quality: FY2026 GAAP net income ($133.749B) was boosted by discrete items including a $3.2B gain on the Anthropic investment. Non-GAAP net income was $128.786B. Mark-to-market gains on AI-company stakes are not repeatable operating profit.",
     "Macro and rates: the Fed hiked to 3.75-4.00% with inflation at 3.4%. Higher risk-free rates compress the multiple investors will pay for long-duration growth, and a corporate IT spending slowdown would hit cloud consumption and seat growth.",
     "Regulatory/antitrust scrutiny in the US and EU over cloud bundling, the OpenAI relationship, and AI market power.",
-    "Segment reporting changes from FY2027 ('Agents and Infra' / 'Devices and Consumer') reduce comparability and make it harder to track Azure and Windows separately over time."
+    "Segment reporting changes from FY2027 ('Agents and Infra' / 'Devices and Consumer') reduce comparability and make it harder to track Azure and Windows separately over time.",
+    "Event risk inside the next week: Q1 FY2027 results come out 2026-10-28 after the close. Management guided Azure +44-45% constant currency and capex over $50B for the quarter. With the stock near its 250-day high ($543.51 close on 2026-10-13), a miss on Azure or a further capex jump could move the price sharply in either direction. Any fair-value change must wait for the actual 10-Q/8-K numbers.",
+    "Unverified accounting-change report: an aggregator article (aiweekly.co) says Microsoft extended datacentre/office useful lives from 15 to 25 years and cut its calendar-2026 capex estimate to ~$175B from ~$190B. We could NOT verify this: the FY2026 10-K still lists buildings and improvements at 5-15 years and servers/network equipment at 2-6 years. If a useful-life extension appears in the Q1 FY2027 10-Q, it would cut depreciation and flatter earnings without changing cash. We would treat that as an earnings-quality flag, and earnings-based valuations would need adjusting for it."
   ],
   "what_would_break_thesis": [
     "Azure constant-currency revenue growth falls below 20% for two consecutive quarters (guidance for Q1 FY2027 is 44-45%; a fall to sub-20% would mean the AI cloud thesis has broken).",
@@ -57,9 +59,9 @@
     "A serious accounting restatement, an SEC enforcement action, or a material governance red flag - in particular any restatement of datacentre asset useful lives or of revenue recognised on AI-related related-party transactions."
   ],
   "catalysts": [
-    "Q1 FY2027 earnings in late October 2026: the test of whether Azure hits the guided 44-45% constant-currency growth and whether capex really exceeds $50B in a single quarter.",
+    "Q1 FY2027 earnings on Wednesday 2026-10-28 after market close (webcast 2:30 p.m. PT), per Microsoft's 2026-10-07 announcement. This tests whether Azure hits the guided 44-45% constant-currency growth, whether capex really tops $50B in one quarter, and whether any change to asset useful lives shows up in the 10-Q.",
     "Evidence of return on AI capex - specifically Intelligent Cloud / 'Agents and Infra' operating margin holding up while the depreciation from the FY2026-27 buildout starts to hit the P&L.",
-    "A price pullback toward the $400 base or the $343 low end of our band, which would open a genuine margin of safety. The 250-day low from the Alpaca feed is $352.42, so this is not an impossible price.",
+    "A price pullback toward the $400 base or the $343 low end of our band would open a real margin of safety. The 250-day closing low on the Alpaca feed is $352.42, so this price has been seen within the last year. It would take a ~24% fall from $524.30 to reach the base.",
     "Capex growth normalising back toward depreciation, which would cause reported free cash flow to jump sharply and resolve the earnings-versus-cash-flow disagreement in our valuation.",
     "Copilot paid seats compounding well beyond 30 million, proving AI is a revenue line and not just a cost line."
   ],
@@ -137,27 +139,59 @@
       "retrieved": "2026-06-16"
     },
     {
-      "claim": "Current price and trend. Quote bid $496.51 / ask $497.25 at 14:48 UTC on 2026-09-17; price used $497.58 as supplied by the morning cycle. Last daily close $496.58; 50-day average close $462.50; 200-day average close $431.54; 250-day range $352.42-$542.43. Price is above both its 50-day and 200-day averages (uptrend).",
-      "value": "price 497.58; last close 496.58; 50d MA 462.50; 200d MA 431.54; 250d low 352.415; 250d high 542.425",
+      "claim": "Current price and trend. Quote bid $523.68 / ask $525.00 at 14:47 UTC on 2026-10-23; price used $524.30 as supplied by the caller (inside the live bid/ask). Latest daily bar close $523.93 (2026-10-23, intraday); 50-day average close $508.42; 200-day average close $436.49; 250-day closing range $352.42-$543.51. Price is above both its 50-day and 200-day averages (uptrend) but has eased from the $543.51 close on 2026-10-13.",
+      "value": "price 524.30; bid 523.68; ask 525.00; last bar close 523.93; 50d MA 508.42; 200d MA 436.49; 250d close low 352.415; 250d close high 543.51",
       "url": "https://paper-api.alpaca.markets",
       "publisher": "Alpaca (our own market-data feed)",
-      "as_of": "2026-09-17",
-      "retrieved": "2026-09-17"
+      "as_of": "2026-10-23",
+      "retrieved": "2026-10-23"
     },
     {
-      "claim": "Macro context used to set required multiples and yields: federal funds target raised to 3.75-4.00%, CPI inflation 3.4%. Supplied by the morning cycle's market-weather step, not independently verified from a Federal Reserve source in this refresh.",
-      "value": "fed funds 3.75-4.00%; CPI 3.4%",
+      "claim": "Federal funds target range raised 25bp to 3.75-4.00% on 2026-09-17, as listed on the Federal Reserve's open-market operations page (read 2026-10-23). The CPI 3.4% figure used in the 09-17 refresh was passed in by the morning cycle and was NOT independently verified.",
+      "value": "fed funds 3.75-4.00% (from 2026-09-17); CPI 3.4% unverified",
       "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
-      "publisher": "Federal Reserve (context passed in by the morning cycle; treat as unverified in this refresh)",
-      "as_of": "2026-09",
-      "retrieved": "2026-09-17"
+      "publisher": "Federal Reserve (open market operations page); CPI figure unverified",
+      "as_of": "2026-09-17",
+      "retrieved": "2026-10-23"
+    },
+    {
+      "claim": "Microsoft will publish FY2027 first-quarter results after market close on Wednesday 2026-10-28; earnings webcast at 2:30 p.m. Pacific (company press release dated 2026-10-07, republished by Finviz/PR Newswire)",
+      "value": "Q1 FY2027 earnings date 2026-10-28",
+      "url": "https://finviz.com/news/400058/microsoft-announces-quarterly-earnings-release-date",
+      "publisher": "Microsoft press release via PR Newswire / Finviz",
+      "as_of": "2026-10-07",
+      "retrieved": "2026-10-23"
+    },
+    {
+      "claim": "No new 10-Q, 10-K or earnings 8-K filed since the 2026-09-02 8-K. Filings since the last refresh are Form 4 insider filings, a Form 144, and the 2026-10-21 proxy statement (DEF 14A, DEFA14A, ARS). The FY2026 financial-statement inputs are therefore unchanged; re-checked against XBRL on 2026-10-23 (revenue 331,839; gross profit 225,465; operating income 155,237; net income 133,749; OCF 182,935; capex 115,948; diluted EPS 17.95; finance-lease liability 66,594, all in $M except EPS).",
+      "value": "no new periodic financial filings since 2026-09-02; FY2026 XBRL values re-confirmed",
+      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "publisher": "U.S. SEC EDGAR submissions index",
+      "as_of": "2026-10-23",
+      "retrieved": "2026-10-23"
+    },
+    {
+      "claim": "FY2026 10-K property and equipment useful lives: internal-use software 3 years; servers and network equipment 2-6 years; buildings and improvements 5-15 years; leasehold improvements 3-15 years; furniture and equipment 1-10 years. Checked to test an unverified aggregator claim of a 15-to-25-year extension, which the 10-K does NOT show.",
+      "value": "servers 2-6y; buildings 5-15y",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "publisher": "U.S. SEC EDGAR (FY2026 Form 10-K, Note 1)",
+      "as_of": "FY2026 (ended 2026-06-30)",
+      "retrieved": "2026-10-23"
+    },
+    {
+      "claim": "UNVERIFIED aggregator report: Microsoft cut its calendar-2026 capex estimate to ~$175B from ~$190B, attributed to extending datacentre/office useful lives from 15 to 25 years. Not used in any calculation; recorded only as a risk to check in the Q1 FY2027 10-Q.",
+      "value": "unverified; not used",
+      "url": "https://aiweekly.co/fr/alerts/microsoft-ramne-son-capex-2026-175-md-malgr-azure-43",
+      "publisher": "aiweekly.co (aggregator, low trust)",
+      "as_of": "unknown",
+      "retrieved": "2026-10-23"
     }
   ],
   "data_quality": [
     "filing-backed"
   ],
-  "price_used": 497.58,
-  "margin_of_safety": -0.245,
+  "price_used": 524.3,
+  "margin_of_safety": -0.3118,
   "stale": false,
-  "verdict": "expensive (above the high end of fair value) - HOLD/DO NOT BUY at $497.58; our base fair value is $399.67"
+  "verdict": "expensive (above the high end of fair value) - HOLD/DO NOT BUY at $524.30; base fair value $399.67, high $460.24. Refresh again immediately after Q1 FY2027 results on 2026-10-28."
 }

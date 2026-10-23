@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-23",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 761.65,
+  "spy_sma200": 726.99,
+  "spy_pct_above_200d": 4.8,
+  "rates": "rising",
+  "fed_funds_rate": "3.75-4.00%",
+  "ten_year_approx": "~5.2-5.3% (estimated; last confirmed breach of 5% was mid-Sep 2026)",
+  "trailing_pe_approx": "~28-29x (July 2026 reading: 28.71; likely similar or higher now)",
+  "inflation": "hot — Sep CPI +3.7% YoY / +0.6% MoM (above ~3.6% consensus; released Oct 14-15)",
+  "events": [
+    "FOMC meeting Oct 27-28, rate decision Oct 28 2:00pm ET (likely hold; ~17% odds of hike as of early Oct)",
+    "Microsoft (MSFT) and Alphabet (GOOGL) earnings after close Oct 28",
+    "Amazon (AMZN) earnings and Q3 GDP advance estimate Oct 29",
+    "PCE / Personal Income data Oct 29-30"
+  ],
+  "earnings_season": "active — ~9% of S&P 500 reported; 84% beat rate; Q3 earnings growth est. +29% (FactSet Oct 16); megacap tech reports this week",
+  "futures_this_morning": "not confirmed — no reliable source found for Oct 23 pre-market",
+  "note": "All prior-posture factors remain intact: expensive market (~28-29x PE), rates rising (Fed hiked Sep to 3.75-4.00%, 10-yr near 5%), hot inflation (Sep CPI +3.7%), FOMC decision this Wednesday Oct 28. SPY is 4.8% above its 200-day average. No candidate is within striking distance of a cautious entry price. Demanding an 18%+ margin of safety and conviction ≥4 remains the right stance. The week ahead is high in scheduled event risk.",
+  "sources": [
+    "https://www.kucoin.com/blog/september-2026-fomc-decision-will-the-fed-hike-rates-or-hold",
+    "https://tradingeconomics.com/united-states/interest-rate/news/584300",
+    "https://admiralmarkets.com/analytics/traders-blog/fed-raised-interest-rates",
+    "https://www.roic.ai/news/fed-minutes-signal-another-2026-hike-likely-appropriate-but-timing-remains-uncertain-10-07-2026",
+    "https://www.scotsmanguide.com/?p=127336",
+    "https://digg.com/world-business/26fx2bws",
+    "https://blofin.com/academy/education/tradfi/earnings-this-week-oct-19-23-2026",
+    "https://blofin.com/academy/education/tradfi/earnings-season-october-2026",
+    "https://smartcalendars.ai/en/feeds/us-economic-calendar",
+    "https://www.multpl.com/s-p-500-pe-ratio/table",
+    "https://www.morningstar.com/news/dow-jones/202606307321/10-year-treasury-yield-rises-to-4420-data-talk"
+  ]
+}
