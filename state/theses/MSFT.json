@@ -30,9 +30,9 @@
   "conviction": 3,
   "bull_case": [
     "Wide moat intact and arguably widening: commercial remaining performance obligation (contracted future revenue) jumped 84% to $678B in Q4 FY2026.",
-    "Azure passed $100B of annual revenue in FY2026 and grew 43% in Q4; management guided Q1 FY2027 Azure growth of 44-45% constant currency, i.e. acceleration at enormous scale. Q1 FY2027 will be the first quarter in which Microsoft discloses Azure revenue in dollars.",
+    "Azure passed $100B of annual revenue in FY2026 and grew 43% in Q4; management guided Q1 FY2027 Azure growth of 44-45% constant currency, i.e. acceleration at enormous scale. Q1 FY2027 will be the first quarter in which Microsoft discloses Azure revenue in dollars. Recast FY2026 Azure revenue was $101.9B.",
     "Exceptional economics: 67.9% gross margin, 46.8% operating margin, ~31% estimated ROIC, net cash of $36.5B excluding leases (FY2026 10-K).",
-    "AI is monetising: Microsoft 365 Copilot passed 30 million paid seats (Q4 FY2026), up from 15 million in January 2026 and 20 million in April 2026 per press reports of management commentary.",
+    "AI is monetising: Microsoft 365 Copilot passed 30 million paid seats (reported 2026-07-29), up from 15 million in January 2026 and over 20 million in April 2026 per press coverage of management commentary.",
     "Sell-side is overwhelmingly positive: consensus FY2027 non-GAAP EPS ~$19.78 (+14% vs FY2026's $17.28) and a ~$599 average 12-month price target from ~56 analysts (aggregator data, Oct 2026). On that forward view the stock looks fairly priced."
   ],
   "risks": [
@@ -42,10 +42,10 @@
     "The AI capex bet is unproven: capex is 3.4x depreciation, so today's margins are flattered relative to the depreciation this asset base will eventually carry.",
     "Debt-like leases are building: finance-lease liabilities $27.145B (FY2024) -> $46.172B (FY2025) -> $66.594B (FY2026), outside the headline 'net cash' figure.",
     "Earnings quality: FY2026 GAAP net income included a $3.2B gain on the Anthropic investment; mark-to-market gains on AI stakes are not repeatable operating profit.",
-    "Copilot pricing pressure: Microsoft is running a promotional Copilot Business price of $18/user/month through 2026-12-31 (vs $21 standard), and there are unconfirmed reports of larger volume discounts - seat growth may come at lower revenue per seat.",
+    "Copilot monetisation per seat is not disclosed: Microsoft reports seat counts, not Copilot revenue, and press reports describe promotional pricing and possible volume discounts (unverified). Seat growth may come at lower revenue per seat.",
     "Macro and rates: the 2026-09 thesis recorded fed funds at 3.75-4.00% and CPI 3.4% (not re-verified in this refresh). Higher rates compress multiples on long-duration growth stocks.",
     "Regulatory/antitrust scrutiny in the US and EU over cloud bundling, the OpenAI relationship and AI market power.",
-    "Segment reporting change from Q1 FY2027 reduces comparability with history; Azure is being redefined (GitHub Cloud, Security Copilot and Healthcare cloud move out), so growth rates may not be like-for-like."
+    "Segment reporting change from Q1 FY2027 reduces comparability with history; Azure is being redefined (GitHub and Security Copilot move out; recast FY2026 Azure $101.9B), so growth rates may not be like-for-like."
   ],
   "what_would_break_thesis": [
     "Azure constant-currency revenue growth falls below 20% for two consecutive quarters (guidance for Q1 FY2027 is 44-45%; a fall to sub-20% would mean the AI cloud thesis has broken).",
@@ -187,19 +187,27 @@
       "retrieved": "2026-10-24"
     },
     {
-      "claim": "Q1 FY2027 consensus revenue ~$90.62B (+16.7% YoY) and EPS ~$4.71; Azure guide ~45% cc vs 41.4% StreetAccount consensus at the time of guidance; Azure redefinition (GitHub Cloud, Security Copilot, Healthcare cloud moved out) and first-time dollar disclosure of Azure revenue from Q1 FY2027. Secondary press source.",
-      "value": "Q1 revenue est 90620; EPS est 4.71; Street Azure est 41.4%",
+      "claim": "Q1 FY2027 preview: Microsoft guided Azure growth ~45% constant currency, well above the 41.4% StreetAccount consensus at the time; revenue guidance $89.85-$90.95B; Morningstar-implied EPS ~$4.70 at guidance midpoints; FY2026 Azure revenue topped $100B, up 41%. Secondary press source.",
+      "value": "Azure guide ~45% cc vs Street 41.4%; implied Q1 EPS 4.70; FY26 Azure growth 41%",
       "url": "https://www.top1markets.com/news/7527766",
       "publisher": "Top1Markets (earnings preview)",
       "as_of": "2026-10",
       "retrieved": "2026-10-24"
     },
     {
-      "claim": "Microsoft 365 Copilot paid seats: over 30 million (stated on Q4 FY2026 call, July 2026), vs more than 20 million in April 2026 and 15 million in January 2026; Copilot add-on $30/user/month list; Copilot Business promotional $18 vs $21 through 2026-12-31. Secondary press source summarising management commentary.",
+      "claim": "Microsoft 365 Copilot paid seats: 15 million (January 2026), more than 20 million (April 2026), over 30 million (reported 2026-07-29 with Q4 FY2026 results). Secondary press source; pricing in this article is UK-specific and internally inconsistent, so not used.",
       "value": "Copilot paid seats >30,000,000 (Jul 2026); >20,000,000 (Apr 2026); 15,000,000 (Jan 2026)",
       "url": "https://www.gadgetscout.co.uk/articles/microsoft-azure-passes-100bn-as-copilot-reaches-30m-paid.html",
       "publisher": "GadgetScout (press coverage of Q4 FY2026 results)",
       "as_of": "2026-07-29",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "claim": "Azure redefinition from FY2027: GitHub and Security Copilot revenue removed from Azure; Azure revenue disclosed in dollars for the first time; segments cut from three to two. Recast Azure revenue $29.4B in the quarter ended 2026-06-30 and $101.9B for FY2026.",
+      "value": "recast Azure Q4 FY26 29400; FY26 101900 (millions USD)",
+      "url": "https://valueaddvc.com/pulse/microsoft-azure-revenue-disclosure-segment-change-2026",
+      "publisher": "ValueAdd VC (summarising CNBC report of 2026-09-02 and the 2026-09-02 8-K)",
+      "as_of": "2026-09-03",
       "retrieved": "2026-10-24"
     }
   ],

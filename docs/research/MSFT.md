@@ -1,11 +1,39 @@
 # Microsoft Corporation (MSFT) — research thesis
 
-- **Thesis ID:** MSFT-2026Q4 · **As of:** FY2026 Q4 (fiscal year ended 30 June 2026)
-- **Written:** 2026-09-17 · **Next refresh due:** 2026-10-17 (FY2027 Q1 earnings, late October)
-- **Moat:** wide · **Conviction:** 3 / 5
-- **Price used:** $497.58 (Alpaca) · **Our fair value:** $342.93 low / **$399.67 base** / $460.24 high
-- **Margin of safety: −24.5% (NEGATIVE).** On our own framework, **Microsoft is overvalued today.**
-  This is a wonderful business at a price we do not want to pay. **Do not buy at $497.58.**
+- **Thesis ID:** MSFT-2026Q1FY27 · **As of:** FY2026 Q4 (fiscal year ended 30 June 2026). No newer financial filing exists yet.
+- **Refreshed:** 2026-10-24 (previous version 2026-09-17) · **Next refresh due:** **2026-10-30**, straight after Q1 FY2027 results on **Wed 2026-10-28** after the close ([Microsoft, 7 Oct 2026](https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date/))
+- **Moat:** wide · **Conviction:** 3 / 5 (unchanged)
+- **Price used:** $524.38 (Alpaca close 2026-10-23) · **Our fair value:** $342.93 low / **$399.67 base** / $460.24 high (unchanged)
+- **Margin of safety: −31.2% (NEGATIVE).** On our own framework, **Microsoft is overvalued today**, and
+  more so than a month ago. **Do not buy at $524.38.**
+
+## What changed in this refresh (2026-10-24)
+
+- **The business numbers did not change.** Since the 2 Sep 2026 8-K, Microsoft has filed only insider
+  Form 4s, a Form 144, and its proxy/annual report (21 Oct 2026)
+  ([EDGAR filing index](https://data.sec.gov/submissions/CIK0000789019.json)). The Q1 FY2027 report
+  is 4 days away. So, following our 17 Sep playbook rule, **we did not move fair value**: no cited
+  fundamental changed.
+- **The price did change:** $497.58 → $524.38 (+5.4%). Margin of safety worsened from −24.5% to −31.2%
+  purely because the stock rose.
+- **New context we found (secondary sources, not filings):**
+  - Wall Street's average 12-month target is about **$599** (median $600, range $440–$870, ~56 analysts,
+    41 Strong Buy / 13 Buy / 3 Hold) and consensus FY2027 non-GAAP EPS is **$19.78**, revenue **$391.3B**
+    ([StockAnalysis.com, 23 Oct 2026](https://stockanalysis.com/stocks/msft/forecast/)). MarketBeat's
+    average is $592.15; Jefferies raised to $650 (14 Oct), Citi to $636 (15 Oct), Wells Fargo sits at $725
+    ([Tradingpedia, 23 Oct 2026](https://www.tradingpedia.com/2026/10/23/microsoft-faces-high-bar-as-investors-await-q1-earnings/)).
+  - The bar for 28 Oct is high: Microsoft guided Azure to ~45% constant-currency growth, versus a 41.4%
+    StreetAccount consensus at the time ([Top1Markets preview](https://www.top1markets.com/news/7527766)).
+    Press reports note that in January 2026 Azure grew 38% and the stock still fell ~10% (Tradingpedia).
+  - **Azure is being redefined.** GitHub and Security Copilot move out; Azure will be disclosed in dollars
+    for the first time. Recast FY2026 Azure revenue: **$101.9B**; June-2026 quarter **$29.4B**
+    ([ValueAdd VC, 3 Sep 2026, summarising the 2 Sep 8-K / CNBC](https://valueaddvc.com/pulse/microsoft-azure-revenue-disclosure-segment-change-2026)).
+    Growth rates under the new definition may not match history.
+  - **Copilot:** paid seats went 15M (Jan 2026) → 20M+ (Apr) → 30M+ (reported 29 Jul)
+    ([GadgetScout](https://www.gadgetscout.co.uk/articles/microsoft-azure-passes-100bn-as-copilot-reaches-30m-paid.html)).
+    No newer official count; Microsoft does not disclose Copilot revenue, so revenue per seat is unknown.
+
+**If you are reading this after 28 Oct 2026, this thesis is out of date — refresh it before using it.**
 
 ---
 
@@ -87,16 +115,20 @@ since hiked to 3.75–4.00% — when safe cash pays more, growth is worth less.
 rate reason.
 
 **Blended band: $342.93 low / $399.67 base / $460.24 high.**
-At $497.58 the margin of safety is **−24.5%** — we would be paying about a quarter *more* than we
-think it's worth.
+At $524.38 the margin of safety is **−31.2%** — we would be paying about a third *more* than we
+think it's worth. (Inputs and multiples unchanged from the 17 Sep thesis; re-run through
+`code/valuation.py` on 24 Oct.)
 
 ### Being honest: the two methods disagree, badly
 
 They should not be papered over.
 
-- On **earnings**, MSFT trades at 27.7x trailing GAAP / 28.8x non-GAAP — near its own long-run
-  average. A P/E-only view says $449–$588, i.e. roughly *fair*.
-- On **cash**, the free-cash-flow yield at $497.58 is **1.81%**. The Fed pays 3.75–4.00% on cash.
+- On **earnings**, MSFT trades at 29.2x trailing GAAP ($17.95) / 30.3x non-GAAP ($17.28) — right at
+  our 30x base. A P/E-only view says $449–$588, i.e. roughly *fair*. On the Street's **forward** FY2027
+  EPS of $19.78 (aggregator, not a filing) the same multiples give $514 / $593 / $673 — "fair, leaning
+  cheap". We show this for honesty but do **not** use it in the band: it is a forecast, not a fact.
+- On **cash**, the free-cash-flow yield at $524.38 is **~1.7%**. The Fed (per our Sep context, not
+  re-verified) pays 3.75–4.00% on cash.
   You are accepting less cash yield from Microsoft than from a Treasury bill, and taking equity risk
   to get it.
 
@@ -105,8 +137,8 @@ earn a good return?** If yes, today's depressed FCF is temporary and the P/E vie
 cash-flow view wins and the stock has a long way to fall. Because we genuinely do not know, we keep
 both methods in and accept a wide, humble band — and a band whose top end is still below today's price.
 
-**Trend check (Alpaca only):** last close $496.58, 50-day average $462.50, 200-day average $431.54.
-The price is above both — a strong uptrend. The 250-day range is $352.42–$542.43, so a pullback to
+**Trend check (Alpaca only, 23 Oct 2026):** last close $524.38, 50-day average $508.43, 200-day average
+$436.49. The price is above both — still an uptrend. The 250-day range is $352.42–$543.51, so a pullback to
 our band is not fantasy; it happened within the last year.
 
 ## 5. The bull case
@@ -122,8 +154,12 @@ our band is not fantasy; it happened within the last year.
 
 ## 6. The risks (written as hard as the bull case)
 
-1. **The price.** At $497.58 we are 25% above our base value and above the top of our band. This is
+1. **The price.** At $524.38 we are 31% above our base value and ~14% above the top of our band. This is
    the single biggest risk in this thesis and it is not a subtle one.
+1b. **A binary event in 4 days.** Q1 FY2027 results on 28 Oct. Expectations (Azure ~45%, capex >$50B in
+   one quarter) are high; a "good" quarter can still produce a sharp fall, as January 2026 showed.
+1c. **Copilot revenue is invisible.** We get seat counts, not dollars, and there are press reports of
+   promotional pricing and discounts (unverified).
 2. **Free cash flow is shrinking**, and Q1 FY2027 capex alone is guided at **over $50B**. FY2027 FCF
    could fall again.
 3. **The AI capex bet is unproven and gigantic.** Capex at 3.4x depreciation means future depreciation
@@ -162,10 +198,13 @@ If any of these happen, the reason we own Microsoft has broken and we sell (or t
 - A pullback to **$400 or below** (our base), ideally toward **$343** (our low), for a real cushion.
 - Capex growth normalising toward depreciation, which would make reported free cash flow jump and
   settle the earnings-vs-cash argument in the bulls' favour.
-- Evidence in the Q1 FY2027 report (late October) that cloud operating margin holds up *while* the
+- Evidence in the Q1 FY2027 report (28 Oct) that cloud operating margin holds up *while* the
   new depreciation starts hitting.
 
-## 9. Conviction: 3 / 5 — and why it fell from 4
+## 9. Conviction: 3 / 5 — unchanged on 24 Oct (it fell from 4 on 17 Sep)
+
+On 24 Oct we kept it at 3: nothing about the business changed, and the price moved further away from
+value. The 17 Sep reasoning still holds:
 
 The **business** deserves a 4 or 5: wide moat, ~31% ROIC, 68% gross margin, 18% growth, net cash.
 The **thesis at this price** does not. Three things pulled it down since the June refresh:
@@ -181,7 +220,9 @@ nothing; an overpriced buy costs money.
 ---
 
 ### Data quality
-**filing-backed.** All financial-statement figures come from the FY2026 Form 10-K (filed 29 July 2026,
+**filing-backed** for fundamentals. Analyst targets, consensus estimates, Copilot seat history and the
+Azure redefinition come from secondary press/aggregator sources and are used only as context, never in
+the fair-value band. All financial-statement figures come from the FY2026 Form 10-K (filed 29 July 2026,
 accession 0001193125-26-323660) via SEC EDGAR XBRL, the Q4 FY2026 8-K earnings release, and the
 2 September 2026 8-K guidance update. Price and moving averages come only from our Alpaca feed.
 
