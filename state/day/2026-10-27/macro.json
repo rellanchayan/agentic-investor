@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-27",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 767.95,
+  "spy_sma200": 727.73,
+  "spy_pct_above_200d": 5.5,
+  "events": [
+    "FOMC two-day meeting DAY ONE today Oct 27 — rate decision Wednesday Oct 28 at 2:00 PM ET (press conference 2:30 PM ET)",
+    "MSFT earnings after close Wednesday Oct 28 — options pricing +/-6% move",
+    "GOOGL earnings after close Wednesday Oct 28 — options pricing +/-7.3% move",
+    "AMZN earnings Thursday Oct 29 after close",
+    "Q3 GDP (advance estimate) Thursday Oct 29 at 8:30 AM ET",
+    "September PCE inflation Thursday Oct 29 at 8:30 AM ET",
+    "AAPL earnings Monday Nov 2 after close"
+  ],
+  "rates": "Fed funds rate 3.75-4.00% (raised 25bp on Sep 16); FOMC hold widely expected Oct 28 (~87% probability) but hike risk remains (~13-14%); 10-year Treasury yield approximately 5.28% (as of Oct 15 — not updated today)",
+  "inflation": "September CPI +3.7% YoY / +0.6% MoM — above ~3.6% consensus; well above Fed 2% target; next CPI (Oct) due Nov 10; September PCE due Thu Oct 29",
+  "valuation": "expensive — Shiller CAPE approximately 41.6 (near dot-com peak territory); trailing P/E approximately 28.7x; 10-year yield at 5.28% exceeds S&P 500 earnings yield (~3.5%), a negative real equity risk premium",
+  "futures_am": "S&P 500 +0.30% at open (approximately 7,699); Nasdaq +0.45%; Dow flat to slightly lower; modest risk-on open driven by easing oil and earnings anticipation",
+  "note": "Cautious maintained. Three major catalysts land within 48 hours: FOMC rate decision, MSFT and GOOGL earnings, and PCE/GDP on Thursday. The FOMC is on Day 1 of its meeting right now. Even if the hold is the base case, Fed Chair guidance and the statement wording can move markets sharply given the elevated 10-year yield. MSFT and GOOGL together represent roughly 12% of SPY; a combined miss could rattle the index. The market is historically expensive (CAPE 41.6), every thesis candidate trades well above fair value, and no candidate is within 20% of its cautious entry price. A calm open does not change the big-picture risk. Holding all cash is the correct active choice.",
+  "sources": [
+    "https://www.federalreserve.gov/newsevents/2026-october.htm",
+    "https://fedratecalc.com/fomc-meeting-schedule/october-2026/",
+    "https://fvbb.com/ns/us-stocks-today-s-p-500-nasdaq-open-higher/327039",
+    "https://sundayguardianlive.com/business/us-stock-market-today-live-dow-jones-rises-105-points-sp-500-gains-021-nasdaq-climbs-028-at-open-as-oil-prices-fed-rate-decision-in-focus-check-what-investors-should-know-312394/amp/",
+    "https://blofin.com/academy/education/tradfi/earnings-this-week-oct-19-23-2026",
+    "https://earnings-watcher.com/wiki/msft-earnings-october-2026",
+    "https://earnings-watcher.com/wiki/googl-earnings-october-2026",
+    "https://www.octagonai.co/markets/economics/fed/fed-decision-in-october/",
+    "https://manifold.markets/CheerForgeAdmin/-will-the-us-federal-reserve-cut-in"
+  ]
+}

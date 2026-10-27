@@ -1,11 +1,40 @@
 # Apple Inc. (AAPL) — Research Thesis
 
 **Thesis ID:** AAPL-2026Q3 · **As of:** fiscal Q3 2026 (quarter ended 2026-06-27)
-**Written:** 2026-09-17 · **Refresh due:** 2026-10-17 (FY2026 Q4 earnings land late October)
-**Price used:** $332.55 (Alpaca) · **Conviction:** 3 / 5
+**Written:** 2026-09-17 · **Refreshed:** 2026-10-27 · **Refresh due:** 2026-11-05 (Q4 FY2026 results land Monday 2026-11-02)
+**Price used:** $346.04 (Alpaca, 2026-10-27) · **Conviction:** 3 / 5
 **Verdict: wonderful business, wrong price. Do not buy here.**
 
 ---
+
+## 0. What changed in the 2026-10-27 refresh
+
+- **No new financial numbers.** Apple has filed nothing with new financials since the Q3 FY2026
+  10-Q (2026-07-31). Q4 FY2026 results come out **after the close on Monday 2026-11-02**
+  ([MacDailyNews](https://macdailynews.com/2026/10/07/apple-to-report-q426-earnings-on-monday-november-2nd/)).
+  So TTM EPS ($8.73) and TTM FCF/share ($9.29) are unchanged, and **the fair-value band is
+  deliberately unchanged at $197.66 / $232.82 / $276.76.** Our playbook says not to move fair value
+  unless a cited fundamental has changed, and none has.
+- **The price went up, so the stock got more expensive.** It was $332.55, now $346.04: about 39.6x
+  trailing earnings and a 2.68% FCF yield. Margin of safety went from −42.8% to **−48.6%**.
+- **New CEO.** John Ternus (who ran hardware engineering and joined Apple in 2001) became CEO on
+  2026-09-01. Tim Cook is now Executive Chair
+  ([8-K](https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm)).
+  75% of Ternus's FY2027 equity award ($55M target) depends on Apple's total shareholder return
+  against the S&P 500
+  ([8-K/A](https://www.sec.gov/Archives/edgar/data/320193/000114036126035325/ef20081427_8ka.htm)).
+  Continuity looks likely, but he has no record yet as CEO. Nov 2 is his first earnings call.
+- **Possible early softness in iPhone 18 Pro demand (not confirmed).** Nikkei Asia reported that
+  Apple cut October iPhone 18 Pro/Pro Max component orders by 15–20%. That figure comes from one
+  unnamed executive, Apple did not comment, and Reuters could not verify it
+  ([The Star/Reuters](https://www.thestar.com.my/tech/tech-news/2026/10/09/apple-cuts-iphone-18-pro-orders-due-to-soft-demand-nikkei-asia-reports-)).
+  The Pro models cost $100 more than last year's. TrendForce estimates that memory chips now make
+  up about 34% of the Pro's parts cost, up from about 10% a year ago
+  ([ChannelNews](https://www.channelnews.com.au/apple-iphone-18-pro-costs-38-more-to-make-in-memory-cost-squeeze/)).
+  This is a warning sign, not a fact.
+- **Moat is still wide.** Nothing in the last six weeks touched the ecosystem, the brand, or the
+  balance sheet.
+- **One new sell trigger was added** (see section 7, #10).
 
 ## 1. What the company actually does, in plain words
 
@@ -99,10 +128,11 @@ is the honest hurdle today.
 |---|---|---|---|
 | Fair value | **$197.66** | **$232.82** | **$276.76** |
 
-**Price today: $332.55. That is ~43% ABOVE our base fair value, and ~20% above the top of the
-band.** Margin of safety = **−42.8%** — i.e. there is none; there is a negative cushion.
+**Price today (2026-10-27): $346.04. That is ~49% ABOVE our base fair value, and ~25% above the
+top of the band.** Margin of safety = **−48.6%**. There is no cushion at all. The cushion is
+negative.
 
-At $332.55 you are paying **38.1x trailing earnings** for a **2.79% free-cash-flow yield**, in a
+At $346.04 you are paying **~39.6x trailing earnings** for a **~2.68% free-cash-flow yield**, in a
 market where a Treasury bill pays roughly 4% with no risk at all.
 
 ### The bull's rebuttal, stated fairly
@@ -113,8 +143,11 @@ willing to underwrite both at once — see the next section for why.
 
 ## 5. The risks — written as hard as the bull case
 
-1. **Valuation is the whole problem.** 38.1x TTM earnings against a 10-year median of 27.25x.
-   Even our optimistic case is 17% below the market price.
+1. **Valuation is the whole problem.** ~39.6x TTM earnings against a 10-year median of 27.25x.
+   Even our optimistic case ($276.76) is ~20% below the market price.
+1b. **The iPhone 18 Pro cycle may be softer than hoped** (the unconfirmed Nikkei order-cut report
+   above), and memory-cost inflation hits margins at the same time. **New CEO** with no record
+   yet as CEO.
 2. **The earnings themselves are flattered.** Q3 FY2026's 50.1% gross margin **included about
    2 percentage points — and $0.11 of EPS — from one-off tariff refunds** after the February 2026
    Supreme Court ruling. Paying a peak multiple for peak, partly one-off earnings is exactly how
@@ -145,8 +178,9 @@ willing to underwrite both at once — see the next section for why.
 
 ## 6. Trend check (Alpaca only)
 
-Price **$332.55** is above its **50-day average $319.65** and well above its **200-day average
-$286.03**; the 52-week close range is **$245.30–$340.01**. The stock is in a strong uptrend near
+Price **$346.04** (2026-10-27) is above its **50-day average $331.06** and well above its
+**200-day average $295.25**. The 250-day close range is **$246.72–$348.34**, so the stock is
+right at its 52-week high. The stock is in a strong uptrend near
 its highs. That is momentum, not value — and it is precisely why we are not buying.
 
 ## 7. Sell triggers — the exact rules
@@ -165,16 +199,20 @@ calm conditions, so we follow them later.
 8. **Annual buybacks fall below $40B** while the balance sheet is still net cash — a signal
    management no longer thinks the shares are worth retiring.
 9. Any serious **accounting red flag, restatement, or auditor change**.
+10. *(new 2026-10-27)* December-quarter guidance or results show **iPhone revenue falling
+    year-over-year AND company gross margin guided below 45%**. That combination would mean
+    memory-cost inflation is breaking pricing power, not just squeezing one product cycle.
 
 **Entry discipline (not a sell rule):** do not initiate or add above **$233** (base fair value).
-A first tranche is only justified **below ~$210**, roughly 10% under base.
+A first tranche is only justified **below ~$210**, roughly 10% under base. From $346.04 that is
+a ~39% decline. Do not act before the Nov 2 results are folded into this thesis.
 
 ## 8. What would make me buy
 
 - A pullback into the **$200–$233** zone. That needs a ~30–40% decline — historically that has
   required a broad market de-rating or a real growth stumble, both of which are possible with the
   Fed hiking into 3.4% inflation.
-- **Q4 FY2026 results (late October 2026)** are the key near-term test: do the guided 9–11%
+- **Q4 FY2026 results (Monday 2026-11-02)** are the key near-term test: do the guided 9–11%
   growth and 47–48% gross margin hold once the tariff refunds stop flattering the numbers?
 
 ## 9. Why conviction is 3, not 4 or 5
@@ -182,7 +220,7 @@ A first tranche is only justified **below ~$210**, roughly 10% under base.
 The *business* deserves a 4 or 5 — the moat got wider, growth re-accelerated, the balance sheet
 is a fortress, and the data is entirely filing-backed. But conviction here means "would we
 happily own a lot of this, for years, at this price," and the answer is no: we would be paying
-43% above our own estimate of what it is worth, for earnings that contain a one-off tariff
+~49% above our own estimate of what it is worth, for earnings that contain a one-off tariff
 benefit, into guided deceleration, with the Fed tightening. **Quality says 4. Price says 2.
 Net: 3, and a clear "watch, do not buy."**
 

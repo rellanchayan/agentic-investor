@@ -4,8 +4,8 @@
   "company": "Visa Inc.",
   "sector": "Financials / Payment Networks",
   "as_of": "2026-Q3",
-  "retrieved": "2026-09-17",
-  "refresh_due": "2026-10-17",
+  "retrieved": "2026-10-27",
+  "refresh_due": "2026-10-30",
   "business_summary": "Visa runs the world's largest electronic payments network (VisaNet). It does NOT lend money or issue cards; banks issue Visa-branded cards and Visa moves the authorization, clearing and settlement messages between the shopper's bank and the merchant's bank. It earns a small fee on each transaction (data processing revenue), a fee on the dollar volume that flows over the network (service revenue), a higher-margin fee on cross-border/international payments, and a fast-growing 'other revenue' line from value-added services - all partly offset by incentives paid to banks. In the quarter ended 2026-06-30 Visa processed 71.7 billion transactions (+10% YoY) and payments volume crossed $4 trillion for the first time. Revenue compounds with global consumer spending plus the long migration from cash and checks to digital payments, at ~61% operating margins and almost no incremental cost per transaction.",
   "moat": {
     "type": "Network effect + global scale + brand trust + high switching costs; near-duopoly with Mastercard (the two control roughly 77% of the US credit-card market)",
@@ -19,13 +19,13 @@
     "fcf_positive": "yes - TTM free cash flow ~$21.0B ($22.580B operating cash flow minus $1.567B capex); FCF per share ~$10.93 on 1,923M TTM average diluted class A (as-converted) shares"
   },
   "valuation": {
-    "price": 369.51,
+    "price": 399.31,
     "price_source": "alpaca",
-    "price_asof": "2026-09-17",
+    "price_asof": "2026-10-27",
     "fair_value_low": 246.22,
     "fair_value_base": 291.73,
     "fair_value_high": 339.97,
-    "method": "Average of two methods via code/valuation.py. (1) P/E: TTM GAAP diluted EPS $11.76 x 24/28/32 = $282/$329/$376. (2) FCF yield: TTM FCF per share $10.93 at 5.2%/4.3%/3.6% = $210/$254/$304. Multiples trimmed ~1 turn from the June 2026 thesis (25/29/33) and required FCF yields raised ~0.2pp because the Fed has just hiked to 3.75-4.00%, which raises the discount rate on long-duration compounders. CROSS-CHECK: on TTM NON-GAAP EPS of $12.78 (which excludes litigation provisions, severance and intangible amortisation) the same 24/28/32 multiples give $307/$358/$409 - so on adjusted earnings the stock is roughly fair. The headline band deliberately uses GAAP, which is the more conservative and harder-to-flatter measure. At $369.51 the stock trades ~27% ABOVE our GAAP base fair value: V IS OVERVALUED ON OUR FRAMEWORK AND IS NOT A BUY TODAY."
+    "method": "Average of two methods via code/valuation.py, inputs UNCHANGED from the 2026-09-17 refresh because no new quarterly filing has been released since (Q4 FY2026 results are due after the close on 2026-10-27). (1) P/E: TTM GAAP diluted EPS $11.76 x 24/28/32 = $282/$329/$376. (2) FCF yield: TTM FCF per share $10.93 at 5.2%/4.3%/3.6% = $210/$254/$304. Per the playbook rule (2026-09-17) we do not move fair value without a named changed fundamental: the ~8% price rise since 2026-09-17 came from multiple expansion (forward P/E ~25x at end-Sep to ~28x mid-Oct with estimates essentially unchanged, per TIKR), not from higher earnings, so the band stays put. CROSS-CHECK: on TTM NON-GAAP EPS $12.78 the same method gives $258/$306/$356 - the stock is still above even the top of that friendlier band. At $399.31 the stock trades at ~34.0x TTM GAAP EPS, ~31.2x TTM non-GAAP EPS and a ~2.7% TTM FCF yield, ~37% ABOVE our GAAP base fair value and ~17% above the high end. V IS OVERVALUED ON OUR FRAMEWORK AND IS NOT A BUY TODAY."
   },
   "conviction": 4,
   "bull_case": [
@@ -34,11 +34,11 @@
     "Exceptional economics: ~60.7% TTM GAAP operating margin, ~38% ROIC, capex of only ~$1.6B on $44.5B of revenue, and ~$21.0B of TTM free cash flow.",
     "Value-added services are scaling fast - 'other revenue' grew 45% YoY to $1.496B in Q3 FY2026 and data processing revenue grew 17% - diversifying away from pure swipe economics.",
     "The biggest legal overhang is largely resolved: on 2026-06-09 the court approved the ~$38B US merchant interchange settlement, replacing an open-ended risk with known terms (a 10bp credit interchange cut for five years, a 1.25% standard consumer card cap for eight years, and merchant surcharging/steering rights). Interchange itself is paid to issuing banks, not to Visa.",
-    "Fortress balance sheet (net debt only ~0.35x EBITDA) and aggressive capital return: $16.430B of buybacks plus $3.852B of dividends in nine months, with $28.4B of repurchase authorisation remaining at 2026-06-30 - the share count keeps shrinking.",
+    "Fortress balance sheet (net debt only ~0.35x EBITDA) and aggressive capital return: $16.430B of buybacks plus $3.852B of dividends in nine months, with $28.4B of repurchase authorisation remaining at 2026-06-30 - the share count keeps shrinking. Separately, on 2026-09-18 Visa deposited $405M into the US litigation escrow, which cut as-converted class B shares by ~1.10M - economically like a buyback for class A holders.",
     "Visa is positioning itself inside, not against, the stablecoin and agentic-commerce shift rather than being disintermediated by it."
   ],
   "risks": [
-    "VALUATION IS THE PRIMARY RISK. At $369.51 the stock is ~27% above our GAAP base fair value of $291.73 and above the top of our band ($339.97). It trades at 31.4x TTM GAAP EPS ($11.76) and 28.9x TTM non-GAAP EPS ($12.78) with a dividend yield of only ~0.73% ($0.670 quarterly declared 2026-07-28). Under our 12% margin-of-safety rule we would need ~$257, and ~$239 under the cautious-posture 18% rule. There is no cushion here.",
+    "VALUATION IS THE PRIMARY RISK, AND IT HAS WIDENED. At $399.31 (2026-10-27) the stock is ~37% above our GAAP base fair value of $291.73 and ~17% above the top of our band ($339.97); it trades at ~34.0x TTM GAAP EPS ($11.76), ~31.2x TTM non-GAAP EPS ($12.78), a ~2.7% TTM FCF yield and a ~0.67% dividend yield ($0.670 quarterly). The October rally (+11.2% from 9/30 to a record $399.75 close on 10/15) was multiple expansion with flat estimates. Our 12% margin-of-safety entry is ~$257 (a ~36% decline) and the cautious 18% rule is ~$239 (a ~40% decline).",
     "Rising rates work directly against this stock. The Fed has just hiked to 3.75-4.00% with inflation at 3.4%; a higher risk-free rate compresses the multiple investors will pay for a long-duration compounder, and Visa's own interest expense jumped to $194M in Q3 FY2026 from $39M a year earlier.",
     "Cost growth is outrunning revenue growth. Q3 FY2026 GAAP operating expenses rose 19% (non-GAAP +17%) against 14% revenue growth; personnel expense rose 40% to $2.458B (including $563M of severance). Operating margin slipped to 59.1% from 60.7%. If the 'payments hyperscaler' investment cycle persists, margins drift down.",
     "Client incentives paid to banks rose 18% YoY to $4.680B in Q3 FY2026, faster than revenue - evidence that Visa has to pay more to keep issuer relationships, a slow bleed on the take rate.",
@@ -59,8 +59,8 @@
     "A serious accounting red flag, restatement, or a material weakness disclosed in internal controls."
   ],
   "catalysts": [
-    "Q4 and full-year FY2026 earnings, expected late October 2026 - watch operating margin, client incentives, cross-border volume and the initial FY2027 outlook. This is the single most important date for this thesis.",
-    "Any market pullback driven by the new tightening cycle: our buy zone (~$257 at a 12% margin of safety, ~$239 under the cautious 18% rule) would require roughly a 30-35% decline, so a normal correction is unlikely to be enough on its own - fair value must also grow into the price.",
+    "Q4 and full-year FY2026 earnings AFTER THE CLOSE ON 2026-10-27 (webcast 5:00pm ET) - this thesis must be refreshed again by 2026-10-30 with the new 8-K. Consensus is ~$3.43 adjusted EPS on ~$12.1B revenue for the quarter and ~$50.8B FY2027 revenue (aggregator figures). Watch: operating margin vs the 55% trigger, client incentives vs revenue growth, cross-border volume, and the FY2027 outlook. New TTM GAAP EPS will move the P/E leg of the band; that would be a legitimate, named reason to revise fair value.",
+    "Any market pullback: our buy zone (~$257 at a 12% margin of safety, ~$239 under the cautious 18% rule) is now ~36-40% below the 2026-10-27 price, so a normal correction will not get there on its own - fair value must also grow into the price over several years.",
     "Continued execution of the buyback ($28.4B authorised remaining at 2026-06-30) shrinking the share count and lifting per-share figures.",
     "Implementation of the approved merchant interchange settlement from 2026-06-09 - watch whether merchants actually start declining premium cards or surcharging at scale.",
     "Progress or failure of the Credit Card Competition Act in Congress.",
@@ -188,20 +188,52 @@
       "retrieved": "2026-09-17"
     },
     {
-      "claim": "Current price used for the margin-of-safety calculation; Alpaca daily bar close 2026-09-17 was $369.34 and the live quote was bid $352.21 / ask $369.22. 50-day moving average $366.66, 200-day moving average $335.76 (both computed from 250 Alpaca daily closes), 52-week close range $295.50-$384.06 - the stock is above both averages, i.e. in an uptrend",
-      "value": "$369.51 (session price); 50dma $366.66; 200dma $335.76",
+      "claim": "Current price for the margin-of-safety calculation: Alpaca quote 2026-10-27 14:49 UTC bid $398.00 / ask $400.34; latest daily bar close $400.355. 50-day moving average $378.71, 200-day moving average $341.09 (from 250 Alpaca daily closes, 2025-10-29 to 2026-10-27); 52-week close range $295.50-$414.28 (high close 2026-10-22). The stock is above both averages, i.e. in an uptrend",
+      "value": "$399.31 (session price); 50dma $378.71; 200dma $341.09",
       "url": "https://paper-api.alpaca.markets",
       "publisher": "Alpaca market data (code/alpaca_client.py --quote V, --bars V --days 250)",
-      "as_of": "2026-09-17",
-      "retrieved": "2026-09-17"
+      "as_of": "2026-10-27",
+      "retrieved": "2026-10-27"
     },
     {
-      "claim": "Fair-value band arithmetic performed by code/valuation.py from the cited inputs (P/E: EPS $11.76 x 24/28/32; FCF yield: FCF/share $10.93 at 5.2/4.3/3.6%) giving low $246.22, base $291.73, high $339.97 and a margin of safety of -26.7% at $369.51",
-      "value": "fair_value low $246.22 / base $291.73 / high $339.97; MoS -26.7%",
+      "claim": "Fair-value band arithmetic re-run by code/valuation.py on 2026-10-27 with unchanged cited inputs (P/E: EPS $11.76 x 24/28/32; FCF yield: FCF/share $10.93 at 5.2/4.3/3.6%) giving low $246.22, base $291.73, high $339.97 and a margin of safety of -36.9% at $399.31. Non-GAAP cross-check (EPS $12.78): $258.46/$306.01/$356.29, MoS -30.5%",
+      "value": "fair_value low $246.22 / base $291.73 / high $339.97; MoS -36.9%",
       "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm",
       "publisher": "code/valuation.py (this repo) applied to figures from the Visa Q3 FY2026 8-K",
-      "as_of": "2026-09-17",
-      "retrieved": "2026-09-17"
+      "as_of": "2026-10-27",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "claim": "On 2026-09-18 Visa authorised a $405M deposit into the US litigation escrow account under its retrospective responsibility plan; class B-1/B-2/B-3 conversion rates cut to 1.5400/1.4924/1.4773, reducing as-converted class B shares by ~1,104,107 (EPS effect equivalent to a class A repurchase)",
+      "value": "$405M escrow deposit; ~1.10M as-converted shares removed",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000121/v-20260918.htm",
+      "publisher": "SEC EDGAR - Visa Inc. Form 8-K (Item 8.01) filed 2026-09-23",
+      "as_of": "2026-09-18",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "claim": "Visa will report fiscal Q4 and full-year 2026 results on Tuesday 2026-10-27 after market close, webcast 2:00pm PT / 5:00pm ET (announced 2026-10-08)",
+      "value": "Earnings date 2026-10-27 after close",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/visa-announce-fiscal-fourth-quarter-200500263.html",
+      "publisher": "Yahoo Finance (Business Wire release from Visa)",
+      "as_of": "2026-10-08",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "claim": "Visa hit a record $399.75 close on 2026-10-15 (+11.2% from 9/30 close $359.33) while earnings estimates were essentially unchanged; forward P/E ~28x vs ~25x at end-Sep and ~23x in March; consensus Q4 FY2026 ~$3.43 adj. EPS on ~$12.1B revenue; FY2027 revenue consensus ~$50.8B; Street mean target ~$422",
+      "value": "Forward P/E ~28x (from ~25x); Q4 consensus EPS ~$3.43",
+      "url": "https://www.tikr.com/blog/visa-stock-is-up-11-in-october-while-earnings-estimates-stood-still-heres-what-october-27-has-to-prove",
+      "publisher": "TIKR - aggregator, not a filing",
+      "as_of": "2026-10-16",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "claim": "Credit Card Competition Act of 2026 (S. 3623, 119th Congress) would require large issuers (assets >$100B) to enable at least two unaffiliated networks on credit cards, with routing rules written by the Federal Reserve; no evidence found of passage as of 2026-10-27",
+      "value": "S. 3623 pending",
+      "url": "https://www.congress.gov/119/bills/s3623/BILLS-119s3623is.htm",
+      "publisher": "Congress.gov",
+      "as_of": "2026-10-27",
+      "retrieved": "2026-10-27"
     }
   ],
   "data_quality": [

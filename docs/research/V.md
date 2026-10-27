@@ -1,10 +1,35 @@
 # Visa Inc. (V) — Research Thesis
 
 - **Thesis ID:** V-2026Q3 · **As of:** fiscal Q3 2026 (quarter ended 2026-06-30)
-- **Retrieved:** 2026-09-17 · **Refresh due:** 2026-10-17 (FY2026 full-year results land late October)
-- **Price used:** $369.51 · **Moat:** wide · **Conviction:** 4 / 5
-- **Fair value band:** $246 (low) — **$292 (base)** — $340 (high)
-- **Margin of safety: −26.7% → the stock is EXPENSIVE. This is a "great business, wrong price" — not a buy today.**
+- **Retrieved:** 2026-10-27 (refreshed; first written 2026-06, last refreshed 2026-09-17) · **Refresh due:** 2026-10-30 — Q4/FY2026 results come out **after the close today, 2026-10-27**
+- **Price used:** $399.31 (Alpaca, 2026-10-27) · **Moat:** wide · **Conviction:** 4 / 5
+- **Fair value band:** $246 (low) — **$292 (base)** — $340 (high) — *unchanged; see §0*
+- **Margin of safety: −36.9% → the stock is MORE EXPENSIVE than at the last refresh (−26.7%). Great business, wrong price — not a buy today.**
+
+---
+
+## 0. What changed in the 2026-10-27 refresh (read this first)
+
+- **No new quarterly numbers yet.** Visa reports fiscal Q4 and full-year 2026 **after today's close**
+  (webcast 5:00pm ET, [announced 2026-10-08](https://finance.yahoo.com/markets/stocks/articles/visa-announce-fiscal-fourth-quarter-200500263.html)).
+  The latest filed figures are still Q3 FY2026 (quarter ended 2026-06-30), so every business number
+  below is unchanged. **This thesis must be refreshed again by 2026-10-30** using the new 8-K.
+- **Only one new filing:** an [8-K filed 2026-09-23](https://www.sec.gov/Archives/edgar/data/1403161/000140316126000121/v-20260918.htm)
+  reporting a **$405M deposit to the US litigation escrow**. That cut the as-converted class B share
+  count by about 1.10M shares, which works like a small buyback for class A holders. It's routine and
+  doesn't change the thesis.
+- **The price ran, the business didn't change.** V rose from $369.51 (9/17) to $399.31, and on 10/15 it
+  closed at a record $399.75, **+11.2% from the 9/30 close of $359.33**. TIKR reports that earnings
+  estimates were essentially flat while the forward P/E rose from ~25x to ~28x
+  ([TIKR, 2026-10-16](https://www.tikr.com/blog/visa-stock-is-up-11-in-october-while-earnings-estimates-stood-still-heres-what-october-27-has-to-prove); aggregator).
+  In other words, the market is paying a higher multiple for the same earnings.
+- **Why we did not move fair value:** our playbook (2026-09-17 lesson) says to move fair value only
+  when a named fundamental input changes. None has: EPS, FCF and rates are the same as at the last
+  refresh. Raising the band now would mean chasing the price.
+- **Regulation:** the Credit Card Competition Act ([S. 3623](https://www.congress.gov/119/bills/s3623/BILLS-119s3623is.htm))
+  is still pending. We found no evidence that it has passed.
+- **Trend (Alpaca, 250 daily closes):** 50-day average $378.71 and 200-day average $341.09. The price is
+  above both, so the trend is up. The 52-week close range is $295.50 to $414.28 (high close on 2026-10-22).
 
 ---
 
@@ -87,22 +112,22 @@ less for far-off profits.
 rate reason.
 
 **Average → low $246.22, base $291.73, high $339.97.**
-At $369.51 that is a margin of safety of **−26.7%**: the price is above even the top of our band.
+At $399.31 (2026-10-27) that is a margin of safety of **−36.9%** (it was −26.7% at $369.51 on 9/17). The price is ~17% above even the top of our band.
 
 **The honest cross-check.** GAAP EPS is depressed by things that aren't really "operations": a
 **$1.290B litigation provision** and **$563M of severance** in the last nine months. On TTM *non-GAAP*
-EPS of **$12.78**, the same 24/28/32 multiples give **$307 / $358 / $409** — on that basis the stock
-is roughly *fair*, not wildly expensive. We publish the GAAP-based band as the headline because GAAP
+EPS of **$12.78**, the same 24/28/32 multiples give **$307 / $358 / $409**. Averaged with FCF that is
+**$258 / $306 / $356**, and at $399.31 the stock is above the top of even this friendlier band (MoS −30.5%). We publish the GAAP-based band as the headline because GAAP
 is harder to flatter, but a reader should know the answer is sensitive to that choice. Either way,
-**there is no margin of safety at $369.51.**
+**there is no margin of safety at $399.31.**
 
 **What price would make it a buy?** Our rule needs a 12% margin of safety (18% in a cautious market
-posture). That is roughly **$257**, or **$239** under the cautious rule — about 30-35% below today.
+posture). That is roughly **$257**, or **$239** under the cautious rule — about **36-40% below today**.
 A normal correction alone probably won't get us there; fair value also has to grow into the price.
-As a market check: the stock is above both its 50-day ($366.66) and 200-day ($335.76) moving
-averages, so we would be buying into an uptrend, not a fall (Alpaca, 250 daily closes).
+As a market check: the stock is above both its 50-day ($378.71) and 200-day ($341.09) moving
+averages (Alpaca, 250 daily closes to 2026-10-27), so the trend is up and the stock is not falling.
 
-## 5. What's changed since the June 2026 thesis
+## 5. What changed at the 2026-09-17 refresh (vs June 2026)
 
 - Q3 FY2026 delivered: revenue +14%, GAAP EPS +10%, non-GAAP EPS +11%. Nine-month growth is 15.3%.
 - **The big lawsuit is largely settled.** On **2026-06-09 the court approved** the ~$38B US merchant
@@ -120,7 +145,8 @@ averages, so we would be buying into an uptrend, not a fall (Alpaca, 250 daily c
 
 ## 6. The real risks (written as hard as the bull case)
 
-1. **Price.** 31.4x GAAP / 28.9x non-GAAP TTM earnings with a 0.73% yield. At this price we are
+1. **Price.** At $399.31: ~34.0x GAAP / ~31.2x non-GAAP TTM earnings, a ~2.7% FCF yield and a ~0.67% dividend yield.
+   The October gain came entirely from a higher multiple. At this price we are
    paying for perfection. This is the dominant risk and it is entirely self-inflicted if we buy.
 2. **Rising rates.** Higher risk-free rates directly compress what anyone will pay for a
    long-duration compounder — and they raise Visa's own interest bill.
@@ -163,11 +189,13 @@ Visa is close to the ideal business: a wide-moat toll booth on global consumer s
 operating margins, ~38% ROIC, $21B of real cash profit, almost no debt, growing revenue at 15%, and
 its biggest legal overhang now settled. **Conviction 4/5 on the business.**
 
-But conviction is about quality, not price. At **$369.51 the stock sits ~27% above our base fair
-value of $292** and above the top of our band. Our own playbook says a missed buy costs nothing and
+But conviction is about quality, not price. At **$399.31 the stock sits ~37% above our base fair
+value of $292** and ~17% above the top of our band. The gap has *widened* since September because
+the multiple expanded while earnings stayed the same. Our own playbook says a missed buy costs nothing and
 an overpriced buy costs money. **Recommendation to the portfolio manager: do not buy V at this
-price. Watch it. Revisit at the FY2026 results in late October, or if the price approaches the
-mid-$250s.**
+price, even with a new account and an unused $5,000 daily budget. Re-run this thesis with the
+Q4/FY2026 8-K by 2026-10-30. New TTM EPS and FCF are the only legitimate reason to move the band.
+Revisit on price if it approaches the mid-$250s.**
 
 ---
 

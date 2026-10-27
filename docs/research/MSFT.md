@@ -1,11 +1,28 @@
 # Microsoft Corporation (MSFT) — research thesis
 
 - **Thesis ID:** MSFT-2026Q4 · **As of:** FY2026 Q4 (fiscal year ended 30 June 2026)
-- **Written:** 2026-09-17 · **Next refresh due:** 2026-10-17 (FY2027 Q1 earnings, late October)
+- **Written:** 2026-09-17 · **Refreshed:** 2026-10-27 · **Next refresh due:** 2026-10-30 (right after
+  Q1 FY2027 results, which come out after the close on **Wed 28 Oct 2026**)
 - **Moat:** wide · **Conviction:** 3 / 5
-- **Price used:** $497.58 (Alpaca) · **Our fair value:** $342.93 low / **$399.67 base** / $460.24 high
-- **Margin of safety: −24.5% (NEGATIVE).** On our own framework, **Microsoft is overvalued today.**
-  This is a wonderful business at a price we do not want to pay. **Do not buy at $497.58.**
+- **Price used:** $533.78 (Alpaca) · **Our fair value:** $342.93 low / **$399.67 base** / $460.24 high
+- **Margin of safety: −33.6% (NEGATIVE).** On our own framework, **Microsoft is overvalued today.**
+  This is a wonderful business at a price we do not want to pay. **Do not buy at $533.78.**
+
+### What changed in the 2026-10-27 refresh (and what did not)
+- **No new financial period exists yet.** EDGAR shows no 10-Q or earnings 8-K since 2 Sep 2026; the
+  latest filings are the proxy (DEF 14A) and annual report (ARS) on 21 Oct
+  ([EDGAR filing index](https://data.sec.gov/submissions/CIK0000789019.json)). Q1 FY2027 results are
+  due **after the close on 28 Oct 2026**
+  ([Microsoft IR event page](https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1)).
+- We **re-checked** the FY2026 10-K figures (revenue, gross profit, operating income, net income,
+  EPS, operating cash flow, capex, diluted shares) against SEC XBRL today. All match.
+- The Fed's range is still **3.75–4.00%** (hiked 17 Sep 2026; no later 2026 decision listed on the
+  [Fed's page](https://www.federalreserve.gov/monetarypolicy/openmarket.htm)).
+- **Fair value is unchanged on purpose.** Our playbook says: don't move fair value unless a business
+  number actually changed. None did. The only thing that changed is the **price, up about 7%**
+  ($497.58 → $533.78), which makes the stock *more* expensive, not more valuable.
+- Because results land in two days, this refresh is a holding pattern. **The real refresh is due by
+  30 Oct**, using the Q1 FY2027 numbers.
 
 ---
 
@@ -87,16 +104,17 @@ since hiked to 3.75–4.00% — when safe cash pays more, growth is worth less.
 rate reason.
 
 **Blended band: $342.93 low / $399.67 base / $460.24 high.**
-At $497.58 the margin of safety is **−24.5%** — we would be paying about a quarter *more* than we
-think it's worth.
+At $533.78 the margin of safety is **−33.6%** — we would be paying about a third *more* than we
+think it's worth. To reach our 12% minimum cushion on the base value, the price would need to be
+about **$351.71 or lower** (about 34% below today).
 
 ### Being honest: the two methods disagree, badly
 
 They should not be papered over.
 
-- On **earnings**, MSFT trades at 27.7x trailing GAAP / 28.8x non-GAAP — near its own long-run
-  average. A P/E-only view says $449–$588, i.e. roughly *fair*.
-- On **cash**, the free-cash-flow yield at $497.58 is **1.81%**. The Fed pays 3.75–4.00% on cash.
+- On **earnings**, MSFT trades at 29.7x trailing GAAP / 30.9x non-GAAP — a little above our 30x
+  base. A P/E-only view says $449–$588 (base $518), i.e. roughly *fair* (−3% margin of safety).
+- On **cash**, the free-cash-flow yield at $533.78 is **1.68%**. The Fed pays 3.75–4.00% on cash.
   You are accepting less cash yield from Microsoft than from a Treasury bill, and taking equity risk
   to get it.
 
@@ -105,9 +123,10 @@ earn a good return?** If yes, today's depressed FCF is temporary and the P/E vie
 cash-flow view wins and the stock has a long way to fall. Because we genuinely do not know, we keep
 both methods in and accept a wide, humble band — and a band whose top end is still below today's price.
 
-**Trend check (Alpaca only):** last close $496.58, 50-day average $462.50, 200-day average $431.54.
-The price is above both — a strong uptrend. The 250-day range is $352.42–$542.43, so a pullback to
-our band is not fantasy; it happened within the last year.
+**Trend check (Alpaca only, 2026-10-27):** last close $532.71 (quote $532.61 / $532.87), 50-day
+average $510.22, 200-day average $437.03. The price is above both — a strong uptrend, ~22% above the
+200-day line and close to its 250-day high. The 250-day closing range is $352.42–$543.51, so a
+pullback to our band is not fantasy; it happened within the last year.
 
 ## 5. The bull case
 
@@ -122,21 +141,23 @@ our band is not fantasy; it happened within the last year.
 
 ## 6. The risks (written as hard as the bull case)
 
-1. **The price.** At $497.58 we are 25% above our base value and above the top of our band. This is
-   the single biggest risk in this thesis and it is not a subtle one.
-2. **Free cash flow is shrinking**, and Q1 FY2027 capex alone is guided at **over $50B**. FY2027 FCF
+1. **The price.** At $533.78 we are 34% above our base value and 16% above the top of our band. The
+   gap has grown since September with no new business facts. This is the single biggest risk.
+2. **Earnings in two days.** Results land after the close on 28 Oct. With the stock near its high,
+   a miss on Azure (guided 44–45%) or capex well above $50B could move it hard either way.
+3. **Free cash flow is shrinking**, and Q1 FY2027 capex alone is guided at **over $50B**. FY2027 FCF
    could fall again.
-3. **The AI capex bet is unproven and gigantic.** Capex at 3.4x depreciation means future depreciation
+4. **The AI capex bet is unproven and gigantic.** Capex at 3.4x depreciation means future depreciation
    will bite hard. If demand disappoints, both margins and ROIC fall a long way.
-4. **Debt-like obligations are building quietly.** $66.6B of finance leases do not appear in the
+5. **Debt-like obligations are building quietly.** $66.6B of finance leases do not appear in the
    headline "net cash" figure investors quote.
-5. **Earnings quality.** GAAP net income of $133.7B included a **$3.2B one-off gain on the Anthropic
+6. **Earnings quality.** GAAP net income of $133.7B included a **$3.2B one-off gain on the Anthropic
    stake**. Marking up a private AI stake is not repeatable operating profit. Non-GAAP was $128.8B.
-6. **Rates and macro.** Fed at 3.75–4.00%, inflation 3.4%. Higher rates compress what investors pay
+7. **Rates and macro.** Fed at 3.75–4.00%, inflation 3.4%. Higher rates compress what investors pay
    for long-duration growth, and an IT spending slowdown hits cloud consumption directly.
-7. **Regulation.** Antitrust scrutiny in the US and EU over cloud bundling, the OpenAI relationship,
+8. **Regulation.** Antitrust scrutiny in the US and EU over cloud bundling, the OpenAI relationship,
    and AI market power.
-8. **Less transparency** after the FY2027 segment change.
+9. **Less transparency** after the FY2027 segment change.
 
 ## 7. Sell triggers — the exact rules
 
@@ -162,7 +183,7 @@ If any of these happen, the reason we own Microsoft has broken and we sell (or t
 - A pullback to **$400 or below** (our base), ideally toward **$343** (our low), for a real cushion.
 - Capex growth normalising toward depreciation, which would make reported free cash flow jump and
   settle the earnings-vs-cash argument in the bulls' favour.
-- Evidence in the Q1 FY2027 report (late October) that cloud operating margin holds up *while* the
+- Evidence in the Q1 FY2027 report (28 Oct 2026) that cloud operating margin holds up *while* the
   new depreciation starts hitting.
 
 ## 9. Conviction: 3 / 5 — and why it fell from 4
@@ -170,7 +191,7 @@ If any of these happen, the reason we own Microsoft has broken and we sell (or t
 The **business** deserves a 4 or 5: wide moat, ~31% ROIC, 68% gross margin, 18% growth, net cash.
 The **thesis at this price** does not. Three things pulled it down since the June refresh:
 
-- the margin of safety went from −4% to **−24.5%**;
+- the margin of safety went from −4% to −24.5% (Sep) to **−33.6%** (27 Oct, price-driven only);
 - free cash flow **fell** for the first time in this thesis's life, and the capex driving it doubled;
 - finance-lease obligations grew another **$20B**, and the Fed **hiked**, raising the bar for every
   long-duration asset.
@@ -189,5 +210,9 @@ accession 0001193125-26-323660) via SEC EDGAR XBRL, the Q4 FY2026 8-K earnings r
 EBITDA ~$199.6B, net-debt/EBITDA ~0.15x, free cash flow $66.987B, FCF per share $8.99, 3-year revenue
 CAGR 16.1%.
 
-**Not independently verified in this refresh:** the macro figures (fed funds 3.75–4.00%, CPI 3.4%)
-were passed in by the morning cycle and are flagged as unverified in the thesis sources.
+**Verification status (2026-10-27):** fed funds 3.75–4.00% was checked against the Federal Reserve's
+page. CPI 3.4% was passed in by an earlier morning cycle and remains **unverified**.
+
+**Conviction stays at 3** (below our buy threshold of 4). Nothing about the business got worse, but
+nothing got better either, and the key open question — whether AI capex earns its return — will get
+fresh evidence on 28 Oct. We should not raise conviction the day before the data that could answer it.
