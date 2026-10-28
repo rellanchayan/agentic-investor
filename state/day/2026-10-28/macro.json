@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-28",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 770.58,
+  "spy_sma200": 728.11,
+  "spy_pct_above_200d": 5.8,
+  "events": [
+    "FOMC rate decision TODAY at 2:00 PM ET (press conference 2:30 PM ET) — hold at 3.50-3.75% is ~83% expected",
+    "Q3 GDP Advance Estimate Thu Oct 29 at 8:30 AM ET",
+    "PCE Inflation (September, Fed preferred gauge) Thu Oct 29 at 8:30 AM ET",
+    "Next CPI release: Tue Nov 10"
+  ],
+  "rates": "hold expected — current target 3.50-3.75%; ~83% market probability of no change today",
+  "inflation": "September CPI came in above expectations (~3.6% y/y); CAPE near 38-42x (elevated); forward P/E ~19-20x (near 5-year average)",
+  "valuation": "elevated on long-run CAPE basis (~38-42x, near record); forward P/E near average (~19-20x) because earnings growth has been strong",
+  "note": "Two major scheduled market-moving events hit this afternoon (FOMC) and tomorrow morning (GDP + PCE). Inflation remains above the 2% target, supporting a hold. No live futures data found for this morning. All named thesis candidates are trading well above fair value (32-51% above base for tech/financials; MCD is closest at ~5% above base). Posture is cautious: demand a wider margin of safety today given event risk and elevated long-run valuations.",
+  "sources": [
+    "https://fedratecalc.com/fomc-meeting-schedule/october-2026/",
+    "https://www.octagonai.co/markets/economics/fed/fed-decision-in-oct-2026/",
+    "https://www.financecalendar.com/event/fomc-rate-decision-october-2026/",
+    "https://fedratecalc.com/us-economic-calendar/october-2026/",
+    "https://thriveinmarkets.com/calendar/dates/cpi-2026/",
+    "https://parameter.io/sp-500-forward-p-e-ratio-falls-below-five-year-average-despite-record-highs/",
+    "https://financer.com/invest/shiller-p-e-ratio/",
+    "https://en.mercopress.com/2026/10/12/s-p-500-price-prediction-what-macro-signals-say-about-the-index-in-2026",
+    "https://www.federalreserve.gov/newsevents/2026-october.htm"
+  ]
+}

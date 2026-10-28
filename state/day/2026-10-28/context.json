@@ -1,0 +1,391 @@
+{
+  "date_et": "2026-10-28",
+  "built_at_utc": "2026-10-28T14:54:59.749616+00:00",
+  "account": {
+    "equity": 1000000.0,
+    "cash": 1000000.0,
+    "drawdown_from_hwm": 0.0,
+    "holding_slots_used": 0,
+    "holding_slots_max": 8
+  },
+  "budget": {
+    "daily_budget_usd": 5000.0,
+    "used_today_usd": 0,
+    "remaining_usd": 5000.0
+  },
+  "market_trend": {
+    "available": true,
+    "spy_last": 770.34,
+    "spy_sma200": 728.11,
+    "above_200d": true,
+    "note": "SPY 770.34 is ABOVE its 200-day average 728.11"
+  },
+  "holdings": [],
+  "candidates": [
+    {
+      "ticker": "AAPL",
+      "current_price": 345.24,
+      "sector": "technology",
+      "thesis": {
+        "ticker": "AAPL",
+        "conviction": 3,
+        "fair_value": {
+          "fair_value_low": 197.66,
+          "fair_value_base": 232.82,
+          "fair_value_high": 276.76
+        },
+        "price_used": 345.24,
+        "margin_of_safety": -0.4829,
+        "data_quality": [
+          "filing-backed"
+        ],
+        "stale": false,
+        "refresh_due": "2026-11-04",
+        "moat": "wide"
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "current_price": 527.72,
+      "sector": "technology",
+      "thesis": {
+        "ticker": "MSFT",
+        "conviction": 3,
+        "fair_value": {
+          "fair_value_low": 342.93,
+          "fair_value_base": 399.67,
+          "fair_value_high": 460.24
+        },
+        "price_used": 527.72,
+        "margin_of_safety": -0.3204,
+        "data_quality": [
+          "filing-backed"
+        ],
+        "stale": false,
+        "refresh_due": "2026-11-04",
+        "moat": "wide"
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "current_price": 323.7,
+      "sector": "communication",
+      "thesis": {
+        "ticker": "GOOGL",
+        "conviction": 3,
+        "fair_value": {
+          "fair_value_low": 176.83,
+          "fair_value_base": 214.32,
+          "fair_value_high": 257.47
+        },
+        "price_used": 323.7,
+        "margin_of_safety": -0.5104,
+        "data_quality": [
+          "filing-backed"
+        ],
+        "stale": false,
+        "refresh_due": "2026-12-17",
+        "moat": "wide"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "current_price": 217.7,
+      "sector": "technology",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "current_price": 345.05,
+      "sector": "technology",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "current_price": 249.33,
+      "sector": "technology",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "CRM",
+      "current_price": 236.14,
+      "sector": "technology",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "NOW",
+      "current_price": 149.75,
+      "sector": "technology",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "V",
+      "current_price": 410.57,
+      "sector": "financials",
+      "thesis": {
+        "ticker": "V",
+        "conviction": 4,
+        "fair_value": {
+          "fair_value_low": 259.09,
+          "fair_value_base": 307.01,
+          "fair_value_high": 357.81
+        },
+        "price_used": 410.57,
+        "margin_of_safety": -0.3373,
+        "data_quality": [
+          "filing-backed"
+        ],
+        "stale": false,
+        "refresh_due": "2027-01-27",
+        "moat": "wide"
+      }
+    },
+    {
+      "ticker": "MA",
+      "current_price": 614.69,
+      "sector": "financials",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "JPM",
+      "current_price": 341.06,
+      "sector": "financials",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "PGR",
+      "current_price": 231.8,
+      "sector": "financials",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "COST",
+      "current_price": 984.02,
+      "sector": "consumer_staples",
+      "thesis": {
+        "ticker": "COST",
+        "conviction": 3,
+        "fair_value": {
+          "fair_value_low": 587.18,
+          "fair_value_base": 690.83,
+          "fair_value_high": 803.5
+        },
+        "price_used": 984.02,
+        "margin_of_safety": -0.4244,
+        "data_quality": [
+          "filing-backed"
+        ],
+        "stale": false,
+        "refresh_due": "2026-12-25",
+        "moat": "wide"
+      }
+    },
+    {
+      "ticker": "WMT",
+      "current_price": 118.89,
+      "sector": "consumer_staples",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "PG",
+      "current_price": 159.13,
+      "sector": "consumer_staples",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "KO",
+      "current_price": 92.05,
+      "sector": "consumer_staples",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "PEP",
+      "current_price": 132.52,
+      "sector": "consumer_staples",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "HD",
+      "current_price": 318.76,
+      "sector": "consumer_discretionary",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "MCD",
+      "current_price": 251.62,
+      "sector": "consumer_discretionary",
+      "thesis": {
+        "ticker": "MCD",
+        "conviction": 3,
+        "fair_value": {
+          "fair_value_low": 201.71,
+          "fair_value_base": 238.35,
+          "fair_value_high": 276.07
+        },
+        "price_used": 251.62,
+        "margin_of_safety": -0.0557,
+        "data_quality": [
+          "filing-backed"
+        ],
+        "stale": false,
+        "refresh_due": "2026-12-25",
+        "moat": "wide"
+      }
+    },
+    {
+      "ticker": "NKE",
+      "current_price": 37.34,
+      "sector": "consumer_discretionary",
+      "thesis": {
+        "ticker": "NKE",
+        "conviction": 1,
+        "fair_value": {
+          "fair_value_low": 21.19,
+          "fair_value_base": 26.68,
+          "fair_value_high": 33.35
+        },
+        "price_used": 37.34,
+        "margin_of_safety": -0.3996,
+        "data_quality": [
+          "filing-backed"
+        ],
+        "stale": false,
+        "refresh_due": "2027-01-04",
+        "moat": "narrow"
+      }
+    },
+    {
+      "ticker": "UNH",
+      "current_price": 415.86,
+      "sector": "health_care",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "JNJ",
+      "current_price": 274.45,
+      "sector": "health_care",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "LLY",
+      "current_price": 1297.58,
+      "sector": "health_care",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "ABBV",
+      "current_price": 292.3,
+      "sector": "health_care",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "SYK",
+      "current_price": 302.81,
+      "sector": "health_care",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "CAT",
+      "current_price": 708.16,
+      "sector": "industrials",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "HON",
+      "current_price": 218.07,
+      "sector": "industrials",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "UNP",
+      "current_price": 295.86,
+      "sector": "industrials",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "CSX",
+      "current_price": 52.05,
+      "sector": "industrials",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "XOM",
+      "current_price": 181.68,
+      "sector": "energy",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "CVX",
+      "current_price": 230.16,
+      "sector": "energy",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "DIS",
+      "current_price": 108.93,
+      "sector": "communication",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    },
+    {
+      "ticker": "SPY",
+      "current_price": 770.32,
+      "sector": "broad_etf",
+      "thesis": {
+        "note": "NO THESIS \u2014 research before any buy"
+      }
+    }
+  ],
+  "sector_exposure": {},
+  "price_source": "alpaca-iex (midpoint of bid/ask)",
+  "notes": []
+}

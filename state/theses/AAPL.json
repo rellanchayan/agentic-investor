@@ -4,12 +4,12 @@
   "company": "Apple Inc.",
   "sector": "Information Technology / Consumer Electronics",
   "as_of": "2026-Q3",
-  "retrieved": "2026-09-17",
-  "refresh_due": "2026-10-17",
+  "retrieved": "2026-10-28",
+  "refresh_due": "2026-11-04",
   "stale": false,
-  "price_used": 332.55,
-  "margin_of_safety": -0.4284,
-  "business_summary": "Apple designs and sells premium consumer hardware (iPhone, Mac, iPad, Watch, AirPods) and attaches a high-margin, recurring Services business (App Store, iCloud, Apple Music/TV+, AppleCare, advertising, search-licensing, payments) to the installed base. In fiscal Q3 2026 (quarter ended 2026-06-27) revenue was $109.417B, of which iPhone $54.252B (49.6%) and Services $30.739B (28.1%). The business model is: sell a device at a ~35-40% hardware margin, then earn a software-like recurring cut from the same customer for years. FY2026 has seen a sharp re-acceleration: 9-month revenue $364.357B, +16.2% vs $313.695B a year earlier, driven by the iPhone 17 cycle, Mac, and Services.",
+  "price_used": 344.7,
+  "margin_of_safety": -0.4806,
+  "business_summary": "Apple designs and sells premium consumer hardware (iPhone, Mac, iPad, Watch, AirPods) and attaches a high-margin, recurring Services business (App Store, iCloud, Apple Music/TV+, AppleCare, advertising, search-licensing, payments) to the installed base. In fiscal Q3 2026 (quarter ended 2026-06-27) revenue was $109.417B, of which iPhone $54.252B (49.6%) and Services $30.739B (28.1%). The model: sell a device at a ~35-40% hardware margin, then earn a software-like recurring cut from the same customer for years. FY2026 has seen a sharp re-acceleration: 9-month revenue $364.357B, +16.2% vs $313.695B a year earlier. REFRESH 2026-10-28: no new filing since Q3 FY2026 - Q4 FY2026 results (and the FY2026 10-K) are due 2026-11-02 after the close, so the fundamentals below are unchanged and this refresh updates price, leadership, demand signals, regulation and consensus. New facts since the 2026-09-17 thesis: John Ternus became CEO on 2026-09-01 (Tim Cook is now executive chairman); the iPhone 18 Pro/Pro Max launched at $1,199/$1,299 ($100 above predecessors) with the standard iPhone 18 deferred to spring; Nikkei reported (unconfirmed by Apple) 15-20% cuts to October Pro component orders, attributed to price increases driven by memory costs.",
   "moat": {
     "type": "Ecosystem switching costs + premium brand + installed-base network effect + extreme capital efficiency and silicon vertical integration",
     "rating": "wide"
@@ -22,52 +22,56 @@
     "fcf_positive": "yes; TTM free cash flow ~$136.7B (TTM operating cash flow $146.72B less capex $10.04B). 9M FY2026 alone: OCF $116.996B - capex $6.799B = $110.20B."
   },
   "valuation": {
-    "price": 332.55,
+    "price": 344.7,
     "price_source": "alpaca",
-    "price_asof": "2026-09-17",
+    "price_asof": "2026-10-28",
     "fair_value_low": 197.66,
     "fair_value_base": 232.82,
     "fair_value_high": 276.76,
-    "margin_of_safety": -0.4284,
-    "verdict": "expensive - trading ~43% above our base fair value and ~20% above the high end of the band",
-    "method": "Blend of two methods via code/valuation.py. (1) P/E: TTM diluted EPS $8.73 (Q4 FY2025 $1.85 + 9M FY2026 $6.88) x 24 / 28 / 33. The 28x base is set at Apple's own 10-year median P/E of ~27.25x; 33x high allows for the current growth re-acceleration; 24x low reflects a 3.75-4.00% Fed funds rate. (2) FCF yield: TTM FCF per diluted share $9.29 ($136.683B / 14.715B diluted shares) at required yields of 5.0% / 4.2% / 3.5% - with cash yielding ~4%, a 3.5-5.0% FCF yield is the sensible demand from a mega-cap. At $332.55 the stock trades at 38.1x TTM EPS and a 2.79% FCF yield.",
-    "trend": "Price $332.55 is above its 50-day average ($319.65) and well above its 200-day average ($286.03); 52-week range $245.30-$340.01 on Alpaca daily closes. Strong uptrend - momentum, not value, is what is supporting the price."
+    "margin_of_safety": -0.4806,
+    "verdict": "expensive - trading ~48% above our base fair value and ~25% above the high end of the band. Fair value is UNCHANGED from 2026-09-17 because no new filing has changed any input (per the 2026-09-17 playbook lesson, fair value only moves when a cited fundamental changes).",
+    "method": "Blend of two methods via code/valuation.py (inputs unchanged from 2026-09-17; no new filing). (1) P/E: TTM diluted EPS $8.73 (Q4 FY2025 $1.85 + 9M FY2026 $6.88) x 24 / 28 / 33 -> $209.52 / $244.44 / $288.09. 28x base = Apple's 10-year median P/E of ~27.25x; 33x high allows for the growth re-acceleration; 24x low for a de-rating. (2) FCF yield: TTM FCF per diluted share $9.29 ($136.683B / 14.715B diluted shares) at 5.0% / 4.2% / 3.5% -> $185.80 / $221.19 / $265.43. Blended $197.66 / $232.82 / $276.76. At $344.70 the stock trades at 39.5x TTM EPS and a 2.70% TTM FCF yield. Forward sensitivity check (NOT used in the band, aggregator input): even on a forward FY2027 EPS of ~$9.57 (Barchart consensus as reported in search results, unverified) the 24/28/33x band is $229.68 / $267.96 / $315.81 - still below today's price.",
+    "trend": "Price $344.70 (Alpaca bid 2026-10-28) is above its 50-day average ($331.77) and well above its 200-day average ($295.68); 250-day close range $246.72-$348.34 (high close 2026-10-22). Strong uptrend near all-time highs - momentum, not value, supports the price."
   },
   "conviction": 3,
   "bull_case": [
-    "Wide moat proven by pricing power: company gross margin reached 50.1% in Q3 FY2026 and 48.7% TTM - extraordinary for a business that is still ~74% hardware by revenue (TTM Products $346.3B of $466.8B).",
-    "Growth genuinely re-accelerated: 9M FY2026 revenue +16.2% YoY and 9M diluted EPS +22.4% ($6.88 vs $5.62), with iPhone +21.7% and Greater China +22.4% in Q3 FY2026 - the China-decline narrative broke.",
-    "Services is a $120.5B-TTM annuity (Q4 FY2025 $28.750B + 9M FY2026 $91.728B) growing ~14% and carrying much higher margins than hardware; it converts one-time device sales into recurring cash.",
-    "Fortress balance sheet: ~$62.2B net cash. No refinancing risk, and a $100B buyback authorization added 2026-04-30 on top of $38.0B remaining - $62.1B of stock repurchased in 9M FY2026 alone, shrinking diluted shares ~2%/yr (15,056M in Q2 FY2025 to 14,726M in Q2 FY2026).",
-    "Cash generation is enormous and capital-light: $136.7B TTM FCF on only ~$10B of capex - Apple gets AI compute largely through partners (Google Gemini powers the revamped Siri) rather than tens of billions of its own capex, unlike its mega-cap peers."
+    "Wide moat proven by pricing power: company gross margin 50.1% in Q3 FY2026 and 48.7% TTM - extraordinary for a business still ~74% hardware by revenue (TTM Products $346.3B of $466.8B).",
+    "Growth genuinely re-accelerated: 9M FY2026 revenue +16.2% YoY and 9M diluted EPS +22.4% ($6.88 vs $5.62), with iPhone +21.7% and Greater China +22.4% in Q3 FY2026.",
+    "Services is a $120.5B-TTM annuity (Q4 FY2025 $28.750B + 9M FY2026 $91.728B) growing ~14% at much higher margins than hardware.",
+    "Fortress balance sheet: ~$62.2B net cash, $138.0B of buyback authorization available, $62.1B repurchased in 9M FY2026; diluted shares shrinking ~2%/yr.",
+    "Capital-light cash machine: $136.7B TTM FCF on ~$10B capex; AI compute largely via partners (Google Gemini powers the revamped Siri).",
+    "Street still leans positive: 32 analysts rate it Moderate Buy (16 Buy / 12 Hold / 4 Sell) per TipRanks on 2026-10-26, and Q4 FY2026 consensus (~$1.99-2.00 EPS, ~$112.95B revenue) sits inside company guidance; Apple has beaten EPS consensus in 14 of the last 15 quarters (aggregator data).",
+    "Regulatory outcomes have so far been survivable: the Google search remedy (Sept 2025) still allows default-search payments to Apple (non-exclusive, reviewed yearly), and the December 2025 appeals ruling in Epic struck down the outright zero-commission ban on external purchases, leaving room for Apple to argue for some commission."
   ],
   "risks": [
-    "VALUATION IS THE THESIS-KILLER. At $332.55 the stock is 38.1x TTM EPS and a 2.79% FCF yield, against a 10-year median P/E of ~27.25x and a Fed funds rate of 3.75-4.00%. Our base fair value is $232.82; the price is ~43% above it. Even our optimistic high case ($276.76) sits ~17% below the market price. There is no margin of safety; there is negative margin of safety.",
-    "Peak-earnings risk on top of peak-multiple risk. Q3 FY2026's 50.1% gross margin included ~2 percentage points (and $0.11 of EPS) of one-off tariff refunds following the February 2026 Supreme Court ruling. Guidance for Q4 FY2026 is 47-48% gross margin and 9-11% revenue growth - a clear deceleration from 16%. Buying 38x earnings that are themselves flattered is how permanent capital loss happens.",
-    "Cost and supply squeeze ahead. The Q3 FY2026 10-Q warns of 'supply constraints and increasing costs for components' and expects those trends 'to intensify' - advanced-node (2nm/3nm) capacity and rising memory prices. Management also flagged a ~2.5pp FX headwind to Q4 growth.",
-    "Regulatory attack on the highest-margin revenue. (a) EU DMA: a EUR 500M fine already levied and a separate Article 6(4) investigation that could carry penalties of up to 10% of worldwide net sales. (b) Epic: the Ninth Circuit's December 2025 injunction barring any commission on purchases made outside an app remains; the Supreme Court granted review of the civil-contempt standard on 2026-06-30. (c) DOJ's March 2024 monopolization suit. (d) Remedies in the Google search case could cut Apple's search-licensing revenue, which is near-100%-margin.",
-    "iPhone concentration and cycle dependence: ~50% of revenue from one product. The current 16% growth is substantially an upgrade-supercycle effect; supercycles pull demand forward and create brutal comparisons the following year.",
-    "AI dependence has been outsourced. Apple's revamped Siri runs on Google's Gemini models. That fixed the near-term product gap, but it means Apple is renting rather than owning the most important platform technology of the decade, and it deepens a commercial relationship that regulators are actively attacking.",
-    "Greater China remains ~17% of revenue ($18.816B of $109.417B in Q3 FY2026) and a large share of manufacturing - a standing geopolitical and tariff exposure."
+    "VALUATION IS THE THESIS-KILLER. At $344.70 the stock is 39.5x TTM EPS and a 2.70% FCF yield vs a 10-year median P/E of ~27.25x. Price is ~48% above our base fair value ($232.82) and ~25% above our high case ($276.76). Even the analyst average 12-month target ($337.45, TipRanks 2026-10-26) is BELOW the current price.",
+    "iPhone 18 demand wobble: Nikkei (reported 2026-10-09, unconfirmed by Apple) said Apple cut October iPhone 18 Pro/Pro Max component orders 15-20% vs initial plans, blamed on $100 higher prices ($1,199/$1,299) driven by memory-chip costs. UBS saw Pro wait times ~2 days shorter than a year ago across 30+ markets; JPMorgan's lead-time data was stronger. Signals are mixed, but this is the first crack in the supercycle narrative.",
+    "Deceleration and margin squeeze are now the bear base case among some analysts: Jefferies (Underperform, $270.62 target, 2026-10-26) expects December-quarter revenue +2% and EPS -4%, and FY2027 product gross margin down ~4pp with ~6% lower EPS; Morgan Stanley (Overweight, $355) still expects December-quarter guidance slightly below Street. KeyBanc is Underweight with a $250 target (2026-10-19).",
+    "Peak-earnings risk: Q3 FY2026's 50.1% gross margin included ~2pp (and $0.11 of EPS) of one-off tariff refunds; Q4 guide is 47-48% including ~1pp of refund benefit. The 10-Q warns component costs and supply constraints are expected 'to intensify' (advanced nodes, memory).",
+    "Leadership transition: John Ternus became CEO on 2026-09-01 after 15 years of Tim Cook. Cook stays as executive chairman, which lowers the risk, but the first CEO change since 2011 coincides with a product-cycle peak and an outsourced AI strategy - execution risk is non-zero.",
+    "Regulatory attack on the highest-margin revenue: EU DMA (EUR 500M fine under appeal; EU General Court confirmed gatekeeper designation; new lower EU commission terms from 2026-10-01); Epic contempt case before the US Supreme Court (argument expected this term, ruling likely by June 2027); DOJ March 2024 monopolization suit; DOJ cross-appeal seeking to ban Google's default-search payments to Apple (near-100%-margin revenue) is pending in the D.C. Circuit.",
+    "iPhone concentration (~50% of revenue) and cycle dependence; supercycles pull demand forward and create hard comparisons. The standard iPhone 18 was pushed to spring, which shifts revenue timing and muddies year-over-year comparisons.",
+    "AI dependence outsourced to Google Gemini - Apple rents rather than owns the key platform technology, deepening a relationship regulators are attacking.",
+    "Greater China ~17% of revenue ($18.816B of $109.417B in Q3 FY2026) plus heavy manufacturing exposure - standing geopolitical and tariff risk."
   ],
   "what_would_break_thesis": [
-    "Company-wide gross margin falls below 44% for two consecutive quarters (it is 48.7% TTM; guidance is 47-48%).",
+    "Company-wide gross margin falls below 44% for two consecutive quarters (48.7% TTM; Q4 FY2026 guidance 47-48%).",
     "Total revenue shrinks year-over-year for two consecutive fiscal years.",
-    "Services revenue declines year-over-year for two consecutive quarters (Services is the moat's cash register).",
+    "Services revenue declines year-over-year for two consecutive quarters.",
     "iPhone revenue declines year-over-year for three consecutive quarters, indicating the upgrade franchise - not just a cycle - has broken.",
-    "The net cash position of ~$62.2B turns into net debt of more than 1.0x EBITDA.",
+    "The ~$62.2B net cash position turns into net debt of more than 1.0x EBITDA.",
     "TTM free cash flow falls below $90B (a ~35% drop from the current $136.7B).",
     "A final, non-appealable regulatory or court outcome that forces Apple to give up its App Store commission on a material share of transactions, or that ends the Google search-licensing payments, without an offsetting replacement.",
-    "Annual buybacks fall below $40B while the balance sheet still holds net cash - a signal management no longer believes the shares are worth retiring.",
+    "Annual buybacks fall below $40B while the balance sheet still holds net cash.",
     "Any serious accounting red flag, restatement, or auditor change.",
-    "PRICE DISCIPLINE (entry rule, not a sell rule): do not initiate or add above $233 (base fair value). A first tranche is only justified below ~$210 (roughly 10% under base)."
+    "PRICE DISCIPLINE (entry rule, not a sell rule): do not initiate or add above $233 (base fair value). A first tranche is only justified below ~$210 (roughly 10% under base). Re-check this after the 2026-11-02 Q4 FY2026 report."
   ],
   "catalysts": [
-    "A pullback into the $200-$233 zone - the only thing that would make this ownable. That requires a ~30-40% decline, which historically has needed a broad de-rating or a growth stumble.",
-    "Q4 FY2026 results (late October 2026) will show whether the 9-11% guided growth and 47-48% gross margin hold once the tariff-refund benefit fades - the single most important near-term datapoint for this thesis.",
-    "The iPhone 18 / foldable cycle and the Gemini-powered Siri shipping with iOS 27 - if the AI experience actually drives upgrades, high-teens growth could persist and partly justify today's multiple.",
-    "A Supreme Court outcome in the Epic contempt matter, or a Google-search-remedy ruling, either of which could re-rate Services expectations in either direction.",
-    "Further Fed tightening beyond 3.75-4.00% would compress long-duration equity multiples and could deliver the entry price we need."
+    "Q4 FY2026 results and FY2026 10-K on 2026-11-02 after the close (CEO Ternus and CFO Parekh) - the single most important datapoint: does growth land at 9-11% and gross margin at 47-48% ex the fading tariff benefit, and what is the December-quarter guide given the iPhone 18 Pro order-cut reports? This thesis MUST be refreshed with the new filing by 2026-11-04.",
+    "A pullback into the $200-$233 zone - the only thing that makes this ownable; requires a ~32-43% decline from $344.70.",
+    "Spring 2027 launch of the standard iPhone 18 and the foldable; Gemini-powered Siri adoption.",
+    "Supreme Court argument/decision in Apple v. Epic (ruling likely by June 2027) and the D.C. Circuit decision on the DOJ cross-appeal over Google default-search payments.",
+    "A broad market or rate-driven de-rating of mega-cap multiples."
   ],
   "sources": [
     {
@@ -135,7 +139,7 @@
       "retrieved": "2026-09-17"
     },
     {
-      "claim": "Q3 FY2026 10-Q: effective tax rate 17.9% for the quarter and 17.6% for nine months; $38.0B remaining under the May 2025 repurchase authorization plus a new $100B program announced 2026-04-30; $25.8B repurchased in Q3 FY2026; tariff refunds following the February 2026 Supreme Court ruling recognized as a reduction of products cost of sales; warning of 'supply constraints and increasing costs for components' expected 'to intensify'; EU DMA EUR 500M fine (March 2025) under appeal plus Article 6(4) investigation with exposure up to 10% of worldwide net sales; Ninth Circuit December 2025 Epic injunction barring commissions on out-of-app purchases, Supreme Court granted review of the civil contempt standard 2026-06-30; DOJ March 2024 monopolization suit; Google search-licensing remedy risk",
+      "claim": "Q3 FY2026 10-Q: effective tax rate 17.9% for the quarter and 17.6% for nine months; $38.0B remaining under the May 2025 repurchase authorization plus a new $100B program announced 2026-04-30; $25.8B repurchased in Q3 FY2026; tariff refunds following the February 2026 Supreme Court ruling recognized as a reduction of products cost of sales; warning of 'supply constraints and increasing costs for components' expected 'to intensify'; EU DMA EUR 500M fine (March 2025) under appeal plus Article 6(4) investigation with exposure up to 10% of worldwide net sales; Epic contempt litigation (Supreme Court granted review of the civil contempt standard 2026-06-30; see Engadget source for the December 2025 appeals outcome - CORRECTED 2026-10-28); DOJ March 2024 monopolization suit; Google search-licensing remedy risk",
       "value": "Effective tax rate 17.6% (9M FY2026); $138.0B of buyback authorization available; regulatory exposure up to 10% of worldwide net sales under DMA Art. 6(4)",
       "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000020/aapl-20260627.htm",
       "publisher": "Apple Inc. / SEC EDGAR (Form 10-Q, FY2026 Q3)",
@@ -168,19 +172,99 @@
     },
     {
       "claim": "Current price and moving averages from our own feed",
-      "value": "Price $332.55 (bid 332.22 / ask 332.28); 50-day MA $319.65; 200-day MA $286.03; 52-week close range $245.30-$340.01",
+      "value": "Price $344.70 (bid 344.70 / ask 344.77 at 2026-10-28T14:49Z); 50-day MA $331.77; 200-day MA $295.68; 250-day close range $246.72-$348.34",
       "url": "https://paper-api.alpaca.markets",
       "publisher": "Alpaca paper feed (code/alpaca_client.py --quote / --bars)",
-      "as_of": "2026-09-17",
-      "retrieved": "2026-09-17"
+      "as_of": "2026-10-28",
+      "retrieved": "2026-10-28"
     },
     {
-      "claim": "Fair-value band arithmetic (computed, not sourced): TTM EPS $8.73 x 24/28/33 = $209.52/$244.44/$288.09; TTM FCF per share $9.29 at 5.0%/4.2%/3.5% = $185.80/$221.19/$265.43; blended band $197.66/$232.82/$276.76; margin of safety at $332.55 = -42.84%",
-      "value": "Fair value low $197.66 / base $232.82 / high $276.76; MoS -42.84%",
+      "claim": "Fair-value band arithmetic (computed, not sourced): TTM EPS $8.73 x 24/28/33 = $209.52/$244.44/$288.09; TTM FCF/share $9.29 at 5.0%/4.2%/3.5% = $185.80/$221.19/$265.43; blended $197.66/$232.82/$276.76; MoS at $344.70 = -48.06%. Sensitivity (not in band): forward EPS $9.57 x 24/28/33 = $229.68/$267.96/$315.81",
+      "value": "Fair value low $197.66 / base $232.82 / high $276.76; MoS -48.06%",
       "url": "https://github.com/rellanchayan/agentic-investor/blob/main/code/valuation.py",
       "publisher": "code/valuation.py (this repo) using the SEC-sourced inputs above",
-      "as_of": "2026-09-17",
-      "retrieved": "2026-09-17"
+      "as_of": "2026-10-28",
+      "retrieved": "2026-10-28"
+    },
+    {
+      "claim": "CEO transition: Tim Cook becomes executive chairman and John Ternus (SVP Hardware Engineering) becomes CEO, effective 2026-09-01; Arthur Levinson becomes lead independent director",
+      "value": "Ternus CEO effective 2026-09-01",
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "publisher": "Apple Newsroom",
+      "as_of": "2026-04-20",
+      "retrieved": "2026-10-28"
+    },
+    {
+      "claim": "Q4 FY2026 (quarter ended 2026-09-26) results to be reported 2026-11-02 at 2:00 p.m. PT, discussed by CEO John Ternus and CFO Kevan Parekh",
+      "value": "Earnings date 2026-11-02",
+      "url": "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/",
+      "publisher": "MacTrast (reporting Apple's announcement)",
+      "as_of": "2026-10",
+      "retrieved": "2026-10-28"
+    },
+    {
+      "claim": "Nikkei Asia report (unconfirmed by Apple): iPhone 18 Pro / Pro Max October component orders cut 15-20% from initial levels; Pro models priced $1,199 / $1,299 ($100 above predecessors), higher prices partly from memory-chip shortage; standard iPhone 18 and iPhone Air moved to spring launch",
+      "value": "Order cut 15-20% (unconfirmed)",
+      "url": "https://stocktwits.com/news-articles/markets/equity/is-i-phone-18-pro-demand-slowing-apple-reportedly-cuts-october-component-orders-stock-slips-premarket/cZD6S7ZRBVr",
+      "publisher": "Stocktwits News (citing Nikkei Asia)",
+      "as_of": "2026-10-09",
+      "retrieved": "2026-10-28"
+    },
+    {
+      "claim": "iPhone 18 demand proxies: JPMorgan average Pro lead time rose 7 to 23 days in week two (Pro Max 19 to 30); UBS average Pro/Pro Max waits ~2 days shorter than a year earlier across 30+ markets; Apple briefly back above $5T market cap on 2026-09-22",
+      "value": "Mixed lead-time signals",
+      "url": "https://www.eweek.com/news/apple-5-trillion-iphone-18/",
+      "publisher": "eWeek",
+      "as_of": "2026-09-22",
+      "retrieved": "2026-10-28"
+    },
+    {
+      "claim": "Analyst consensus and Jefferies view: 32 analysts, Moderate Buy (16 Buy / 12 Hold / 4 Sell), average 12-month price target $337.45; Jefferies (Edison Lee) Underperform, $270.62 target, expects Dec-quarter revenue +2% and EPS -4%, FY2027 product gross margin down ~4pp and EPS ~-6%",
+      "value": "Avg PT $337.45; Jefferies PT $270.62",
+      "url": "https://www.tipranks.com/news/apple-stock-falls-today-as-bearish-analyst-comments-raise-concerns-ahead-of-next-weeks-earnings",
+      "publisher": "TipRanks (aggregator)",
+      "as_of": "2026-10-26",
+      "retrieved": "2026-10-28"
+    },
+    {
+      "claim": "Morgan Stanley: Overweight, $355 price target; expects Sept quarter broadly in line and Dec-quarter revenue growth low-to-mid single digits, slightly below Street",
+      "value": "MS PT $355",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-faces-slightly-challenging-earnings-154117419.html",
+      "publisher": "Yahoo Finance",
+      "as_of": "2026-10-21",
+      "retrieved": "2026-10-28"
+    },
+    {
+      "claim": "Q4 FY2026 consensus: EPS ~$2.00 (Zacks) / $1.99 (TipRanks, Macroaxis), revenue ~$112.95B (+10.2%); positive EPS surprises in 14 of last 15 quarters; KeyBanc Underweight $250 target (2026-10-19). Aggregator data, not used in valuation.",
+      "value": "Q4 EPS consensus ~$1.99-2.00; revenue ~$112.95B",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-earnings-expected-grow-130010952.html",
+      "publisher": "Yahoo Finance / Zacks (aggregator)",
+      "as_of": "2026-10",
+      "retrieved": "2026-10-28"
+    },
+    {
+      "claim": "Epic case: Supreme Court granted review 2026-06-30 of whether contempt can rest on an injunction's 'spirit'; the December 2025 appeals ruling largely upheld contempt but struck down the order barring any commission on external payments (corrects the 2026-09-17 thesis, which said the zero-commission ban remained)",
+      "value": "Zero-commission ban struck down; SCOTUS review pending",
+      "url": "https://engadget.com/2205396/the-supreme-court-will-hear-an-appeal-in-the-long-running-case-between-apple-and-epic-games",
+      "publisher": "Engadget",
+      "as_of": "2026-06-30",
+      "retrieved": "2026-10-28"
+    },
+    {
+      "claim": "Google search remedies (Sept 2025) still allow Google's default-search payments to Apple (non-exclusive, reviewed yearly); DOJ and states appealed, seeking a ban on such payments; appeal pending",
+      "value": "Payments continue; DOJ appeal pending",
+      "url": "https://www.igeeksblog.com/doj-appeals-google-search-ruling-apple-deal/",
+      "publisher": "iGeeksBlog",
+      "as_of": "2026-02-04",
+      "retrieved": "2026-10-28"
+    },
+    {
+      "claim": "Forward FY2027 EPS consensus used ONLY as a sensitivity check (not in fair-value band); sources conflict ($9.29-$9.57)",
+      "value": "FY2027 EPS ~$9.57 (Barchart, via search results; unverified)",
+      "url": "https://www.barchart.com/story/news/3204062/apple-s-quarterly-earnings-preview-what-you-need-to-know",
+      "publisher": "Barchart (aggregator; page content could not be fetched - treat as unverified)",
+      "as_of": "2026-10",
+      "retrieved": "2026-10-28"
     }
   ],
   "data_quality": [

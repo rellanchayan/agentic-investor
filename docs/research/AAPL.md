@@ -1,9 +1,51 @@
 # Apple Inc. (AAPL) — Research Thesis
 
 **Thesis ID:** AAPL-2026Q3 · **As of:** fiscal Q3 2026 (quarter ended 2026-06-27)
-**Written:** 2026-09-17 · **Refresh due:** 2026-10-17 (FY2026 Q4 earnings land late October)
-**Price used:** $332.55 (Alpaca) · **Conviction:** 3 / 5
+**Written:** 2026-09-17 · **Refreshed:** 2026-10-28 · **Refresh due:** 2026-11-04 (Q4 FY2026 results land 2026-11-02 after the close)
+**Price used:** $344.70 (Alpaca, 2026-10-28) · **Conviction:** 3 / 5
 **Verdict: wonderful business, wrong price. Do not buy here.**
+
+---
+
+## 0. What changed in the 2026-10-28 refresh
+
+- **No new filing yet.** Apple reports Q4 FY2026 on **Monday 2026-11-02** after the close
+  ([MacTrast](https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/)).
+  Every fundamental number below still comes from the Q3 FY2026 filings. **The fair-value band is
+  unchanged ($197.66 / $232.82 / $276.76)** because no input to it has changed. Our playbook rule is
+  that fair value only moves when we can name a fundamental that changed.
+- **The price went up, not the value.** $332.55 → **$344.70**. Margin of safety is now **−48.1%**
+  (it was −42.8%). The stock trades at **39.5x trailing earnings** and a **2.70% free-cash-flow yield**.
+- **New CEO.** John Ternus became CEO on **2026-09-01**. Tim Cook is now executive chairman
+  ([Apple Newsroom](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/)).
+- **First signs of iPhone 18 demand trouble (not confirmed).** Nikkei reported that Apple cut its
+  October iPhone 18 Pro/Pro Max component orders by **15–20%**. Suppliers blamed prices that are $100
+  higher ($1,199 / $1,299) because memory chips cost more. Apple has not confirmed this
+  ([Stocktwits/Nikkei, 2026-10-09](https://stocktwits.com/news-articles/markets/equity/is-i-phone-18-pro-demand-slowing-apple-reportedly-cuts-october-component-orders-stock-slips-premarket/cZD6S7ZRBVr)).
+  The other data is mixed. UBS saw wait times about 2 days *shorter* than last year, while
+  JPMorgan's lead times were stronger
+  ([eWeek](https://www.eweek.com/news/apple-5-trillion-iphone-18/)). The standard iPhone 18 has been
+  moved to a spring launch.
+- **Analysts split.** The average 12-month target is **$337.45**, which is *below* today's price
+  (32 analysts: 16 Buy / 12 Hold / 4 Sell). Jefferies is Underperform with a **$270.62** target.
+  It expects December-quarter revenue of only +2% and EPS of −4%, and it expects FY2027 product gross
+  margin to fall about 4 points
+  ([TipRanks, 2026-10-26](https://www.tipranks.com/news/apple-stock-falls-today-as-bearish-analyst-comments-raise-concerns-ahead-of-next-weeks-earnings)).
+  Morgan Stanley is Overweight with a **$355** target, but it also expects the December-quarter guide
+  to come in slightly below the Street
+  ([Yahoo Finance, 2026-10-21](https://finance.yahoo.com/markets/stocks/articles/apple-faces-slightly-challenging-earnings-154117419.html)).
+  The Street expects Q4 FY2026 EPS of about **$1.99–$2.00** on about **$112.95B** of revenue, which
+  is inside Apple's guidance
+  ([Yahoo/Zacks](https://finance.yahoo.com/markets/stocks/articles/apple-aapl-earnings-expected-grow-130010952.html)).
+- **Correction to the September thesis.** The December 2025 Epic appeals ruling **struck down**
+  the outright ban on charging *any* commission on outside purchases, so Apple can argue for some fee.
+  The appeals court did largely uphold the contempt finding
+  ([Engadget](https://engadget.com/2205396/the-supreme-court-will-hear-an-appeal-in-the-long-running-case-between-apple-and-epic-games)).
+  The Supreme Court will hear the contempt question this term, with a ruling likely by June 2027.
+- **Forward-earnings check (to stay honest with the bull case).** Suppose we use the forward FY2027
+  EPS estimate of about $9.57. This is aggregator data that we could not verify, so it is not in the
+  band. At 24/28/33x it gives **$229.68 / $267.96 / $315.81**. Even our high case on next year's
+  earnings is still about 8% below today's price.
 
 ---
 
@@ -128,12 +170,14 @@ willing to underwrite both at once — see the next section for why.
 5. **Regulators are aiming at the most profitable revenue Apple has.**
    - EU DMA: a €500M fine already levied and under appeal, plus a separate Article 6(4)
      investigation carrying exposure of **up to 10% of worldwide net sales**.
-   - Epic: the Ninth Circuit's December 2025 injunction bars Apple from charging *any* commission
-     on purchases made outside an app; the Supreme Court granted review of the contempt standard
-     on 2026-06-30.
+   - Epic: the December 2025 appeals ruling largely upheld the contempt finding but struck down
+     the outright zero-commission ban (corrected 2026-10-28). The Supreme Court granted review of
+     the contempt standard on 2026-06-30 and should rule by about June 2027.
    - DOJ's March 2024 monopolization suit is still live.
-   - Remedies in the Google search case could cut Apple's search-licensing revenue, which is
-     close to 100% margin.
+   - Google search payments are still allowed under the September 2025 remedy. They must be
+     non-exclusive and reviewed each year. The DOJ has appealed to ban them
+     ([iGeeksBlog](https://www.igeeksblog.com/doj-appeals-google-search-ruling-apple-deal/)).
+     This revenue is close to 100% margin.
    ([10-Q](https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000020/aapl-20260627.htm))
 6. **One product is half the company,** and the current growth is substantially an upgrade
    supercycle. Supercycles pull demand forward and create ugly comparisons the year after.
@@ -145,8 +189,9 @@ willing to underwrite both at once — see the next section for why.
 
 ## 6. Trend check (Alpaca only)
 
-Price **$332.55** is above its **50-day average $319.65** and well above its **200-day average
-$286.03**; the 52-week close range is **$245.30–$340.01**. The stock is in a strong uptrend near
+*Updated 2026-10-28:* Price **$344.70** is above its **50-day average $331.77** and well above
+its **200-day average $295.68**. Over the last 250 days it has closed between **$246.72 and $348.34**
+(the high was on 2026-10-22). *(On 2026-09-17 it was $332.55 vs 50-day $319.65 / 200-day $286.03.)* The stock is in a strong uptrend near
 its highs. That is momentum, not value — and it is precisely why we are not buying.
 
 ## 7. Sell triggers — the exact rules
@@ -174,15 +219,17 @@ A first tranche is only justified **below ~$210**, roughly 10% under base.
 - A pullback into the **$200–$233** zone. That needs a ~30–40% decline — historically that has
   required a broad market de-rating or a real growth stumble, both of which are possible with the
   Fed hiking into 3.4% inflation.
-- **Q4 FY2026 results (late October 2026)** are the key near-term test: do the guided 9–11%
+- **Q4 FY2026 results (2026-11-02)** are the key near-term test. Watch the December-quarter guide
+  closely, given the iPhone 18 Pro order-cut reports. This thesis must be refreshed with the new
+  filing by 2026-11-04. The test is this: do the guided 9–11%
   growth and 47–48% gross margin hold once the tariff refunds stop flattering the numbers?
 
 ## 9. Why conviction is 3, not 4 or 5
 
-The *business* deserves a 4 or 5 — the moat got wider, growth re-accelerated, the balance sheet
+Unchanged on 2026-10-28. The price is higher, iPhone 18 demand is less certain, and the CEO is new, but nothing has broken. The *business* deserves a 4 or 5 — the moat got wider, growth re-accelerated, the balance sheet
 is a fortress, and the data is entirely filing-backed. But conviction here means "would we
 happily own a lot of this, for years, at this price," and the answer is no: we would be paying
-43% above our own estimate of what it is worth, for earnings that contain a one-off tariff
+48% above our own estimate (as of 2026-10-28) of what it is worth, for earnings that contain a one-off tariff
 benefit, into guided deceleration, with the Fed tightening. **Quality says 4. Price says 2.
 Net: 3, and a clear "watch, do not buy."**
 
