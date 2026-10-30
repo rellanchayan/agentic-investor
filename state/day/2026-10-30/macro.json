@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-30",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 758.53,
+  "spy_sma200": 728.84,
+  "spy_pct_above_200d": 4.1,
+  "rates": "rising",
+  "fed_target_range": "3.75%-4.00%",
+  "fed_action_oct28": "hold (10-2 vote; 2 dissents wanted +25bp hike)",
+  "next_fomc": "2026-12-08 to 2026-12-09",
+  "december_hike_priced_in": true,
+  "inflation_note": "Headline PCE 3.4% YoY as of August 2026; above Fed 2% target",
+  "labor_market": "softening — September NFP +29K, unemployment 4.2%",
+  "gdp_note": "Q3 2026 advance estimate released Oct 29; actual figures unconfirmed — forecast ~+3.6% annualized",
+  "earnings_season": "active — MSFT Q1 FY2027 beat (Azure +48% YoY, non-GAAP EPS $4.89 vs $4.73 est); Apple reports Nov 2",
+  "events": [
+    "FOMC held rates 3.75%-4.00% on Oct 28 (10-2 vote); December hike in play",
+    "Q3 GDP advance estimate and September PCE released Oct 29 (actual numbers unconfirmed)",
+    "MSFT Q1 FY2027 beat expectations (Oct 28 after close)",
+    "Apple Q4 FY2026 earnings: Nov 2 after close",
+    "October Nonfarm Payrolls: Nov 6 at 8:30am ET",
+    "Next FOMC: Dec 8-9 2026"
+  ],
+  "note": "Cautious posture warranted: the Fed resumed a hiking cycle in September 2026 after a multi-year pause, two FOMC members dissented wanting an immediate additional hike, and markets are pricing a December hike. Inflation remains above target (3.4% headline PCE). Labor market is softening sharply (September NFP only +29K). Market valuation is elevated on long-run measures (CAPE historically high). All current thesis candidates trade 6%-49% above their base fair values. In this environment we demand a larger margin of safety before deploying the daily budget.",
+  "sources": [
+    "https://admiralmarkets.com/analytics/traders-blog/fomc-october-2026-fed-holds-rates",
+    "https://investinglive.com/central-banks/fomc-decision-oct-28/",
+    "https://phemex.com/news/article/microsoft-q1-fy2027-revenue-hits-923b-as-azure-grows-48-yoy-101615",
+    "https://www.insiderfinance.io/news/microsoft-q1-2027-earnings-show-cloud-strength",
+    "https://thriveinmarkets.com/calendar/dates/nfp-2026/",
+    "https://cryptodaily.co.uk/2026/10/us-gdp-and-pce-inflation-why-october-29-could-move-markets",
+    "https://www.babypips.com/news/headline-us-core-pce-august-2026-results-gdp-revision-fed-outlook-2026-09-30",
+    "https://en.mercopress.com/2026/10/12/s-p-500-price-prediction-what-macro-signals-say-about-the-index-in-2026",
+    "https://www.simianx.ai/stories/magnificent-7-earnings-dates-results-tracker",
+    "https://therighttrader.com/economic-calendar/fomc"
+  ]
+}
