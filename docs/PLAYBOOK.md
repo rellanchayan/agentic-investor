@@ -19,6 +19,8 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 
 ## Learned lessons
 
+- **When a quality name shows a significant trend break — below its 200d MA or 20%+ below its 50d MA — move it to the front of the thesis-research queue, regardless of whether it already has a thesis.** For pre-thesis watchlist names (like NOW at $105, 24% below its 50d on 2026-10-31), a trend break signals that the name may be approaching a buying window and you need a thesis ready before that moment arrives. For thesis names with low conviction (like GOOGL at conviction 3, -27% over 6m), the trend break is a prompt to schedule an early conviction review — not to assume it is a buying opportunity, but to determine definitively whether the decline reflects a thesis break or a pricing anomaly. Conversely, quality names in strong uptrends (AAPL +25%, MSFT +26%, V +27% as of 2026-10-31) are unlikely to reach our entry prices soon; deprioritizing their thesis work in favour of weaker names is not laziness, it is the correct sequencing. — 2026-10-31
+
 - In the morning cycle, thesis refreshes must run before context is built. If a refresh runs after context is frozen and changes any number, rebuild context before writing the decision file — a stale context on a day where a name crosses a gate in either direction is a silent error that changes the outcome without leaving a trace in the record. — 2026-10-06
 
 - When a bench name is within realistic price striking distance (less than 25% decline needed) but fails on conviction alone, the conviction-upgrade analysis must be completed before the price drops — not after. A gap-down of 15-20% can close within hours; scrambling to refresh a thesis while the price is moving is too late to act on it cleanly. Do the work in calm markets so that the only remaining gate is price. — 2026-09-28
@@ -39,6 +41,7 @@ something real. Keep it as RULES, not a diary. Newest lessons go at the top of "
 - The morning cycle must produce a `docs/decisions/<date>.md` every trading day — even when the conclusion is "hold, no orders." Two consecutive days (2026-06-17 and 2026-06-18) had no decision file; future reviews cannot reconstruct intent without one. — 2026-06-18
 
 ## Changelog
+- 2026-10-31 — Added lesson: quality names with significant trend breaks (below 200d MA, or 20%+ below 50d MA) should move to the front of the thesis-research queue; strong-trend names are unlikely to reach entry prices soon and can be deprioritized.
 - 2026-10-06 — Added lesson: thesis refreshes must run before context is built in the morning cycle; a stale context on a gate-crossing day is a silent error.
 - 2026-09-28 — Added lesson: when a bench name is within striking distance on price but conviction is below threshold, complete the conviction-upgrade analysis in calm markets before the price drops — a gap-down window closes in hours.
 - 2026-09-26 — Added lesson: index removal events (e.g., NKE removed from S&P 100 on Sep 21) create mechanical forced selling unrelated to business quality; when a bench name is removed from a major index, run a same-day price check against fair value regardless of morning cycle status — forced selling can create the entry margin we have been waiting for.
