@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-03",
+  "posture": "cautious",
+  "spy_above_200d": true,
+  "spy_last": 753.83,
+  "spy_sma200": 729.44,
+  "events": [
+    "JOLTS job openings (Sep) today Nov 3 10:00 AM ET",
+    "Nonfarm Payrolls (Oct) Fri Nov 6 8:30 AM ET",
+    "CPI (Oct) Tue Nov 10 8:30 AM ET",
+    "FOMC next meeting Dec 8-9 2026"
+  ],
+  "rates": "steady at 3.75%-4.00%; hiking cycle resumed Sep 2026; October meeting held 10-2 with two dissenters wanting a further hike; December hike still in play",
+  "aapl_earnings": "Apple reported Q4 FY2026 results after close Nov 2; confirmed results not available at time of writing",
+  "note": "Market is above its 200-day average (mildly positive trend) but every thesis candidate trades 12-48% above our base fair values, indicating the broad market is expensive. Rates remain at 3.75-4.00% after the September 2026 hike restart; two FOMC members wanted to go further. JOLTS lands this morning; payrolls on Friday. Maintain cautious posture: demand full margin of safety before deploying any of the daily $5,000 budget.",
+  "sources": [
+    "https://investinglive.com/central-banks/the-full-statement-from-the-october-2026-fomc-rate-decision/",
+    "https://therighttrader.com/economic-calendar/fomc",
+    "https://www.calendarx.com/events/jobs-report-november-2026",
+    "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/",
+    "https://fedratecalc.com/us-economic-calendar/november-2026/"
+  ]
+}
